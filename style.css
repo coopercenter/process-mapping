@@ -2572,6 +2572,13 @@ footer-test {
     left: 400px;
     top: 450px;
 }
+.line.test-17 {
+    width: 95px;
+    left: 565px;
+    top: 397px;
+
+    transform: rotate(90deg);
+}
 
 .reviews-test {
     background-color: #FF8E8E;
@@ -2908,22 +2915,22 @@ footer-test {
     padding: 5px 10px;
 }
 .scc.scc-test-2 {
-    width: 176px;
+    width: 115px;
     height: 76px;
-    left: 330px;
+    left: 315px;
     top: 412px;
 
     border: 1px solid #000000;
-    padding: 8px 10px;
+    padding: 14px 10px;
 }
 .scc.scc-test-3 {
     width: 120px;
     height: 76px;
-    left: 525px;
+    left: 435px;
     top: 412px;
 
     border: 1px solid #000000;
-    padding: 15px 8px;
+    padding: 14px 10px;
 }
 .scc.scc-test-4 {
     width: 135px;
@@ -2954,4 +2961,25 @@ footer-test {
 
     border: 1px solid #000000;
     padding: 14px 14px;
+}
+.scc.scc-test-7 {
+    width: 135px;
+    height: 76px;
+    left: 682px;
+    top: 412px;
+    border-radius: 40px;
+    font-size: 11px;
+
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 22px 10px;
+}
+.scc.scc-test-8 {
+    width: 110px;
+    height: 76px;
+    left: 560px;
+    top: 412px;
+
+    border: 1px solid #000000;
+    padding: 14px 10px;
 }
