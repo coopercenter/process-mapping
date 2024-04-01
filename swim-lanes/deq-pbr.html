@@ -25,403 +25,116 @@
     <swim-bar></swim-bar>
 
     <div class="container">
+        <br>
+        <div class="text-center txt-test mw-100-title-"> DEQ Permit by Rule of Small Solar Energy Projects
+        <br> 
+        <sub style="font-size: 16px; font-weight: normal;">(DEQ PBR) 
+        <br> 
+        9VAC15-60-30</sub></div>
+
+
         <div class="row">
           <div class="col"></div>
-
           <div class="content col-10">
-            <div class="txt deq-pbr-title"> DEQ Permit by Rule of Full Solar Energy Project <br> <sub style="font-size: 16px; font-weight: normal;">(DEQ PBR) 9VAC15-60-30</sub></div>
-            <div class="txt operational"> Operational Start Date </div>
-
-            <div class="lane localities"> Localities </div>
-            <div class="lane deq-pbr-lane"> DEQ </div>
-            <div class="lane federal"> Federal Reviews </div>
-
-            <div class="line line-17"></div>
-            <div class="line line-21"></div>
-            <div class="line line-22"></div>
-            <div class="arrow-head"> &#9658 </div>
-
+            <div style="line-height: 75%"><br></div>
+            <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button>
             <abbrev-list></abbrev-list>
+            <div style="line-height: 115%"><br></div>
 
-            <federal-review>
-              <div class="reviews army-corps" data-bs-toggle="modal" data-bs-target="#army-corps-modal"> <b>United States Army Corps of Engineers</b> </div>
-            <button type="button" class="btn btn-light btn-sm reviews btn-1" data-bs-toggle="modal" data-bs-target="#certification-modal">
-              Clean Water Act, Section 401 Certification
-            </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-2" data-bs-toggle="modal" data-bs-target="#section-permit-modal">
-              Clean Water Act, Section 404 Permit
-            </button>
-
-            <div class="reviews fish-wildlife" data-bs-toggle="modal" data-bs-target="#fish-wildlife-modal"> <b>United States Fish and Wildlife Service</b> </div>
-            <button type="button" class="btn btn-light btn-sm reviews btn-3" data-bs-toggle="modal" data-bs-target="#habitat-conservation-modal">
-              Habitat Conservation Plan
-            </button>
-            <button type="button" class="btn btn-light btn-sm reviews btn-4" data-bs-toggle="modal" data-bs-target="#new-incidental-modal">
-              New Incidental Take Permit
-            </button>
-
-            <army-corps>
-                <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
-                    <div class="modal-dialog modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="abbrev-title"> United States Army Corps of Engineers </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-
-                            <div class="modal-body">
-                                If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
-                                Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
-                                be found <a href="https://www.deq.virginia.gov/laws-regulations/water">here</a>.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </army-corps>
-
-            <div class="modal fade" id="section-permit-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 404 Permit </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404'>Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
-                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>."
-                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
-                            wetlands, and/or dune/beach resources – including, but not limited to,
-                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="certification-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Clean Water Act, Section 401 Certification </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'>Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
-
-                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>.
-                            
-                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
-                            wetlands, and/or dune/beach resources – including, but not limited to,
-                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="fish-wildlife-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> United States Fish and Wildlife Service </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. Fish and Wildlife Service (Service), with responsibility delegated to the VA DEQ.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="transfer-permit-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Transfer, Partial Transfer, or Succession of an Existing Valid Incidental Take Permit </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            When the ownership of a project changes, the new owner must obtain a transfer of an existing Incidental Take Permit. See the VA DEQ permitting process for permit requirements and notices or public hearings.
-
-                            <br><br><b>Prerequisite Permit(s)</b>: New Incidental Take Permit 
-                            
-                            <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
-                            <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
-                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="renewal-permit-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Renewal or Amendment of an Existing Valid Incidental Take Permit </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            This permit will grant the renewal or amendment of an existing Incidental Take Permit. See the VA DEQ permitting process for permit requirements and notices or public hearings.
-
-                            <br><br><b>Prerequisite Permit(s)</b>: New Incidental Take Permit 
-                            
-                            <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
-                            <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
-                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="habitat-conservation-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> Habitat Conservation Plan </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10'>Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
-
-                            <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
-                            
-                            <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans'>Service</a>:
-                            "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
-                            
-                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D'>here<a>. 
-                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="new-incidental-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="abbrev-title"> New Incidental Take Permit </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
-
-                        <div class="modal-body">
-                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href=’https://www.fws.gov/laws/endangered-species-act/section-10’>10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
-
-                            <br><br>See <a href=’https://www.fws.gov/service/habitat-conservation-plans’>here</a> for further information on HCPs and associated incidental take permits.
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </federal-review>
-
-            <scc>
-              <div class="btn btn-light scc scc-pbr-1" data-bs-toggle="modal" data-bs-target="#noi-early"> <i>Best Practice</i><br> Submit NOI as early as possible </div>
-
-              <img src="../images/DEQDocument.png" class="deq-doc-2"></img>
-              <div class="btn txt noi-solar-energy-1" data-bs-toggle="modal" data-bs-target="#noi-solar-energy">NOI for Full Solar <br>Energy Project</div>
-            
-              <img src="../images/DEQDocument.png" class="deq-doc-3"></img>
-              <div class="btn txt noi-solar-energy-2" data-bs-toggle="modal" data-bs-target="#application-pbr">PBR for Full Solar Energy <br>Project Application</div>
-
-              <div class="btn btn-light scc scc-pbr-5" data-bs-toggle="modal" data-bs-target="#issuance-pbr"> Issuance of PBR for <br> Full Energy Solar Project</div>
-              
-              <div class="line line-38"></div>
-              <div class="line line-37"></div>
-              <div class="line line-36"></div>
-              <div class="line line-35"></div>
-              <div class="line line-34"></div>
-            </scc>
-
-            <deq>
-              <div class="deq deq-pbr-1"> <i>Best Practice</i><br>Informal Sister Review Process <br>before going to localities<br> for applications </div>
-              <div class="deq deq-pbr-7"> <i>Deadline</i><br>DHR must be submitted no less than 30 days prior to the start date of the project </div>
-
-              <div class="btn btn-light deq deq-pbr-2" data-bs-toggle="modal" data-bs-target="#sister-modal"> <b>DEQ Courtesy Sister Agency Process</b> </div>
-
-              <button class="btn btn-light deq deq-pbr-3" data-bs-toggle="modal" data-bs-target="#dot-modal"> DOT </button>
-              <button class="btn btn-light deq deq-pbr-4" data-bs-toggle="modal" data-bs-target="#dhr-modal"> DHR </button>
-              <button class="btn btn-light deq deq-pbr-5" data-bs-toggle="modal" data-bs-target="#dcr-modal"> DCR </button>
-              <button class="btn btn-light deq deq-pbr-6" data-bs-toggle="modal" data-bs-target="#dwr-modal"> DWR </button>
-              <button class="btn btn-light deq deq-pbr-9" data-bs-toggle="modal" data-bs-target="#hb206-modal"> HB206 </button>
-
-              <div class="deq deq-pbr-8 btn-light btn" data-bs-toggle="modal" data-bs-target="#stormwater-permit"> General Construction Stormwater Permit &#40;VPDES, SWPPP, E&S&#41; </div>
-
-              <sister-agency></sister-agency>
-              <deq-></deq->
-            </deq>
-
-            <localities>
-              <div class="local local-1"> <i> Best Practice </i><br>Developer notifies<br>the locality before beginning DEQ </div>
-              <div data-bs-toggle="modal" data-bs-target="#local-meetings" class="btn btn-light local local-2"> 1. Pre-Application Meetings<br>2. Community Meetings<br>3. Public Engagement </div>
-              <div data-bs-toggle="modal" data-bs-target="#local-certification" class="btn btn-light local local-3"> Location Certification Process &#40;Zoning, 2232 Review, Sitting Agreement&#41; </div>
-              <div data-bs-toggle="modal" data-bs-target="#permits-inspections" class="btn btn-light local local-4"> Construction Permit and Inspections &#40;Electrical, Land Disturbing, Traffic Planning&#41; </div>
-
-              <div class="line line-25"></div> 
-
-              <localities-></localities->
-            </localities>
-            
-            <interconnections>
-              <div class="lane interconnections"> Interconnections </div>
-
-              <button type="button" id="mw-lt20-btn" class="mw-20 btn-7 btn btn-light btn-sm"> &le; 20 MW </button>
-              <button type="button" id="mw-gt20-btn" class="mw-20 btn-8 btn btn-light btn-sm"> &gt; 20 MW  </button>
-              
-              <button type="button" id="sgip-btn" class="mw-20 btn-9 btn btn-light btn-sm"> SGIP Lvl. 3</button>
-              <button type="button" id="distr-btn" class="mw-20 btn-10 btn btn-light btn-sm"> Distr. </button>  
-
-              <div id="line-4" class="line line-23"></div>
-              <div id="line-5" class="line line-24"></div>
-              <div class="line line-39"></div>
-              <div id="line-1" class="line line-40"></div>
-              <div id="line-2" class="line line-41"></div>
-              <div id="line-3" class="line line-42"></div>
-              <div id="line-6" class="line line-65"></div>
-
-              <div id="mw-lt20-1" data-bs-toggle="modal" data-bs-target="#sgip-level-3" class="btn btn-light inter inter-1"> SGIP Level 3 Pathway </div>
-              <div id="mw-lt20-2" data-bs-toggle="modal" data-bs-target="#queue-window" class="btn btn-light inter inter-2"> Queue Window </div>
-              <div id="mw-lt20-3" data-bs-toggle="modal" data-bs-target="#scoping-meeting" class="btn btn-light inter inter-3"> Scoping Meeting </div>
-              <div id="mw-lt20-4" data-bs-toggle="modal" data-bs-target="#combined-study" class="btn btn-light inter inter-4"> Feasibility & Impact Study</div>
-              <div id="mw-lt20-5" data-bs-toggle="modal" data-bs-target="#facilities-agreement" class="btn btn-light inter inter-5"> Facilities Study Agreement </div>
-              <div id="mw-lt20-6" data-bs-toggle="modal" data-bs-target="#construction" class="btn btn-light inter inter-6"> Construction Planning Meeting </div>
-              <img id="mw-lt20-13" src="../images/InterDocument.png" class="inter-doc-2"></img>
-              <div id="mw-lt20-14" data-bs-toggle="modal" data-bs-target="#sgia" class="btn txt sgia-gt"> Small Generator <br>Interconnection Agreeement</div>
-
-              <div id="mw-gt20-1" data-bs-toggle="modal" data-bs-target="#inter-request" class="btn btn-light inter inter-8"> Generation <br> Inter. Request </div>
-              <div id="mw-gt20-2" data-bs-toggle="modal" data-bs-target="#deficiency" class="btn btn-light inter inter-9"> Deficiency Review</div>
-              <div id="mw-gt20-3" data-bs-toggle="modal" data-bs-target="#position-granted" class="btn btn-light inter inter-10"> Queue Position Granted </div>
-              <div id="mw-gt20-4" data-bs-toggle="modal" data-bs-target="#feasibility" class="btn btn-light inter inter-11"> Feasibility <br> Study </div>
-              <div id="mw-gt20-5" data-bs-toggle="modal" data-bs-target="#system-impact" class="btn btn-light inter inter-12"> System Impact Study</div>
-              <div id="mw-gt20-6" data-bs-toggle="modal" data-bs-target="#facilities-studies" class="btn btn-light inter inter-16"> Facilties Studies </div>
-              <img id="mw-gt20-7" src="../images/InterDocument.png" class="inter-doc-3"></img>
-              <div id="mw-gt20-8" data-bs-toggle="modal" data-bs-target="#inter-services" class="btn txt isa-gt"> Interconnection <br>Service Agreement</div>
-              <img id="mw-gt20-9" src="../images/InterDocument.png" class="inter-doc-4"></img>
-              <div id="mw-gt20-10" data-bs-toggle="modal" data-bs-target="#construct-services" class="btn txt csa-gt">Inter. Construction <br> Service Agreement</div>
-              
-            <inter-></inter->
-
-              <script type="text/javascript"> 
-                $("#mw-gt20-btn").click(function() {
-                  $("#mw-lt20-1").hide();
-                  $("#mw-lt20-2").hide();
-                  $("#mw-lt20-3").hide();
-                  $("#mw-lt20-4").hide();
-                  $("#mw-lt20-5").hide();
-                  $("#mw-lt20-6").hide();
-                  $("#mw-lt20-7").hide();
-                  $("#mw-lt20-13").hide();
-                  $("#mw-lt20-14").hide();
- 
-                  $("#mw-gt20-1").show();
-                  $("#mw-gt20-2").show();
-                  $("#mw-gt20-3").show();
-                  $("#mw-gt20-4").show();
-                  $("#mw-gt20-5").show();
-                  $("#mw-gt20-6").show();
-                  $("#mw-gt20-7").show();
-                  $("#mw-gt20-8").show();
-                  $("#mw-gt20-9").show();
-                  $("#mw-gt20-10").show();
-
-                  $("#line-1").show();
-                  $("#line-2").show();
-                  $("#line-3").show();
-                  $("#line-4").show();
-                  $("#line-5").show();
-                  $("#line-6").show();
-                });
-
-                $("#sgip-btn").click(function() {
-                  $("#mw-gt20-1").hide();
-                  $("#mw-gt20-2").hide();
-                  $("#mw-gt20-3").hide();
-                  $("#mw-gt20-4").hide();
-                  $("#mw-gt20-5").hide();
-                  $("#mw-gt20-6").hide();
-                  $("#mw-gt20-7").hide();
-                  $("#mw-gt20-8").hide();
-                  $("#mw-gt20-9").hide();
-                  $("#mw-gt20-10").hide();
-
-                  $("#mw-lt20-1").show();
-                  $("#mw-lt20-2").show();
-                  $("#mw-lt20-3").show();
-                  $("#mw-lt20-4").show();
-                  $("#mw-lt20-5").show();
-                  $("#mw-lt20-6").show();
-                  $("#mw-lt20-7").show();
-                  $("#mw-lt20-13").show();
-                  $("#mw-lt20-14").show();
-
-                  $("#mw-lt20-btn").show();
-                  $("#mw-gt20-btn").show();
-
-                  $("#sgip-btn").hide();
-                  $("#distr-btn").hide();
-
-                  $("#line-1").show();
-                  $("#line-2").show();
-                  $("#line-3").show();
-                  $("#line-4").show();
-                  $("#line-5").show();
-                  $("#line-6").show();
-                });
-
-                $("#distr-btn").click(function() {
-                  $("#mw-gt20-1").hide();
-                  $("#mw-gt20-2").hide();
-                  $("#mw-gt20-3").hide();
-                  $("#mw-gt20-4").hide();
-                  $("#mw-gt20-5").hide();
-                  $("#mw-gt20-6").hide();
-                  $("#mw-gt20-7").hide();
-                  $("#mw-gt20-8").hide();
-                  $("#mw-gt20-9").hide();
-                  $("#mw-gt20-10").hide();
-
-                  $("#mw-lt20-1").hide();
-                  $("#mw-lt20-2").hide();
-                  $("#mw-lt20-3").hide();
-                  $("#mw-lt20-4").hide();
-                  $("#mw-lt20-5").hide();
-                  $("#mw-lt20-6").hide();
-                  $("#mw-lt20-7").hide();
-                  $("#mw-lt20-13").hide();
-                  $("#mw-lt20-14").hide();
-
-                  $("#line-1").hide();
-                  $("#line-2").hide();
-                  $("#line-3").hide();
-                  $("#line-4").hide();
-                  $("#line-5").hide();
-                  $("#line-6").hide();
-
-                  $("#mw-lt20-btn").show();
-                  $("#mw-gt20-btn").show();
-
-                  $("#sgip-btn").hide();
-                  $("#distr-btn").hide();
-                });
-
-                $("#mw-lt20-btn").click(function() {
-                  $("#mw-lt20-btn").hide();
-                  $("#mw-gt20-btn").hide();
-
-                  $("#sgip-btn").show();
-                  $("#distr-btn").show();
-                });
-
+            <div class="container-scroll">
+                <div class="container-swimlane">
+                    <swimlanes>
+                        <modals>
+                            <div class="modal fade" id="federal-modal" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="title"> Federal Reviews </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                        </div>
                 
-              </script>
-            </interconnections>
-          </div>
+                                        <div class="modal-body">
+                                            Depending on project characteristics, federal reviews may be required from any number of federal agencies, including the U.S. Bureau of Land Management, U.S. Forest Service, U.S. Bureau of Indian Affairs, Federal Aviation Administration, and the U.S. Department of Defense. Two of the more common federal reviews required are from U.S. Army Corps of Engineers and U.S. Fish and Wildlife Service, outlined here.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </modals>
+                        <div data-bs-toggle="modal" data-bs-target="#federal-modal" class="lane-test federal-test"> Federal Reviews </div>
+                        <div class="lane-test interconnections-test"> Interconnection </div>
+                        <div class="lane-test localities-test"> Localities</div>
+                        <div class="lane-test deq-test-expand"> DEQ </div>  
+                        <div class="line test-1"></div>
+                    </swimlanes>
 
+                    <federal-reviews>
+                        <div data-bs-toggle="modal" data-bs-target="#army-corps-modal" class="reviews-test army-corps-test btn">United States Army Corps of Engineers</div>
+                        <button data-bs-toggle="modal" data-bs-target="#certification-modal" class="reviews-test btn btn-1-test">Clean Water Act, Section 401 Certification</button>
+                        <button data-bs-toggle="modal" data-bs-target="#section-permit-modal" class="reviews-test btn btn-2-test">Clean Water Act, Section 404 Permit</button>
+                        <div data-bs-toggle="modal" data-bs-target="#fish-wildlife-modal" class="reviews-test fish-wildlife-test btn">United States Fish and Wildlife Service</div>
+                        <button data-bs-toggle="modal" data-bs-target="#habitat-conservation-modal" class="reviews-test btn btn-3-test">Habitat Conservation Plan</button>
+                        <button data-bs-toggle="modal" data-bs-target="#new-incidental-modal" class="reviews-test btn btn-4-test">New Incidental Take Permit</button>
+                    </federal-reviews>
+
+                    <inter->
+                        <button class="btn">
+                          <a href="../inter-map.html">
+                            <img class="inter-test btn" src="../images/OffPage.png">
+                          </a>
+                        </button>
+                        <img src="../images/InterDocument.png" class="inter-test-doc-2 btn"><img>
+                        <div class="txt-test txt-inter-1-test text-center">Interconnection <br> Permit Process Map</div>
+                        <div data-bs-toggle="modal" data-bs-target="#applicable-inter" class="btn txt-test txt-inter-3-test text-center">Receive Applicable <br> Inter. Approval</div>
+
+                        <div class="line test-2"></div>
+                    </inter->
+
+                    <localities->
+                        <div class="local local-test-1"><i>Best Practice</i><br>Developer notifies the locality before or at the same time as submitting the NOI to the DEQ</div>
+                        <div data-bs-toggle="modal" data-bs-target="#local-meetings" class="btn local local-test-2">1. Pre-Application Meetings <br> 2. Community Meetings <br> 3. Public Engagements</div>
+                        <div data-bs-toggle="modal" data-bs-target="#local-certification" class="btn local local-test-3">Location Certification Process (Zoning, 2232 Review, Siting Agreement)</div>
+                        <div data-bs-toggle="modal" data-bs-target="#permits-inspections" class="btn local local-test-4">Construction Permits and Inspections (Electrical, Land Disturbance, Traffic Planning)</div>
+
+                        <div class="line test-21"></div>
+                    </localities->
+
+                    <deq->
+                        <div data-bs-toggle="modal" data-bs-target="#deq-sister" class="btn deq deq-test-14">DEQ Office of Env. Impact & Courtesy Sister Agencies</div>
+                        <div data-bs-toggle="modal" data-bs-target="#stormwater-permit" class="btn deq deq-test-21">Apply for General Construction Stormwater Permit (VPDES, SWPPP, E&S)</div>
+                        <div data-bs-toggle="modal" data-bs-target="#permit-issuance" class="btn deq deq-test-15">Issuance of <br>Section 130 Permit</div>
+                        <div data-bs-toggle="modal" data-bs-target="#stormwater-issuance" class="btn deq deq-test-7">Issuance of <br>General Construction <br>Stormwater Permit</div>
+                        <div class="deq deq-test-11 btn"><i>Best Practice</i> <br>Informal Sister Agency Review process before local certification</div>
+                        <div data-bs-toggle="modal" data-bs-target="#noi-early" class="btn deq deq-test-12 btn"><i>Best Practice</i> <br>Submit NOI as early as possible</div>
+                        <img src="../images/DEQDocument.png" class="deq-test-doc-2 btn"><img>
+                        <div class="btn txt-test txt-deq-2-test text-center">Submit NOI for Small <br>Solar Energy Project</div>
+                        <img src="../images/DEQDocument.png" class="deq-test-doc-3 btn"><img>
+                        <div class="btn txt-test txt-deq-3-test text-center">Submit PBR App. for <br>Solar Energy Project</div>
+                        <div data-bs-toggle="modal" data-bs-target="#deq-modal" class="btn deq deq-test-16">DEQ</div>
+                        <div data-bs-toggle="modal" data-bs-target="#dhr-modal" class="btn deq deq-test-17">DHR</div>
+                        <div data-bs-toggle="modal" data-bs-target="#dcr-modal" class="btn deq deq-test-18">DCR</div>
+                        <div data-bs-toggle="modal" data-bs-target="#dwr-modal" class="btn deq deq-test-19">DWR</div>
+                        <div class="btn deq deq-test-20">HB206</div>
+
+                        <div class="line test-4"></div>
+                        <div class="line test-9"></div>
+                        <div class="line test-10"></div>
+                        <div class="line test-18"></div>
+                        <div class="line test-19"></div>
+                        <div class="line test-20"></div>
+                    </deq->
+
+                    <div class="line test-22"></div>
+                    <div class="line test-23"></div>
+                    <div class="line test-24"></div>
+                </div>
+            </div>
+
+          </div>
           <div class="col"></div>
         </div>
     </div>
+
+    <br><br>
 
     <footer-></footer->
 
