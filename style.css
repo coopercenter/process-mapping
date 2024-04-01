@@ -2334,8 +2334,8 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-inter-3-test {
-    top: 132px;
-    left: 908px;
+    top: 125px;
+    left: 897px;
     z-index: 1;
 
     font-size: 11px;
@@ -2344,8 +2344,8 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-deq-1-test {
-    top: 336px;
-    left: 224px;
+    top: 330px;
+    left: 211px;
     z-index: 1;
 
     font-size: 11px;
@@ -2501,7 +2501,7 @@ footer-test {
     top: 350px;
 }
 .line.test-5 {
-    width: 400px;
+    width: 500px;
     left: 310px;
     top: 450px;
 }
@@ -2563,8 +2563,8 @@ footer-test {
     top: 250px;
 }
 .line.test-15 {
-    width: 20px;
-    left: 890px;
+    width: 30px;
+    left: 875px;
     top: 350px;
 }
 .line.test-16 {
@@ -2895,6 +2895,18 @@ footer-test {
     border: 1px dashed #000000;
     padding: 12px 14px;
 }
+.deq.deq-test-13 {
+    width: 155px;
+    height: 76px;
+    left: 720px;
+    top: 312px;
+    border-radius: 0px;
+
+    text-align: left;
+    font-size: 10.5px;
+    border: 1px solid #000000;
+    padding: 12px 10px;
+}
 .deq-test-doc-1 {
     left: 195px;
     top: 315px;
@@ -2911,6 +2923,8 @@ footer-test {
     left: 200px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px dashed #000000;
     padding: 5px 10px;
 }
@@ -2920,6 +2934,8 @@ footer-test {
     left: 315px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px solid #000000;
     padding: 14px 10px;
 }
@@ -2929,13 +2945,15 @@ footer-test {
     left: 435px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px solid #000000;
     padding: 14px 10px;
 }
 .scc.scc-test-4 {
     width: 135px;
     height: 76px;
-    left: 665px;
+    left: 675px;
     top: 412px;
     border-radius: 40px;
     font-size: 11px;
@@ -2950,6 +2968,8 @@ footer-test {
     left: 400px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px solid #000000;
     padding: 15px 12px;
 }
@@ -2959,16 +2979,18 @@ footer-test {
     left: 400px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px solid #000000;
     padding: 14px 14px;
 }
 .scc.scc-test-7 {
     width: 135px;
     height: 76px;
-    left: 682px;
+    left: 810px;
     top: 412px;
     border-radius: 40px;
-    font-size: 11px;
+    font-size: 10px;
 
     text-align: center;
     border: 1px solid #000000;
@@ -2980,6 +3002,19 @@ footer-test {
     left: 560px;
     top: 412px;
 
+    border-radius: 0px;
+    text-align: left;
     border: 1px solid #000000;
     padding: 14px 10px;
+}
+.scc.scc-test-9 {
+    width: 125px;
+    height: 76px;
+    left: 675px;
+    top: 412px;
+
+    border-radius: 0px;
+    text-align: left;
+    border: 1px solid #000000;
+    padding: 14px 8px;
 }

@@ -653,108 +653,6 @@ class SwimLane extends HTMLElement {
     }
 }
 
-class SisterAgencyModal extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <div class="modal fade" id="sister-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="title">Courtesy Sister Agency Process</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews may identify issues that affect the site plan and the application for the General Construction Stormwater Permit (VPDES). 
-
-                        <br><br> These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See
-                        <a href='https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/'>20VAC5-302-25, 11</a>.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="dot-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="title"> Department of Transportation, Traffic Impact Statement </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        The VDOT Traffic Impact Statement (VTIS) assesses the impact of a proposed development on the transportation system and recommends improvements to lessen or negate those impacts. The permit requirements are as follows: 
-                        The VTIS shall (i) identify any traffic issues associated with access from the site to the existing transportation network, (ii) outline solutions to potential problems, (iii) address the sufficiency of the future transportation 
-                        network, and (iv) present improvements to be incorporated into the proposed development. The VDOT will accept a traffic analysis study prepared according to local requirements, as long as the VDOT certifies that the 
-                        local requirements meet acceptable standards of professional practice. The VDOT will provide the locality with a written report contain key findings. If necessary, certain forms that are to be submitted can be found <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here</a>.
-
-                        <br><br> <b>Statutory Review Time Limits</b>: VDOT will respond to request for a scope of work meeting within 30 days of the request, and schedule a meeting to occur within 60 days of being contacted.
-                        <br><br> <b>Notices/Public Hearings</b>: VDOT must make its comments available to the public through various means, e.g. through VDOT’s LandTrack system web page on the VDOT public website, copies at the local government offices, or a presentation to the locality.\
-
-                        <br><br> The legislation regulating the guidelines for the VTIS is established in <a href='https://law.lis.virginia.gov/admincode/title24/agency30/chapter155/section60/'>24VAC30-155-60</a> of the Virginia Administrative Code. To get in touch with the VDOT and see further information on the VTIS, see <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here<a>.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="dhr-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="title"> Department of Historic Resources </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                    This is a review of any impacted historic sites. The DHR may provide comments to the DEQ for inclusion into their evaluation. It is important to note that the DHR application must be submitted no less than 30 days prior to the start date of the project.
-
-                    <br><br>The establishment of this review requirement can be found <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
-                    
-                    <br><br>This is only required if the project will impact a historic site. This assessment should be coordinated with DWR as part of the natural resource impact assessment.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="dcr-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="title"> Department of Conservation and Recreation </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        This is a courtesy review of the project’s environmental impact. The review may look at impact on biodiversity, habitat land, water table, and other factors. DCR may provide comments to DEQ for inclusion into their evaluation.
-
-                        <br><br> The permit link can be found <a href="https://www.dcr.virginia.gov/natural-heritage/nhserviceform/">here</a>. For further inquiries, contact nhreview@dcr.virginia.gov.
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="dwr-modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="title"> Department of Wildlife Resources, Solar Energy Facility Guidance </h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body">
-                        The DWR's Solar Energy Facility Guidance provides guidance for solar projects, such as project impact on natural resources, bald eagle nests, bats and bat habitat, wildlife passage fencing, vegetation considerations, and aquatic habitat. The DWR may provide comments to DEQ for inclusion into their evaluation.
-
-                        <br><br>Information on the Solar Energy Facility Guidance can be found <a href='https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf'>here</a>. For further inquiries, contact DWR's Manager of Wildlife Information and Environmental Services or DEQ's Renewable Energy PBR Coordinator.
-                        
-                        <br><br><i>These assessments should be submitted and completed before the construction permits and erosion permits. These assessments should also be coordinated with DCR to assess impacts to heritage resources.</i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        `;
-    }
-}
-
 class DEQ extends HTMLElement{
     connectedCallback() {
         this.innerHTML = `
@@ -810,7 +708,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">General Construction Stormwater Permit</h5>
+                        <h5 class="modal-title" id="title">Apply for General Construction Stormwater Permit</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -820,6 +718,21 @@ class DEQ extends HTMLElement{
                     <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit.
                     
                     <br><br><i>Projects may be subject to either local or VA DEQ VSMP authority. Check to see which is the case at the project location. The VA DEQ VSMP permit is only for those directly regulated under the VA DEQ authority. If local governments have the permitting authority, regulations for local SWPPP may differ from VA DEQ SWPPP. If the project is within the Chesapeake Bay Preservation Areas (CBPs), localities are required to have local regulations to protect water quality for the Chesapeake Bay.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="stormwater-issuance" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Issuance of General Construction Stormwater Permit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        If the project meets the permit requirements and pays the appropriate fees, the applicant will be granted a General Construction Stormwater Permit from the applicable authority (The locality or DEQ).
                     </div>
                 </div>
             </div>
@@ -906,6 +819,101 @@ class DEQ extends HTMLElement{
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="deq-sister" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        <br><br>
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dot-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Department of Transportation, Traffic Impact Statement </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The VDOT Traffic Impact Statement (VTIS) assesses the impact of a proposed development on the transportation system and recommends improvements to lessen or negate those impacts. The permit requirements are as follows: 
+                        The VTIS shall (i) identify any traffic issues associated with access from the site to the existing transportation network, (ii) outline solutions to potential problems, (iii) address the sufficiency of the future transportation 
+                        network, and (iv) present improvements to be incorporated into the proposed development. The VDOT will accept a traffic analysis study prepared according to local requirements, as long as the VDOT certifies that the 
+                        local requirements meet acceptable standards of professional practice. The VDOT will provide the locality with a written report contain key findings. If necessary, certain forms that are to be submitted can be found <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here</a>.
+
+                        <br><br> <b>Statutory Review Time Limits</b>: VDOT will respond to request for a scope of work meeting within 30 days of the request, and schedule a meeting to occur within 60 days of being contacted.
+                        <br><br> <b>Notices/Public Hearings</b>: VDOT must make its comments available to the public through various means, e.g. through VDOT’s LandTrack system web page on the VDOT public website, copies at the local government offices, or a presentation to the locality.\
+
+                        <br><br> The legislation regulating the guidelines for the VTIS is established in <a href='https://law.lis.virginia.gov/admincode/title24/agency30/chapter155/section60/'>24VAC30-155-60</a> of the Virginia Administrative Code. To get in touch with the VDOT and see further information on the VTIS, see <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here<a>.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dhr-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Department of Historic Resources </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    This is a review of any impacted historic sites. The DHR may provide comments to the DEQ for inclusion into their evaluation. It is important to note that the DHR application must be submitted no less than 30 days prior to the start date of the project.
+
+                    <br><br>The establishment of this review requirement can be found <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
+                    
+                    <br><br>This is only required if the project will impact a historic site. This assessment should be coordinated with DWR as part of the natural resource impact assessment.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dcr-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Department of Conservation and Recreation </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        This is a courtesy review of the project’s environmental impact. The review may look at impact on biodiversity, habitat land, water table, and other factors. DCR may provide comments to DEQ for inclusion into their evaluation.
+
+                        <br><br> The permit link can be found <a href="https://www.dcr.virginia.gov/natural-heritage/nhserviceform/">here</a>. For further inquiries, contact nhreview@dcr.virginia.gov.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dwr-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Department of Wildlife Resources, Solar Energy Facility Guidance </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The DWR's Solar Energy Facility Guidance provides guidance for solar projects, such as project impact on natural resources, bald eagle nests, bats and bat habitat, wildlife passage fencing, vegetation considerations, and aquatic habitat. The DWR may provide comments to DEQ for inclusion into their evaluation.
+
+                        <br><br>Information on the Solar Energy Facility Guidance can be found <a href='https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf'>here</a>. For further inquiries, contact DWR's Manager of Wildlife Information and Environmental Services or DEQ's Renewable Energy PBR Coordinator.
+                        
+                        <br><br><i>These assessments should be submitted and completed before the construction permits and erosion permits. These assessments should also be coordinated with DCR to assess impacts to heritage resources.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
     }
 }
@@ -913,6 +921,21 @@ class DEQ extends HTMLElement{
 class Interconnections extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <div class="modal fade" id="applicable-inter" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive Applicable Interconnection Approval</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.  
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="queue-window" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1318,7 +1341,7 @@ class Localities extends HTMLElement {
                                 <li>2232 Comprehensive Plan Review or Siting Agreement</li>
                                 <li>Municipal/County Zone Review</li>
                             </ol>
-                            If applicable, local certification will be granted at the conclusion of steps A and B.
+                            If applicable, local certification will be granted at the conclusion of steps 1 and 2.
                         </div>
                     </div>
                 </div>
@@ -1363,17 +1386,211 @@ class Localities extends HTMLElement {
     }
 }
 
+class SCC extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="modal fade" id="director-letter" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Letter to the Director of the Division of Energy Regulation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/ ">20VAC5-302-10</a> indicates that the construction of electric generating facilities with rated capacity of 5 MW or less are exempt from formal filing requirements with the SCC. In its place, the Commission requires that the persons desiring to construct such facilities shall:                                         
+                        <ol type="1">
+                                <li>Submit a letter to the Director of Energy Regulation stating the location, size, and fuel type of facility</li>
+                                <li>Comply with all other federal, state, and local requirements</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-issuance" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Issuance of Permit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Upon completion of all requirements as listed in Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302">20VAC5-302-10 </a>, the applicant is legally exempt from formal filing process for the authority to conduct and operate an electric generating facility with a rated capacity of 5 MW or less.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-same-time" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"><i>Best Practice</i>: File for CPCN at the Same Time as the Locality Application</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Upon compiling all necessary materials required within the CPCN for electric generating facilites greater than 5 MW and less than or equal to 100 MW, the applicant should submit the completed application to the State Corporation Commission at the same time as the necessary locality application(s). 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-egf" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Application for SCC Authority to Construct and Operate an EGF</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        This application provides information needed for the SCC to determine if a project meets permitting requirements. <i>Application for a PJM Interconnection Service Agreement is a prerequisite</i>. 
+                        <br><br>
+                        Submit Applications To: Office of the State Corporation Commission <br>
+                        Contact: Director of the Division of Public Utility Regulation, Virginia State Corporation Commission
+                        <br><br>
+                        
+                        Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/">20VAC5-302-25</a>): <br>
+                            <ol type="1">
+                                <li>Legal name of applicant and any trade name.</li>
+                                <li>Description of the applicant's authorized business structure.</li>
+                                <li>Name and businesses addresses of all principal corporate officers, directors, partners, and LLC members.</li>
+                                <li>Financial information for applicant/participants in project.</li>
+                                <li>Discussion of the applicant's qualifications.</li>
+                                <li>Specific information about the site for the proposed facility.</li>
+                                <li>Description of the proposed facility, type of facility, size and fuel type.</li>
+                                <li>Description of the fuel supply arrangement for the proposed facility.</li>
+                                <li>Economic impacts of the project.</li>
+                                <li>List of other local, state, or federal government agencies with approval requirements and their status.</li>
+                                <li>Analysis of environmental impacts. This analysis shall include, but is not limited to, the impacts on the environment and natural resources, analysis of alternatives considered, unavoidable adverse impacts, mitigation measures proposed to minimize unavoidable impacts, and any irreversible environmental changes. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."</li>
+                                <li>Discussion of reliability impacts.</li>
+                                <li>Additional information demonstrating that the proposed facility is not contrary to the public interest.</li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pre-filed" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Submit Pre-filed Testimony in Support of Application</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/ ">20VAC5-302-20</a>, the applicant is responsible for the submission of "prefiled testimony in support of the application" for the authority to construct and operate an electric generating facility with a rated capacity of over 100 MW. (Note: this is a key distinction between the permitting requirements for facilities rated above 5 MW and below 100 MW (20VAC5-302-25). 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="deq-oeir" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">SCC Initiates Sister Agency Review with DEQ OEIR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-100" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Application for SCC Authority to Construct and Operate an EGF</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    This application provides information needed for the SCC to determine if a project meets permitting requirements. <i>Application for a PJM Interconnection Service Agreement is a prerequisite.</i> 
+                    <br><br>
+                    Submit Applications To: Office of the State Corporation Commission <br>
+                    Contact Name: Director of the Division of Public Utility Regulation, Virginia State Corporation Commission
+                    <br><br>
+                    Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/">20VAC5-302-20</a>):
+
+                        <ol type="1">
+                            <li>Legal name of applicant and any trade name.</li>
+                            <li>Description of the applicant's authorized business structure.</li>
+                            <li>Name and businesses addresses of all principal corporate officers, directors, partners, and LLC members.</li>
+                            <li>Financial information for applicant/participants in project.</li>
+                            <li>Prefiled testimony supporting project. This is not a requirement for projects > 5 MW but ≤ 100 MW.</li>
+                            <li>Discussion of the applicant's qualifications.</li>
+                            <li>Specific information about the site for the proposed facility.</li>
+                            <li>Specific information about the proposed facility.</li>
+                            <li>Description of the fuel supply arrangement for the proposed facility.</li>
+                            <li>"A discussion of economic impacts (Both positive and negative), of the project. The discussion should address the tax and employment implications of the project."</li>
+                            <li>List of other local, state, or federal government agencies with approval requirements and their status.</li>
+                            <li>Analysis of environmental impacts. This analysis shall include, but is not limited to, the impacts on the environment and natural resources, analysis of alternatives considered, unavoidable adverse impacts, mitigation measures proposed to minimize unavoidable impacts, and any irreversible environmental changes. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."</li>
+                            <li>Discussion of reliability impacts.</li>
+                            <li>Additional information demonstrating that the proposed facility is not contrary to the public interest.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-cpcn" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Issuance of CPCN for Facilities >100 MW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the SCC granting them the authority to contruct and operate an electric generating facility with rated capacity greater 100 MW.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="scc-hearing" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Public Notice and Hearing Requirements</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    <i>The following only applies to projects equal to or greater than 150 MW.</i>
+                    <br><br>
+                    Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a> establishes formal procedures for the SCC notice and hearing process related to the permit approval for electric generating facilities. As noted in subsection I: "the provisions of this section shall not apply to the construction and operation of a small renewable energy project". Because Virginia Code § 10.1-1197.5 defines a "small renewable energy facility" as "an electrical generation facility with a rated capacity not exceeding 150 megawatts that generates electricity only from sunlight or wind", these procedures are only required for projects equal or exceeding a rated capacity of 150 MW. 
+                    <br><br>
+                    The notice and hearings procedures as listed in Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a> are as follows: "no electrical transmission line of 138 kilovolts or more shall be constructed unless the State Corporation Commission shall, after at least 30 days' advance notice by:" (1) publication in a newspaper that circulates in the areas through which the proposed line is to be built, (2) formal written notice sent to the governing bodies of the affected localities, and (3) causing to be sent to all property owners within the route of the proposed line. 
+                    <br><br>
+                    For more details, refer to Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a>. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+
 
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
 customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);
-customElements.define('sister-agency', SisterAgencyModal);
 customElements.define('deq-', DEQ);
 customElements.define('inter-', Interconnections);
 customElements.define('localities-', Localities);
 customElements.define('federal-reviews', FederalReview);
+customElements.define('scc-', SCC);
 
 
 $('#myModal').on('shown.bs.modal', function() {
