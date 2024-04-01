@@ -754,15 +754,15 @@ class DEQ extends HTMLElement{
                         Application must include:
                         <br> 
                         <ol type = "1">
-                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4686/637475307699370000">Local Governing Body Certification Form</a></li>
-                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4679/637475306133830000">Environmental Permit Certification Form</a> (Environmental permits must be <b>applied</b> for prior)</li>
-                        <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4681/637475306597800000">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4675/637475305496100000">Utility Certification Form</a></li>
-                        <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/">Permit by Rule Application & Modification Fees</a></li>
-                        <li>Analysis of the Beneficial and Adverse Impacts on Natural Resources</li>
-                        <li>Determination of Likely Significant Adverse Impacts</li>
-                        <li>Mitigation Plan</li>
-                        <li>Site Plan and Context Map</li>
-                        <li>Documentation of Public Notices, Comment Periods, and Meetings</li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4686/637475307699370000">Local Governing Body Certification Form</a></li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4679/637475306133830000">Environmental Permit Certification Form</a> (Environmental permits must be <b>applied</b> for prior)</li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4681/637475306597800000">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4675/637475305496100000">Utility Certification Form</a></li>
+                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/">Permit by Rule Application & Modification Fees</a></li>
+                            <li>Analysis of the Beneficial and Adverse Impacts on Natural Resources</li>
+                            <li>Determination of Likely Significant Adverse Impacts</li>
+                            <li>Mitigation Plan</li>
+                            <li>Site Plan and Context Map</li>
+                            <li>Documentation of Public Notices, Comment Periods, and Meetings</li>
                         </ol>
                     </div>
                 </div>
@@ -910,6 +910,97 @@ class DEQ extends HTMLElement{
                         <br><br>Information on the Solar Energy Facility Guidance can be found <a href='https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf'>here</a>. For further inquiries, contact DWR's Manager of Wildlife Information and Environmental Services or DEQ's Renewable Energy PBR Coordinator.
                         
                         <br><br><i>These assessments should be submitted and completed before the construction permits and erosion permits. These assessments should also be coordinated with DCR to assess impacts to heritage resources.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="hb206-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Future Requirements Per HB206</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Rule making is in progress. See <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources">here</a> for up-to-date information. Rules will be promulgated by the end of 2024.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="submit-noi" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Submit NOI for Small Solar Energy Project (5 MW to 150 MW)</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The <a href="https://www.deq.virginia.gov/permits/renewable-energy">NOI</a> provides the state notice that the developer intends to develop a project from 5 MW up to 150 MW and use the DEQ PBR process for permitting. There are no official prerequisites for the NOI. The NOI is then a prerequisite for the full PBR. <i>Rulemaking for HB206 may impact these timelines.</i>
+                        <br><br>
+                        Public Notification: DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm ">Virginia Register</a> for 30 days. No public comment forum.
+                        <br><br>
+                        Contact: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator, susan.tripp@deq.virginia.gov
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="submit-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Submit PBR Application for Small Solar Energy Project</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    The application provides the state sufficient information to determine if the project meets the Permit by Rule criteria and facilitates state and federal reviews as needed. According to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/">9VAC15-60-30 A</a>, and in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">§ 10.1-1197.6 B</a>,
+                    the application requirements are:
+                    <ol type = "1">
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Notice of Intent</a> that a person intends to "submit the necessary documentation for a permit by rule for a small renewable energy project." DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm">Virginia Register</a> for 30 days. NOI is a prerequisite for a complete PBR application.</li>
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Local bodies certification</a> is a prerequisite for a complete PBR application.</li>
+                            <li>Copies of all interconnection studies undertaken for this project.</li>
+                            <li>A copy of the final interconnection agreement between the small renewable energy project and the regional transmission organization or transmission owner. If the final agreement is not available, provide the most recent interconnection study. When a final interconnection agreement is complete, it shall be provided to the Department, who will. Application for a final interconnection agreement is a prerequisite for a complete PBR application.</li>
+                            <li>"A certification signed by a professional engineer licensed in Virginia that the maximum generation capacity of the small renewable energy project, as designed, does not exceed 150 megawatts."</li>
+                            <li>"Analysis of the project's potential environmental impacts on attainment of national ambient air quality standards."</li>
+                            <li>"Where relevant, an analysis of the beneficial and adverse impacts of the proposed project on natural resources. The owner or operator shall perform the analyses prescribed in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section40/">9VAC15-60-40</a>. For wildlife, that analysis shall be based on information on the presence, activity, and migratory behavior of wildlife to be collected at the site for a period of time dictated by the site conditions and biology of the wildlife being studied, not exceeding 12 months."</li>
+                            <li>If DEQ determines, pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/">9VAC15-60-50</a>, that the information collected in step 7 above indicates that significant adverse impacts to wildlife or historic resources are likely, the developer must provide a mitigation plan pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section60/">9VAC15-60-60</a>. This plan must detail "reasonable actions to be taken by the owner or operator to avoid, minimize, or otherwise mitigate such impacts, and to measure the efficacy of those actions." The mitigation plan is an enforceable part of the PBR.</li>
+                            <li>Certification signed by a professional engineer licensed in Virginia that the mitigation plan requirements pertaining to its design and installation have been incorporated (The requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section80/ ">9VAC15-60-80</a> are satisfied).</li>
+                            <li>Operating plan that includes a description of how the project will be operated in compliance with its mitigation plan, if such a mitigation plan is required pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/">9VAC15-60-50</a>.</li>
+                            <li>Detailed site plan meeting the requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section70/">9VAC15-60-70</a>.</li>
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Environmental Permit Certification Form</a> for environmental permits, but not receipt of the permits, is a prerequisite to apply for the PBR.</li>
+                            <li>Certification that the applicant is in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">§ 10.1-1197.6 H and I</a> of the Code of Virginia. Submit the applicable form: <a href="https://www.deq.virginia.gov/permits/renewable-energy ">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/permits/renewable-energy">Utility Certification Form</a>.</li>
+                            <li>Conduct a 30-day public review and comment period and hold a public meeting pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section90/">9VAC15-60-90</a>. "The public meeting shall be held in the locality or, if the project is located in more than one locality, in a place proximate to the location of the proposed project. Following the public meeting and public comment period, the applicant shall prepare a report summarizing the issues raised by the public and include any written comments received and the applicant's response to those comments. The report shall be provided to the department as part of this application." The 30-day public review and comment period, public meeting, and subsequent report are prerequisites for a complete PBR application.</li>
+                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/ ">Payment of the appropriate fee</a>. According to the <a href="https://www.deq.virginia.gov/permits/renewable-energy ">DEQ website</a>, "All permit application fees or modification fees are due on submittal day of the application or modification package. Submittals will be deemed incomplete until the department receives payment. Incomplete payments will be deemed non-payments."</li>
+                    </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="pbr-issuance" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Issuance of PBR for Small Solar Energy Project</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/">9VAC15-60-30 B</a>: 
+                        <br><br>
+                        "Within 90 days of receiving all of the required documents and fees listed in subsection A of this section, the department shall determine, after consultation with other agencies in the Secretariat of Natural and Historic Resources, whether the application is complete and whether it adequately meets the requirements of this chapter pursuant to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.7/">§ 10.1-1197.7 A</a> of the Code of Virginia.
+                        <br><br>
+                        <ol type = "1">
+                            <li>If the department determines that the application meets the requirements of this chapter, then the department shall notify the applicant in writing that he is authorized to construct and operate a small solar energy project pursuant to this chapter.</li>
+                            <li>If the department determines that the application does not meet the requirements of this chapter, then the department shall notify the applicant in writing and specify the deficiencies.</li>
+                            <li>If the applicant chooses to correct deficiencies in a previously submitted application, the department shall follow the procedures of this subsection and notify the applicant whether the revised application meets the requirements of this chapter within 60 days of receiving the revised application.</li>
+                            <li>Any case decision by the department pursuant to this subsection shall be subject to the process and appeal provisions of the Administrative Process Act (§ 2.2-4000 et seq. of the Code of Virginia).</li>
+                        </ol>
                     </div>
                 </div>
             </div>
