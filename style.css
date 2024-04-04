@@ -2410,7 +2410,7 @@ footer-test {
     height: 100px;
     z-index: -1;
 
-    border: 1px solid #000000;
+    border: 0.25px solid #000000;
 }
 .lane-test.federal-test {
     background: #FFD0D0;
@@ -2493,6 +2493,7 @@ footer-test {
     top: 250px;
 
     z-index: 2;
+    border: 0.25px solid #000000;
 
     transform: rotate(90deg);
 }
@@ -2502,6 +2503,7 @@ footer-test {
     top: 100px;
 
     z-index: 2;
+    border: 0.25px solid #000000;
 
     transform: rotate(90deg);
 }
@@ -2642,7 +2644,25 @@ footer-test {
     left: 804px;
     top: 191px;
 }
+.line.test-25 {
+    width: 216px;
+    left: 612.5px;
+    top: 298px;
 
+    transform: rotate(90deg);
+}
+.line.test-26 {
+    width: 160px;
+    left: 720px;
+    top: 405.2px;
+}
+.line.test-27 {
+    width: 20px;
+    left: 870px;
+    top: 414.5px;
+
+    transform: rotate(90deg);
+}
 
 .reviews-test {
     background-color: #FF8E8E;
