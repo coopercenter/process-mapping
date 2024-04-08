@@ -42,7 +42,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
-                                                SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                                SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
                                             </a>
                                         </li>
 
@@ -50,7 +50,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
-                                                DEQ Permit by Rule of Full Solar Energy Project 
+                                                DEQ Permit by Rule for Small Solar Energy Project 
                                             </a>
                                         </li>
 
@@ -58,7 +58,7 @@ class NavBar extends HTMLElement {
                             
                                         <li>
                                             <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities 5 MW to 100 MW
+                                                SCC CPCN for Facilities &gt;5 MW to &le;100 MW
                                             </a>
                                         </li>
 
@@ -126,7 +126,7 @@ class SwimLaneNavBar extends HTMLElement {
                         
                                     <li>
                                         <a href="noi-500-kw.html" class="dropdown-item">
-                                            SCC NOI to Construct an EGF with Rated Capacity of &lt5 MW
+                                            SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
                                         </a>
                                     </li>
             
@@ -134,7 +134,7 @@ class SwimLaneNavBar extends HTMLElement {
                         
                                     <li>
                                         <a href="deq-pbr.html" class="dropdown-item">
-                                            DEQ Permit by Rule of Full Solar Energy Project 
+                                            DEQ Permit by Rule for Small Solar Energy Project 
                                         </a>
                                     </li>
             
@@ -142,7 +142,7 @@ class SwimLaneNavBar extends HTMLElement {
                         
                                     <li>
                                         <a href="cpcn-5-mw.html" class="dropdown-item">
-                                            SCC CPCN for Facilities 5 MW to 100 MW
+                                            SCC CPCN for Facilities &gt;5 MW to &le;100 MW
                                         </a>
                                     </li>
             
@@ -231,7 +231,7 @@ class Abbrev extends HTMLElement {
 
                     <tr>
                         <th scope="row"> FERC </th>
-                        <td> Federal Energy Regulatory Comission </td>
+                        <td> Federal Energy Regulatory Commission </td>
                     </tr>
 
                     <tr>
@@ -281,7 +281,7 @@ class Abbrev extends HTMLElement {
 
                     <tr>
                         <th scope="row"> SCC </th>
-                        <td> State Coporation Commission </td>
+                        <td> State Corporation Commission </td>
                     </tr>
 
                     <tr>
