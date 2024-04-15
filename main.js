@@ -1,79 +1,84 @@
 class NavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-            <nav class="navbar navbar-expand navbar-light bg-light"">
-                <div class="container">
-                    <span class="navbar-logo"><h2> The Virginia Solar Permit Map </h2> 
-                        An Interactive Process Map Detailing the Various Permits Required for Solar Permits in Virginia </span>
-                    <div class="collapse navbar-collapse"></div>
-                        <ul class="navbar-nav h5">
-                            <li class="nav-item px-2">
-                                <a href="index.html" class="nav-link"> Home </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a href="about.html" class="nav-link"> About </a>
-                            </li>
-
-                            <li class="nav-item px-2">
-                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#abbrev-modal">
-                                    Abbreviations
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
+                <div class="collapse navbar-collapse">
+                    <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
+                </div>
+            </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav h5">
+                <li class="nav-item px-2">
+                    <a href="index.html" class="nav-link"> Home </a>
+                </li>
+    
+                <li class="nav-item px-2">
+                    <a href="about.html" class="nav-link"> About </a>
+                </li>
+    
+                <li class="nav-item px-2">
+                    <a href="inter-map.html" class="nav-link"> Interconnections</a>
+                </li>
+    
+                <li class="nav-item dropdown px-2">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                                <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
+                                    Exemption from DEQ Section 130 Permit
                                 </a>
                             </li>
-
-                            <li class="nav-item dropdown px-2">
-                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
-                                    <ul class="dropdown-menu dropdown-menu-end">
-                                        <li>
-                                            <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
-                                                Exemption from DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-
-                                        <li>
-                                            <a href="swim-lanes/deq-130-permit.html" class="dropdown-item">
-                                                DEQ Section 130 Permit
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
-                                                SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
-                                                DEQ Permit by Rule for Small Solar Energy Project 
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
-                                                SCC CPCN for Facilities &gt;5 MW to &le;100 MW
-                                            </a>
-                                        </li>
-
-                                        <li><hr class="dropdown-divider"></li>
-                            
-                                        <li>
-                                            <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
-                                               SCC CPCN for Facilities &gt100 MW 
-                                            </a>
-                                        </li>
-                                    </ul>
+    
+                            <li><hr class="dropdown-divider"></li>
+    
+                            <li>
+                                <a href="swim-lanes/deq-130-permit.html" class="dropdown-item">
+                                    DEQ Section 130 Permit
+                                </a>
+                            </li>
+    
+                            <li><hr class="dropdown-divider"></li>
+                
+                            <li>
+                                <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
+                                    SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
+                                </a>
+                            </li>
+    
+                            <li><hr class="dropdown-divider"></li>
+                
+                            <li>
+                                <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
+                                    DEQ Permit by Rule for Small Solar Energy Project 
+                                </a>
+                            </li>
+    
+                            <li><hr class="dropdown-divider"></li>
+                
+                            <li>
+                                <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
+                                    SCC CPCN for Facilities &gt;5 MW to &le;100 MW
+                                </a>
+                            </li>
+    
+                            <li><hr class="dropdown-divider"></li>
+                
+                            <li>
+                                <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
+                                    SCC CPCN for Facilities &gt100 MW 
+                                </a>
                             </li>
                         </ul>
-                </div>
-            </nav>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
             `;
     }
 }
@@ -333,11 +338,21 @@ class Abbrev extends HTMLElement {
     }
 }
 
-class Footer extends HTMLElement {
+class SwimFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <footer-test class="bg-light">
                 <img src="../images/VAEnergyLogo.png" class="va-energy-logo"> <img src="../images/VTLogo.png" class="vt-logo">
+            </footer-test>
+        `;
+    }
+}
+
+class Footer extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+            <footer-test class="bg-light">
+                <img src="images/VAEnergyLogo.png" class="va-energy-logo"> <img src="images/VTLogo.png" class="vt-logo">
             </footer-test>
         `;
     }
@@ -1675,6 +1690,7 @@ class SCC extends HTMLElement {
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
+customElements.define('footer-swim', SwimFooter);
 customElements.define('footer-', Footer);
 customElements.define('swim-lane', SwimLane);
 customElements.define('deq-', DEQ);

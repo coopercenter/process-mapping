@@ -31,46 +31,47 @@
     box-sizing: border-box;
     background: var(--green-color);
     border-radius: 0px;
-    font-size: 12px;
+    font-size: 16.5px;
     border-radius: 60%;
+    font-weight: 650;
 
     border: 1px solid var(--black-color);
-    width: 130px;
-    height: 120px;
+    width: 85px;
+    height: 80px;
     z-index: 0;
     position: absolute;
-    padding-top: 38px; 
+    padding-top: 26px; 
 
-    left: -80px;
-    top: 495px;
+    left: 0px;
+    top: 475px;
 }
 .decision.landing-title-56-1 {
-    left: 300px;
-    top: 510px;
+    left: 350px;
+    top: 470px;
 }
 .decision.landing-criteria-1 {
     width: 98px;
     height: 98px;
-    left: 470px;
-    top: 613px;
+    left: 520px;
+    top: 573px;
 }
 .decision.landing-criteria-2 {
     width: 98px;
     height: 98px;
-    left: 540px;
-    top: 876.4px;
+    left: 590px;
+    top: 836.4px;
 }
 .decision.landing-title-56-2 {
-    left: 546px;
-    top: 725px;
+    left: 596.5px;
+    top: 685px;
 }
 .decision.landing-150-mw {
-    left: 300px;
-    top: 850px;
+    left: 350px;
+    top: 810px;
 }
 .decision.landing-exempt {
-    left: 745px;
-    top: 256px;
+    left: 795.5px;
+    top: 216px;
 }
 
 .circle {
@@ -86,32 +87,32 @@
 }
 /* landing.html */
 .circle.circle-1 {
-    left: 508px;
-    top: 426px;
+    left: 558px;
+    top: 386px;
 }
 .circle.circle-2 {
-    left: 62px;
-    top: 538px;
+    left: 112px;
+    top: 498px;
 }
 .circle.circle-3 {
     left: 287px;
     top: 878px;
 }
 .circle.circle-4 {
-    left: 723.5px;
-    top: 753px;
+    left: 774px;
+    top: 714px;
 }
 .circle.circle-5 {
-    left: 470px;
-    top: 284px;
+    left: 520px;
+    top: 245px;
 }
 .circle.circle-6 {
-    left: 276.5px;
-    top: 155px;
+    left: 327px;
+    top: 115px;
 }
 .circle.circle-7 {
-    left: 716px;
-    top: 648px;
+    left: 768px;
+    top: 608px;
 }
 
 .process {
@@ -120,38 +121,34 @@
     position: absolute;
     width: 150px;
     height: 30px;
-    z-index: 0;
+    z-index: 1;
     line-height: 16px;
     text-align: center;
     border-radius: 8px;
 
     background: #E3E3FF;
     border: 1px solid var(--black-color);
-
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 6px;
 }
 /* landing.html */
 .process.alternative-1 {
-    left: 746px;
-    top: 672px;
-    font-size: 11px;
+    left: 796px;
+    top: 635px;
+    font-size: 10px;
 }
 .process.alternative-2 {
-    left: 650px;
-    top: 440px;
-    font-size: 11px;
+    left: 690px;
+    top: 402px;
+    font-size: 10px;
 }
 .process.alternative-3 {
-    left: 749.5px;
-    top: 885px;
-    font-size: 11px;
+    left: 798px;
+    top: 845px;
+    font-size: 10px;
 }
 .process.alternative-4 {
-    left: 310px;
-    top: 258px;
-    font-size: 11px;
+    left: 355px;
+    top: 219px;
+    font-size: 10px;
 }
 
 .txt {
@@ -299,8 +296,8 @@
 .txt.landing-noi-500-kw {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 67px;
+    left: 960px;
+    top: 26px;
 
     text-decoration: none;
     line-height: 16px;
@@ -310,8 +307,8 @@
 .txt.landing-exemption {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 175px;
+    left: 960px;
+    top: 133px;
 
     text-decoration: none;
     line-height: 16px;
@@ -321,8 +318,8 @@
 .txt.landing-130-permit {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 283px;
+    left: 960px;
+    top: 245px;
 
     text-decoration: none;
     line-height: 16px;
@@ -332,8 +329,8 @@
 .txt.landing-5-100-mw-1 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 375px;
+    left: 960px;
+    top: 335px;
 
     text-decoration: none;
     line-height: 16px;
@@ -343,8 +340,8 @@
 .txt.landing-pbr-1 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 475px;
+    left: 960px;
+    top: 435px;
 
     text-decoration: none;
     line-height: 16px;
@@ -354,8 +351,8 @@
 .txt.landing-5-100-mw-2 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 575px;
+    left: 960px;
+    top: 535px;
 
     text-decoration: none;
     line-height: 16px;
@@ -365,8 +362,8 @@
 .txt.landing-pbr-2 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 675px;
+    left: 960px;
+    top: 635px;
 
     text-decoration: none;
     line-height: 16px;
@@ -376,8 +373,8 @@
 .txt.landing-pbr-3 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 875px;
+    left: 960px;
+    top: 835px;
 
     text-decoration: none;
     line-height: 16px;
@@ -387,9 +384,10 @@
 .txt.landing-100-mw-1 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 985px;
+    left: 960px;
+    top: 943px;
 
+    z-index: 2;
     text-decoration: none;
     line-height: 16px;
     text-align: center;
@@ -398,8 +396,8 @@
 .txt.landing-100-mw-2 {
     width: 225px;
     height: 100px;
-    left: 920px;
-    top: 785px;
+    left: 960px;
+    top: 743px;
 
     text-decoration: none;
     line-height: 16px;
@@ -409,8 +407,8 @@
 .txt.landing-title-56 {
     width: 225px;
     height: 95px;
-    left: 230px;
-    top: 522px;
+    left: 280px;
+    top: 482px;
 
     text-decoration: none;
     line-height: 16px;
@@ -420,8 +418,8 @@
 .txt.landing-criteria-1 {
     width: 225px;
     height: 95px;
-    left: 405px;
-    top: 626px;
+    left: 456px;
+    top: 587px;
 
     text-decoration: none;
     line-height: 16px;
@@ -431,8 +429,8 @@
 .txt.landing-criteria-2 {
     width: 225px;
     height: 95px;
-    left: 477px;
-    top: 889px;
+    left: 527px;
+    top: 851px;
 
     text-decoration: none;
     line-height: 16px;
@@ -442,8 +440,8 @@
 .txt.landing-title-56-2 {
     width: 225px;
     height: 95px;
-    left: 476px;
-    top: 736px;
+    left: 526px;
+    top: 696px;
 
     text-decoration: none;
     line-height: 16px;
@@ -453,8 +451,8 @@
 .txt.landing-150-mw {
     width: 155px;
     height: 96px;
-    left: 265px;
-    top: 870px;
+    left: 315px;
+    top: 832px;
 
     text-decoration: none;
     line-height: 16px;
@@ -464,8 +462,8 @@
 .txt.landing-130-exemption {
     width: 225px;
     height: 96px;
-    left: 675px;
-    top: 270px;
+    left: 725px;
+    top: 230px;
 
     text-decoration: none;
     line-height: 16px;
@@ -886,226 +884,226 @@
 /* landing.html */
 .line.landline-1 {
     width: 275px;
-    left: 35px;
-    top: 552px;
+    left: 85px;
+    top: 512px;
 }
 .line.landline-2 {
     width: 223.1px;
-    left: 231px;
-    top: 550.5px;
+    left: 281px;
+    top: 510.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-3 {
     width: 390px;
-    left: 342px;
-    top: 661.5px;
+    left: 392px;
+    top: 621.5px;
     z-index: 0;
 }
 .line.landline-4 {
     width: 395px;
-    left: 518.8px;
-    top: 592.95px;
+    left: 568.8px;
+    top: 552.95px;
     z-index: 0;
 }
 .line.landline-5 {
     width: 390px;
-    left: 522.5px;
-    top: 400px;
+    left: 572.5px;
+    top: 360px;
     z-index: 0;
 }
 .line.landline-6 {
     width: 390.8px;
-    left: 522.5px;
-    top: 480px;
+    left: 572.5px;
+    top: 440px;
     z-index: 0;
 }
 .line.landline-7 {
     width: 80.4px;
-    left: 483px;
-    top: 440px;
+    left: 533px;
+    top: 400px;
 
     transform: rotate(90deg);
 }
 .line.landline-8 {
     width: 180px;
-    left: 343px;
-    top: 440px;
+    left: 393px;
+    top: 400px;
     z-index: 0;
 }
 .line.landline-9 {
     width: 725px;
-    left: -285px;
-    top: 530px;
+    left: -235px;
+    top: 490px;
 
     transform: rotate(90deg);
 }
 .line.landline-10 {
     width: 225px;
-    left: 77px;
-    top: 892px;
+    left: 127px;
+    top: 852px;
     z-index: 0;
 }
 .line.landline-11 {
     width: 215.5px;
-    left: 77px;
-    top: 168px;
+    left: 127px;
+    top: 128px;
     z-index: 0;
 }
 .line.landline-12 {
     width: 258.5px;
-    left: 213.3px;
-    top: 895.5px;
+    left: 263.3px;
+    top: 855.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-13 {
     width: 597px;
-    left: 342px;
-    top: 1024px;
+    left: 392px;
+    top: 984px;
     z-index: 0;
 }
 .line.landline-14 {
     width: 580px;
-    left: 342px;
-    top: 767px;
+    left: 392px;
+    top: 727px;
     z-index: 0;
 }
 .line.landline-15 {
     width: 250px;
-    left: 464px;
-    top: 899px;
+    left: 514px;
+    top: 859px;
 
     transform: rotate(90deg);
 }
 .line.landline-16 {
     width: 263.2px;
-    left: 650px;
-    top: 925px;
+    left: 700px;
+    top: 885px;
     z-index: 0;
 }
 .line.landline-17 {
     width: 230px;
-    left: 297.5px;
-    top: 899.5px;
+    left: 347.5px;
+    top: 859.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-18 {
     width: 501.6px;
-    left: 411.65px;
-    top: 1005px;
+    left: 461.65px;
+    top: 965px;
     z-index: 0;
 }
 .line.landline-19 {
     width: 158px;
-    left: 660px;
-    top: 845.5px;
+    left: 710px;
+    top: 805.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-20 {
     width: 240px;
-    left: 172px;
-    top: 178.5px;
+    left: 222px;
+    top: 138.5px;
 
     transform: rotate(90deg);
 }
 .line.landline-21 {
     width: 622.5px;
-    left: 291.4px;
-    top: 59px;
+    left: 341.4px;
+    top: 19px;
     z-index: 0;
 }
 .line.landline-22 {
     width: 622.2px;
-    left: 291.3px;
-    top: 298px;
+    left: 341.3px;
+    top: 258px;
     z-index: 0;
 }
 .line.landline-23 {
     width: 155px;
-    left: 408px;
-    top: 221px;
+    left: 458px;
+    top: 181px;
 
     transform: rotate(90deg);
 }
 .line.landline-24 {
     width: 250.2px;
-    left: 485px;
-    top: 223px;
+    left: 535px;
+    top: 183px;
     z-index: 0;
 }
 .line.landline-25 {
     width: 250px;
-    left: 485px;
-    top: 144px;
+    left: 535px;
+    top: 104px;
     z-index: 0;
 }
 .line.landline-26 {
     width: 200px;
-    left: 734px;
-    top: 180px;
+    left: 784px;
+    top: 140px;
     z-index: 0;
 }
 .line.landline-27 {
     width: 80px;
-    left: 694.5px;
-    top: 183.4px;
+    left: 744.5px;
+    top: 143.4px;
     z-index: 0;
 
     transform: rotate(90deg);
 }
 .line.landline-28 {
     width: 302.5px;
-    left: 484.3px;
-    top: 344px;
+    left: 534.3px;
+    top: 304px;
     z-index: 0;
 }
 .line.landline-29 {
     width: 50px;
-    left: 762.5px;
-    top: 230px;
+    left: 812.5px;
+    top: 190px;
     z-index: 0;
 
     transform: rotate(90deg);
 }
 .line.landline-30 {
     width: 126.3px;
-    left: 787px;
-    top: 205.55px;
+    left: 837px;
+    top: 165.55px;
     z-index: 0;
 }
 .line.landline-31 {
     width: 324.2px;
-    left: 589px;
-    top: 993px;
+    left: 639px;
+    top: 953px;
     z-index: 0;
 }
 .line.landline-32 {
     width: 140px;
-    left: 770px;
-    top: 873px;
+    left: 820px;
+    top: 833px;
     z-index: 0;
 }
 .line.landline-33 {
     width: 121px;
-    left: 672px;
-    top: 653px;
+    left: 722px;
+    top: 613px;
     z-index: 0;
 
     transform: rotate(90deg);
 }
 .line.landline-34 {
     width: 200px;
-    left: 732px;
-    top: 713px;
+    left: 782px;
+    top: 673px;
     z-index: 0;
 }
 .line.landline-35 {
     width: 200px;
-    left: 732px;
-    top: 614.5px;
+    left: 782px;
+    top: 574.5px;
     z-index: 0;
 }
 
@@ -1115,7 +1113,7 @@
     position: absolute;
     width: 160px;
     height: 57px;
-    z-index: 0;
+    z-index: 2;
     line-height: 16px;
     text-align: center;
     border-radius: 0px;
@@ -1126,22 +1124,22 @@
 /* landing.html */
 .project.landing-5-100-mw {
     width: 140px;
-    left: 118px;
-    top: 525px;
+    left: 160px;
+    top: 485px;
     padding: 10px;
     font-size: 11px;
 }
 .project.landing-5-mw {
     width: 140px;
-    left: 118px;
-    top: 140px;
+    left: 160px;
+    top: 100px;
     padding: 10px;
     font-size: 11px;
 }
 .project.landing-100-mw {
     width: 140px;
-    left: 118px;
-    top: 865px;
+    left: 160px;
+    top: 825px;
     padding: 10px;
     font-size: 11px;
 }
@@ -1149,8 +1147,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 120px;
+    left: 565px;
+    top: 80px;
     padding: 10px;
     font-size: 12px;
     padding-top: 8px;
@@ -1160,8 +1158,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 200px;
+    left: 565px;
+    top: 160px;
     padding: 3px;
     font-size: 12px;
     padding-top: 8px;
@@ -1171,8 +1169,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 275px;
+    left: 565px;
+    top: 235px;
     padding: 5px;
     font-size: 12px;
     padding-top: 8px;
@@ -1181,50 +1179,50 @@
 
 .landing-permit {
     position: absolute;
-    width: 270px;
+    width: 260px;
     height: 85px;
-    z-index: 0.5;
+    z-index: 1;
 }
 /* landing.html */
 .landing-permit.permit-1 {
-    left: 910px;
-    top: 50px;
+    left: 955px;
+    top: 10px;
 }
 .landing-permit.permit-2 {
-    left: 910px;
-    top: 150px;
+    left: 955px;
+    top: 110px;
 }
 .landing-permit.permit-3 {
-    left: 910px;
-    top: 250px;
+    left: 955px;
+    top: 210px;
 }
 .landing-permit.permit-4 {
-    left: 910px;
-    top: 350px;
+    left: 955px;
+    top: 310px;
 }
 .landing-permit.permit-5 {
-    left: 910px;
-    top: 450px;
+    left: 955px;
+    top: 410px;
 }
 .landing-permit.permit-6 {
-    left: 910px;
-    top: 550px;
+    left: 955px;
+    top: 510px;
 }
 .landing-permit.permit-7 {
-    left: 910px;
-    top: 650px;
+    left: 955px;
+    top: 610px;
 }
 .landing-permit.permit-8 {
-    left: 910px;
-    top: 750px;
+    left: 955px;
+    top: 710px;
 }
 .landing-permit.permit-9 {
-    left: 910px;
-    top: 850px;
+    left: 955px;
+    top: 810px;
 }
 .landing-permit.permit-10 {
-    left: 910px;
-    top: 950px;
+    left: 955px;
+    top: 910px;
 }
 
 .box {
@@ -1244,63 +1242,63 @@
 /* base.html */
 .box.no-4 {
     padding: 1px 9px;
-    left: 859px;
-    top: 289px;
+    left: 906px;
+    top: 249px;
 }
 .box.no-5 {
     padding: 1px 9px;
-    left: 322px;
-    top: 460px;
+    left: 373px;
+    top: 420px;
 }
 .box.no-6 {
     padding: 1px 9px;
-    left: 580px;
-    top: 584px;
+    left: 630px;
+    top: 545px;
 }
 .box.no-7 {
     padding: 1px 9px;
-    left: 322px;
-    top: 975px;
+    left: 373px;
+    top: 940px;
 }
 .box.no-8 {
     padding: 1px 9px;
-    left: 569px;
-    top: 1000px;
+    left: 620px;
+    top: 960px;
 }
 .box.no-9 {
     padding: 1px 9px;
-    left: 665px;
-    top: 758px;
+    left: 715px;
+    top: 718px;
 }
 .box.yes-4 {
     padding: 0.5px 6px;
-    left: 830px;
-    top: 197px;
+    left: 875px;
+    top: 157px;
 }
 .box.yes-5 {
     padding: 0.5px 6px;
-    left: 322px;
-    top: 627px;
+    left: 372px;
+    top: 585px;
 }
 .box.yes-6 {
     padding: 0.5px 6px;
-    left: 620px;
-    top: 653px;
+    left: 680px;
+    top: 613px;
 }
 .box.yes-7 {
     padding: 0.5px 6px;
-    left: 322px;
-    top: 792px;
+    left: 372px;
+    top: 755px;
 }
 .box.yes-8 {
     padding: 0.5px 6px;
-    left: 670px;
-    top: 916px;
+    left: 725px;
+    top: 876px;
 }
 .box.yes-9 {
     padding: 0.5px 6px;
-    left: 568px;
-    top: 833px;
+    left: 620px;
+    top: 793px;
 }
 
 .lane {
@@ -2386,6 +2384,15 @@ about-footer {
 .container-swimlane-exempt {
     width: 1075px;
     height: 200px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+.container-landing {
+    width: 1075px;
+    height: 1000px;
 
     position: relative;
 
