@@ -87,32 +87,32 @@
 }
 /* landing.html */
 .circle.circle-1 {
-    left: 508px;
-    top: 426px;
+    left: 558px;
+    top: 386px;
 }
 .circle.circle-2 {
-    left: 62px;
-    top: 538px;
+    left: 112px;
+    top: 498px;
 }
 .circle.circle-3 {
     left: 287px;
     top: 878px;
 }
 .circle.circle-4 {
-    left: 723.5px;
-    top: 753px;
+    left: 774px;
+    top: 714px;
 }
 .circle.circle-5 {
-    left: 470px;
-    top: 284px;
+    left: 520px;
+    top: 245px;
 }
 .circle.circle-6 {
-    left: 276.5px;
-    top: 155px;
+    left: 327px;
+    top: 115px;
 }
 .circle.circle-7 {
-    left: 716px;
-    top: 648px;
+    left: 768px;
+    top: 608px;
 }
 
 .process {
@@ -121,38 +121,34 @@
     position: absolute;
     width: 150px;
     height: 30px;
-    z-index: 0;
+    z-index: 1;
     line-height: 16px;
     text-align: center;
     border-radius: 8px;
 
     background: #E3E3FF;
     border: 1px solid var(--black-color);
-
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 6px;
 }
 /* landing.html */
 .process.alternative-1 {
-    left: 746px;
-    top: 672px;
-    font-size: 11px;
+    left: 796px;
+    top: 635px;
+    font-size: 10px;
 }
 .process.alternative-2 {
-    left: 650px;
-    top: 440px;
-    font-size: 11px;
+    left: 690px;
+    top: 402px;
+    font-size: 10px;
 }
 .process.alternative-3 {
-    left: 749.5px;
-    top: 885px;
-    font-size: 11px;
+    left: 798px;
+    top: 845px;
+    font-size: 10px;
 }
 .process.alternative-4 {
-    left: 310px;
-    top: 258px;
-    font-size: 11px;
+    left: 355px;
+    top: 219px;
+    font-size: 10px;
 }
 
 .txt {
@@ -1151,8 +1147,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 120px;
+    left: 565px;
+    top: 80px;
     padding: 10px;
     font-size: 12px;
     padding-top: 8px;
@@ -1162,8 +1158,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 200px;
+    left: 565px;
+    top: 160px;
     padding: 3px;
     font-size: 12px;
     padding-top: 8px;
@@ -1173,8 +1169,8 @@
     width: 190px;
     height: 50px;
 
-    left: 515px;
-    top: 275px;
+    left: 565px;
+    top: 235px;
     padding: 5px;
     font-size: 12px;
     padding-top: 8px;
@@ -1246,63 +1242,63 @@
 /* base.html */
 .box.no-4 {
     padding: 1px 9px;
-    left: 859px;
-    top: 289px;
+    left: 906px;
+    top: 249px;
 }
 .box.no-5 {
     padding: 1px 9px;
-    left: 322px;
-    top: 460px;
+    left: 373px;
+    top: 420px;
 }
 .box.no-6 {
     padding: 1px 9px;
-    left: 580px;
-    top: 584px;
+    left: 630px;
+    top: 545px;
 }
 .box.no-7 {
     padding: 1px 9px;
-    left: 322px;
-    top: 975px;
+    left: 373px;
+    top: 940px;
 }
 .box.no-8 {
     padding: 1px 9px;
-    left: 569px;
-    top: 1000px;
+    left: 620px;
+    top: 960px;
 }
 .box.no-9 {
     padding: 1px 9px;
-    left: 665px;
-    top: 758px;
+    left: 715px;
+    top: 718px;
 }
 .box.yes-4 {
     padding: 0.5px 6px;
-    left: 830px;
-    top: 197px;
+    left: 875px;
+    top: 157px;
 }
 .box.yes-5 {
     padding: 0.5px 6px;
-    left: 322px;
-    top: 627px;
+    left: 372px;
+    top: 585px;
 }
 .box.yes-6 {
     padding: 0.5px 6px;
-    left: 620px;
-    top: 653px;
+    left: 680px;
+    top: 613px;
 }
 .box.yes-7 {
     padding: 0.5px 6px;
-    left: 322px;
-    top: 792px;
+    left: 372px;
+    top: 755px;
 }
 .box.yes-8 {
     padding: 0.5px 6px;
-    left: 670px;
-    top: 916px;
+    left: 725px;
+    top: 876px;
 }
 .box.yes-9 {
     padding: 0.5px 6px;
-    left: 568px;
-    top: 833px;
+    left: 620px;
+    top: 793px;
 }
 
 .lane {
