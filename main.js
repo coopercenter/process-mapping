@@ -190,6 +190,16 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> CWA </th>
+                        <td> Clean Water Act </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> CZMA </th>
+                        <td> Coastal Zone Management Act </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> DCR </th>
                         <td> Department of Conservation and Recreation </td>
                     </tr>
@@ -235,8 +245,18 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> FAA </th>
+                        <td> Federal Aviation Administration </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FERC </th>
                         <td> Federal Energy Regulatory Commission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> FWS </th>
+                        <td> United States Fish and Wildlife Service </td>
                     </tr>
 
                     <tr>
@@ -252,6 +272,16 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> ISA </th>
                         <td> Interconnection Service Agreement </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> JD </th>
+                        <td> Jurisdictional Delineation </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> JPA </th>
+                        <td> Joint Permit Application </td>
                     </tr>
 
                     <tr>
@@ -277,6 +307,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> PBR </th>
                         <td> Permit By Rule </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> RRS </th>
+                        <td> Regulatory Request System (USACE) </td>
                     </tr>
 
                     <tr>
@@ -320,8 +355,23 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> USACE </th>
+                        <td> United States Army Corps of Engineers </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VMRC </th>
+                        <td> Virginia Marine Resources Commission </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> VPDES </th>
                         <td> Virginia Pollutant Discharge Elimination System </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VWP </th>
+                        <td> Virginia Water Protection </td>
                     </tr>
 
                     <tr>
