@@ -1,6 +1,7 @@
 class NavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <title>Solar Permit Map</title>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
@@ -86,6 +87,7 @@ class NavBar extends HTMLElement {
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <title>Solar Permit Map</title>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
