@@ -187,6 +187,11 @@ class Abbrev extends HTMLElement {
                     </thead>
                     <tbody>
                     <tr>
+                        <th scope="row"> CBPs </th>
+                        <td> Chesapeake Bay Preservation Areas </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> CPCN </th>
                         <td> Certificate of Public Convenience and Necessity </td>
                     </tr>
@@ -304,6 +309,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> NOI </th>
                         <td> Notice of Intent </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VSMP </th>
+                        <td> Virginia Stormwater Management Authority </td>
                     </tr>
 
                     <tr>
