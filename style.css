@@ -1738,6 +1738,17 @@ about-footer {
 
     padding: 18px 4px;
 }
+.inter.inter-practice {
+    left: 200px;
+    top: 112px;
+    width: 100px;
+    height: 76px;
+    border: 1px dashed #000000;
+
+    padding: 5px 10px;
+    font-size: 10px;
+    text-align: left;
+}
 .inter-doc-1 {
     box-sizing: border-box;
     position: absolute;
@@ -2303,7 +2314,7 @@ about-footer {
 }
 .txt-test.txt-inter-1-test {
     top: 132px;
-    left: 265px;
+    left: 445px;
     z-index: 1;
 
     font-size: 12px;
@@ -2753,10 +2764,10 @@ footer-test {
 }
 
 .inter-test {
-    left: 210px;
+    left: 350px;
     top: 105px;
     height: 90px;
-    width: 250px;
+    width: 330px;
 
     z-index: 1;
     position: absolute;
