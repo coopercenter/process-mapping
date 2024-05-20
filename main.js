@@ -1,6 +1,7 @@
 class NavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+        <title>Solar Permit Map</title>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
@@ -26,7 +27,7 @@ class NavBar extends HTMLElement {
                 </li>
     
                 <li class="nav-item dropdown px-2">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li>
                                 <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
@@ -86,6 +87,7 @@ class NavBar extends HTMLElement {
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <title>Solar Permit Map</title>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
                     <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
@@ -111,7 +113,7 @@ class SwimLaneNavBar extends HTMLElement {
                         </li>
             
                         <li class="nav-item dropdown px-2">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Process Maps </a>
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
                                         <a href="exempt-130-permit.html" class="dropdown-item">
@@ -190,6 +192,16 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> CWA </th>
+                        <td> Clean Water Act </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> CZMA </th>
+                        <td> Coastal Zone Management Act </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> DCR </th>
                         <td> Department of Conservation and Recreation </td>
                     </tr>
@@ -235,8 +247,18 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> FAA </th>
+                        <td> Federal Aviation Administration </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FERC </th>
                         <td> Federal Energy Regulatory Commission </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> FWS </th>
+                        <td> United States Fish and Wildlife Service </td>
                     </tr>
 
                     <tr>
@@ -252,6 +274,16 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> ISA </th>
                         <td> Interconnection Service Agreement </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> JD </th>
+                        <td> Jurisdictional Delineation </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> JPA </th>
+                        <td> Joint Permit Application </td>
                     </tr>
 
                     <tr>
@@ -277,6 +309,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> PBR </th>
                         <td> Permit By Rule </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> RRS </th>
+                        <td> Regulatory Request System (USACE) </td>
                     </tr>
 
                     <tr>
@@ -320,8 +357,23 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> USACE </th>
+                        <td> United States Army Corps of Engineers </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VMRC </th>
+                        <td> Virginia Marine Resources Commission </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> VPDES </th>
                         <td> Virginia Pollutant Discharge Elimination System </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VWP </th>
+                        <td> Virginia Water Protection </td>
                     </tr>
 
                     <tr>
