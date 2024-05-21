@@ -2343,8 +2343,8 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-inter-3-test {
-    top: 125px;
-    left: 897px;
+    top: 132px;
+    left: 896px;
     z-index: 1;
 
     font-size: 11px;
@@ -2553,13 +2553,13 @@ footer-test {
     transform: rotate(90deg);
 }
 .line.test-7 {
-    width: 245.5px;
+    width: 85px;
     left: 720px;
     top: 190.5px;
 }
 .line.test-8 {
     width: 20px;
-    left: 955px;
+    left: 794px;
     top: 180px;
 
     transform: rotate(90deg);
@@ -2644,8 +2644,8 @@ footer-test {
     top: 250px;
 }
 .line.test-22 {
-    width: 126px;
-    left: 741px;
+    width: 150px;
+    left: 730px;
     top: 253px;
 
     transform: rotate(90deg);
@@ -2794,7 +2794,7 @@ footer-test {
     left: 880px;
     top: 110px;
     height: 85px;
-    width: 150px;
+    width: 130px;
 
     z-index: 1;
     position: absolute;
