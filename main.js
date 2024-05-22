@@ -1098,7 +1098,15 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.  
+                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the Generation Interconnection Agreement. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
+
+                    For Transmission Project Developers, the GIA confers transmission injection and withdrawal rights (Merchant Direct Current and/or Fully Controllable Alternating Current transmission projects) and applicable incremental delivery rights and Incremental Auction Revenue Rights.<br><br>
+                    
+                    The GIA further identifies any changes in construction responsibility from the Standard Option for Transmission Owner Interconnection Facilities due to the Project Developer exercising the Negotiated Contract Option or Option to Build."<br><br>
+                    
+                    The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following: Project scope; construction responsibilities of the parties; ownership of Transmission Owner and Project Developer Interconnection Facilities; schedule of major construction work; and etails on how the construction will be performed. However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.1.4</a>, "in cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner."<br><br>
+                    
+                    This GIA is a prerequisite to the issuance of the permit. 
                     </div>
                 </div>
             </div>
