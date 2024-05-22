@@ -432,49 +432,61 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
-                            Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
-                            be found <a href="https://www.deq.virginia.gov/laws-regulations/water" target="_blank">here</a>.
+                            If the project is subject to the provisions of the Clean Water Act and/or the Coastal Zone Management Act, the associated permit(s) must be obtained from USACE.
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="modal fade" id="section-permit-modal" tabindex="-1" role="dialog">
+            <div class="modal fade" id="submit-jpa-modal" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="title"> Clean Water Act, Section 404 Permit </h5>
+                            <h5 class="modal-title" id="title"> Submit JPA for Compliance with Section 401/404 </h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
 
                         <div class="modal-body">
-                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404' target="_blank">Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
-                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>.
-                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
-                            wetlands, and/or dune/beach resources – including, but not limited to,
-                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
-                        </div>
-                    </div>
-                </div>
-            </div>
+                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. *Note that as of May 2024, this process is undergoing changes. The new process will require USACE permit applications to be submitted through the <a href="https://rrs.usace.army.mil/rrs">Regulatory Request System</a>. This will route the application to necessary agencies and individuals with greater efficiency. <br><br>
 
-            <div class="modal fade" id="certification-modal" tabindex="-1" role="dialog">
-                <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="title"> Clean Water Act, Section 401 Certification </h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                        </div>
+                            The associated permit is issued under 22-SPGP-RCIR. Follow the <a href="https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal wetlands, and/or dune/beach resources – including, but not limited to, construction, dredging, filling, or excavation. Contact information can be found on the linked application materials. <br><br>
 
-                        <div class="modal-body">
-                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'  target="_blank">Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
+                            <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Section 401</h6>
+                                    <p class="card-text">
+                                        In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/">§62.1-44.15:20</a> of the Code of Virginia). The Section 401 checklist is submitted on the JPA application via the DEQ. VWP then executes the 401, which is later delegated to the DEQ to review. The 401 is linked to the Coastal Zone Management Act (CZMA). In certain counties, the CZMA process will be triggered, otherwise CZMA reviews are included in the state 401 permit. Check with your locality to see whether your area falls under a CZMA review area. Note that there may be special conditions on the 401, dependent on project siting and other specifics. This varies project to project and will be stipulated by USACE during the review process.
+                                    </p>
+                                </div>
+                            </div>
 
-                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>".
+                            <br>
                             
-                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
-                            wetlands, and/or dune/beach resources – including, but not limited to,
-                            construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
+                            <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Section 404</h6>
+                                    <p class="card-text">
+                                        Section 404 of the <a href="https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404">CWA</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. The Section 404 permit determines which nationwide permits the proposed project is eligible for (required). Regional conditions vary by permit. In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/">§62.1-44.15:20</a> of the Code of Virginia).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="juris-delin-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Jurisdictional Delineation </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            During the due diligence process, the project developer should request a JD from USACE. This process learns and delineates jurisdictional lands. That information is then used by the project developer and associated parties to develop their local and state permits. Information is also available for local and state permit review. Jurisdictional Delineation is a prerequisite to the federal USACE permit(s) of federal consistency.<br><br>
+
+                            Note: It is recommended that the JD be completed during the due diligence process. However, it is possible to do the JD as part of the federal compliance process after local and state permitting.
                         </div>
                     </div>
                 </div>
