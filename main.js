@@ -292,8 +292,13 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
-                        <th scope="row"> kw </th>
+                        <th scope="row"> kW </th>
                         <td> Kilowatt </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> kV </th>
+                        <td> Kilovolt </td>
                     </tr>
 
                     <tr>
@@ -312,8 +317,8 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
-                        <th scope="row"> VSMP </th>
-                        <td> Virginia Stormwater Management Authority </td>
+                        <th scope="row"> NERC </th>
+                        <td> North American Electric Reliability Commission </td>
                     </tr>
 
                     <tr>
@@ -322,13 +327,18 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
-                        <th scope="row"> RRS </th>
-                        <td> Regulatory Request System (USACE) </td>
+                        <th scope="row"> PJM </th>
+                        <td> Pennsylvannia-New Jersey-Maryland Interconnection </td>
                     </tr>
 
                     <tr>
                         <th scope="row"> PV </th>
                         <td> Photovoltaic </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> RRS </th>
+                        <td> Regulatory Request System (USACE) </td>
                     </tr>
 
                     <tr>
@@ -379,6 +389,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> VPDES </th>
                         <td> Virginia Pollutant Discharge Elimination System </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> VSMP </th>
+                        <td> Virginia Stormwater Management Authority </td>
                     </tr>
 
                     <tr>
