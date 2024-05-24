@@ -438,6 +438,38 @@ class Footer extends HTMLElement {
 class FederalReview extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
+            <div class="modal fade" id="fed-comp-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Federal Compliance/Permitting </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Federal consistency is compliance with federal laws. After local and state permitting, the developer returns to USACE to initiate federal compliance and permitting. This involves obtaining the necessary permits to meet the reqirements of Section 401 of the Clean Water Act, Section 404 of the Clean Water Act, and the CZMA, among others.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="fed-aviation-modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> Federal Aviation Administration</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm">FAA</a>,“The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77">CFR Title 14 Part 77.9</a>.” <br><br>
+
+                            Use the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm">FAA Notice Criteria Tool</a> as a quick first step to determine whether your proposed project is required to file with the FAA. If filing with the FAA is required, it must be completed at least 45 days prior to construction.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="modal fade" id="army-corps-modal" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
