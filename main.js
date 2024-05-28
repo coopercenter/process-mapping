@@ -825,6 +825,21 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
+        <div class="modal fade" id="local-certify" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> <i>Best Practice</i>: Informal Sister Agency Review process before local certification</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        It is encouraged that the Informal Sister Agency Review process begins before the local certification process is complete. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="permit-issuance" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
