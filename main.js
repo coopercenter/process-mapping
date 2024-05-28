@@ -825,6 +825,25 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
+        <div class="modal fade" id="deq-plans" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> <i>Best Practice</i>: Submit NOI as early as possible and DEQ coordinates pre-application meeting</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As soon as the project is determined to be "practicable" (When the applicant believes that it will pass local requirements), the applicant should submit the NOI for their project to the DEQ.<br><br>
+
+                        Per the DEQ, it is best practice to host a pre-application meeting for any proposed project. For the PBR, all requirements must be completed upon submittal. These pre-application meeting and the requested components allow this to hold true.<br><br>
+
+                        Before this meeting, project developers should have their concept plan ready, have completed their desktop studies, and may draft a mitigation plan. When these materials are ready, developers should send their concept plan map to the DEQ, from which DEQ will coordinate a pre-application meeting. The DEQ co-ordinates with the sister agencies and reviews this information together. The idea is to have all the studies and required information for the PBR completed before submittal of the PBR, as submittal is essentially just submitting to show that these tasks are completed, not doing the tasks then.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="local-certify" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1779,6 +1798,21 @@ class SCC extends HTMLElement {
 
                     <div class="modal-body">
                     Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="deq-oeir-cpcn-5" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">SCC Initiates Sister Agency Review with DEQ OEIR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
                     </div>
                 </div>
             </div>

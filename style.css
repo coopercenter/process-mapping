@@ -3121,6 +3121,18 @@ footer-test {
     border: 1px solid #000000;
     padding: 12.5px 9.5px;
 }
+.deq.deq-test-22 {
+    width: 140px;
+    height: 80px;
+    left: 200px;
+    top: 410px;
+    border-radius: 0px;
+
+    text-align: left;
+    font-size: 10.5px;
+    border: 1px dashed #000000;
+    padding: 5px 10px;
+}
 .deq-test-doc-1 {
     left: 195px;
     top: 315px;
@@ -3198,7 +3210,7 @@ footer-test {
 .scc.scc-test-5 {
     width: 170px;
     height: 76px;
-    left: 400px;
+    left: 338px;
     top: 412px;
 
     border-radius: 0px;
@@ -3250,4 +3262,15 @@ footer-test {
     text-align: left;
     border: 1px solid #000000;
     padding: 14px 8px;
+}
+.scc.scc-test-10 {
+    width: 110px;
+    height: 76px;
+    left: 535px;
+    top: 412px;
+
+    border-radius: 0px;
+    text-align: left;
+    border: 1px solid #000000;
+    padding: 14px 10px;
 }
