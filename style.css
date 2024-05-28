@@ -2789,10 +2789,10 @@ footer-test {
 }
 
 .inter-test {
-    left: 350px;
+    left: 355px;
     top: 105px;
     height: 90px;
-    width: 330px;
+    width: 325px;
 
     z-index: 1;
     position: absolute;

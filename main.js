@@ -814,7 +814,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"> <i>Best Practice</i>: Submit NOI As Early As Possible</h5>
+                        <h5 class="modal-title" id="title"> <i>Best Practice</i>: Submit NOI as early as possible</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -1206,6 +1206,21 @@ class Interconnections extends HTMLElement {
             </div>
         </div>
 
+        <div class="modal fade" id="utility-intro" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"><i>Best Practice</i>: Utility hosts introductory call with developer</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        For projects seeking to interconnect with the utility, it is a best practice for the utility to host an introductory call with the developer before beginning the interconnection permitting process. This call will help to identify which permitting pathway the utility will require for the proposed project, in addition to other notifications.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="sgip-level-2" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1563,6 +1578,21 @@ class Localities extends HTMLElement {
                     </div>
             </div>
 
+            <div class="modal fade" id="same-time-notify" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"><i>Best Practice</i>: Developer notifies the locality before or at the same time as submitting the NOI to the DEQ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            It is encouraged that the developer apply for local certification (Begin the process of completing local certification requirements) before submitting their NOI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="modal fade" id="local-certification" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -1662,7 +1692,7 @@ class SCC extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"><i>Best Practice</i>: File for CPCN at the Same Time as the Locality Application</h5>
+                        <h5 class="modal-title" id="title"><i>Best Practice</i>: File for CPCN at the same time as the locality application</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
