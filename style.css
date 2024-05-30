@@ -3198,11 +3198,12 @@ footer-test {
     height: 76px;
     left: 435px;
     top: 412px;
+    font-size: 9px;
 
     border-radius: 0px;
     text-align: left;
     border: 1px solid #000000;
-    padding: 14px 10px;
+    padding: 10px 8px;
 }
 .scc.scc-test-4 {
     width: 135px;

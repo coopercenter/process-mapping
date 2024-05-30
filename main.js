@@ -1888,6 +1888,21 @@ class SCC extends HTMLElement {
             </div>
         </div>
 
+        <div class="modal fade" id="deq-oeir-100" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">SCC Initiates Sister Agency Review with DEQ OEIR</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity >100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="deq-oeir-cpcn-5" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1922,16 +1937,16 @@ class SCC extends HTMLElement {
                         <ol type="1">
                             <li>Legal name of applicant and any trade name.</li>
                             <li>Description of the applicant's authorized business structure.</li>
-                            <li>Name and businesses addresses of all principal corporate officers, directors, partners, and LLC members.</li>
+                            <li>Name and business addresses of all principal corporate officers, directors, partners, and LLC members.</li>
                             <li>Financial information for applicant/participants in project.</li>
-                            <li>Prefiled testimony supporting project. This is not a requirement for projects > 5 MW but ≤ 100 MW.</li>
+                            <li>Prefiled testimony supporting project. <i>This is not a requirement for projects >5 MW but ≤100 MW</i>.</li>
                             <li>Discussion of the applicant's qualifications.</li>
                             <li>Specific information about the site for the proposed facility.</li>
                             <li>Specific information about the proposed facility.</li>
                             <li>Description of the fuel supply arrangement for the proposed facility.</li>
-                            <li>"A discussion of economic impacts (Both positive and negative), of the project. The discussion should address the tax and employment implications of the project."</li>
+                            <li>"A discussion of economic impacts (both positive and negative), of the project. The discussion should address the tax and employment implications of the project."</li>
                             <li>List of other local, state, or federal government agencies with approval requirements and their status.</li>
-                            <li>Analysis of environmental impacts. This analysis shall include, but is not limited to, the impacts on the environment and natural resources, analysis of alternatives considered, unavoidable adverse impacts, mitigation measures proposed to minimize unavoidable impacts, and any irreversible environmental changes. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."</li>
+                            <li>Analysis of environmental impacts. This analysis shall include, but is not limited to, the impacts on the environment and natural resources, analysis of alternatives considered, unavoidable adverse impacts, mitigation measures proposed to minimize unavoidable impacts, and any irreversible environmental changes. <i>"The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."</i></li>
                             <li>Discussion of reliability impacts.</li>
                             <li>Additional information demonstrating that the proposed facility is not contrary to the public interest.</li>
                         </ol>
@@ -1964,7 +1979,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the SCC granting them the authority to contruct and operate an electric generating facility with rated capacity greater 100 MW.
+                        Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the SCC granting them the authority to contruct and operate an electric generating facility with rated capacity greater than 100 MW.
                     </div>
                 </div>
             </div>
