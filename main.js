@@ -90,7 +90,7 @@ class SwimLaneNavBar extends HTMLElement {
             <title>Solar Permit Map</title>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
+                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" ="../index.html">The Virginia Solar Permit Map</a></h2> 
                         <div class="collapse navbar-collapse">
                             <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
                         </div>
@@ -462,9 +462,9 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm">FAA</a>,“The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77">CFR Title 14 Part 77.9</a>.” <br><br>
+                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA</a>,“The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77" target="_blank">CFR Title 14 Part 77.9</a>.” <br><br>
 
-                            Use the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm">FAA Notice Criteria Tool</a> as a quick first step to determine whether your proposed project is required to file with the FAA. If filing with the FAA is required, it must be completed at least 45 days prior to construction.
+                            Use the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA Notice Criteria Tool</a> as a quick first step to determine whether your proposed project is required to file with the FAA. If filing with the FAA is required, it must be completed at least 45 days prior to construction.
                         </div>
                     </div>
                 </div>
@@ -494,15 +494,15 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. *Note that as of May 2024, this process is undergoing changes. The new process will require USACE permit applications to be submitted through the <a href="https://rrs.usace.army.mil/rrs">Regulatory Request System</a>. This will route the application to necessary agencies and individuals with greater efficiency. <br><br>
+                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. *Note that as of May 2024, this process is undergoing changes. The new process will require USACE permit applications to be submitted through the <a href="https://rrs.usace.army.mil/rrs" target="_blank">Regulatory Request System</a>. This will route the application to necessary agencies and individuals with greater efficiency. <br><br>
 
-                            The associated permit is issued under 22-SPGP-RCIR. Follow the <a href="https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal wetlands, and/or dune/beach resources – including, but not limited to, construction, dredging, filling, or excavation. Contact information can be found on the linked application materials. <br><br>
+                            The associated permit is issued under 22-SPGP-RCIR. Follow the <a href="https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf" target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal wetlands, and/or dune/beach resources – including, but not limited to, construction, dredging, filling, or excavation. Contact information can be found on the linked application materials. <br><br>
 
                             <div class="card" style="width: 760px;">
                                 <div class="card-body">
                                     <h6 class="card-title">Section 401</h6>
                                     <p class="card-text">
-                                        In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/">§62.1-44.15:20</a> of the Code of Virginia). The Section 401 checklist is submitted on the JPA application via the DEQ. VWP then executes the 401, which is later delegated to the DEQ to review. The 401 is linked to the Coastal Zone Management Act (CZMA). In certain counties, the CZMA process will be triggered, otherwise CZMA reviews are included in the state 401 permit. Check with your locality to see whether your area falls under a CZMA review area. Note that there may be special conditions on the 401, dependent on project siting and other specifics. This varies project to project and will be stipulated by USACE during the review process.
+                                        In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/" target="_blank">§62.1-44.15:20</a> of the Code of Virginia). The Section 401 checklist is submitted on the JPA application via the DEQ. VWP then executes the 401, which is later delegated to the DEQ to review. The 401 is linked to the Coastal Zone Management Act (CZMA). In certain counties, the CZMA process will be triggered, otherwise CZMA reviews are included in the state 401 permit. Check with your locality to see whether your area falls under a CZMA review area. Note that there may be special conditions on the 401, dependent on project siting and other specifics. This varies project to project and will be stipulated by USACE during the review process.
                                     </p>
                                 </div>
                             </div>
@@ -513,7 +513,7 @@ class FederalReview extends HTMLElement {
                                 <div class="card-body">
                                     <h6 class="card-title">Section 404</h6>
                                     <p class="card-text">
-                                        Section 404 of the <a href="https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404">CWA</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. The Section 404 permit determines which nationwide permits the proposed project is eligible for (required). Regional conditions vary by permit. In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/">§62.1-44.15:20</a> of the Code of Virginia).
+                                        Section 404 of the <a href="https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404" target="_blank">CWA</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. The Section 404 permit determines which nationwide permits the proposed project is eligible for (required). Regional conditions vary by permit. In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/" target="_blank">§62.1-44.15:20</a> of the Code of Virginia).
                                     </p>
                                 </div>
                             </div>
@@ -642,7 +642,7 @@ class SwimLane extends HTMLElement {
                             <div class="modal-body">
                                 If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. 
                                 Army Corps of Engineers (USACE), with responsibility delegated to the VA DEQ. Further information on VA DEQ responsibilities can 
-                                be found <a href="https://www.deq.virginia.gov/laws-regulations/water">here</a>.
+                                be found <a href="https://www.deq.virginia.gov/laws-regulations/water" target="_blank">here</a>.
                             </div>
                         </div>
                     </div>
@@ -658,9 +658,9 @@ class SwimLane extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404'>Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
-                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>.
-                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            Section 404 of the <a href='https://www.epa.gov/cwa-404/permit-program-under-cwa-section-404' target="_blank">Clean Water Act</a> requires that projects which are in or affect navigable bodies of water obtain a Section 404 Permit before dredged or fill material may be discharged into waters of the U.S. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations.
+                            <br> <br> According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href=' https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>.
+                            <br> <br> The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
                             wetlands, and/or dune/beach resources – including, but not limited to,
                             construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
                         </div>
@@ -677,11 +677,11 @@ class SwimLane extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification'>Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
+                            Section 401 of the <a href='https://www.epa.gov/cwa-401/overview-cwa-section-401-certification' target="_blank">Clean Water Act (CWA)</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 of the CWA requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. In Virginia, local jursidction falls under the Virginia Water Protection (VWP) permit regulations. See the VA DEQ permitting process for further requirements and notices or public hearings.
 
-                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/'>§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/'>9VAC25-210</a>".
+                            <br><br>According to the DEQ, "Authority to protect wetlands and streams and administer Virginia Water Protection (VWP) permit regulations is given by <a href='https://law.lis.virginia.gov/vacode/62.1-44.15:20/' target="_blank">§62.1-44.15:20</a> of the Code of Virginia. The over-arching regulation for the VWP permit program is found in <a href='https://law.lis.virginia.gov/admincode/title9/agency25/chapter210/' target="_blank">9VAC25-210</a>".
                             
-                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf'>Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
+                            <br><br>The associated permit is issued under 22-SPGP-RCIR. Follow the <a href='https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf' target="_blank">Joint Permit Application (JPA) Process</a>. Contact information can be found on the linked application materials. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal
                             wetlands, and/or dune/beach resources – including, but not limited to,
                             construction, dredging, filling, or excavation. Contact information can be found on the linked application materials.
                         </div>
@@ -719,7 +719,7 @@ class SwimLane extends HTMLElement {
                             
                             <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
                             <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
-                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
+                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5' target="_blank">Federal Permit Process</a> 
                         </div>
                     </div>
                 </div>
@@ -740,7 +740,7 @@ class SwimLane extends HTMLElement {
                             
                             <br><b>Contact Name</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator 
                             <br><b>Contact Emails</b>: permitsR5ES@fws.gov (<i>Federal</i>), susan.tripp@deq.virginia.gov (<i>State</i>)
-                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5'>Federal Permit Process</a> 
+                            <br><b>Permit Link</b>: See the VA DEQ for State Permit Process, <a href='https://fwsepermitstest.servicenowservices.com/fwsid=fws_kb_view&sys_id=adc55dfd1b1f50101f45dbdbe54bcbb5' target="_blank">Federal Permit Process</a> 
                         </div>
                     </div>
                 </div>
@@ -755,14 +755,14 @@ class SwimLane extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10'>Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
+                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
 
                             <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
                             
-                            <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans'>Service</a>:
+                            <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans' target="_blank">Service</a>:
                             "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
                             
-                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D'>here<a>. 
+                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
                             Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
                         </div>
                     </div>
@@ -778,9 +778,9 @@ class SwimLane extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href=’https://www.fws.gov/laws/endangered-species-act/section-10’>10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
+                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href=’https://www.fws.gov/laws/endangered-species-act/section-10’ target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
 
-                            <br><br>See <a href=’https://www.fws.gov/service/habitat-conservation-plans’>here</a> for further information on HCPs and associated incidental take permits.
+                            <br><br>See <a href=’https://www.fws.gov/service/habitat-conservation-plans’ target="_blank">here</a> for further information on HCPs and associated incidental take permits.
                         </div>
                     </div>
                 </div>
@@ -801,8 +801,8 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        This is the second of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/">9VAC15-60-130</a>. "The owner or operator of a small solar energy project with either a rated capacity greater than 500 kilowatts and less than or equal to five megawatts or a disturbance zone greater than two acres and less than or equal to 10 acres shall notify the department."
-                        Submit the NOI using the template <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4677/637475305763630000">here</a>.
+                        This is the second of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/" target="_blank">9VAC15-60-130</a>. "The owner or operator of a small solar energy project with either a rated capacity greater than 500 kilowatts and less than or equal to five megawatts or a disturbance zone greater than two acres and less than or equal to 10 acres shall notify the department."
+                        Submit the NOI using the template <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4677/637475305763630000" target="_blank">here</a>.
 
                         <br><br>For questions and further information, contact the DEQ's Small Renewable Energy PBR Program Guidance & Regulation Coordinator.
                     </div>
@@ -883,7 +883,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                    The VPDES requires that the construction activity operator obtaining the permit develop and implement a site specific Stormwater Pollution Prevention Plan (SWPPP). The SWPPP must be prepared prior to submitting a registration statement for permit to the Virginia Stormwater Management Program (VSMP) Authority or VA DEQ. The SWPPP outlines the steps and techniques to reduce pollutants in the stormwater runoff from the construction site that the operator will take to comply with the terms and conditions of the permit, including water quality and quantity requirements in the VSMP permit regulations. See <a href="https://www.deq.virginia.gov/permits/water/stormwater-construction">here</a> for further information.
+                    The VPDES requires that the construction activity operator obtaining the permit develop and implement a site specific Stormwater Pollution Prevention Plan (SWPPP). The SWPPP must be prepared prior to submitting a registration statement for permit to the Virginia Stormwater Management Program (VSMP) Authority or VA DEQ. The SWPPP outlines the steps and techniques to reduce pollutants in the stormwater runoff from the construction site that the operator will take to comply with the terms and conditions of the permit, including water quality and quantity requirements in the VSMP permit regulations. See <a href="https://www.deq.virginia.gov/permits/water/stormwater-construction" target="_blank">here</a> for further information.
 
                     <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit.
                     
@@ -924,10 +924,10 @@ class DEQ extends HTMLElement{
                         Application must include:
                         <br> 
                         <ol type = "1">
-                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4686/637475307699370000">Local Governing Body Certification Form</a></li>
-                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4679/637475306133830000">Environmental Permit Certification Form</a> (Environmental permits must be <b>applied</b> for prior)</li>
-                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4681/637475306597800000">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4675/637475305496100000">Utility Certification Form</a></li>
-                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/">Permit by Rule Application & Modification Fees</a></li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4686/637475307699370000" target="_blank">Local Governing Body Certification Form</a></li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4679/637475306133830000" target="_blank">Environmental Permit Certification Form</a> (Environmental permits must be <b>applied</b> for prior)</li>
+                            <li><a href="https://www.deq.virginia.gov/home/showpublisheddocument/4681/637475306597800000" target="_blank">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4675/637475305496100000" target="_blank">Utility Certification Form</a></li>
+                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/" target="_blank">Permit by Rule Application & Modification Fees</a></li>
                             <li>Analysis of the Beneficial and Adverse Impacts on Natural Resources</li>
                             <li>Determination of Likely Significant Adverse Impacts</li>
                             <li>Mitigation Plan</li>
@@ -943,16 +943,16 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"><a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">Notice of Intent for Full Solar Energy Project</a></h5>
+                        <h5 class="modal-title" id="title"><a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">Notice of Intent for Full Solar Energy Project</a></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
                         The NOI provides the state notice that the developer intends to develop a project from 5MW up to 150 MW and use the DEQ PBR process for
                         permitting. There are no official prerequisites for the NOI. However, it is recommended that the the developer submit for local certification and PJM before submitting NOI. The NOI is then a prerequisite for the full PBR.
-                        The NOI for Full Solar Energy Project template can be found <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4676/637475305664400000">here</a>.
+                        The NOI for Full Solar Energy Project template can be found <a href="https://www.deq.virginia.gov/home/showpublisheddocument/4676/637475305664400000" target="_blank">here</a>.
                         <br><br>
-                        <b>Public Notification</b>: DEQ will publish the notice of intent in the Virginia Register for 30 days <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm">here</a> (No public comment forum)
+                        <b>Public Notification</b>: DEQ will publish the notice of intent in the Virginia Register for 30 days <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm" target="_blank">here</a> (No public comment forum)
                         <br><br>
                         <b>Contact</b>: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator, susan.tripp@deq.virginia.gov
                     </div>
@@ -984,7 +984,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Still in progress and will be promulgated by the end of 2024. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources">here</a>.
+                        Still in progress and will be promulgated by the end of 2024. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources" target="_blank">here</a>.
                     </div>
                 </div>
             </div>
@@ -1019,12 +1019,12 @@ class DEQ extends HTMLElement{
                         The VDOT Traffic Impact Statement (VTIS) assesses the impact of a proposed development on the transportation system and recommends improvements to lessen or negate those impacts. The permit requirements are as follows: 
                         The VTIS shall (i) identify any traffic issues associated with access from the site to the existing transportation network, (ii) outline solutions to potential problems, (iii) address the sufficiency of the future transportation 
                         network, and (iv) present improvements to be incorporated into the proposed development. The VDOT will accept a traffic analysis study prepared according to local requirements, as long as the VDOT certifies that the 
-                        local requirements meet acceptable standards of professional practice. The VDOT will provide the locality with a written report contain key findings. If necessary, certain forms that are to be submitted can be found <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here</a>.
+                        local requirements meet acceptable standards of professional practice. The VDOT will provide the locality with a written report contain key findings. If necessary, certain forms that are to be submitted can be found <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp' target="_blank">here</a>.
 
                         <br><br> <b>Statutory Review Time Limits</b>: VDOT will respond to request for a scope of work meeting within 30 days of the request, and schedule a meeting to occur within 60 days of being contacted.
                         <br><br> <b>Notices/Public Hearings</b>: VDOT must make its comments available to the public through various means, e.g. through VDOT’s LandTrack system web page on the VDOT public website, copies at the local government offices, or a presentation to the locality.\
 
-                        <br><br> The legislation regulating the guidelines for the VTIS is established in <a href='https://law.lis.virginia.gov/admincode/title24/agency30/chapter155/section60/'>24VAC30-155-60</a> of the Virginia Administrative Code. To get in touch with the VDOT and see further information on the VTIS, see <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp'>here<a>.
+                        <br><br> The legislation regulating the guidelines for the VTIS is established in <a href='https://law.lis.virginia.gov/admincode/title24/agency30/chapter155/section60/' target="_blank">24VAC30-155-60</a> of the Virginia Administrative Code. To get in touch with the VDOT and see further information on the VTIS, see <a href='https://www.virginiadot.org/info/traffic_impact_analysis_regulations.asp' target="_blank">here<a>.
                     </div>
                 </div>
             </div>
@@ -1041,7 +1041,7 @@ class DEQ extends HTMLElement{
                     <div class="modal-body">
                     This is a review of any impacted historic sites. The DHR may provide comments to the DEQ for inclusion into their evaluation. It is important to note that the DHR application must be submitted no less than 30 days prior to the start date of the project.
 
-                    <br><br>The establishment of this review requirement can be found <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/'>here</a>.
+                    <br><br>The establishment of this review requirement can be found <a href='https://www.dhr.virginia.gov/federal-state-review/state-project-review/' target="_blank">here</a>.
                     
                     <br><br>This is only required if the project will impact a historic site. This assessment should be coordinated with DWR as part of the natural resource impact assessment.
                     </div>
@@ -1060,7 +1060,7 @@ class DEQ extends HTMLElement{
                     <div class="modal-body">
                         This is a courtesy review of the project’s environmental impact. The review may look at impact on biodiversity, habitat land, water table, and other factors. DCR may provide comments to DEQ for inclusion into their evaluation.
 
-                        <br><br> The permit link can be found <a href="https://www.dcr.virginia.gov/natural-heritage/nhserviceform/">here</a>. For further inquiries, contact nhreview@dcr.virginia.gov.
+                        <br><br> The permit link can be found <a href="https://www.dcr.virginia.gov/natural-heritage/nhserviceform/" target="_blank">here</a>. For further inquiries, contact nhreview@dcr.virginia.gov.
                     </div>
                 </div>
             </div>
@@ -1077,7 +1077,7 @@ class DEQ extends HTMLElement{
                     <div class="modal-body">
                         The DWR's Solar Energy Facility Guidance provides guidance for solar projects, such as project impact on natural resources, bald eagle nests, bats and bat habitat, wildlife passage fencing, vegetation considerations, and aquatic habitat. The DWR may provide comments to DEQ for inclusion into their evaluation.
 
-                        <br><br>Information on the Solar Energy Facility Guidance can be found <a href='https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf'>here</a>. For further inquiries, contact DWR's Manager of Wildlife Information and Environmental Services or DEQ's Renewable Energy PBR Coordinator.
+                        <br><br>Information on the Solar Energy Facility Guidance can be found <a href='https://dwr.virginia.gov/wp-content/uploads/media/Solar-Energy-Facility-Guidance.pdf' target="_blank">here</a>. For further inquiries, contact DWR's Manager of Wildlife Information and Environmental Services or DEQ's Renewable Energy PBR Coordinator.
                         
                         <br><br><i>These assessments should be submitted and completed before the construction permits and erosion permits. These assessments should also be coordinated with DCR to assess impacts to heritage resources.</i>
                     </div>
@@ -1094,7 +1094,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Rule making is in progress. See <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources">here</a> for up-to-date information. Rules will be promulgated by the end of 2024.
+                        Rule making is in progress. See <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources" target="_blank">here</a> for up-to-date information. Rules will be promulgated by the end of 2024.
                     </div>
                 </div>
             </div>
@@ -1109,9 +1109,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The <a href="https://www.deq.virginia.gov/permits/renewable-energy">NOI</a> provides the state notice that the developer intends to develop a project from 5 MW up to 150 MW and use the DEQ PBR process for permitting. There are no official prerequisites for the NOI. The NOI is then a prerequisite for the full PBR. <i>Rulemaking for HB206 may impact these timelines.</i>
+                        The <a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">NOI</a> provides the state notice that the developer intends to develop a project from 5 MW up to 150 MW and use the DEQ PBR process for permitting. There are no official prerequisites for the NOI. The NOI is then a prerequisite for the full PBR. <i>Rulemaking for HB206 may impact these timelines.</i>
                         <br><br>
-                        Public Notification: DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm ">Virginia Register</a> for 30 days. No public comment forum.
+                        Public Notification: DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm" target="_blank">Virginia Register</a> for 30 days. No public comment forum.
                         <br><br>
                         Contact: Susan Tripp, Small Renewable Energy PBR Program Guidance & Regulation Coordinator, susan.tripp@deq.virginia.gov
                     </div>
@@ -1128,24 +1128,24 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                    The application provides the state sufficient information to determine if the project meets the Permit by Rule criteria and facilitates state and federal reviews as needed. According to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/">9VAC15-60-30 A</a>, and in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">§ 10.1-1197.6 B</a>,
+                    The application provides the state sufficient information to determine if the project meets the Permit by Rule criteria and facilitates state and federal reviews as needed. According to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/" target="_blank">9VAC15-60-30 A</a>, and in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6 B</a>,
                     the application requirements are:
                     <ol type = "1">
-                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Notice of Intent</a> that a person intends to "submit the necessary documentation for a permit by rule for a small renewable energy project." DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm">Virginia Register</a> for 30 days. NOI is a prerequisite for a complete PBR application.</li>
-                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Local bodies certification</a> is a prerequisite for a complete PBR application.</li>
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">Notice of Intent</a> that a person intends to "submit the necessary documentation for a permit by rule for a small renewable energy project." DEQ will publish the notice of intent in the <a href="https://www.townhall.virginia.gov/L/GeneralNotice.cfm" target="_blank">Virginia Register</a> for 30 days. NOI is a prerequisite for a complete PBR application.</li>
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">Local bodies certification</a> is a prerequisite for a complete PBR application.</li>
                             <li>Copies of all interconnection studies undertaken for this project.</li>
                             <li>A copy of the final interconnection agreement between the small renewable energy project and the regional transmission organization or transmission owner. If the final agreement is not available, provide the most recent interconnection study. When a final interconnection agreement is complete, it shall be provided to the Department, who will. Application for a final interconnection agreement is a prerequisite for a complete PBR application.</li>
                             <li>"A certification signed by a professional engineer licensed in Virginia that the maximum generation capacity of the small renewable energy project, as designed, does not exceed 150 megawatts."</li>
                             <li>"Analysis of the project's potential environmental impacts on attainment of national ambient air quality standards."</li>
-                            <li>"Where relevant, an analysis of the beneficial and adverse impacts of the proposed project on natural resources. The owner or operator shall perform the analyses prescribed in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section40/">9VAC15-60-40</a>. For wildlife, that analysis shall be based on information on the presence, activity, and migratory behavior of wildlife to be collected at the site for a period of time dictated by the site conditions and biology of the wildlife being studied, not exceeding 12 months."</li>
-                            <li>If DEQ determines, pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/">9VAC15-60-50</a>, that the information collected in step 7 above indicates that significant adverse impacts to wildlife or historic resources are likely, the developer must provide a mitigation plan pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section60/">9VAC15-60-60</a>. This plan must detail "reasonable actions to be taken by the owner or operator to avoid, minimize, or otherwise mitigate such impacts, and to measure the efficacy of those actions." The mitigation plan is an enforceable part of the PBR.</li>
-                            <li>Certification signed by a professional engineer licensed in Virginia that the mitigation plan requirements pertaining to its design and installation have been incorporated (The requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section80/ ">9VAC15-60-80</a> are satisfied).</li>
-                            <li>Operating plan that includes a description of how the project will be operated in compliance with its mitigation plan, if such a mitigation plan is required pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/">9VAC15-60-50</a>.</li>
-                            <li>Detailed site plan meeting the requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section70/">9VAC15-60-70</a>.</li>
-                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy">Environmental Permit Certification Form</a> for environmental permits, but not receipt of the permits, is a prerequisite to apply for the PBR.</li>
-                            <li>Certification that the applicant is in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/">§ 10.1-1197.6 H and I</a> of the Code of Virginia. Submit the applicable form: <a href="https://www.deq.virginia.gov/permits/renewable-energy ">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/permits/renewable-energy">Utility Certification Form</a>.</li>
-                            <li>Conduct a 30-day public review and comment period and hold a public meeting pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section90/">9VAC15-60-90</a>. "The public meeting shall be held in the locality or, if the project is located in more than one locality, in a place proximate to the location of the proposed project. Following the public meeting and public comment period, the applicant shall prepare a report summarizing the issues raised by the public and include any written comments received and the applicant's response to those comments. The report shall be provided to the department as part of this application." The 30-day public review and comment period, public meeting, and subsequent report are prerequisites for a complete PBR application.</li>
-                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/ ">Payment of the appropriate fee</a>. According to the <a href="https://www.deq.virginia.gov/permits/renewable-energy ">DEQ website</a>, "All permit application fees or modification fees are due on submittal day of the application or modification package. Submittals will be deemed incomplete until the department receives payment. Incomplete payments will be deemed non-payments."</li>
+                            <li>"Where relevant, an analysis of the beneficial and adverse impacts of the proposed project on natural resources. The owner or operator shall perform the analyses prescribed in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section40/" target="_blank">9VAC15-60-40</a>. For wildlife, that analysis shall be based on information on the presence, activity, and migratory behavior of wildlife to be collected at the site for a period of time dictated by the site conditions and biology of the wildlife being studied, not exceeding 12 months."</li>
+                            <li>If DEQ determines, pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/" target="_blank">9VAC15-60-50</a>, that the information collected in step 7 above indicates that significant adverse impacts to wildlife or historic resources are likely, the developer must provide a mitigation plan pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section60/" target="_blank">9VAC15-60-60</a>. This plan must detail "reasonable actions to be taken by the owner or operator to avoid, minimize, or otherwise mitigate such impacts, and to measure the efficacy of those actions." The mitigation plan is an enforceable part of the PBR.</li>
+                            <li>Certification signed by a professional engineer licensed in Virginia that the mitigation plan requirements pertaining to its design and installation have been incorporated (The requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section80/" target="_blank">9VAC15-60-80</a> are satisfied).</li>
+                            <li>Operating plan that includes a description of how the project will be operated in compliance with its mitigation plan, if such a mitigation plan is required pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section50/" target="_blank">9VAC15-60-50</a>.</li>
+                            <li>Detailed site plan meeting the requirements of <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section70/" target="_blank">9VAC15-60-70</a>.</li>
+                            <li><a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">Environmental Permit Certification Form</a> for environmental permits, but not receipt of the permits, is a prerequisite to apply for the PBR.</li>
+                            <li>Certification that the applicant is in accordance with <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6 H and I</a> of the Code of Virginia. Submit the applicable form: <a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">Non-Utility Certification Form</a> or <a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">Utility Certification Form</a>.</li>
+                            <li>Conduct a 30-day public review and comment period and hold a public meeting pursuant to <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section90/" target="_blank">9VAC15-60-90</a>. "The public meeting shall be held in the locality or, if the project is located in more than one locality, in a place proximate to the location of the proposed project. Following the public meeting and public comment period, the applicant shall prepare a report summarizing the issues raised by the public and include any written comments received and the applicant's response to those comments. The report shall be provided to the department as part of this application." The 30-day public review and comment period, public meeting, and subsequent report are prerequisites for a complete PBR application.</li>
+                            <li><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section110/" target="_blank">Payment of the appropriate fee</a>. According to the <a href="https://www.deq.virginia.gov/permits/renewable-energy" target="_blank">DEQ website</a>, "All permit application fees or modification fees are due on submittal day of the application or modification package. Submittals will be deemed incomplete until the department receives payment. Incomplete payments will be deemed non-payments."</li>
                     </ol>
                     </div>
                 </div>
@@ -1161,9 +1161,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Per <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/">9VAC15-60-30 B</a>: 
+                        Per <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section30/" target="_blank">9VAC15-60-30 B</a>: 
                         <br><br>
-                        "Within 90 days of receiving all of the required documents and fees listed in subsection A of this section, the department shall determine, after consultation with other agencies in the Secretariat of Natural and Historic Resources, whether the application is complete and whether it adequately meets the requirements of this chapter pursuant to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.7/">§ 10.1-1197.7 A</a> of the Code of Virginia.
+                        "Within 90 days of receiving all of the required documents and fees listed in subsection A of this section, the department shall determine, after consultation with other agencies in the Secretariat of Natural and Historic Resources, whether the application is complete and whether it adequately meets the requirements of this chapter pursuant to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.7/" target="_blank">§ 10.1-1197.7 A</a> of the Code of Virginia.
                         <br><br>
                         <ol type = "1">
                             <li>If the department determines that the application meets the requirements of this chapter, then the department shall notify the applicant in writing that he is authorized to construct and operate a small solar energy project pursuant to this chapter.</li>
@@ -1191,13 +1191,13 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the Generation Interconnection Agreement. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
+                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the Generation Interconnection Agreement. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
 
                     For Transmission Project Developers, the GIA confers transmission injection and withdrawal rights (Merchant Direct Current and/or Fully Controllable Alternating Current transmission projects) and applicable incremental delivery rights and Incremental Auction Revenue Rights.<br><br>
                     
                     The GIA further identifies any changes in construction responsibility from the Standard Option for Transmission Owner Interconnection Facilities due to the Project Developer exercising the Negotiated Contract Option or Option to Build."<br><br>
                     
-                    The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following: Project scope; construction responsibilities of the parties; ownership of Transmission Owner and Project Developer Interconnection Facilities; schedule of major construction work; and etails on how the construction will be performed. However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.1.4</a>, "in cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner."<br><br>
+                    The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following: Project scope; construction responsibilities of the parties; ownership of Transmission Owner and Project Developer Interconnection Facilities; schedule of major construction work; and etails on how the construction will be performed. However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1.4</a>, "in cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner."<br><br>
                     
                     This GIA is a prerequisite to the issuance of the permit. 
                     </div>
@@ -1214,11 +1214,11 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Regulations surrounding queue numbers are established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/">20VAC5-314-38</a>.
+                        Regulations surrounding queue numbers are established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a>.
                         <br><br>
                         Interconnection requests are assigned a queue number "based upon the date-stamp and time-stamp of receipt of a completed Interconnection Request Form by the utility." An Interconnection Request Form that is received earlier than another request shall be assigned a lower numerical queue number. Projects are studied in numerical order from low to high, except in the case of interdependent projects.
                         <br><br>
-                        If the utility makes a preliminary determination that the SGF does not create an interdependency, follow straight to the Level 2 study process in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/">20VAC5-314-60</a>. If a dependency is determined, see <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/">20VAC5-314-38</a> for further details.
+                        If the utility makes a preliminary determination that the SGF does not create an interdependency, follow straight to the Level 2 study process in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/" target="_blank">20VAC5-314-60</a>. If a dependency is determined, see <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a> for further details.
                     </div>
                 </div>
             </div>
@@ -1233,7 +1233,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        As established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/ ">20VAC5-314-60</a> of the Virginia Administrative Code:
+                        As established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/" target="_blank">20VAC5-314-60</a> of the Virginia Administrative Code:
                         <br><br>"After the utility notifies the IC that it has received a complete Interconnection Request Form, the utility performs screening reviews. If the interconnection passes the screens, the utility will approve the interconnection request and provide the IC with an SGIA within 10 business days. If the interconnection instead fails any screens, Parts F-H lay out the subsequent timeline and actions required."
                     </div>
                 </div>
@@ -1264,7 +1264,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br>
+                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/" target="_blank">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br>
                         "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
                     </div>
                 </div>
@@ -1280,7 +1280,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br> 
+                        As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/" target="_blank">20VAC5-314-50.A</a> of the Virginia Administrative Code: <br><br> 
                         "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
                     </div>
                 </div>
@@ -1296,7 +1296,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-B</a>: <br><br>
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-B</a>: <br><br>
                         "1. The purpose of the scoping meeting is to discuss the interconnection request and the utility's preliminary interdependency determination. The parties shall discuss the studies potentially required to safely and reliably interconnect the IC to the utility's system, including the cost responsibilities for the studies.
                         <br><br>
                         2. A scoping meeting shall be held no later than 10 business days after the Interconnection Request Form is deemed complete or as otherwise mutually agreed to in writing by the parties. The utility and the IC shall bring to the meeting all resources as may be reasonably required to accomplish the purpose of the meeting, such as system engineers and other personnel.
@@ -1324,7 +1324,7 @@ class Interconnections extends HTMLElement {
                         <div class="card" style="width: 760px;">
                         <div class="card-body">
                             <h6 class="card-title">Feasibility Study</h6>
-                            <p class="card-text">As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-C</a>: 
+                            <p class="card-text">As laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-C</a>: 
                             <br><br>
                             A feasibility study is only required if the parties agree that it should be performed. If the parties agree to not perform a feasibility study, "the utility shall provide the IC a System Impact Study Agreement (Schedule 8 of 20VAC5-314-170) including an outline of the scope of the study and an estimate of the cost to perform the study no later than 10 business days after the scoping meeting or five business days after the decision is made to not have a scoping meeting."
                             <br><br>
@@ -1341,7 +1341,7 @@ class Interconnections extends HTMLElement {
                         <div class="card" style="width: 760px;">
                         <div class="card-body">
                             <h6 class="card-title">System Impact Study</h6>
-                            <p class="card-text">Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-D<a>:
+                            <p class="card-text">Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-D<a>:
                             <br><br>
                             If the parties agree that a system impact study should be performed, no later than 10 business days after the parties come to the agreement, "the utility shall provide the IC a System Impact Study Agreement (Schedule 8 of 20VAC5-314-170), including an outline of the scope of the system impact study and an estimate of the cost to perform the study." In executing the agreement and subsequent requirements, follow 20VAC5-314-70-D Steps 2-9 for guidance.
                             <br><br>
@@ -1363,11 +1363,11 @@ class Interconnections extends HTMLElement {
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
-                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-D.10</a>: 
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-D.10</a>: 
                         <br><br>
                         "If the system impact study shows that facility modifications are needed to accommodate the SGF, then within 10 business days following transmittal of the system impact study report, the utility shall send the IC a Facilities Study Agreement (Schedule 9 of 20VAC5-314-170), including an outline of the scope of the study and an estimate of the cost to perform the study."
                         <br><br>
-                        The requirements of the Facilities Study Agreement are laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-E</a>. 
+                        The requirements of the Facilities Study Agreement are laid out in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-E</a>. 
                         <br><br>
                         The Facilities Study is the third and final of the Interconnection Analysis studies. The customer must select a single Point of Interconnection (If two were evaluated in the Feasibility Study). Conduct of this study is governed by procedures as set forth in Attachment D of PJM's Manual M-14A.
                         <br><br>   
@@ -1398,7 +1398,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70-F</a>: 
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/" target="_blank">20VAC5-314-70-F</a>: 
                         <br><br>
                         "1. Within 15 business days of receipt of the report for the final study (i.e., the facilities study or, if applicable, a combined study that satisfies all study requirements), the IC shall request a construction planning meeting where failure to comply shall result in the interconnection request being deemed withdrawn. The construction planning meeting request shall be in writing and shall include the IC's reasonably requested date for completion of the construction of the customer's interconnection facilities and upgrades.
                         <br><br>
@@ -1419,7 +1419,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        As set forth in FERC Docket No. ER22-2110, the PJM interconnection process follows a “first-ready, first-served” cycle approach. In accordance with <a href="https://agreements.pjm.com/oatt/4088">Part IV Preamble, Section 201 of the PJM Open Access Transmission Tariff</a>, interconnection customers must submit “a complete and fully executed Generation Interconnection Feasibility Study Agreement” to be assigned a queue position. <br><br>The Generation Interconnection Feasibility Study Agreement must include, at minimum, the ten components laid out in Part IV, Subpart A, Section 36.1.01-1 of the PJM Open Access Transmission Tariff. This includes the project’s location, ownership, size, fuel type, equipment configuration, planned in-service date, and deposit.
+                        As set forth in FERC Docket No. ER22-2110, the PJM interconnection process follows a “first-ready, first-served” cycle approach. In accordance with <a href="https://agreements.pjm.com/oatt/4088" target="_blank">Part IV Preamble, Section 201 of the PJM Open Access Transmission Tariff</a>, interconnection customers must submit “a complete and fully executed Generation Interconnection Feasibility Study Agreement” to be assigned a queue position. <br><br>The Generation Interconnection Feasibility Study Agreement must include, at minimum, the ten components laid out in Part IV, Subpart A, Section 36.1.01-1 of the PJM Open Access Transmission Tariff. This includes the project’s location, ownership, size, fuel type, equipment configuration, planned in-service date, and deposit.
                     </div>
                 </div>
             </div>
@@ -1654,7 +1654,7 @@ class Localities extends HTMLElement {
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
-                        This is the first of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/">9VAC15-60-130</a>. Once the project has been deemed to meet the local certification criteria, submit local certification that the project complies with local land use ordinances. No statutory review time limits or public hearings required.
+                        This is the first of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/" target="_blank">9VAC15-60-130</a>. Once the project has been deemed to meet the local certification criteria, submit local certification that the project complies with local land use ordinances. No statutory review time limits or public hearings required.
                         </div>
                     </div>
                 </div>
@@ -1697,7 +1697,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/ ">20VAC5-302-10</a> indicates that the construction of electric generating facilities with rated capacity of 5 MW or less are exempt from formal filing requirements with the SCC. In its place, the Commission requires that the persons desiring to construct such facilities shall:                                         
+                        Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-10</a> indicates that the construction of electric generating facilities with rated capacity of 5 MW or less are exempt from formal filing requirements with the SCC. In its place, the Commission requires that the persons desiring to construct such facilities shall:                                         
                         <ol type="1">
                                 <li>Submit a letter to the Director of Energy Regulation stating the location, size, and fuel type of facility</li>
                                 <li>Comply with all other federal, state, and local requirements</li>
@@ -1716,7 +1716,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Upon completion of all requirements as listed in Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302">20VAC5-302-10 </a>, the applicant is legally exempt from formal filing process for the authority to conduct and operate an electric generating facility with a rated capacity of 5 MW or less.
+                        Upon completion of all requirements as listed in Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302" target="_blank">20VAC5-302-10 </a>, the applicant is legally exempt from formal filing process for the authority to conduct and operate an electric generating facility with a rated capacity of 5 MW or less.
                     </div>
                 </div>
             </div>
@@ -1752,7 +1752,7 @@ class SCC extends HTMLElement {
                         Contact: Director of the Division of Public Utility Regulation, Virginia State Corporation Commission
                         <br><br>
                         
-                        Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/">20VAC5-302-25</a>): <br>
+                        Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-25</a>): <br>
                             <ol type="1">
                                 <li>Legal name of applicant and any trade name.</li>
                                 <li>Description of the applicant's authorized business structure.</li>
@@ -1782,7 +1782,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Per Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/ ">20VAC5-302-20</a>, the applicant is responsible for the submission of "prefiled testimony in support of the application" for the authority to construct and operate an electric generating facility with a rated capacity of over 100 MW. (Note: this is a key distinction between the permitting requirements for facilities rated above 5 MW and below 100 MW (20VAC5-302-25). 
+                        Per Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-20</a>, the applicant is responsible for the submission of "prefiled testimony in support of the application" for the authority to construct and operate an electric generating facility with a rated capacity of over 100 MW. (Note: this is a key distinction between the permitting requirements for facilities rated above 5 MW and below 100 MW (20VAC5-302-25). 
                     </div>
                 </div>
             </div>
@@ -1797,7 +1797,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
                     </div>
                 </div>
             </div>
@@ -1812,7 +1812,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                        Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
                     </div>
                 </div>
             </div>
@@ -1832,7 +1832,7 @@ class SCC extends HTMLElement {
                     Submit Applications To: Office of the State Corporation Commission <br>
                     Contact Name: Director of the Division of Public Utility Regulation, Virginia State Corporation Commission
                     <br><br>
-                    Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/">20VAC5-302-20</a>):
+                    Permit Requirements (From <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-20</a>):
 
                         <ol type="1">
                             <li>Legal name of applicant and any trade name.</li>
@@ -1881,11 +1881,11 @@ class SCC extends HTMLElement {
                     <div class="modal-body">
                     <i>The following only applies to projects equal to or greater than 150 MW.</i>
                     <br><br>
-                    Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a> establishes formal procedures for the SCC notice and hearing process related to the permit approval for electric generating facilities. As noted in subsection I: "the provisions of this section shall not apply to the construction and operation of a small renewable energy project". Because Virginia Code § 10.1-1197.5 defines a "small renewable energy facility" as "an electrical generation facility with a rated capacity not exceeding 150 megawatts that generates electricity only from sunlight or wind", these procedures are only required for projects equal or exceeding a rated capacity of 150 MW. 
+                    Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/" target="_blank">§ 56-46.1</a> establishes formal procedures for the SCC notice and hearing process related to the permit approval for electric generating facilities. As noted in subsection I: "the provisions of this section shall not apply to the construction and operation of a small renewable energy project". Because Virginia Code § 10.1-1197.5 defines a "small renewable energy facility" as "an electrical generation facility with a rated capacity not exceeding 150 megawatts that generates electricity only from sunlight or wind", these procedures are only required for projects equal or exceeding a rated capacity of 150 MW. 
                     <br><br>
-                    The notice and hearings procedures as listed in Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a> are as follows: "no electrical transmission line of 138 kilovolts or more shall be constructed unless the State Corporation Commission shall, after at least 30 days' advance notice by:" (1) publication in a newspaper that circulates in the areas through which the proposed line is to be built, (2) formal written notice sent to the governing bodies of the affected localities, and (3) causing to be sent to all property owners within the route of the proposed line. 
+                    The notice and hearings procedures as listed in Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/" target="_blank">§ 56-46.1</a> are as follows: "no electrical transmission line of 138 kilovolts or more shall be constructed unless the State Corporation Commission shall, after at least 30 days' advance notice by:" (1) publication in a newspaper that circulates in the areas through which the proposed line is to be built, (2) formal written notice sent to the governing bodies of the affected localities, and (3) causing to be sent to all property owners within the route of the proposed line. 
                     <br><br>
-                    For more details, refer to Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/">§ 56-46.1</a>. 
+                    For more details, refer to Code of Virginia <a href="https://law.lis.virginia.gov/vacode/title56/chapter1/section56-46.1/" target="_blank">§ 56-46.1</a>. 
                     </div>
                 </div>
             </div>
