@@ -2681,6 +2681,11 @@ footer-test {
 
     transform: rotate(90deg);
 }
+.line.test-28 {
+    width: 400px;
+    left: 580px;
+    top: 350px;
+}
 
 .reviews-test {
     background-color: #FF8E8E;
@@ -3283,4 +3288,16 @@ footer-test {
     text-align: left;
     border: 1px solid #000000;
     padding: 14px 10px;
+}
+.scc.scc-test-11 {
+    width: 135px;
+    height: 76px;
+    left: 675px;
+    top: 412px;
+    border-radius: 40px;
+    font-size: 10.5px;
+
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 28px 10px;
 }
