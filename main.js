@@ -819,7 +819,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        As soon as the project is determined to be "practicable" (When the applicant believes that it will pass local requirements), the applicant should submit the NOI for their project to the DEQ.
+                        As soon as the project is determined to be "practicable" (when the applicant believes that it will pass local requirements), the applicant should submit the NOI for their project to the DEQ.
                     </div>
                 </div>
             </div>
@@ -902,7 +902,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        If the project meets the permit requirements and pays the appropriate fees, the applicant will be granted a General Construction Stormwater Permit from the applicable authority (The locality or DEQ).
+                        If the project meets the permit requirements and pays the appropriate fees, the applicant will be granted a General Construction Stormwater Permit from the applicable authority (the locality or DEQ).
                     </div>
                 </div>
             </div>
@@ -984,7 +984,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Still in progress and will be promulgated by the end of 2024. See up-to-date information <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources" target="_blank">here</a>.
+                        Rule making is in progress. See the <a href="https://www.townhall.virginia.gov/L/ListBoards.cfm" target="_blank">Virginia Town Hall</a> for up-to-date information. Rules will be promulgated by the end of 2024.
                     </div>
                 </div>
             </div>
@@ -1002,6 +1002,42 @@ class DEQ extends HTMLElement{
                         The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br><br>
                         <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="deq-sister-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The following courtesy reviews for the VA DEQ PBR process are facilitated by the VA DEQ, coordinated with applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="deq-sister-cpcn" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.<br><br>
+
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i><br><br>
+                    
+                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25, 11</a>.
                     </div>
                 </div>
             </div>
@@ -1621,7 +1657,22 @@ class Localities extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            It is encouraged that the developer apply for local certification (Begin the process of completing local certification requirements) before submitting their NOI.
+                            It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before submitting their NOI.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="same-time" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"><i>Best Practice</i>: Developer notifies the locality before or at the same time as submitting the NOI to the SCC</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before submitting their NOI.
                         </div>
                     </div>
                 </div>
@@ -1697,10 +1748,10 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-10</a> indicates that the construction of electric generating facilities with rated capacity of 5 MW or less are exempt from formal filing requirements with the SCC. In its place, the Commission requires that the persons desiring to construct such facilities shall:                                         
+                        Virginia Administrative Code <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="_blank">20VAC5-302-10</a> indicates that the construction of electric generating facilities with rated capacity of 5 MW or less are exempt from formal filing requirements with the SCC. In its place, the Commission requires that the "persons desiring to construct such facilities shall:                                         
                         <ol type="1">
-                                <li>Submit a letter to the Director of Energy Regulation stating the location, size, and fuel type of facility</li>
-                                <li>Comply with all other federal, state, and local requirements</li>
+                                <li>Submit a letter to the Director of Energy Regulation stating the location, size, and fuel type of facility, and</li>
+                                <li>Comply with all other federal, state, and local requirements"</li>
                         </ol>
                     </div>
                 </div>
@@ -1893,7 +1944,6 @@ class SCC extends HTMLElement {
         `;
     }
 }
-
 
 customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
