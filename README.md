@@ -19,7 +19,7 @@ SolTax are hosted on Azure which is a cloud platform by Microsoft. When commit c
 ## Structure
 __images__ - The folder contains the images used in the Solar Permit Map <br>
 __main.js__ - Contains JavaScript functions used to create HTML elements (Modals, navigation bar etc.) that are shared <br>
-__style.css__ - Contains styling/positioning for all elements
+__style.css__ - Contains styling/positioning for all elements <br>
 __staticwebapp.config.json__ - Overrides default 404.html page to instead use 404.html from the repository <br>
 __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accessed from navigation bar dropdown) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__exempt-130-permit.html__ - Exempt from DEQ Section 130 Permit <br>
