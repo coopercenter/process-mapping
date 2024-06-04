@@ -28,3 +28,8 @@ __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accesse
 &nbsp;&nbsp;&nbsp;&nbsp;__deq-pbr.html__ - DEQ PBR<br>
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-100-mw.html__ - SCC CPCN for Facilities >100 MW<br>
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-5-mw.html__ - SCC CPCN for Facilities >5 MW but ≤100 MW <br>
+
+## Development
+1. Clone the Solar Permit repository and create a new branch for development
+    __Working with Github in VS Code Tutorial__: [https://docs.djangoproject.com/en/3.1/intro/tutorial01/](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
+2. During development, use the Live Server extension in Visual Studio Code to run HTML files on the local server at [https://localhost8000](https://localhost8000) or [http://127.0.0.1:8000](http://127.0.0.1:8000) to check if the changes made to the Solar Permit Map are succesful. Once the changes are as intended, commit and push the changes to the master branch to be automatically deployed to Azure. 
