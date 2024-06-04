@@ -17,5 +17,5 @@ Any changes made to the master branch are automatically pushed into the live ser
 SolTax are hosted on Azure which is a cloud computing platform run by Microsoft. When commit changes are pushed onto the master branch, it is deployed directly to Azure. For Azure login information, contact Mary Beth Wetherell at [meh4q@virginia.edu](mailto:meh4q@virginia.edu).
 
 ## Structure
-__swim-lanes__ - The folder contains the various different solar permit map pages (Can be accessced from navigation bar dropdown)
+__swim-lanes__ - The folder contains the various solar permit map pages (Accessed from navigation bar dropdown)
     __cpcn-5-mw.html__
