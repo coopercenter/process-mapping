@@ -17,10 +17,12 @@ Any changes made to the master branch are automatically pushed into the live ser
 SolTax are hosted on Azure which is a cloud computing platform run by Microsoft. When commit changes are pushed onto the master branch, it is deployed directly to Azure. For Azure login information, contact Mary Beth Wetherell at [meh4q@virginia.edu](mailto:meh4q@virginia.edu).
 
 ## Structure
-__swim-lanes__ - The folder contains the various solar permit map pages (Accessed from navigation bar dropdown) <br>
+__images__ - The folder contains the images used in the Solar Permit Map 
+__swim-lanes__ - The folder contains the various Solar Permit Map pages (Accessed from navigation bar dropdown) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__exempt-130-permit.html__ - Exempt from DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__deq-130-permit.html__ - DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__noi-500-kw.html__ - SCC Notice to Construct <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__deq-pbr.html__ - DEQ PBR<br>
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-100-mw.html__ - SCC CPCN for Facilities >100 MW<br>
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-5-mw.html__ - SCC CPCN for Facilities >5 MW but ≤100 MW <br>
+__main.js__ - Contains JavaScript functions used to create HTML elements (Modals, navigation bar etc.) that are shared
