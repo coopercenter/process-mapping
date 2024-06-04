@@ -18,4 +18,4 @@ SolTax are hosted on Azure which is a cloud computing platform run by Microsoft.
 
 ## Structure
 __swim-lanes__ - The folder contains the various solar permit map pages (Accessed from navigation bar dropdown)
-    __cpcn-5-mw.html__
+&nbsp;&nbsp;&nbsp;__cpcn-5-mw.html__ - SCC Renewable Energy Electric Generating Facilities with Rated Capacities >5 MW but ≤100 MW
