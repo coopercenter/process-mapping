@@ -1,5 +1,7 @@
 # Solar Permit Map
 
+The Virginia Solar Permitting Map aims to document and bring transparency to the various permitting processes involved in solar facility siting in the hopes of providing a central source of truth that can be referred to when process questions arise, or changes are considered. By illustrating how the various review processes relate to one another and where public engagement may take place, inefficiencies and opportunities to streamline the process may be observed and brought forth.
+
 __Solar Permit Map__: [https://solarpermitmap.coopercenter.org/](https://solarpermitmap.coopercenter.org/)
 
 ## Sections
