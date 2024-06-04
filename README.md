@@ -35,3 +35,5 @@ __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accesse
     __Working with Github in VS Code Tutorial__: [https://docs.djangoproject.com/en/3.1/intro/tutorial01/](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
 
 2. During development, use the Live Server extension in Visual Studio Code to run HTML files on the local server at [https://localhost8000](https://localhost8000) or [http://127.0.0.1:8000](http://127.0.0.1:8000). Use the local server to check if the changes made to the Solar Permit Map are successful. Once the changes are as intended, commit and push the changes to the master branch to be automatically deployed to Azure. 
+
+    __Live Server Extension__: [https://docs.djangoproject.com/en/3.1/intro/tutorial01/](https://docs.djangoproject.com/en/3.1/intro/tutorial01/)
