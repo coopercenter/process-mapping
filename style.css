@@ -2392,6 +2392,15 @@ about-footer {
     display: flex;
     justify-content: center;
 }
+.container-inter {
+    width: 1075px;
+    height: 800px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
 .container-swimlane-exempt {
     width: 1075px;
     height: 200px;
