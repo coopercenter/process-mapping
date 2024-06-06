@@ -2710,7 +2710,7 @@ footer-test {
     left: 210px;
     top: 4px;
     height: 45px;
-    width: 535px;
+    width: 260px;
     border-radius: 0px;
     
     font-weight: 500;
@@ -2719,9 +2719,9 @@ footer-test {
     text-align: left;
 }
 .reviews-test.fed-comp-test {
-    left: 480px;
-    top: 5.5px;
-    height: 42px;
+    left: 470px;
+    top: 4px;
+    height: 45px;
     width: 260px;
     border-radius: 0px;
     
@@ -2731,10 +2731,10 @@ footer-test {
     text-align: center;
 }
 .reviews-test.fed-aviation-test {
-    left: 541px;
+    left: 537px;
     top: 52px;
     height: 24px;
-    width: 204px;
+    width: 193px;
     border-radius: 0px;
     
     font-size: 10.5px;
