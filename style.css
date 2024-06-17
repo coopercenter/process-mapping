@@ -45,6 +45,7 @@
     left: 0px;
     top: 475px;
 }
+
 .decision.landing-title-56-1 {
     left: 350px;
     top: 470px;
@@ -1300,7 +1301,16 @@
     left: 620px;
     top: 803px;
 }
-
+/* .process {
+    width: 200px;
+    height: 80px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom: 20px;
+} */
 .lane {
     box-sizing: border-box;
 
@@ -3156,6 +3166,214 @@ footer-test {
     border: 1px dashed #000000;
     padding: 5px 10px;
 }
+
+/* styling for the rhombus image */
+/* .rhombus-image {
+    display: block;
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+    
+}
+
+.inter-description {
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #B6F2A1;
+    color: #000;
+    border: 1px dashed #000000;
+    border-radius: 0px;
+    font-size: 10.5px;
+    /* Ensure there's no outline property here */
+/*} */
+
+.inter-decision {
+    background: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+    width: 80px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    transform: rotate(-45deg); /* Rotate shape */
+    box-sizing: border-box; /* Ensure border-box model for accurate sizing */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 14px; /* Example font size */
+    text-align: center; /* Center align text */
+}
+
+.inter-rect {
+    background: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+    width: 320px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    box-sizing: border-box; /* Ensure border-box model for accurate sizing */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    font-size: 14px; /* Example font size */
+    text-align: center; /* Center align text */
+    position: absolute; /* Position absolute to move freely on the page */
+}
+.inter-decision.title-1 {
+    position: absolute; /* Position absolute to move freely on the page */
+    top: 570px; /* Adjust the top position as needed */
+    left: 740px; /* Adjust the left position as needed */
+    background: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+}
+
+.inter-decision.title-2 {
+    position: absolute;
+    left: 20px; /* Adjusted from 20px */
+    top: 273px;
+}
+
+.inter-decision.title-3 {
+    position: absolute;
+    left: 760px; /* Adjusted from 700px */
+    top: 73px;
+}
+
+.inter-decision.title-4 {
+    position: absolute;
+    left: 1295px; /* Adjusted from 700px */
+    top: 370px;
+
+    
+}
+
+.inter-decision.parallelogram {
+    position: absolute;
+    left: 1190px; /* Adjusted from 700px */
+    top: 300px;
+
+    width: 150px; /* Width of the parallelogram */
+    height: 75px; /* Height of the parallelogram */
+    position: relative; /* Positioning context for pseudo-elements */
+    transform: skewX(-20deg);
+}
+
+.inter-rect.level-1 {
+    top: 73px; /* Adjust the top position as needed */
+    left: 280px; /* Adjusted from 250px */
+}
+
+.inter-rect.level-2 {
+    top: 270px; /* Adjust the top position as needed */
+    left: 280px; /* Adjusted from 250px */
+}
+
+.inter-rect.level-3 {
+    top: 570px; 
+    left: 280px;
+}
+
+.inter-rect.satisfy {
+    width: 100px; 
+    height: 60px;
+    top: 70px; 
+    left: 960px; 
+}
+
+.inter-rect.passed-utility {
+    width: 130px;
+    height: 40px;
+    top: 240px; 
+    left: 665px; 
+}
+
+.inter-rect.failed-utility-1 {
+    width: 130px; 
+    height: 40px;
+    top: 310px; 
+    left: 665px; 
+}
+
+.inter-rect.failed-utility-2 {
+    width: 130px; 
+    height: 40px;
+    top: 380px; 
+    left: 665px; 
+}
+
+.inter-rect.work {
+    width: 130px; 
+    height: 40px;
+    top: 380px; 
+    left: 955px; 
+}
+/* Target the inter-decision element */
+/* .inter-decision.title-1 {
+    font-size: 18px; 
+    text-align: center;
+    font-weight: bold; 
+    color: #333; 
+    margin-bottom: 10px;
+} -->
+
+
+
+
+
+/* .inter-inter-1 {
+    width: 10px;
+    height: 80px;
+    left: 100px;
+    top: 410px;
+    border-radius: 0px;
+
+    text-align: left;
+    font-size: 10.5px;
+    border: 1px dashed #000000;
+    padding: 5px 10px;
+} */
+/* flowchart container */
+
+/* .flowchart {
+    margin: 20px auto; 
+    width: 80%; 
+    border: 1px solid #ccc;
+    padding: 20px; 
+    background-color: #f0f0f0; 
+} */
+
+/* Style utility-interconnection element */
+/*utility-interconnection {
+    display: flex; /* Example: use flexbox for layout */
+   /* justify-content: space-between; /* Example: space items evenly */
+/*}
+
+/* Style interconnection items */
+/* .inter {
+    box-sizing: border-box;
+
+    position: absolute;
+    font-size: 10px;
+    z-index: 2;
+
+    background: #B6F2A1;
+
+} */
+
+/* .interconnection-item img.rhombus-image {
+    width: 500px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto 10px;
+
+
+} */
+
+/* .interconnection-item .text {
+    display: block; 
+    margin-top: 5px; 
+    font-weight: bold; 
+    font-size: 14px; 
+    color: #333; /*
+} */
+
+
+
 .deq-test-doc-1 {
     left: 195px;
     top: 315px;
