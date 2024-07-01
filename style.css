@@ -14,6 +14,9 @@
     padding-right: 10%;
 }
 
+.container-scroll {
+    min-height: 3000px;
+}
 .decision {
     box-sizing: border-box;
     background: var(--green-color);
@@ -3188,11 +3191,11 @@ footer-test {
 /*} */
 
 .inter-decision {
-    background: #ffffff; /* White background */
-    border: 1px solid #000000; /* Black border */
-    width: 80px; /* Adjust width as needed */
-    height: 80px; /* Adjust height as needed */
-    transform: rotate(-45deg); /* Rotate shape */
+    background: #ffffff; 
+    border: 1px solid #000000; 
+    width: 80px; 
+    height: 80px;
+    transform: rotate(-45deg);
     box-sizing: border-box; /* Ensure border-box model for accurate sizing */
     display: flex; /* Use flexbox for centering content */
     justify-content: center; /* Center content horizontally */
@@ -3214,6 +3217,7 @@ footer-test {
     text-align: center; /* Center align text */
     position: absolute; /* Position absolute to move freely on the page */
 }
+
 .inter-decision.title-1 {
     position: absolute; /* Position absolute to move freely on the page */
     top: 570px; /* Adjust the top position as needed */
@@ -3230,37 +3234,93 @@ footer-test {
 
 .inter-decision.title-3 {
     position: absolute;
-    left: 760px; /* Adjusted from 700px */
+    left: 760px; 
     top: 73px;
 }
 
 .inter-decision.title-4 {
     position: absolute;
-    left: 1295px; /* Adjusted from 700px */
-    top: 370px;
-
-    
+    left: 1295px; 
+    top: 380px;
 }
+
+.inter-decision.title-5 {
+    position: absolute;
+    left: 1295px; 
+    top: 570px;
+}
+
+.inter-decision.title-6 {
+    position: absolute;
+    left: 1380px; 
+    top: 750px;
+}
+.inter-decision.title-7 {
+    position: absolute;
+    left: 2100px; 
+    top: 960px;
+}
+
+.inter-decision.title-8 {
+    position: absolute;
+    left: 240px; 
+    top: 1120px;
+}
+
+.inter-decision.title-9 {
+    position: absolute;
+    left: 600px; 
+    top: 1120px;
+}
+
+.inter-decision.title-10 {
+    position: absolute;
+    left: 810px; 
+    top: 1120px;
+}
+
+.inter-decision.title-11 {
+    position: absolute;
+    left: 1190px; 
+    top: 1120px;
+}
+.inter-decision.title-12 {
+    position: absolute;
+    left: 1450px; 
+    top: 1120px;
+}
+
 
 .inter-decision.parallelogram {
     position: absolute;
-    left: 1190px; /* Adjusted from 700px */
+    left: 1190px; 
     top: 300px;
 
-    width: 150px; /* Width of the parallelogram */
-    height: 75px; /* Height of the parallelogram */
-    position: relative; /* Positioning context for pseudo-elements */
+    width: 150px;
+    height: 75px;
+    position: relative;
+    transform: skewX(-20deg);
+}
+
+.inter-decision.parallelogram-2 {
+    position: absolute;
+    left: 1630px; 
+    top: 500px;
+
+    width: 150px;
+    height: 75px;
+    position: relative;
     transform: skewX(-20deg);
 }
 
 .inter-rect.level-1 {
-    top: 73px; /* Adjust the top position as needed */
-    left: 280px; /* Adjusted from 250px */
+    top: 73px; 
+    left: 280px; /
 }
 
 .inter-rect.level-2 {
-    top: 270px; /* Adjust the top position as needed */
-    left: 280px; /* Adjusted from 250px */
+    top: 300px; 
+    left: 280px; 
 }
 
 .inter-rect.level-3 {
@@ -3268,39 +3328,305 @@ footer-test {
     left: 280px;
 }
 
+.inter-rect.level-4 {
+    top: 570px; 
+    left: 890px;
+}
+
+.inter-rect.level-5 {
+    top: 750px; 
+    left: 850px;
+}
+.inter-rect.level-6 {
+    top: 750px; 
+    left: 1580px;
+}
+
+.inter-rect.dp3 {
+    top: 970px; 
+    left: 1880px;
+    width: 100px;
+    height: 50px;
+}
+
+.inter-rect.rect7 {
+    top: 1140px; 
+    left: 20px;
+    width: 100px;
+    height: 50px;
+}
+.inter-rect.rect8 {
+    top: 1140px; 
+    left: 400px;
+    width: 100px;
+    height: 50px;
+}
+.inter-rect.rect9 {
+    top: 1140px; 
+    left: 960px;
+    width: 100px;
+    height: 50px;
+}
+
+.rect-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.title {
+    font-size: 18px; /* Example font size */
+    font-weight: bold; /* Example font weight */
+    margin-top: 0px; /* Adjust negative margin to move title above */
+    position: absolute; /* Position absolute to move freely */
+    top: 0; /* Position at the top */
+    left: 0; /* Center horizontally */
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+}
+
+.squares-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute squares evenly */
+    width: 100%; /* Take full width of the container */
+    margin-top: 20px; /* Adjust spacing above squares */
+}
+
+.square {
+    width: 52px; /* Adjust width of each square */
+    height: 52px; /* Adjust height of each square */
+    border: 1px solid #000000; /* Black border */
+}
+
+.dashed-border {
+    border-style: dashed; /* Dashed border style */
+}
+
 .inter-rect.satisfy {
     width: 100px; 
     height: 60px;
-    top: 70px; 
+    top: 80px; 
     left: 960px; 
 }
 
 .inter-rect.passed-utility {
     width: 130px;
     height: 40px;
-    top: 240px; 
-    left: 665px; 
+    top: 255px; 
+    left: 685px; 
 }
 
 .inter-rect.failed-utility-1 {
     width: 130px; 
     height: 40px;
-    top: 310px; 
-    left: 665px; 
+    top: 325px; 
+    left: 685px; 
 }
 
 .inter-rect.failed-utility-2 {
     width: 130px; 
     height: 40px;
-    top: 380px; 
-    left: 665px; 
+    top: 395px; 
+    left: 685px; 
 }
 
 .inter-rect.work {
     width: 130px; 
     height: 40px;
-    top: 380px; 
+    top: 395px; 
     left: 955px; 
+}
+
+.circle-inter {
+    height: 20px; /* Adjust height as needed */
+    width: 20px; /* Adjust width as needed */
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white color */
+    border-color: var(--black-color);
+    border-radius: 50%;
+
+    border: 0.1px ;
+ border: solid;
+
+   position: absolute;
+}
+
+.circle-inter.inter-1 {
+    left: 200px;
+    top: 334px;
+}
+
+.circle-inter.inter-2 {
+    left: 630px;
+    top: 335px;
+}
+
+.circle-inter.inter-3 {
+    left: 1630px;
+    top: 600px;
+}
+.arrow-container {
+    width: 20px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    background-image: url("../images/right_arrow.png"); /* Image URL */
+    background-size: contain; /* Ensure the image fits within the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+} 
+
+.right-arrow-1 {
+    left: 240px;
+    top: 334px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-2 {
+    left: 240px;
+    top: 103px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-3 {
+    left: 240px;
+    top: 600px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-4 {
+    left: 660px;
+    top: 103px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-5 {
+    left: 890px;
+    top: 103px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-6 {
+    top: 255px; 
+    left: 1285px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+ 
+.right-arrow-7 {
+    top: 334px; 
+    left: 1285px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+.right-arrow-8 {
+    top: 410px; 
+    left: 1205px;
+    height: 20px;
+    width: 20px;
+
+    z-index: 1;
+    position: absolute;
+}
+
+
+.line-inter {
+    position: absolute;
+    top: 50%; /* Position vertically in the middle */
+    background-color: #000000; /* Color of the line */
+    height: 1px; /* Height of the line */
+
+}
+
+/* this one goes through level 2 */
+.line-inter.line1 
+{
+    top: 343px;
+    left:50px;
+    width:1600px;
+}
+
+/* this one goes through level 1 */
+
+.line-inter.line2
+{
+    top: 113px;
+    left: 210px;
+    width:1600px;
+}
+/* vertical line at start */
+
+.line-inter.line3
+{
+    top: 113px;
+    left: -590px;
+    width:1600px;
+    transform: rotate(90deg);
+}
+
+.line-inter.line4
+{
+    top: 610px;
+    left: 200px;
+    width: 1900px;
+}
+
+.line-inter.line5
+{
+    top: 790px;
+    left: 785px;
+    width:1600px;
+}
+
+
+.line-inter.line6
+{
+    top: 270px;
+    left: 700px;
+    width: 1900px;
+}
+
+.line-inter.line7
+{
+    top: 420px;
+    left: 700px;
+    width: 1900px;
+}
+
+.line-inter.line8
+{
+    top: 1160px;
+    left: 30px;
+    width: 1900px;
+}
+
+.line-inter.linelong
+{
+    top: 1000px;
+    left: 1800px;
+    width: 1900px;
 }
 /* Target the inter-decision element */
 /* .inter-decision.title-1 {
