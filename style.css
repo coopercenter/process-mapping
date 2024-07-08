@@ -15,7 +15,7 @@
 }
 
 .container-scroll {
-    min-height: 3000px;
+    min-height: 1300px;
 }
 .decision {
     box-sizing: border-box;
@@ -3190,25 +3190,11 @@ footer-test {
     /* Ensure there's no outline property here */
 /*} */
 
-.inter-decision {
-    background: #ffffff; 
-    border: 1px solid #000000; 
-    width: 80px; 
-    height: 80px;
-    transform: rotate(-45deg);
-    box-sizing: border-box; /* Ensure border-box model for accurate sizing */
-    display: flex; /* Use flexbox for centering content */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    font-size: 14px; /* Example font size */
-    text-align: center; /* Center align text */
-}
-
 .inter-rect {
     background: #ffffff; /* White background */
     border: 1px solid #000000; /* Black border */
-    width: 320px; /* Adjust width as needed */
-    height: 80px; /* Adjust height as needed */
+    width: 360px; /* Adjust width as needed */
+    height: 90px; /* Adjust height as needed */
     box-sizing: border-box; /* Ensure border-box model for accurate sizing */
     display: flex; /* Use flexbox for centering content */
     justify-content: center; /* Center content horizontally */
@@ -3217,6 +3203,33 @@ footer-test {
     text-align: center; /* Center align text */
     position: absolute; /* Position absolute to move freely on the page */
 }
+.inter-decision {
+    width: 105px; /* Adjust the size of the rhombus */
+    height: 105px; /* Adjust the size of the rhombus */
+    background: #ffffff; /* White background */
+    border: 1px solid #000000; /* Black border */
+    transform: rotate(-45deg); /* Rotate the rhombus */
+    box-sizing: border-box; /* Ensure border-box model for accurate sizing */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative; /* Position relative for absolute positioning */
+  }
+  
+  .inter-decision .rhombus-text {
+    color: black; /* Color of the text */
+    font-size: 12px; /* Adjust the font size */
+    margin: 0;
+    position: absolute; /* Position absolute for precise placement */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%) rotate(45deg); /* Center text and rotate it to counteract rhombus rotation */
+    transform-origin: center center; /* Ensure proper rotation origin */
+    white-space: nowrap; 
+    text-align: center; 
+  }
+  
+
 
 .inter-decision.title-1 {
     position: absolute; /* Position absolute to move freely on the page */
@@ -3229,8 +3242,10 @@ footer-test {
 .inter-decision.title-2 {
     position: absolute;
     left: 20px; /* Adjusted from 20px */
-    top: 273px;
+    top: 300px;
+
 }
+
 
 .inter-decision.title-3 {
     position: absolute;
@@ -3289,7 +3304,11 @@ footer-test {
     left: 1450px; 
     top: 1120px;
 }
-
+.inter-decision.title-12 {
+    position: absolute;
+    left: 1450px; 
+    top: 2120px;
+}
 
 .inter-decision.parallelogram {
     position: absolute;
@@ -3315,17 +3334,17 @@ footer-test {
 
 .inter-rect.level-1 {
     top: 73px; 
-    left: 280px; /
+    left: 265px; 
 }
 
 .inter-rect.level-2 {
     top: 300px; 
-    left: 280px; 
+    left: 265px; 
 }
 
 .inter-rect.level-3 {
     top: 570px; 
-    left: 280px;
+    left: 265px;
 }
 
 .inter-rect.level-4 {
@@ -3392,10 +3411,18 @@ footer-test {
 }
 
 .square {
-    width: 52px; /* Adjust width of each square */
-    height: 52px; /* Adjust height of each square */
+    width: 65px; /* Adjust width of each square */
+    height: 65px; /* Adjust height of each square */
     border: 1px solid #000000; /* Black border */
-}
+    font-size: 10.5px; /* Adjust the font size */
+    text-align: center; /* Center align text horizontally */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    line-height: 1;
+    white-space: nowrap;
+  }
+  
 
 .dashed-border {
     border-style: dashed; /* Dashed border style */
