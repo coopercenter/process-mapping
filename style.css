@@ -14,9 +14,9 @@
     padding-right: 10%;
 }
 
-.container-scroll {
+/* .container-scroll {
     min-height: 1330px;
-}
+} */
 .decision {
     box-sizing: border-box;
     background: var(--green-color);
@@ -3304,7 +3304,7 @@ footer-test {
     left: 1450px; 
     top: 1120px;
 }
-.inter-decision.title-12 {
+.inter-decision.title-13 {
     position: absolute;
     left: 1450px; 
     top: 2120px;
@@ -3409,7 +3409,14 @@ footer-test {
 
     line-height: 15px;
 }
+.inter-rect.rect12 {
+    width: 130px; 
+    height: 50px;
+    top: 860px; 
+    left: 1960px; 
 
+    line-height: 15px;
+}
 .inter-rect.not_button{
     width: 75px;
     height: 50px;
@@ -3947,7 +3954,6 @@ footer-test {
     left: 1977px;
     width: 100px;
     transform: rotate(90deg);
-
 }
 
 .oval-shape {
