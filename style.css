@@ -14,9 +14,14 @@
     padding-right: 10%;
 }
 
-.container-scroll {
-    min-height: 1330px;
+
+.flow-chart-container {
+   
+    overflow: hidden; 
+    overflow-x: scroll;
+    overflow-y: scroll;
 }
+
 .decision {
     box-sizing: border-box;
     background: var(--green-color);
@@ -2310,8 +2315,10 @@ about-footer {
 }
 
 .container-scroll {
-    overflow: hidden;
+    overflow: hidden;     /* auto maybe */
     overflow-x: scroll;
+    /* overflow-y: scroll; */
+    
 }
 
 .txt-test {
@@ -3304,11 +3311,11 @@ footer-test {
     left: 1450px; 
     top: 1120px;
 }
-.inter-decision.title-12 {
+/* .inter-decision.title-12 {
     position: absolute;
     left: 1450px; 
     top: 2120px;
-}
+} */
 
 .inter-decision.parallelogram {
     position: absolute;
@@ -3395,7 +3402,7 @@ footer-test {
 }
 .inter-rect.rect10 {
     top: 1140px; 
-    left: 1500px;
+    left: 1650px;
     width: 100px;
     height: 50px;
 
@@ -3430,20 +3437,26 @@ footer-test {
     top: 20px;
 
 }
+
+.inter-rect.negotiation {
+    top: 1220px; 
+    left: 1820px;
+}
+
 .rect-container {
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
 }
 .title {
-    font-size: 16px; /* Example font size */
-    font-weight: bold; /* Example font weight */
-    margin-top: 0px; /* Adjust negative margin to move title above */
-    position: absolute; /* Position absolute to move freely */
-    top: 0; /* Position at the top */
-    left: 0; /* Center horizontally */
-    width: 100%; /* Full width */
-    text-align: center; /* Center align text */
+    font-size: 16px;
+    font-weight: bold; 
+    margin-top: 0px; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    text-align: center;
 }
 
 .squares-container {
@@ -3468,7 +3481,20 @@ footer-test {
   
 
 .dashed-border {
-    border-style: dashed; /* Dashed border style */
+    border-style: dashed; 
+}
+
+.gia {
+    position: absolute;
+    top: 40px; 
+    left: 10px;
+    width: 50%; /* Take up the left half */
+    height: 40px; 
+    background-color: #ffffff; 
+    text-align: center;
+    line-height: 40px; 
+    font-weight: bold; 
+    border: #000000 1px solid;
 }
 
 .inter-rect.satisfy {
@@ -3536,6 +3562,11 @@ footer-test {
 .circle-inter.inter-3 {
     left: 1730px;
     top: 600px;
+}
+
+.circle-inter.inter-4{
+    top: 1250px;
+    left: 2340px;
 }
 .arrow-container {
     width: 20px; /* Adjust width as needed */
@@ -3816,9 +3847,9 @@ footer-test {
 
 .line-inter.line8
 {
-    top: 1160px;
+    top: 1172px;
     left: 30px;
-    width: 1900px;
+    width: 1800px;
 }
 
 .line-inter.linelong
@@ -3950,6 +3981,100 @@ footer-test {
 
 }
 
+.line-inter.line22
+{
+    top: 1129px;
+    left: 1672px;
+    width: 258px;
+    transform: rotate(90deg);
+
+}
+
+.line-inter.line23
+{
+    top: 1265px;
+    left: 1750.5px;
+    width: 680px;
+}
+.line-inter.line24
+{
+    top: 1175px;
+    left: 1970.5px;
+    width: 680px;
+}
+.line-inter.lineOval-1
+{
+    top: 1205px;
+    left: 232.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-2
+{
+    top: 1270px;
+    left: 592.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-3
+{
+    top: 1205px;
+    left: 802.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-4
+{
+    top: 1254px;
+    left: 1182.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-5
+{
+    top: 1205px;
+    left: 1442.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+
+.line-inter.lineOvalHoriz-1
+{
+    top: 1265px;
+    left: 1501.5px;
+    width: 149px;
+}
+.line-inter.lineOvalHoriz-2
+{
+    top: 1265px;
+    left: 862.5px;
+    width: 78px;
+}
+
+.line-inter.lineOvalHoriz-3
+{
+    top: 1265px;
+    left: 292.5px;
+    width: 48px;
+}
+.line-inter.lineOvalHoriz-4
+{
+    top: 1330px;
+    left: 651.5px;
+    width: 1348px;
+}
+
+
+
+.inter-rect.rect-Full {
+    top: 1306px; 
+    left: 1195px;
+    width: 100px;
+    height: 50px;
+
+    line-height: 14px;
+}
+
 .oval-shape {
     width: 100px;
     height: 50px;
@@ -3982,82 +4107,53 @@ footer-test {
 .oval-shape.oval-3
 {
     top: 1240px;
-    left: 1500px;
+    left: 1650px;
     font-size: 11px;
     line-height: 14px;
-
 }
-/* Target the inter-decision element */
-/* .inter-decision.title-1 {
-    font-size: 18px; 
-    text-align: center;
-    font-weight: bold; 
-    color: #333; 
-    margin-bottom: 10px;
-} -->
 
+.oval-shape.oval-4
+{
+    width: 350px;
+    height: 150px;
+    top: 1100px;
+    left: 2590px;
+    font-size: 11px;
+    line-height: 14px;
+}
 
-
-
-
-/* .inter-inter-1 {
-    width: 10px;
-    height: 80px;
-    left: 100px;
-    top: 410px;
-    border-radius: 0px;
-
-    text-align: left;
-    font-size: 10.5px;
-    border: 1px dashed #000000;
-    padding: 5px 10px;
-} */
-/* flowchart container */
-
-/* .flowchart {
-    margin: 20px auto; 
-    width: 80%; 
-    border: 1px solid #ccc;
-    padding: 20px; 
-    background-color: #f0f0f0; 
-} */
-
-/* Style utility-interconnection element */
-/*utility-interconnection {
-    display: flex; /* Example: use flexbox for layout */
-   /* justify-content: space-between; /* Example: space items evenly */
-/*}
-
-/* Style interconnection items */
-/* .inter {
-    box-sizing: border-box;
-
+.and-or {
     position: absolute;
-    font-size: 10px;
-    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    background-color: #fff; 
+    padding: 0 10px; 
+}
+.left-oval, .right-oval {
+    position: absolute;
+    width: calc(50% - 30px); /* Adjust width to fit within the container */
+    height: 70px; 
+    background-color: #fff; 
+    border: 2px dashed #000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px; 
+}
 
-    background: #B6F2A1;
+.left-oval {
+    top: 40px; 
+    left: 0;
+}
 
-} */
-
-/* .interconnection-item img.rhombus-image {
-    width: 500px; 
-    height: auto;
-    display: block; 
-    margin: 0 auto 10px;
-
-
-} */
-
-/* .interconnection-item .text {
-    display: block; 
-    margin-top: 5px; 
-    font-weight: bold; 
-    font-size: 14px; 
-    color: #333; /*
-} */
-
-
+.right-oval {
+    top: 40px; 
+    right: 0;
+}
 
 .deq-test-doc-1 {
     left: 195px;
