@@ -3312,11 +3312,11 @@ footer-test {
     left: 1450px; 
     top: 1120px;
 }
-/* .inter-decision.title-12 {
+.inter-decision.title-13 {
     position: absolute;
     left: 1450px; 
     top: 2120px;
-} */
+} 
 
 .inter-decision.parallelogram {
     position: absolute;
@@ -3426,6 +3426,7 @@ footer-test {
 
     line-height: 15px;
 }
+
 
 .inter-rect.not_button{
     width: 75px;
@@ -3996,7 +3997,100 @@ footer-test {
     left: 1977px;
     width: 100px;
     transform: rotate(90deg);
+}
 
+.line-inter.line22
+{
+    top: 1129px;
+    left: 1672px;
+    width: 258px;
+    transform: rotate(90deg);
+
+}
+
+.line-inter.line23
+{
+    top: 1265px;
+    left: 1750.5px;
+    width: 680px;
+}
+.line-inter.line24
+{
+    top: 1175px;
+    left: 1970.5px;
+    width: 680px;
+}
+.line-inter.lineOval-1
+{
+    top: 1205px;
+    left: 232.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-2
+{
+    top: 1270px;
+    left: 592.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-3
+{
+    top: 1205px;
+    left: 802.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-4
+{
+    top: 1254px;
+    left: 1182.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+.line-inter.lineOval-5
+{
+    top: 1205px;
+    left: 1442.5px;
+    width: 120px;
+    transform: rotate(90deg);
+}
+
+.line-inter.lineOvalHoriz-1
+{
+    top: 1265px;
+    left: 1501.5px;
+    width: 149px;
+}
+.line-inter.lineOvalHoriz-2
+{
+    top: 1265px;
+    left: 862.5px;
+    width: 78px;
+}
+
+.line-inter.lineOvalHoriz-3
+{
+    top: 1265px;
+    left: 292.5px;
+    width: 48px;
+}
+.line-inter.lineOvalHoriz-4
+{
+    top: 1330px;
+    left: 651.5px;
+    width: 1348px;
+}
+
+
+
+.inter-rect.rect-Full {
+    top: 1306px; 
+    left: 1195px;
+    width: 100px;
+    height: 50px;
+
+    line-height: 14px;
 }
 
 .line-inter.line22
