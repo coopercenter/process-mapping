@@ -3221,6 +3221,8 @@ footer-test {
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     position: relative; /* Position relative for absolute positioning */
+    background: var(--green-color);
+    border: 1px solid var(--black-color);
   }
   
   .inter-decision .rhombus-text {
@@ -3242,14 +3244,13 @@ footer-test {
     position: absolute; /* Position absolute to move freely on the page */
     top: 570px; /* Adjust the top position as needed */
     left: 740px; /* Adjust the left position as needed */
-    background: #ffffff; /* White background */
-    border: 1px solid #000000; /* Black border */
+    
 }
 
 .inter-decision.title-2 {
     position: absolute;
     left: 20px; /* Adjusted from 20px */
-    top: 300px;
+    top: 291px;
 
 }
 
@@ -3417,6 +3418,15 @@ footer-test {
     line-height: 15px;
 }
 
+.inter-rect.rect12 {
+    width: 130px; 
+    height: 50px;
+    top: 860px; 
+    left: 1960px; 
+
+    line-height: 15px;
+}
+
 .inter-rect.not_button{
     width: 75px;
     height: 50px;
@@ -3509,6 +3519,8 @@ footer-test {
     height: 40px;
     top: 255px; 
     left: 685px; 
+    background-color: #FFFBD7;
+
 }
 
 .inter-rect.failed-utility-1 {
@@ -3516,6 +3528,8 @@ footer-test {
     height: 40px;
     top: 325px; 
     left: 685px; 
+    background-color: #FFFBD7;
+
 }
 
 .inter-rect.failed-utility-2 {
@@ -3525,6 +3539,8 @@ footer-test {
     left: 685px; 
     white-space: nowrap;
     line-height: 14px;
+    background-color: #FFFBD7;
+
 }
 
 .inter-rect.work {
@@ -3533,18 +3549,20 @@ footer-test {
     top: 395px; 
     left: 955px; 
     line-height: 16px;
+    background-color: #FFFBD7;
+
 
 }
 
 .circle-inter {
     height: 20px; /* Adjust height as needed */
     width: 20px; /* Adjust width as needed */
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white color */
+    background-color: #bbb;
     border-color: var(--black-color);
     border-radius: 50%;
 
     border: 0.1px ;
- border: solid;
+    border: solid;
 
    position: absolute;
 }
