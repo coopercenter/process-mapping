@@ -18,13 +18,12 @@ class NavBar extends HTMLElement {
                     <a href="index.html" class="nav-link"> Home </a>
                 </li>
     
-                <li class="nav-item px-2">
-                    <a href="about.html" class="nav-link"> About </a>
-                </li>
     
                 <li class="nav-item px-2">
                     <a href="inter-map.html" class="nav-link"> Interconnections</a>
                 </li>
+
+               
     
                 <li class="nav-item dropdown px-2">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
@@ -74,13 +73,42 @@ class NavBar extends HTMLElement {
                                     SCC CPCN for Facilities &gt100 MW 
                                 </a>
                             </li>
+
+                           
+
                         </ul>
                     </li>
                 </ul>
+                <div class="off-screen-menu">
+    <div class="menu-header">
+        <h2>Menu</h2>
+    </div>
+    <div class="menu-content">
+        <ul>
+            <a href="../about.html" class="btn btn-light">About</a></li>
+            <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button></li>
+        </ul>
+    </div>
+</div>
+            <menu1-bar>
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </menu1-bar>
             </div>
         </div>
     </nav>
             `;
+            const hamMenu = document.querySelector('.ham-menu');
+            const offScreenMenu = document.querySelector('.off-screen-menu');
+    
+            hamMenu.addEventListener('click', () => {
+                hamMenu.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            });
+    
     }
 }
 
@@ -1249,7 +1277,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the Generation Interconnection Agreement. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
+                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
 
                     For Transmission Project Developers, the GIA confers transmission injection and withdrawal rights (Merchant Direct Current and/or Fully Controllable Alternating Current transmission projects) and applicable incremental delivery rights and Incremental Auction Revenue Rights.<br><br>
                     
