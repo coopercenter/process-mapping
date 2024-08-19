@@ -15,7 +15,7 @@ class NavBar extends HTMLElement {
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav h5">
                 <li class="nav-item px-2">
-                    <a href="index.html" class="nav-link"> Home </a>
+                    <a href= "../index.html" class="nav-link"> Home </a>
                 </li>
     
     
@@ -122,7 +122,8 @@ class SwimLaneNavBar extends HTMLElement {
             <title>Solar Permit Map</title>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" ="../index.html">The Virginia Solar Permit Map</a></h2> 
+                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a>
+                    </h2> 
                         <div class="collapse navbar-collapse">
                             <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
                         </div>
