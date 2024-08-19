@@ -19,12 +19,16 @@ class NavBar extends HTMLElement {
                 </li>
     
     
-                <li class="nav-item px-2">
-                    <a href="inter-map.html" class="nav-link"> Interconnections</a>
-                </li>
+                <li class="nav-item dropdown px-2">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a href="inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
+                    <li><a href="inter-map.html" class="dropdown-item">SCC</a></li>
+                    <li><a href="inter-pjm.html" class="dropdown-item">PJM</a></li>
 
-               
-    
+                </ul>
+            </li>
+
                 <li class="nav-item dropdown px-2">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
                         <ul class="dropdown-menu dropdown-menu-end">
@@ -136,9 +140,15 @@ class SwimLaneNavBar extends HTMLElement {
                             <a href="../about.html" class="nav-link"> About </a>
                         </li>
             
-                        <li class="nav-item px-2">
-                            <a href="../inter-map.html" class="nav-link"> Interconnections</a>
-                        </li>
+                        <li class="nav-item dropdown px-2">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a href="inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
+                            <li><a href="inter-map.html" class="dropdown-item">SCC</a></li>
+                            <li><a href="inter-pjm.html" class="dropdown-item">PJM</a></li>
+        
+                        </ul>
+                    </li>
             
                         <li class="nav-item dropdown px-2">
                             <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
@@ -191,10 +201,35 @@ class SwimLaneNavBar extends HTMLElement {
                                 </ul>
                             </li>
                         </ul>
+                        <div class="off-screen-menu">
+                        <div class="menu-header">
+                            <h2>Menu</h2>
+                        </div>
+                        <div class="menu-content">
+                            <ul>
+                                <a href="../about.html" class="btn btn-light">About</a></li>
+                                <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                                <menu1-bar>
+                                    <div class="ham-menu">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </menu1-bar>
                     </div>
                 </div>
             </nav>
             `;
+            const hamMenu = document.querySelector('.ham-menu');
+            const offScreenMenu = document.querySelector('.off-screen-menu');
+    
+            hamMenu.addEventListener('click', () => {
+                hamMenu.classList.toggle('active');
+                offScreenMenu.classList.toggle('active');
+            });
     }
 }
 
