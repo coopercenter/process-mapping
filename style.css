@@ -3425,36 +3425,36 @@ menu1{
 .inter-decision.title-7 {
     position: absolute;
     left: 2100px; 
-    top: 960px;
+    top: 70px;
 }
 
 .inter-decision.title-8 {
     position: absolute;
     left: 240px; 
-    top: 1120px;
+    top: 398px;
 }
 
 .inter-decision.title-9 {
     position: absolute;
     left: 600px; 
-    top: 1120px;
+    top: 398px;
 }
 
 .inter-decision.title-10 {
     position: absolute;
     left: 810px; 
-    top: 1120px;
+    top: 398px;
 }
 
 .inter-decision.title-11 {
     position: absolute;
     left: 1190px; 
-    top: 1120px;
+    top: 398px;
 }
 .inter-decision.title-12 {
     position: absolute;
     left: 1450px; 
-    top: 1120px;
+    top: 398px;
 }
 .inter-decision.title-13 {
     position: absolute;
@@ -3521,32 +3521,32 @@ menu1{
 }
 
 .inter-rect.dp3 {
-    top: 970px; 
+    top: 100px; 
     left: 1880px;
     width: 100px;
     height: 50px;
 }
 
 .inter-rect.rect7 {
-    top: 1140px; 
+    top: 422px; 
     left: 20px;
     width: 100px;
     height: 50px;
 }
 .inter-rect.rect8 {
-    top: 1140px; 
+    top: 400px; 
     left: 400px;
     width: 140px;
     height: 75px;
 }
 .inter-rect.rect9 {
-    top: 1140px; 
+    top: 400px; 
     left: 960px;
     width: 140px;
     height: 75px;
 }
 .inter-rect.rect10 {
-    top: 1140px; 
+    top: 422px; 
     left: 1650px;
     width: 100px;
     height: 50px;
@@ -3594,8 +3594,8 @@ menu1{
 }
 
 .inter-rect.negotiation {
-    top: 1220px; 
-    left: 1820px;
+    top: 600px; 
+    left: 1840px;
 }
 
 .rect-container {
@@ -4010,16 +4010,17 @@ menu1{
 
 .line-inter.line8
 {
-    top: 1172px;
+    top: 450px;
     left: 30px;
     width: 1800px;
 }
 
 .line-inter.linelong
 {
-    top: 1000px;
+    top: 122px;
     left: 1800px;
     width: 1900px;
+
 }
 
 .line-inter.line9
@@ -4145,6 +4146,120 @@ menu1{
 
 .line-inter.line22
 {
+    top: 400px;
+    left: 1522px;
+    width: 558px;
+    transform: rotate(90deg);
+    background: #FFD0D0;
+
+
+}
+
+.line-inter.line23
+{
+    top: 1265px;
+    left: 1750.5px;
+    width: 680px;
+    /* background-color: #CA95FF; */
+}
+.line-inter.line24
+{
+    top: 1175px;
+    left: 1970.5px;
+    width: 680px;
+    
+}
+.line-inter.lineOval-1
+{
+    top: 530px;
+    left: 232.5px;
+    width: 120px;
+    transform: rotate(90deg);
+    
+    
+}
+.line-inter.lineOval-2
+{
+    top: 580px;
+    left: 592.5px;
+    width: 120px;
+    transform: rotate(90deg);
+
+}
+.line-inter.lineOval-3
+{
+    top: 530px;
+    left: 802.5px;
+    width: 120px;
+    transform: rotate(90deg);
+
+}
+.line-inter.lineOval-4
+{
+    top: 530px;
+    left: 1182.5px;
+    width: 120px;
+    transform: rotate(90deg);
+        /* background: #FFD0D0; */
+
+
+}
+.line-inter.lineOval-5
+{
+    top: 530px;
+    left: 1442.5px;
+    width: 120px;
+    transform: rotate(90deg);
+        /* background: #FFD0D0; */
+
+}
+
+.line-inter.lineOvalHoriz-1
+{
+    top: 590px;
+    left: 1501.5px;
+    width: 149px;    
+    
+}
+.line-inter.lineOvalHoriz-2
+{
+    top: 590px;
+    left: 862.5px;
+    width: 78px;
+
+}
+
+.line-inter.lineOvalHoriz-3
+{
+    top: 590px;
+    left: 292.5px;
+    width: 48px;
+
+    
+}
+.line-inter.lineOvalHoriz-4 
+{
+    top: 640px;
+    left: 651.5px;
+    width: 1348px;
+    /* background: #FFD0D0; */
+
+    
+}
+
+
+
+.inter-rect.rect-Full {
+    top: 610px; 
+    left: 1195px;
+    width: 100px;
+    height: 50px;
+
+    line-height: 14px;
+}
+
+/* .line-inter.line22
+{
     top: 1129px;
     left: 1672px;
     width: 258px;
@@ -4163,8 +4278,8 @@ menu1{
     top: 1175px;
     left: 1970.5px;
     width: 680px;
-}
-.line-inter.lineOval-1
+} */
+/* .line-inter.lineOval-1
 {
     top: 1205px;
     left: 232.5px;
@@ -4198,8 +4313,8 @@ menu1{
     left: 1442.5px;
     width: 120px;
     transform: rotate(90deg);
-}
-
+} */
+/* 
 .line-inter.lineOvalHoriz-1
 {
     top: 1265px;
@@ -4224,112 +4339,18 @@ menu1{
     top: 1330px;
     left: 651.5px;
     width: 1348px;
-}
+} */
 
 
 
-.inter-rect.rect-Full {
+/* .inter-rect.rect-Full {
     top: 1306px; 
     left: 1195px;
     width: 100px;
     height: 50px;
 
     line-height: 14px;
-}
-
-.line-inter.line22
-{
-    top: 1129px;
-    left: 1672px;
-    width: 258px;
-    transform: rotate(90deg);
-
-}
-
-.line-inter.line23
-{
-    top: 1265px;
-    left: 1750.5px;
-    width: 680px;
-}
-.line-inter.line24
-{
-    top: 1175px;
-    left: 1970.5px;
-    width: 680px;
-}
-.line-inter.lineOval-1
-{
-    top: 1205px;
-    left: 232.5px;
-    width: 120px;
-    transform: rotate(90deg);
-}
-.line-inter.lineOval-2
-{
-    top: 1270px;
-    left: 592.5px;
-    width: 120px;
-    transform: rotate(90deg);
-}
-.line-inter.lineOval-3
-{
-    top: 1205px;
-    left: 802.5px;
-    width: 120px;
-    transform: rotate(90deg);
-}
-.line-inter.lineOval-4
-{
-    top: 1254px;
-    left: 1182.5px;
-    width: 120px;
-    transform: rotate(90deg);
-}
-.line-inter.lineOval-5
-{
-    top: 1205px;
-    left: 1442.5px;
-    width: 120px;
-    transform: rotate(90deg);
-}
-
-.line-inter.lineOvalHoriz-1
-{
-    top: 1265px;
-    left: 1501.5px;
-    width: 149px;
-}
-.line-inter.lineOvalHoriz-2
-{
-    top: 1265px;
-    left: 862.5px;
-    width: 78px;
-}
-
-.line-inter.lineOvalHoriz-3
-{
-    top: 1265px;
-    left: 292.5px;
-    width: 48px;
-}
-.line-inter.lineOvalHoriz-4
-{
-    top: 1330px;
-    left: 651.5px;
-    width: 1348px;
-}
-
-
-
-.inter-rect.rect-Full {
-    top: 1306px; 
-    left: 1195px;
-    width: 100px;
-    height: 50px;
-
-    line-height: 14px;
-}
+} */
 
 .oval-shape {
     width: 100px;
@@ -4345,7 +4366,7 @@ menu1{
 
 .oval-shape.oval-1
 {
-    top: 1240px;
+    top: 565px;
     left: 340px;
     font-size: 11px;
     line-height: 14px;
@@ -4354,7 +4375,7 @@ menu1{
 
 .oval-shape.oval-2
 {
-    top: 1240px;
+    top: 565px;
     left: 940px;
     font-size: 11px;
     line-height: 14px;
@@ -4362,7 +4383,7 @@ menu1{
 }
 .oval-shape.oval-3
 {
-    top: 1240px;
+    top: 565px;
     left: 1650px;
     font-size: 11px;
     line-height: 14px;
@@ -4370,9 +4391,9 @@ menu1{
 
 .oval-shape.oval-4
 {
+    top: 1100px;
     width: 350px;
     height: 150px;
-    top: 1100px;
     left: 2590px;
     font-size: 11px;
     line-height: 14px;
