@@ -2362,8 +2362,8 @@ about-footer {
     line-height: 1.2;
 }
 .txt-test.txt-inter-1-test {
-    top: 132px;
-    left: 445px;
+    top: 140px;
+    left: 420px;
     z-index: 1;
 
     font-size: 12px;
@@ -2372,8 +2372,8 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-inter-1-test-exempt {
-    top: 32.5px;
-    left: 265px;
+    top: 40px;
+    left: 250px;
     z-index: 1;
 
     font-size: 12px;
