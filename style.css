@@ -1785,16 +1785,30 @@ about-footer {
 
     padding: 18px 4px;
 }
-.inter.inter-practice {
+.inter.inter-practice-1 {
     left: 200px;
     top: 112px;
-    width: 100px;
-    height: 76px;
+    width: 80px;
+    height: 80px;
     border: 1px dashed #000000;
 
     padding: 5px 10px;
     font-size: 10px;
     text-align: left;
+    line-height: 1.2;
+}
+.inter.inter-practice-2 {
+    left: 300px;
+    top: 112px;
+    width: 80px;
+    height: 80px;
+    border: 1px dashed #000000;
+
+    padding: 5px 10px;
+    font-size: 8px;
+    text-align: left;
+    line-height: 1.2;
+    
 }
 .inter-doc-1 {
     box-sizing: border-box;
@@ -2363,7 +2377,7 @@ about-footer {
 }
 .txt-test.txt-inter-1-test {
     top: 140px;
-    left: 420px;
+    left: 460px;
     z-index: 1;
 
     font-size: 12px;
@@ -2584,8 +2598,8 @@ footer-test {
     transform: rotate(90deg);
 }
 .line.test-2 {
-    width: 650px;
-    left: 300px;
+    width: 700px;
+    left: 200px;
     top: 149.5px;
 }
 .line.test-3 {
@@ -2852,7 +2866,7 @@ footer-test {
 }
 
 .inter-test {
-    left: 355px;
+    left: 400px;
     top: 105px;
     height: 90px;
     width: 325px;
