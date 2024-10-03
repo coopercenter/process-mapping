@@ -1371,7 +1371,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        For projects seeking to interconnect with the utility, it is a best practice for the utility to host an introductory call with the developer before beginning the interconnection permitting process. This call will help to identify which permitting pathway the utility will require for the proposed project, in addition to other notifications.
+                        For projects seeking to interconnect with the utility, it is a best practice for the utility to host an introductory call with the developer before beginning the interconnection process. This call will help to identify which permitting pathway the utility will require for the proposed project, in addition to other notifications.
                     </div>
                 </div>
             </div>
