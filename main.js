@@ -1377,6 +1377,24 @@ class Interconnections extends HTMLElement {
             </div>
         </div>
 
+        <div class="modal fade" id="trip-determination-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"><i>Best Practice</i>: Send application to transmission owner for transfer trip determination</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As soon as possible, send the transmission owner a copy of the interconnection application to request a determination on whether transfer trip is needed. Costs are not provided until the Facilities Study. This is the only thing that the transmission owner, as an Affected System, will do until they receive the results of the Impact Study. If applying through a cooperative, the cooperative will contact the transmission owner as soon as they receive the aplication.
+                        <br>
+                        <br>
+                        Note on the costs of transfer trip: Transfer trip is a possible requirement for which attention should be called to as it can be a costly component of the interconnection application process, so much so that it is driving many small projects out of existence. Transfer trip requires the use of fiber lines to send a trip signal to halt substation activity in the case of a disruption. Most often the requirement is for dark fiber, or fiber that is not simultaneously being used for anything else. In many cases, new fiber lines must be installed to meet transfer trip. It is especially difficult to get fiber from the deliver point (substation) to the solar site. If transfer trip is required, the utility must provide a way to make this happen. However, this process is generally very costly, in turn driving small projects out of business or forcing them to relocate the project closer to the substation.
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="sgip-level-2" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
