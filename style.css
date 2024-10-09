@@ -4501,6 +4501,14 @@ menu1{
     position: absolute;
 }
 
+.scc-title-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    font-weight: 3;
+    padding-top: 1%;
+}
 
 .scc.scc-test-1 {
     width: 110px;
