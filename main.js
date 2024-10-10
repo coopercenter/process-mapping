@@ -127,18 +127,12 @@ class SwimLaneNavBar extends HTMLElement {
                         <div class="collapse navbar-collapse">
                             <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
                         </div>
-                    </span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                    </span
+
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav h5">
                         <li class="nav-item px-2">
                             <a href="../index.html" class="nav-link"> Home </a>
-                        </li>
-            
-                        <li class="nav-item px-2">
-                            <a href="../about.html" class="nav-link"> About </a>
                         </li>
             
                         <li class="nav-item dropdown px-2">
