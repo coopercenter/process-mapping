@@ -221,6 +221,11 @@
     font-weight: 500;
     line-height: 1.2;
 }
+
+.text-center .mw-100-title-{
+    font-weight: 500;
+}
+
 .txt.operational {
     left: 915px;
     top: 621px;
@@ -321,6 +326,7 @@
     text-align: center;
     font-size: 14px;
 }
+
 .txt.landing-exemption {
     width: 225px;
     height: 100px;
@@ -1698,6 +1704,10 @@ about-footer {
 
     padding: 11px 3px;
 }
+.pjm-intro{
+    font-weight: 400px;
+}
+
 .inter.inter-5 {
     left: 665px;
     top: 225px;
@@ -2375,6 +2385,7 @@ about-footer {
     font-weight: 500;
     line-height: 1.2;
 }
+
 .txt-test.txt-inter-1-test {
     top: 140px;
     left: 460px;
