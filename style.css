@@ -51,7 +51,7 @@
     padding-top: 26px; 
 
     left: 0px;
-    top: 475px;
+    top: 350px;
 }
 
 .decision.landing-title-56-1 {
@@ -61,8 +61,8 @@
 .decision.landing-criteria-1 {
     width: 98px;
     height: 98px;
-    left: 520px;
-    top: 465px;
+    left: 343px;
+    top: 530px;
 }
 .decision.landing-criteria-2 {
     width: 98px;
@@ -72,7 +72,8 @@
 }
 .decision.landing-title-56-2 {
     left: 350px;
-    top: 470px;
+    top: 348px;
+
 }
 .decision.landing-150-mw {
     left: 350px;
@@ -97,11 +98,11 @@
 /* landing.html */
 .circle.circle-1 {
     left: 558px;
-    top: 386px;
+    top: 377px;
 }
 .circle.circle-2 {
-    left: 112px;
-    top: 498px;
+    left: 114px;
+    top: 375px;
 }
 .circle.circle-3 {
     left: 287px;
@@ -117,7 +118,7 @@
 }
 .circle.circle-6 {
     left: 327px;
-    top: 115px;
+    top: 35px;
 }
 .circle.circle-7 {
     left: 725px;
@@ -374,8 +375,8 @@
 .txt.landing-5-100-mw-2 {
     width: 225px;
     height: 100px;
-    left: 830px;
-    top: 535px;
+    left: 820px;
+    top: 645px;
 
     text-decoration: none;
     line-height: 16px;
@@ -441,8 +442,8 @@
 .txt.landing-criteria-1 {
     width: 225px;
     height: 95px;
-    left: 456px;
-    top: 475px;
+    left: 280px;
+    top: 550px;
 
     text-decoration: none;
     line-height: 16px;
@@ -464,7 +465,7 @@
     width: 225px;
     height: 95px;
     left: 280px;
-    top: 478px;
+    top: 356px;
 
     text-decoration: none;
     line-height: 16px;
@@ -908,7 +909,7 @@
 .line.landline-1 {
     width: 275px;
     left: 85px;
-    top: 512px;
+    top: 390px;
 }
 .line.landline-2 {
     width: 263.1px;
@@ -951,13 +952,13 @@
 .line.landline-8 {
     width: 180px;
     left: 393px;
-    top: 399.5px;
+    top: 390px;
     z-index: 0;
 }
 .line.landline-9 {
-    width: 725px;
-    left: -235px;
-    top: 490px;
+    width: 801px;
+    left: -272px;
+    top: 450px;
 
     transform: rotate(90deg);
 }
@@ -970,7 +971,7 @@
 .line.landline-11 {
     width: 215.5px;
     left: 127px;
-    top: 128px;
+    top: 50px;
     z-index: 0;
 }
 .line.landline-12 {
@@ -1169,7 +1170,7 @@
 .project.landing-5-100-mw {
     width: 140px;
     left: 160px;
-    top: 485px;
+    top: 363px;
     padding: 10px;
     font-size: 11px;
 }
@@ -1250,7 +1251,7 @@
 }
 .landing-permit.permit-6 {
     left: 815px;
-    top: 510px;
+    top: 620px;
 }
 .landing-permit.permit-7 {
     left: 815px;
@@ -1291,8 +1292,8 @@
 }
 .box.no-5 {
     padding: 1px 9px;
-    left: 373px;
-    top: 420px;
+    left: 480px;
+    top: 380px;
 }
 .box.no-6 {
     padding: 1px 9px;
@@ -1321,8 +1322,8 @@
 }
 .box.yes-5 {
     padding: 0.5px 6px;
-    left: 455px;
-    top: 505px;
+    left: 370px;
+    top: 480px;
 }
 .box.yes-6 {
     padding: 0.5px 6px;
