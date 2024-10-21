@@ -56,7 +56,7 @@
 
 .decision.landing-title-56-1 {
     left: 597px;
-    top: 685px;
+    top: 670px;
 }
 .decision.landing-criteria-1 {
     width: 98px;
@@ -97,7 +97,7 @@
 }
 /* landing.html */
 .circle.circle-1 {
-    left: 558px;
+    left: 610px;
     top: 377px;
 }
 .circle.circle-2 {
@@ -109,8 +109,8 @@
     top: 878px;
 }
 .circle.circle-4 {
-    left: 774px;
-    top: 714px;
+    left: 760px;
+    top: 697px;
 }
 .circle.circle-5 {
     left: 520px;
@@ -121,11 +121,11 @@
     top: 35px;
 }
 .circle.circle-7 {
-    left: 725px;
-    top: 500px;
+    left: 610px;
+    top: 535px;
 }
 .circle.circle-8 {
-    left: 774px;
+    left: 760px;
     top: 870px;
 }
 .circle.circle-9 {
@@ -365,7 +365,7 @@
     width: 225px;
     height: 100px;
     left: 830px;
-    top: 435px;
+    top: 445px;
 
     text-decoration: none;
     line-height: 16px;
@@ -376,7 +376,7 @@
     width: 225px;
     height: 100px;
     left: 820px;
-    top: 645px;
+    top: 565px;
 
     text-decoration: none;
     line-height: 16px;
@@ -398,7 +398,7 @@
     width: 225px;
     height: 100px;
     left: 830px;
-    top: 835px;
+    top: 800px;
 
     text-decoration: none;
     line-height: 16px;
@@ -421,7 +421,7 @@
     width: 225px;
     height: 100px;
     left: 830px;
-    top: 743px;
+    top: 670px;
 
     text-decoration: none;
     line-height: 16px;
@@ -432,7 +432,7 @@
     width: 205px;
     height: 95px;
     left: 538px;
-    top: 690px;
+    top: 674px;
 
     text-decoration: none;
     line-height: 16px;
@@ -912,8 +912,8 @@
     top: 390px;
 }
 .line.landline-2 {
-    width: 263.1px;
-    left: 261px;
+    width: 200px;
+    left: 292px;
     top: 530.5px;
 
     transform: rotate(90deg);
@@ -921,36 +921,36 @@
 .line.landline-3 {
     width: 430px;
     left: 392.5px;
-    top: 662px;
+    top: 605px;
     z-index: 0;
 }
 .line.landline-4 {
-    width: 310px;
-    left: 428.8px;
-    top: 513px;
+    width: 200px;
+    left: 426px;
+    top: 550px;
     z-index: 0;
 }
 .line.landline-5 {
-    width: 390px;
-    left: 572.5px;
+    width: 200px;
+    left: 625.5px;
     top: 360px;
     z-index: 0;
 }
 .line.landline-6 {
-    width: 390.8px;
-    left: 572.5px;
-    top: 440px;
+    width: 280px;
+    left: 624px;
+    top: 460px;
     z-index: 0;
 }
 .line.landline-7 {
-    width: 80.4px;
-    left: 533px;
-    top: 400px;
+    width: 100px;
+    left: 575px;
+    top: 410px;
 
     transform: rotate(90deg);
 }
 .line.landline-8 {
-    width: 180px;
+    width: 230px;
     left: 393px;
     top: 390px;
     z-index: 0;
@@ -975,9 +975,9 @@
     z-index: 0;
 }
 .line.landline-12 {
-    width: 258.5px;
-    left: 263.3px;
-    top: 855.5px;
+    width: 273px;
+    left: 255px;
+    top: 848px;
 
     transform: rotate(90deg);
 }
@@ -988,9 +988,9 @@
     z-index: 0;
 }
 .line.landline-14 {
-    width: 580px;
+    width: 385px;
     left: 392px;
-    top: 727px;
+    top: 712px;
     z-index: 0;
 }
 .line.landline-15 {
@@ -1001,7 +1001,7 @@
     transform: rotate(90deg);
 }
 .line.landline-16 {
-    width: 263.2px;
+    width: 76px;
     left: 698px;
     top: 885px;
     z-index: 0;
@@ -1020,12 +1020,13 @@
     z-index: 0;
 }
 .line.landline-19 {
-    width: 125px;
-    left: 725px;
-    top: 789.5px;
+    width: 130px;
+    left: 710px;
+    top: 745px;
 
     transform: rotate(90deg);
 }
+
 .line.landline-20 {
     width: 165.5px;
     left: 259px;
@@ -1111,44 +1112,56 @@
     z-index: 0;
 }
 .line.landline-33 {
-    width: 115px;
-    left: 682px;
-    top: 513px;
+    width: 99px;
+    left: 575px;
+    top: 529px;
     z-index: 0;
 
     transform: rotate(90deg);
 }
 .line.landline-33-2 {
     width: 100px;
-    left: 738px;
-    top: 934px;
+    left: 725px;
+    top: 890px;
     z-index: 0;
 
     transform: rotate(90deg);
 }
 .line.landline-34 {
     width: 200px;
-    left: 739px;
-    top: 570px;
+    left: 625px;
+    top: 577px;
     z-index: 0;
 }
 .line.landline-34-2 {
     width: 200px;
-    left: 739px;
-    top: 456px;
+    left: 625px;
+    top: 480px;
     z-index: 0;
 }
 .line.landline-34-3{
     width: 50px;
-    left: 786px;
-    top: 852px;
+    left: 775px;
+    top: 810px;
     z-index: 0;
 }
 
 .line.landline-35 {
     width: 200px;
-    left: 782px;
-    top: 574.5px;
+    left: 773px;
+    top: 680px;
+    z-index: 0;
+}
+.line.landline-36 {
+    width: 50px;
+    left: 774px;
+    top: 840px;
+    z-index: 0;
+}
+.line.landline-37 {
+    width: 50px;
+    left: 775px;
+    top: 940px;
     z-index: 0;
 }
 
@@ -1247,11 +1260,11 @@
 }
 .landing-permit.permit-5 {
     left: 815px;
-    top: 410px;
+    top: 420px;
 }
 .landing-permit.permit-6 {
     left: 815px;
-    top: 620px;
+    top: 540px;
 }
 .landing-permit.permit-7 {
     left: 815px;
@@ -1259,11 +1272,11 @@
 }
 .landing-permit.permit-8 {
     left: 815px;
-    top: 710px;
+    top: 640px;
 }
 .landing-permit.permit-9 {
     left: 815px;
-    top: 810px;
+    top: 770px;
 }
 .landing-permit.permit-10 {
     left: 815px;
@@ -1292,13 +1305,13 @@
 }
 .box.no-5 {
     padding: 1px 9px;
-    left: 480px;
+    left: 500px;
     top: 380px;
 }
 .box.no-6 {
     padding: 1px 9px;
-    left: 655px;
-    top: 505px;
+    left: 520px;
+    top: 540px;
 }
 .box.no-7 {
     padding: 1px 9px;
@@ -1312,8 +1325,8 @@
 }
 .box.no-9 {
     padding: 1px 9px;
-    left: 715px;
-    top: 718px;
+    left: 705px;
+    top: 705px;
 }
 .box.yes-4 {
     padding: 0.5px 6px;
@@ -1327,8 +1340,8 @@
 }
 .box.yes-6 {
     padding: 0.5px 6px;
-    left: 500px;
-    top: 653px;
+    left: 540px;
+    top: 597px;
 }
 .box.yes-7 {
     padding: 0.5px 6px;
@@ -1337,13 +1350,13 @@
 }
 .box.yes-8 {
     padding: 0.5px 6px;
-    left: 725px;
+    left: 715px;
     top: 876px;
 }
 .box.yes-9 {
     padding: 0.5px 6px;
     left: 620px;
-    top: 803px;
+    top: 790px;
 }
 /* .process {
     width: 200px;
