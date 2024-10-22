@@ -1297,6 +1297,23 @@
     background: white;
     color: var(--black-color);
 }
+
+.box-header{
+    padding: 5% 0;
+}
+
+.shared-solar-projects{
+    left: 10%;
+}
+
+.agricultural-generators{
+    left: 70%;
+}
+
+.brownfields{
+    left: 40%; 
+    padding: auto;
+}
 /* base.html */
 .box.no-4 {
     padding: 1px 9px;
