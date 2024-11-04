@@ -1179,6 +1179,70 @@
     background: var(--blue-color);
     border: 1px solid var(--black-color);
 }
+
+/* Boxes before map */
+
+.box-header{
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.shared-projects, .agricultural-generators, .brownfields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #000;
+    font-weight: 400;
+}
+
+.brownfields{
+    left: 70%;
+}
+.agricultural-generators{
+    left: 40%;
+}
+.shared-projects{
+    left: 10%;
+}
+
+@media (max-width: 768px){
+    .box-header{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px; 
+    }
+    
+    .box-header .brownfields{
+        flex: 1;
+        max-width: calc(33.3% - 10px);
+        left: 74.3%;
+    }
+    .box-header .agricultural-generators{
+        flex: 1;
+        max-width: calc(33.3% - 10px);
+        left: 40%;
+        margin: 0px 0px 10px 10px;
+    }
+    .box-header .shared-projects{
+        flex: 1;
+        max-width: calc(33.3% - 10px);
+        left: 10%;
+    }
+    .box-header .agricultural-generators, .box-header .shared-projects, .box-header .brownfields {
+        flex: 1;                 /* Same as above */
+        max-width: calc(33.33% - 10px); /* Maintain same width */
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
 /* landing.html */
 .project.landing-5-100-mw {
     width: 140px;
@@ -1302,18 +1366,13 @@
     padding: 5% 0;
 }
 
-.shared-solar-projects{
-    left: 10%;
+.box1-shared-solar-projects{
+    left: 30px;
+    top: 50px;
+    display: flex;
 }
 
-.agricultural-generators{
-    left: 70%;
-}
 
-.brownfields{
-    left: 40%; 
-    padding: auto;
-}
 /* base.html */
 .box.no-4 {
     padding: 1px 9px;
