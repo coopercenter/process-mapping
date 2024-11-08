@@ -178,6 +178,7 @@
     position: absolute;
     white-space: nowrap;
 }
+
 /* cpcn-5-mw.html */
 .txt.mw-5-title {
     left: 110px;
@@ -498,6 +499,14 @@
 .line {
     border: 1px solid var(--black-color);
     z-index: -1;
+    position: absolute;
+}
+
+.local-test-doc-1{
+    width: 140px;
+    height: 90px;
+    top: 250px;
+    left: 600px;
     position: absolute;
 }
 /* cpcn-5-mw.html */
@@ -1887,7 +1896,7 @@ about-footer {
 }
 .inter.inter-practice-1 {
     left: 200px;
-    top: 112px;
+    top: 152px;
     width: 80px;
     height: 80px;
     border: 1px dashed #000000;
@@ -1899,9 +1908,22 @@ about-footer {
 }
 .inter.inter-practice-2 {
     left: 300px;
-    top: 112px;
+    top: 152px;
     width: 80px;
     height: 80px;
+    border: 1px dashed #000000;
+
+    padding: 5px 10px;
+    font-size: 8px;
+    text-align: left;
+    line-height: 1.2;
+    
+}
+.inter.inter-practice-3 {
+    left: 935px;
+    top: 195px;
+    width: 90px;
+    height: 40px;
     border: 1px dashed #000000;
 
     padding: 5px 10px;
@@ -1929,6 +1951,7 @@ about-footer {
     height: 75px;
     left: 905px;
     top: 220px;
+
 
     display: none;
 }
@@ -2477,7 +2500,7 @@ about-footer {
 }
 
 .txt-test.txt-inter-1-test {
-    top: 140px;
+    top: 180px;
     left: 460px;
     z-index: 1;
 
@@ -2497,8 +2520,8 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-inter-2-test {
-    top: 126px;
-    left: 737.5px;
+    top: 160px;
+    left: 795px;
     z-index: 1;
 
     font-size: 11px;
@@ -2507,17 +2530,18 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-inter-3-test {
-    top: 132px;
-    left: 896px;
+    top: 154px;
+    left: 935px;
     z-index: 1;
 
-    font-size: 11px;
+
+    font-size: 10px;
     font-weight: 400;
     
     position: absolute;
 }
 .txt-test.txt-deq-1-test {
-    top: 330px;
+    top: 370px;
     left: 211px;
     z-index: 1;
 
@@ -2549,7 +2573,7 @@ about-footer {
 
 .container-swimlane {
     width: 1075px;
-    height: 500px;
+    height: 540px;
 
     position: relative;
 
@@ -2598,7 +2622,7 @@ footer-test {
 
     position: absolute;
     width: 1075px;
-    height: 100px;
+    height: 140px;
     z-index: -1;
 
     border: 0.25px solid #000000;
@@ -2608,15 +2632,20 @@ footer-test {
     z-index: 0;
     left: 0px;
     top: 0px;
-
+    text-align: left;
     font-size: 16px;
     font-weight: 500;
     padding: 38px 30px;
 }
+.text-position {
+    position: relative;
+    top: 20px;
+}
+
 .lane-test.interconnections-test {
     background: #FFECC8;
     left: 0px;
-    top: 100px;
+    top: 140px;
 
     font-size: 16px;
     font-weight: 500;
@@ -2634,7 +2663,7 @@ footer-test {
 .lane-test.localities-test {
     background: #FDFFE5;
     left: 0px;
-    top: 200px;
+    top: 240px;
 
     font-size: 16px;
     font-weight: 500;
@@ -2661,7 +2690,7 @@ footer-test {
 .lane-test.deq-test-expand {
     background: #E3FBE2;
     left: 0px;
-    top: 300px;
+    top: 340px;
     height: 200px;
 
     font-size: 16px;
@@ -2679,8 +2708,8 @@ footer-test {
 }
 
 .line.test-1 {
-    width: 500px;
-    left: -70px;
+    width: 577px;
+    left: -110px;
     top: 250px;
 
     z-index: 2;
@@ -2701,17 +2730,17 @@ footer-test {
 .line.test-2 {
     width: 700px;
     left: 200px;
-    top: 149.5px;
+    top: 189.5px;
 }
 .line.test-3 {
-    width: 395px;
-    left: 325px;
-    top: 250px;
+    width: 560px;
+    left: 440px;
+    top: 290px;
 }
 .line.test-4 {
     width: 600px;
     left: 310px;
-    top: 350px;
+    top: 390px;
 }
 .line.test-5 {
     width: 500px;
@@ -2740,33 +2769,33 @@ footer-test {
 .line.test-9 {
     width: 30px;
     left: 255px;
-    top: 395px;
-
+    top: 435px;
+    border: 1px dashed #000000;
     transform: rotate(90deg);
 }
 .line.test-10 {
     width: 30px;
     left: 480px;
-    top: 395px;
-
+    top: 435px;
+    border: 1px dashed #000000;
     transform: rotate(90deg);
 }
 .line.test-11 {
     width: 95px;
     left: 838px;
-    top: 397px;
+    top: 437px;
 
     transform: rotate(90deg);
 }
 .line.test-12 {
     width: 212.2px;
     left: 673.8px;
-    top: 445px;
+    top: 485px;
 }
 .line.test-13 {
     width: 95px;
     left: 627px;
-    top: 397px;
+    top: 437px;
 
     transform: rotate(90deg);
 }
@@ -2856,8 +2885,71 @@ footer-test {
 }
 .line.test-28 {
     width: 400px;
-    left: 580px;
+    left: 900px;
     top: 350px;
+}
+
+.line.test-29{
+   width: 50px;
+   left: 900px;
+   top: 170px; 
+   border: 1px dashed #000000;
+}
+.line.test-30{
+   width: 50px;
+   left: 900px;
+   top: 210px; 
+   border: 1px dashed #000000;
+}
+.line.test-31{
+    width: 100px;
+    left: 340px;
+    top: 290px;
+    border: 1px dashed #000000;
+}
+.line.test-32{
+    width: 120px;
+    left: 310px;
+    top: 286px;
+    /* border: 1px; */
+    transform: rotate(90deg);
+    border: 0.5px solid black;
+
+}
+.line.test-33{
+    width: 100px;
+    left: 270px;
+    top: 345px;
+    /* border: 1px; */
+    border: 0.5px solid black;
+
+}
+.line.test-34{
+    width: 20px;
+    left: 260px;
+    top: 353px;
+    transform: rotate(90deg);
+    border: 0.5px solid black;
+}
+.line.test-35{
+    width: 70px;
+    left: 640px;
+    top: 330px;
+    transform: rotate(90deg);
+    border: 0.5px solid black;
+}
+.line.test-36{
+    width: 40px;
+    left: 675px;
+    top: 365px;
+    border: 0.5px solid black;
+}
+.line.test-37{
+    width: 40px;
+    left: 950px;
+    top: 340px;
+    transform: rotate(90deg);
+    border: 0.5px solid black;
 }
 
 .reviews-test {
@@ -2873,21 +2965,21 @@ footer-test {
 .reviews-test.army-corps-test {
     left: 210px;
     top: 4px;
-    height: 45px;
-    width: 260px;
+    height: 50px;
+    width: 850px;
     border-radius: 0px;
-    
     font-weight: 500;
     padding-top: 3px;
+    padding-bottom: 5px;
     padding-left: 55px;
     text-align: left;
 }
 .reviews-test.fed-comp-test {
-    left: 470px;
-    top: 4px;
-    height: 45px;
+    left: 780px;
+    top: 8px;
+    height: 40px;
     width: 260px;
-    border-radius: 0px;
+    border-radius: 3px;
     
     font-size: 9.5px;
     font-weight: 500;
@@ -2895,16 +2987,16 @@ footer-test {
     text-align: center;
 }
 .reviews-test.fed-aviation-test {
-    left: 537px;
-    top: 52px;
+    left: 210px;
+    top: 60px;
     height: 24px;
-    width: 193px;
+    width: 850px;
     border-radius: 0px;
     
     font-size: 10.5px;
     font-weight: 500;
     padding-top: 3px;
-    text-align: center;
+    text-align: left;
 }
 .reviews-test.btn-1-test {
     left: 234px;
@@ -2919,12 +3011,12 @@ footer-test {
     text-align: center;
 }
 .reviews-test.btn-2-test {
-    left: 500px;
+    left: 800px;
     top: 25.5px;
 
     padding-top: 2px;
     padding-bottom: 2px;
-
+    height: 18px;
     z-index: 2;
     font-size: 9px;
     background: #FFD0D0;
@@ -2932,18 +3024,18 @@ footer-test {
 }
 .reviews-test.fish-wildlife-test {
     left: 210px;
-    top: 52px;
+    top: 90px;
     height: 44px;
-    width: 325px;
+    width: 850px;
     
     font-weight: 500;
     padding-top: 3px;
-    text-align: center;
+    text-align: left;
     border-radius: 0px;
 }
 .reviews-test.btn-3-test {
-    left: 235px;
-    top: 73px;
+    left: 400px;
+    top: 110px;
 
     padding-top: 2px;
     padding-bottom: 2px;
@@ -2954,8 +3046,20 @@ footer-test {
     text-align: center;
 }
 .reviews-test.btn-4-test {
-    left: 375px;
-    top: 73px;
+    left: 550px;
+    top: 110px;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+    z-index: 2;
+    font-size: 9px;
+    background: #FFD0D0;
+    text-align: center;
+}
+.reviews-test.btn-5-test {
+    left: 225px;
+    top: 110px;
 
     padding-top: 2px;
     padding-bottom: 2px;
@@ -2968,7 +3072,7 @@ footer-test {
 
 .inter-test {
     left: 400px;
-    top: 105px;
+    top: 145px;
     height: 90px;
     width: 325px;
 
@@ -2985,8 +3089,8 @@ footer-test {
     position: absolute;
 }
 .inter-test-doc-1 {
-    left: 720px;
-    top: 110px;
+    left: 780px;
+    top: 150px;
     height: 85px;
     width: 150px;
 
@@ -2994,18 +3098,18 @@ footer-test {
     position: absolute;
 }
 .inter-test-doc-2 {
-    left: 880px;
-    top: 110px;
-    height: 85px;
+    left: 920px;
+    top: 140px;
+    height: 60px;
     width: 130px;
-
     z-index: 1;
     position: absolute;
+
 }
 
 .local.local-test-1 {
     left: 200px;
-    top: 213px;
+    top: 253px;
     width: 160px;
     height: 76px;
 
@@ -3026,8 +3130,8 @@ footer-test {
     padding: 28px 28px;
 }
 .local.local-test-2 {
-    left: 380px;
-    top: 213px;
+    left: 440px;
+    top: 253px;
     width: 145px;
     height: 76px;
 
@@ -3043,9 +3147,18 @@ footer-test {
     border: 1px solid #000000;
     padding: 13px 10px;
 }
+.location-ceritification-text{
+    position: absolute;
+    left: 605px;
+    top: 258px;
+    font-size: 10px;
+    padding: 20px;
+    padding-top:25px;
+    padding-bottom: 25px;
+}
 .local.local-test-4 {
     left: 880px;
-    top: 213px;
+    top: 253px;
     width: 160px;
     height: 76px;
 
@@ -3076,7 +3189,7 @@ footer-test {
     width: 270px;
     height: 76px;
     left: 360px;
-    top: 312px;
+    top: 352px;
     border-radius: 0px;
 
     text-align: center;
@@ -3087,7 +3200,7 @@ footer-test {
 }
 .deq.deq-test-2 {
     left: 390px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3097,7 +3210,7 @@ footer-test {
 }
 .deq.deq-test-3 {
     left: 445px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3107,7 +3220,7 @@ footer-test {
 }
 .deq.deq-test-4 {
     left: 500px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3117,7 +3230,7 @@ footer-test {
 }
 .deq.deq-test-5 {
     left: 555px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3141,7 +3254,7 @@ footer-test {
     width: 150px;
     height: 76px;
     left: 905px;
-    top: 312px;
+    top: 352px;
     border-radius: 50px;
 
     text-align: center;
@@ -3165,7 +3278,7 @@ footer-test {
     width: 150px;
     height: 76px;
     left: 700px;
-    top: 312px;
+    top: 352px;
     border-radius: 50px;
 
     text-align: center;
@@ -3177,7 +3290,7 @@ footer-test {
     width: 155px;
     height: 76px;
     left: 700px;
-    top: 412px;
+    top: 452px;
     border-radius: 0px;
 
     text-align: left;
@@ -3189,7 +3302,7 @@ footer-test {
     width: 130px;
     height: 76px;
     left: 430px;
-    top: 410px;
+    top: 450px;
     border-radius: 0px;
 
     text-align: left;
@@ -3201,7 +3314,7 @@ footer-test {
     width: 110px;
     height: 76px;
     left: 215px;
-    top: 410px;
+    top: 450px;
     border-radius: 0px;
 
     text-align: left;
@@ -3317,6 +3430,18 @@ footer-test {
 
     text-align: left;
     font-size: 10.5px;
+    border: 1px dashed #000000;
+    padding: 5px 10px;
+}
+.deq.deq-test-23 {
+    width: 100px;
+    height: 60px;
+    left: 570px;
+    top: 450px;
+    border-radius: 0px;
+
+    text-align: left;
+    font-size: 7.5px;
     border: 1px dashed #000000;
     padding: 5px 10px;
 }
@@ -4576,7 +4701,7 @@ menu1{
 
 .deq-test-doc-1 {
     left: 195px;
-    top: 315px;
+    top: 355px;
     height: 85px;
     width: 150px;
 

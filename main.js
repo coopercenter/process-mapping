@@ -651,6 +651,22 @@ class FederalReview extends HTMLElement {
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="esa-section-7" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> ESA Section 7 (Federal Agencies)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
+
+                            <br><br>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                        </div>
+                    </div>
+                </div>
+            </div>
         `;
     }
 }
@@ -882,6 +898,7 @@ class DEQ extends HTMLElement{
                 </div>
             </div>
         </div>
+
 
         <div class="modal fade" id="deq-plans" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
@@ -1316,6 +1333,35 @@ class Interconnections extends HTMLElement {
                     The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following: Project scope; construction responsibilities of the parties; ownership of Transmission Owner and Project Developer Interconnection Facilities; schedule of major construction work; and etails on how the construction will be performed. However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1.4</a>, "in cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner."<br><br>
                     
                     This GIA is a prerequisite to the issuance of the permit. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="wmpa" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive WMPA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per <a href ="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.5</a>, "Project Developers interconnecting to non-FERC jurisdictional 
+                        facilities who intend to participate in the PJM wholesale market will receive a three party agreement known as a WMPA. The WMPA is essentially a GIA without 
+                        interconnection provisions, and facilitates the wholesale sale of MWs from such facilities."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="shared-solar-enrollment" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Shared Solar Enrollment</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
                     </div>
                 </div>
             </div>
@@ -1804,6 +1850,28 @@ class Localities extends HTMLElement {
                         </div>
                         <div class="modal-body">
                         This is the first of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/" target="_blank">9VAC15-60-130</a>. Once the project has been deemed to meet the local certification criteria, submit local certification that the project complies with local land use ordinances. No statutory review time limits or public hearings required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="location-certification" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Local Certification Process (Zoning, 2232, Review, Siting Agreement)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            Possible components of the local certifications process include, but are not limited to: 
+                            <br>
+                            <ol type = "1">
+                                <li>2232 Comprehensive Plan Review or Siting Agreement</li>
+                                <li>Municipal/County Zone Review</li>
+                            </ol>
+
+                            If applicable, local certification will be granted at the conclusion of steps 1 and 2.
+
                         </div>
                     </div>
                 </div>
