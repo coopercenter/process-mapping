@@ -2820,9 +2820,9 @@ footer-test {
     top: 350px;
 }
 .line.test-16 {
-    width: 300px;
-    left: 400px;
-    top: 450px;
+    width: 130px;
+    left: 660px;
+    top: 480px;
 }
 .line.test-17 {
     width: 95px;
@@ -2959,6 +2959,33 @@ footer-test {
     left: 950px;
     top: 340px;
     transform: rotate(90deg);
+    border: 0.5px solid black;
+}
+.line.test-38{
+    width: 180px;
+    left: 570px;
+    top: 390px;
+    transform: rotate(90deg);
+    border: 0.5px solid black;
+}
+.line.test-39{
+    width: 200px;
+    left: 875px;
+    top: 400px;
+    transform: rotate(90deg);
+    border: 0.5px solid black;
+}
+.line.test-40{
+    width: 700px;
+    left: 275px;
+    top: 500px;
+    border: 0.5px solid black;
+}
+.line.test-41{
+    width: 30px;
+    transform: rotate(90deg);
+    left: 260px;
+    top: 500px;
     border: 0.5px solid black;
 }
 
@@ -4806,7 +4833,7 @@ menu1{
 .scc.scc-test-6 {
     width: 160px;
     height: 50px;
-    left: 400px;
+    left: 390px;
     top: 480px;
 
     border-radius: 0px;
@@ -4860,14 +4887,14 @@ menu1{
     padding: 14px 10px;
 }
 .scc.scc-test-11 {
-    width: 120px;
-    height: 70px;
-    left: 675px;
-    top: 465px;
+    width: 140px;
+    height: 60px;
+    left: 775px;
+    top: 473px;
     border-radius: 40px;
     font-size: 10.5px;
 
     text-align: center;
     border: 1px solid #000000;
-    padding: 20px 20px;
+    padding: 15px;
 }
