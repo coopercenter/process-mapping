@@ -2551,7 +2551,7 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-deq-2-test {
-    top: 330px;
+    top: 365px;
     left: 205px;
     z-index: 1;
 
@@ -2561,11 +2561,11 @@ about-footer {
     position: absolute;
 }
 .txt-test.txt-deq-3-test {
-    top: 329px;
-    left: 322px;
+    top: 355px;
+    left: 315px;
     z-index: 1;
 
-    font-size: 9.5px;
+    font-size: 8.5px;
     font-weight: 400;
     
     position: absolute;
@@ -2834,21 +2834,21 @@ footer-test {
 .line.test-18 {
     width: 95px;
     left: 673px;
-    top: 397px;
+    top: 437px;
 
     transform: rotate(90deg);
 }
 .line.test-19 {
     width: 95px;
     left: 847px;
-    top: 397px;
+    top: 437px;
 
     transform: rotate(90deg);
 }
 .line.test-20 {
     width: 175px;
     left: 720px;
-    top: 443.7px;
+    top: 483.7px;
 }
 .line.test-21 {
     width: 480px;
@@ -2858,7 +2858,7 @@ footer-test {
 .line.test-22 {
     width: 150px;
     left: 730px;
-    top: 253px;
+    top: 293px;
 
     transform: rotate(90deg);
 }
@@ -2986,6 +2986,13 @@ footer-test {
     transform: rotate(90deg);
     left: 260px;
     top: 500px;
+    border: 0.5px solid black;
+}
+.line.test-42{
+    width: 70px;
+    transform: rotate(90deg);
+    left: 940px;
+    top: 350px;
     border: 0.5px solid black;
 }
 
@@ -3145,12 +3152,12 @@ footer-test {
 }
 
 .local.local-test-1 {
-    left: 200px;
-    top: 253px;
-    width: 160px;
-    height: 76px;
+    left: 300px;
+    top: 250px;
+    width: 100px;
+    height: 80px;
 
-    font-size: 10px;
+    font-size: 8px;
 
     border: 1px dashed #000000;
     padding: 6px 10px;
@@ -3219,6 +3226,17 @@ footer-test {
 
     border: 1px solid #000000;
     padding: 13px 10px;
+}
+.local.local-test-7 {
+    left: 190px;
+    top: 250px;
+    width: 100px;
+    height: 80px;
+
+    font-size: 8px;
+
+    border: 1px dashed #000000;
+    padding: 6px 10px;
 }
 
 
@@ -3375,7 +3393,7 @@ footer-test {
     width: 270px;
     height: 76px;
     left: 438px;
-    top: 312px;
+    top: 352px;
     border-radius: 0px;
 
     text-align: center;
@@ -3388,17 +3406,17 @@ footer-test {
     width: 150px;
     height: 76px;
     left: 733px;
-    top: 312px;
+    top: 352px;
     border-radius: 50px;
 
     text-align: center;
     font-size: 10.5px;
     border: 1px solid #000000;
-    padding: 20px 10px;
+    padding: 10px 10px;
 }
 .deq.deq-test-16 {
     left: 455px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3408,7 +3426,7 @@ footer-test {
 }
 .deq.deq-test-17 {
     left: 502px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3418,7 +3436,7 @@ footer-test {
 }
 .deq.deq-test-18 {
     left: 549px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3428,7 +3446,7 @@ footer-test {
 }
 .deq.deq-test-19 {
     left: 594px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3438,7 +3456,7 @@ footer-test {
 }
 .deq.deq-test-20 {
     left: 642px;
-    top: 345px;
+    top: 385px;
 
     text-align: center;
     font-size: 11px;
@@ -3450,7 +3468,7 @@ footer-test {
     width: 148px;
     height: 76px;
     left: 734px;
-    top: 412px;
+    top: 452px;
     border-radius: 0px;
 
     text-align: left;
@@ -3462,7 +3480,7 @@ footer-test {
     width: 140px;
     height: 80px;
     left: 200px;
-    top: 410px;
+    top: 450px;
     border-radius: 0px;
 
     text-align: left;
@@ -4747,7 +4765,7 @@ menu1{
 }
 .deq-test-doc-2 {
     left: 195px;
-    top: 315px;
+    top: 355px;
     height: 85px;
     width: 135px;
 
@@ -4756,7 +4774,7 @@ menu1{
 }
 .deq-test-doc-3 {
     left: 310px;
-    top: 315px;
+    top: 355px;
     height: 85px;
     width: 135px;
 
