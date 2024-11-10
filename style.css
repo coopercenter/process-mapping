@@ -1550,6 +1550,27 @@
     padding: 16px 25px;
 }
 
+/* .deq-test-shrink{
+    background: #E3FBE2;
+    left: 0px;
+    top: 340px;
+    height: 100px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 84px 72px;
+}
+.scc-test-expand{
+    background: #E2E1FF;
+    left: 0px;
+    top: 465px;
+    height: 50px;
+
+    font-size: 16px;
+    font-weight: 500;
+    padding: 36px 68px;
+} */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -3468,7 +3489,7 @@ footer-test {
     width: 148px;
     height: 76px;
     left: 734px;
-    top: 452px;
+    top: 355px;
     border-radius: 0px;
 
     text-align: left;
@@ -4792,10 +4813,10 @@ menu1{
 }
 
 .scc.scc-test-1 {
-    width: 110px;
-    height: 76px;
+    width: 160px;
+    height: 60px;
     left: 200px;
-    top: 412px;
+    top: 473px;
 
     border-radius: 0px;
     text-align: left;
@@ -4838,15 +4859,15 @@ menu1{
     padding: 15px 10px;
 }
 .scc.scc-test-5 {
-    width: 170px;
-    height: 76px;
-    left: 338px;
-    top: 412px;
+    width: 160px;
+    height: 60px;
+    left: 390px;
+    top: 473px;
 
     border-radius: 0px;
     text-align: left;
     border: 1px solid #000000;
-    padding: 15px 12px;
+    padding: 6px 6px;
 }
 .scc.scc-test-6 {
     width: 160px;
@@ -4894,10 +4915,10 @@ menu1{
     padding: 14px 8px;
 }
 .scc.scc-test-10 {
-    width: 110px;
-    height: 76px;
-    left: 535px;
-    top: 412px;
+    width: 160px;
+    height: 60px;
+    left: 570px;
+    top: 473px;
 
     border-radius: 0px;
     text-align: left;
