@@ -3021,6 +3021,94 @@ footer-test {
     top: 350px;
     border: 0.5px solid black;
 }
+.line.test-43{
+    width: 250px;
+    left: 670px;
+    top: 400px;
+    border: 0.5px solid black;
+}
+.line.test-44{
+    width: 50px;
+    transform: rotate(90deg);
+    left: 640px;
+    top: 450px;
+    border: 0.5px solid black;
+}
+.line.scc-line-1{
+    width: 780px;
+    top:500px;
+    left: 200px;
+    border: 0.5px solid black;
+}
+.line.scc-line-2{
+    width: 200px;
+    transform: rotate(90deg);
+    top:400px;
+    left: 880px;
+    border: 0.5px solid black;
+}
+.line.scc-line-3{
+    width: 320px;
+    transform: rotate(90deg);
+    top:350px;
+    left: 245px;
+    border: 0.5px solid black;
+}
+.line.scc-line-4{
+    width: 55px;
+    top:190px;
+    left: 350px;
+    border: 0.5px solid black;
+}
+.line.scc-line-5{
+    width: 200px;
+    transform: rotate(90deg);
+    top:400px;
+    left: 150px;
+    border: 0.5px dashed black;
+}
+.line.scc-line-6{
+    width: 20px;
+    transform: rotate(90deg);
+    top:470px;
+    left: 860px;
+    border: 0.5px solid black;
+}
+.line.scc-line-7{
+    width: 145px;
+    top:460px;
+    left: 725px;
+    border: 0.5px solid black;
+}
+.line.scc-line-8{
+    width: 150px;
+    transform: rotate(90deg);
+    top:385px;
+    left: 650px;
+    border: 0.5px solid black;
+}
+.line.scc-line-9{
+    width: 130px;
+    transform: rotate(90deg);
+    top:410px;
+    left: 830px;
+    border: 0.5px solid black;
+}
+.line.scc-line-10{
+    width: 55px;
+    top:345px;
+    left: 840px;
+    border: 0.5px solid black;
+}
+.line.scc-line-11{
+    width: 127px;
+    transform: rotate(90deg);
+    top:280px;
+    left: 778px;
+    border: 0.5px solid black;
+}
+
+
 
 .reviews-test {
     background-color: #FF8E8E;
