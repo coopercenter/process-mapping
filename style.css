@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --green-color: #95EE75;
     --blue-color: #DAECFC;
     --orange-color: #FED179;
@@ -2773,6 +2773,11 @@ footer-test {
     left: 310px;
     top: 390px;
 }
+.line.test-4-cpcn {
+    width: 220px;
+    left: 700px;
+    top: 395px;
+}
 .line.test-5 {
     width: 500px;
     left: 310px;
@@ -3423,6 +3428,19 @@ footer-test {
     border: 1px solid #000000;
     padding: 6px 6px;
 }
+.deq.deq-test-14-cpcn {
+    width: 270px;
+    height: 76px;
+    left: 438px;
+    top: 360px;
+    border-radius: 0px;
+
+    text-align: center;
+    font-size: 10.5px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    padding: 6px 6px;
+}
 .deq.deq-test-15 {
     width: 150px;
     height: 76px;
@@ -3445,9 +3463,30 @@ footer-test {
     background: #E3FBE2;
     padding: 6px 8px;
 }
+.deq.deq-test-16-cpcn {
+    left: 450px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
+
 .deq.deq-test-17 {
     left: 502px;
     top: 385px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
+.deq.deq-test-17-cpcn {
+    left: 500px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3465,9 +3504,29 @@ footer-test {
     background: #E3FBE2;
     padding: 6px 8px;
 }
+.deq.deq-test-18-cpcn {
+    left: 550px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
 .deq.deq-test-19 {
     left: 594px;
     top: 385px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
+.deq.deq-test-19-cpcn {
+    left: 600px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3489,7 +3548,19 @@ footer-test {
     width: 148px;
     height: 76px;
     left: 734px;
-    top: 355px;
+    top: 360px;
+    border-radius: 0px;
+
+    text-align: left;
+    font-size: 10px;
+    border: 1px solid #000000;
+    padding: 12.5px 9.5px;
+}
+.deq.deq-test-21-pbr {
+    width: 148px;
+    height: 76px;
+    left: 734px;
+    top: 445px;
     border-radius: 0px;
 
     text-align: left;
@@ -4859,9 +4930,9 @@ menu1{
     padding: 15px 10px;
 }
 .scc.scc-test-5 {
-    width: 160px;
+    width: 180px;
     height: 60px;
-    left: 390px;
+    left: 385px;
     top: 473px;
 
     border-radius: 0px;
@@ -4917,7 +4988,7 @@ menu1{
 .scc.scc-test-10 {
     width: 160px;
     height: 60px;
-    left: 570px;
+    left: 590px;
     top: 473px;
 
     border-radius: 0px;
@@ -4937,3 +5008,23 @@ menu1{
     border: 1px solid #000000;
     padding: 15px;
 }
+.scc.scc-test-12 {
+    width: 140px;
+    height: 60px;
+    left: 800px;
+    top: 473px;
+    border-radius: 40px;
+    font-size: 10.5px;
+
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 7px;
+}
+
+/* cpcn lines */
+.line.test-cpcn {
+    width: 600px;
+    top: 400px;
+    left: 200px;
+    height: 1px;
+} 
