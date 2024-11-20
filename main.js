@@ -1337,6 +1337,36 @@ class Interconnections extends HTMLElement {
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="applicable-inter-short" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive Applicable Interconnection Approval</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="applicable-inter-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive Applicable Interconnection Approval</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.
+                        <br>
+                        <br>
+                        <i>Application for the final interconnection approval is a prerequisite for the PBR.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="wmpa" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">

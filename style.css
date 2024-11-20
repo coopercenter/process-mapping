@@ -3391,6 +3391,7 @@ footer-test {
     padding: 20px;
     padding-top:25px;
     padding-bottom: 25px;
+    cursor: pointer;
 }
 .local.local-test-4 {
     left: 880px;
