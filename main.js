@@ -260,6 +260,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> CMP </th>
+                        <td> Coastal Management Program </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> CZMA </th>
                         <td> Coastal Zone Management Act </td>
                     </tr>
@@ -1093,9 +1098,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews for the VA DEQ PBR process are facilitated by the VA DEQ, coordinated with applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+                        The following coordinated reviews for the VA DEQ PBR process are facilitated by the VA DEQ, coordinated with applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
 
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
                     </div>
                 </div>
             </div>
@@ -1162,6 +1167,21 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
+        <div class="modal fade" id="deq-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> Department of Environmental Quality </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">    
+                        NEED TO ADD
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="dhr-modal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1821,6 +1841,46 @@ class Localities extends HTMLElement {
                         </div>
                     </div>
             </div>
+            <div class="modal fade" id="local-meetings" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Pre-Application Meetings, Community Meetings and Public Engagement</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                                <div class="modal-body">
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Pre-Application Meetings</h6>
+                                    <p class="card-text"> Pre-application meetings are coordinated with the locality before submitting the permit application. Requirements differ depending on the locality.</p>
+                                </div>
+                                </div>
+        
+                                <br>
+        
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Community Meetings and Public Engagement</h6>
+                                    <p class="card-text">The applicant hosts community meetings and public engagements as requested or required by the locality. Such engagements with the community can take place before, during, and/or after the application is submitted.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal fade" id="scc-notify" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Best practice: developer notifies the locality before or at the same time as submitting Letter to the SCC</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                                <div class="modal-body">
+                                    It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before or at the same time as submitting the Letter to the Director of the Divsion of Energy Regulation. The purpose of this practice is to ensure the locality is aware of the proposal at the same time as the state.
+                            </div>
+                        </div>
+                    </div>
+            </div>
 
             <div class="modal fade" id="same-time-notify" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
@@ -2060,6 +2120,20 @@ class SCC extends HTMLElement {
 
                     <div class="modal-body">
                     Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="scc-issuance-cpcn" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Issuance of CPCN for Facilities >5 MW but ≤ 100 MW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the SCC granting them the authority to contruct and operate an electric generating facility with rated capacity greater than 5MW but no larger than 100MW.
                     </div>
                 </div>
             </div>
