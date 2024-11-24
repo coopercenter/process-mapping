@@ -2530,6 +2530,18 @@ about-footer {
     
     position: absolute;
 }
+.txt-test.txt-inter-1-exempt {
+    top: 40px;
+    left: 250px;
+    z-index: 1;
+    text-align: center;
+
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    
+    position: absolute;
+}
 .txt-test.txt-inter-1-test-exempt {
     top: 40px;
     left: 250px;
@@ -3319,7 +3331,7 @@ footer-test {
     left: 210px;
     top: 6px;
     height: 90px;
-    width: 250px;
+    width: 440px;
 
     z-index: 1;
     position: absolute;
@@ -3385,8 +3397,9 @@ footer-test {
 }
 .location-ceritification-text{
     position: absolute;
+    text-align: center;
     left: 605px;
-    top: 258px;
+    top: 250px;
     font-size: 10px;
     padding: 20px;
     padding-top:25px;
@@ -3448,7 +3461,7 @@ footer-test {
 }
 .deq.deq-test-2 {
     left: 390px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3458,8 +3471,7 @@ footer-test {
 }
 .deq.deq-test-3 {
     left: 445px;
-    top: 385px;
-
+    top: 390px;
     text-align: center;
     font-size: 11px;
     border: 1px solid #000000;
@@ -3468,7 +3480,7 @@ footer-test {
 }
 .deq.deq-test-4 {
     left: 500px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3478,7 +3490,7 @@ footer-test {
 }
 .deq.deq-test-5 {
     left: 555px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3622,7 +3634,7 @@ footer-test {
 }
 .deq.deq-test-16 {
     left: 455px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3643,7 +3655,7 @@ footer-test {
 
 .deq.deq-test-17 {
     left: 502px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3663,7 +3675,7 @@ footer-test {
 }
 .deq.deq-test-18 {
     left: 549px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3683,7 +3695,7 @@ footer-test {
 }
 .deq.deq-test-19 {
     left: 594px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;
@@ -3703,7 +3715,7 @@ footer-test {
 }
 .deq.deq-test-20 {
     left: 642px;
-    top: 385px;
+    top: 390px;
 
     text-align: center;
     font-size: 11px;

@@ -330,6 +330,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> HCP </th>
+                        <td> Habitat Conservation Plan </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> IC </th>
                         <td> Interconnection Customer</td>
                     </tr>
@@ -989,6 +994,7 @@ class DEQ extends HTMLElement{
                 </div>
             </div>
         </div>
+
 
         <div class="modal fade" id="application-pbr" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
@@ -1897,6 +1903,7 @@ class Localities extends HTMLElement {
                 </div>
             </div>
 
+
             <div class="modal fade" id="same-time" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -2119,7 +2126,7 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity < 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
                     </div>
                 </div>
             </div>
