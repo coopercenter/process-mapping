@@ -1902,6 +1902,34 @@ class Localities extends HTMLElement {
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="same-time-notify-130" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"><i>Best Practice</i>: Developer notifies the locality before or at the same time as submitting the NOI to the DEQ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before or at the same time as submitting the NOI to the DEQ. <i>The purpose of this practice is to ensure the localilty is aware of the proposal at the same time as the state.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="developer-issues-noi" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Developer issues NOI to locality to initiate siting agreement negotiation pursuant to Code of Virginia 15.2-2316.7</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = https://law.lis.virginia.gov/vacodefull/title15.2/chapter22/article7.3/>Code of Virginia 15.2-2316.7</a>, any solar project applicant must notify the locality of the intent to locate in the locality and request a meeting.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 
             <div class="modal fade" id="same-time" tabindex="-1" role="dialog">
