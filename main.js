@@ -9,25 +9,25 @@ class NavBar extends HTMLElement {
                     <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
                 </div>
             </span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav h5">
-                <li class="nav-item px-2">
-                    <a href= "../index.html" class="nav-link"> Home </a>
-                </li>
-    
-    
-                <li class="nav-item dropdown px-2">
-                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
-                <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a href="inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
-                    <li><a href="inter-map.html" class="dropdown-item">SCC</a></li>
-                    <li><a href="inter-pjm.html" class="dropdown-item">PJM</a></li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav h5">
+                    <li class="nav-item px-2">
+                        <a href= "../index.html" class="nav-link"> Home </a>
+                    </li>
+        
+        
+                    <li class="nav-item dropdown px-2">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a href="inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
+                        <li><a href="inter-map.html" class="dropdown-item">SCC</a></li>
+                        <li><a href="inter-pjm.html" class="dropdown-item">PJM</a></li>
 
-                </ul>
-            </li>
+                    </ul>
+                </li>
 
                 <li class="nav-item dropdown px-2">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
@@ -84,35 +84,32 @@ class NavBar extends HTMLElement {
                     </li>
                 </ul>
                 <div class="off-screen-menu">
-    <div class="menu-header">
-        <h2>Menu</h2>
-    </div>
-    <div class="menu-content">
-        <ul>
-            <a href="../about.html" class="btn btn-light">About</a></li>
-            <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button></li>
-        </ul>
-    </div>
-</div>
-            <menu1-bar>
-                <div class="ham-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <div class="menu-header">
+                        <h2>Menu</h2>
+                    </div>
+                    <div class="menu-content">
+                        <a href="../about.html" class="btn btn-light">About</a>
+                        <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
+                    </div>
                 </div>
-            </menu1-bar>
+                    <div class="ham-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
-        </div>
-    </nav>
-            `;
-            const hamMenu = document.querySelector('.ham-menu');
-            const offScreenMenu = document.querySelector('.off-screen-menu');
-    
-            hamMenu.addEventListener('click', () => {
-                hamMenu.classList.toggle('active');
-                offScreenMenu.classList.toggle('active');
-            });
-    
+        </nav>
+        `;
+
+        // Toggle off-screen menu
+        const hamMenu = this.querySelector('.ham-menu');
+        const offScreenMenu = this.querySelector('.off-screen-menu');
+        hamMenu.addEventListener('click', () => {
+            hamMenu.classList.toggle('active');
+            offScreenMenu.classList.toggle('active');
+        });
+            
     }
 }
 
@@ -1418,7 +1415,43 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    </div>
+                    The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
+                    Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
+                    pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
+                    receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
+                    attributable to that subscriber.
+
+                    <br>
+                    <br>
+
+                    Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
+                    Code of Virginia defines a “shared solar facility” as a facility that:
+                    “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
+                    that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
+                    at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
+                    less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
+                    Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
+                    system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
+                    the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
+                    
+                    <br>
+                    <br>
+
+                    Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
+                    in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
+                    solar details with regards to Dominion Virginia (a Phase II utility).                    
+                    
+                    <br>
+                    <br>
+
+                    Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
+                    legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
+                    Appalachian Power must provide tariff and agreement information and other related 
+                    requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
+                    <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
+                    <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
+                    with regards to Appalachian Power (a Phase I utility)                   
+                                        </div>
                 </div>
             </div>
         </div>
