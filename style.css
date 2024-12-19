@@ -34,6 +34,8 @@
     z-index: 0;
     position: absolute;
 }
+
+
 /* landing.html */
 .landing-best-describe {
     box-sizing: border-box;
@@ -1385,6 +1387,7 @@
     margin-left: 12%;
     margin-bottom: 2%;
 }
+
 
 /* base.html */
 .box.no-4 {
