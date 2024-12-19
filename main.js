@@ -84,34 +84,34 @@ class NavBar extends HTMLElement {
                     </li>
                 </ul>
                 <div class="off-screen-menu">
-                    <div class="menu-header">
-                        <h2>Menu</h2>
-                    </div>
-                    <div class="menu-content">
-                        <a href="../about.html" class="btn btn-light">About</a>
-                        <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
-                    </div>
-                </div>
-                    <div class="ham-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </div>
-        </nav>
-        `;
+                                        <div class="menu-header">
+                                            <h2>Menu</h2>
+                                        </div>
+                                        <div class="menu-content">
+                                            <a href="../about.html" class="btn btn-light">About</a>
+                                            <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                        `;
 
-        // Toggle off-screen menu
-        const hamMenu = this.querySelector('.ham-menu');
-        const offScreenMenu = this.querySelector('.off-screen-menu');
-        hamMenu.addEventListener('click', () => {
-            hamMenu.classList.toggle('active');
-            offScreenMenu.classList.toggle('active');
-        });
-            
+                        // Toggle off-screen menu and navbar visibility
+                        const hamMenu = this.querySelector('.ham-menu');
+                        const navbarNav = this.querySelector('#navbarNav');
+                        const offScreenMenu = this.querySelector('.off-screen-menu');
+
+                        hamMenu.addEventListener('click', () => {
+                            // Toggle active class for showing/hiding the menu
+                            hamMenu.classList.toggle('active');
+                            navbarNav.classList.toggle('show'); // Bootstrap's `show` class handles collapsible elements
+                            offScreenMenu.classList.toggle('active'); // Custom class for off-screen menu visibility
+                        });
+        }
     }
-}
+            
+
 
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
@@ -1404,7 +1404,7 @@ class Interconnections extends HTMLElement {
                         interconnection provisions, and facilitates the wholesale sale of MWs from such facilities."
                     </div>
                 </div>
-            </div>
+            </div>l
         </div>
         <div class="modal fade" id="shared-solar-enrollment" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
@@ -1413,45 +1413,129 @@ class Interconnections extends HTMLElement {
                         <h5 class="modal-title" id="title">Shared Solar Enrollment</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
+                    <div class ="modal-body">
+                        In 2020, Virginia passed laws to create community solar programs, aimed at expanding access to
+                        clean energy options for residents of Virginia. Without needing to install solar options
+                        themselves, many community members now have the opportunity to access solar energy. The
+                        “shared solar” program has two parts – the Shared Solar Program and the Multi-Family Shared
+                        Solar Program. Per the <a href = "https://energy.virginia.gov/renewableenergy/SS_CS.html">Virginia Department of Energy</a>, “the Shared Solar Program [provides] customers of Dominion Energy
+                        Virginia the opportunity to participate in offsite, or front-of-meter (virtual) shared solar projects,
+                        while the Multi-Family Shared Solar Program provides eligible multi-family customers of
+                        Dominion Energy and Kentucky Utilities (Old Dominion Power) the opportunity to participate in
+                        onsite, or behind-the-meter solar projects.” Appalachian Power is in the process of joining the
+                        Shared Solar Program. Many electric cooperatives are also offering community solar programs,
+                        though structured and regulated apart from “shared solar.” 
+                    </div>
+                    <div class = "solar-enrollment-extensions">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shared-solar-modal">
+                            Click for Shared Solar Information
+                        </button>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#family-solar-modal">
+                            Click for Multi-Family Shared Solar Information
+                        </button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="shared-solar-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Shared Solar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
 
                     <div class="modal-body">
-                    The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
-                    Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
-                    pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
-                    receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
-                    attributable to that subscriber.
+                        The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
+                        Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
+                        pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
+                        receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
+                        attributable to that subscriber.
+
+                        <br>
+                        <br>
+
+                        Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
+                        Code of Virginia defines a “shared solar facility” as a facility that:
+                        “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
+                        that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
+                        at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
+                        less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
+                        Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
+                        system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
+                        the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
+                        
+                        <br>
+                        <br>
+
+                        Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
+                        in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
+                        solar details with regards to Dominion Virginia (a Phase II utility).                    
+                        
+                        <br>
+                        <br>
+
+                        Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
+                        legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
+                        Appalachian Power must provide tariff and agreement information and other related 
+                        requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
+                        <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
+                        <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
+                        with regards to Appalachian Power (a Phase I utility)                   
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="family-solar-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Multi-Family Shared Solar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    The Multi-Family Shared Solar Program allows eligible multi-family customers of Dominion
+                    Energy Virginia and Old Dominion Power (ODP) to purchase subscriptions in a shared solar
+                    facility. Such customers will receive a credit on their monthly electric bill proportional to the
+                    output of the shared solar facility attributable to that subscriber.
 
                     <br>
                     <br>
+                    The Multi-Family Shared Solar Program is established in Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/">§ 56-585.1:12</a> of the Code of Virginia.
+                    Rules governing the program can be found in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter342/">Chapter 342 of the Virginia Administrative Code</a>. 
 
-                    Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
-                    Code of Virginia defines a “shared solar facility” as a facility that:
-                    “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
-                    that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
-                    at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
-                    less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
-                    Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
-                    system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
-                    the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
-                    
                     <br>
                     <br>
+                    Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/"> Section § 56-585.1:12</a>  of the Code of Virginia defines a “shared solar facility” for the Multi-Family Shared Solar
+                    Program as a facility that:
+                    <br>
+                    “1. Generates electricity by means of a solar photovoltaic device with a nameplate capacity
+                    rating that does not exceed 3,000 kW alternating current at any single location or that does not
+                    exceed 5,000 kW alternating current at contiguous locations owned by the same entity or
+                    affiliated entities;
+                    <br>
+                    2. Is operated pursuant to a program whereby at least three subscribers receive a bill credit for
+                    the electricity generated from the facility in proportion to the size of their subscription;
+                    <br>
+                    3. Is located in the service territory of an investor-owned utility;
+                    <br>
+                    4. Is connected to the electric distribution grid serving the Commonwealth; and
+                    <br>
+                    5. Is located on a parcel of land on the premises of the multi-family utility customer or adjacent
+                    thereto.”
+                    <br>
+                    <br>
+                    See details of Dominion Virginia's program on <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/multi-family-sharedsolar">Dominion's website</a>. For Old Dominion Power Company, see <a href = "https://lge-ku.com/virginia-solar">ODP's website</a> for details.
 
-                    Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
-                    in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
-                    solar details with regards to Dominion Virginia (a Phase II utility).                    
-                    
-                    <br>
-                    <br>
 
-                    Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
-                    legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
-                    Appalachian Power must provide tariff and agreement information and other related 
-                    requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
-                    <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
-                    <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
-                    with regards to Appalachian Power (a Phase I utility)                   
-                                        </div>
+                
+                    </div>
                 </div>
             </div>
         </div>
