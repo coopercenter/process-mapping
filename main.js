@@ -2145,8 +2145,8 @@ class Localities extends HTMLElement {
                             Possible components of the local certifications process include, but are not limited to: 
                             <br>
                             <ol type = "1">
-                                <li>2232 Comprehensive Plan Review or Siting Agreement</li>
-                                <li>Municipal/County Zone Review</li>
+                                <li> <a href = "https://law.lis.virginia.gov/vacode/title15.2/chapter22/section15.2-2232/">15.2-2232</a> Comprehensive Plan review or Siting Agreement</li>
+                                <li>Municipal/County Zoning Review</li>
                             </ol>
 
                             If applicable, local certification will be granted at the conclusion of steps 1 and 2.

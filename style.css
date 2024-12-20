@@ -1387,6 +1387,14 @@
     margin-left: 12%;
     margin-bottom: 2%;
 }
+.agricultural-generators-extensions{
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+/* 
+.modal-dialog-small-generators .modal-lg{
+    width: 700px;
+} */
 
 
 /* base.html */
@@ -3040,6 +3048,11 @@ footer-test {
     top: 290px;
     border: 1px dashed #000000;
 }
+.line.test-31-solid{
+    width: 140px;
+    left: 300px;
+    top: 290px;
+}
 .line.test-32{
     width: 120px;
     left: 310px;
@@ -3441,7 +3454,18 @@ footer-test {
     padding: 13px 10px;
 }
 .local.local-test-7 {
-    left: 190px;
+    left: 200px;
+    top: 250px;
+    width: 100px;
+    height: 80px;
+
+    font-size: 8px;
+
+    border: 1px dashed #000000;
+    padding: 6px 10px;
+}
+.local.local-test-7-greaterThan5LessThan100 {
+    left: 200px;
     top: 250px;
     width: 100px;
     height: 80px;

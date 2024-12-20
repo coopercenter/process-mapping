@@ -75,10 +75,17 @@
                 
                 <br>
                 <br>
+                
+                <div class = "agricultural-generators-extensions">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#small-generators">
+                    Click for Small Agricultural Generators
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eligible-generators">
+                    Click for Eligible Agricultural Customer-Generators
+                  </button>
+                </div>
 
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#small-generators">
-                  Click for Small Agricultural Generators
-                </button>
+
 
                 <div class="modal fade" id="small-generators" tabindex="-1" aria-labelledby="smallGeneratorsLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
@@ -115,10 +122,6 @@
                       </div>
                   </div>
                 </div>
-
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eligible-generators">
-                    Click for Eligible Agricultural Customer-Generators
-                </button>
 
                 <div class="modal fade" id="eligible-generators" tabindex="-1" aria-labelledby="smallGeneratorsLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
@@ -651,7 +654,11 @@
     <br><br>
 
     <footer-></footer->
-
+    <script>
+      function hideBox() {
+        document.getElementById("box2-agricultural-generators").style.display = "none";
+      }
+    </script>
 </body>
 </html>
 
