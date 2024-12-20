@@ -1075,7 +1075,7 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-130-permit" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -1086,7 +1086,7 @@ class DEQ extends HTMLElement{
                     <div class="modal-body">
                         The following coordinated reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br><br>
-                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                        <i>These four coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
                     </div>
                 </div>
             </div>
@@ -1101,15 +1101,15 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following coordinated reviews for the VA DEQ PBR process are facilitated by the VA DEQ, coordinated with applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+                        The following coordinated reviews for the VA DEQ process are facilitated by the VA DEQ, coordinated with applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
 
-                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
+                        <i>These four coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister-cpcn" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-5-100" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -1118,17 +1118,19 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.<br><br>
-
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i><br><br>
-                    
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        <br>
+                        <br>
+                        These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). 
+                        <br>
+                        <br>
                         Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25, 11</a>.
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister-100" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-greater-100" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -1137,10 +1139,12 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.<br><br>
-
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i><br><br>
-                    
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        <br>
+                        <br>
+                        These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). 
+                        <br>
+                        <br>
                         Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (Renewable Energy > 100MW). See <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section20/" target="blank_">20VAC5-302-20.12</a>.
                     </div>
                 </div>

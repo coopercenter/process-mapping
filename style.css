@@ -3490,6 +3490,19 @@ footer-test {
     border: 1px solid #000000;
     padding: 7px 5px;
 }
+.deq.deq-test-1-rightShift {
+    width: 270px;
+    height: 76px;
+    left: 440px;
+    top: 352px;
+    border-radius: 0px;
+
+    text-align: center;
+    font-size: 9.5px;
+    font-weight: 600;
+    border: 1px solid #000000;
+    padding: 7px 5px;
+}
 .deq.deq-test-2 {
     left: 390px;
     top: 390px;
@@ -3683,6 +3696,16 @@ footer-test {
     background: #E3FBE2;
     padding: 6px 8px;
 }
+.deq.deq-test-16-cpcn-rightShift {
+    left: 470px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
 
 .deq.deq-test-17 {
     left: 502px;
@@ -3696,6 +3719,16 @@ footer-test {
 }
 .deq.deq-test-17-cpcn {
     left: 500px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
+.deq.deq-test-17-cpcn-rightShift {
+    left: 520px;
     top: 390px;
 
     text-align: center;
@@ -3724,6 +3757,16 @@ footer-test {
     background: #E3FBE2;
     padding: 6px 8px;
 }
+.deq.deq-test-18-cpcn-rightShift {
+    left: 575px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
 .deq.deq-test-19 {
     left: 594px;
     top: 390px;
@@ -3736,6 +3779,16 @@ footer-test {
 }
 .deq.deq-test-19-cpcn {
     left: 600px;
+    top: 390px;
+
+    text-align: center;
+    font-size: 11px;
+    border: 1px solid #000000;
+    background: #E3FBE2;
+    padding: 6px 8px;
+}
+.deq.deq-test-19-cpcn-rightShift {
+    left: 630px;
     top: 390px;
 
     text-align: center;
