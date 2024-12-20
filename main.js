@@ -1079,14 +1079,14 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Sister Agency Review</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        The following coordinated reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br><br>
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
                     </div>
                 </div>
             </div>
