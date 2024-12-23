@@ -20,6 +20,7 @@
     overflow: hidden; 
     overflow-x: scroll;
     overflow-y: scroll;
+    cursor: pointer;
 }
 
 .decision {
@@ -4174,6 +4175,7 @@ menu1{
 .inter-rect.level-1 {
     top: 73px; 
     left: 265px; 
+    cursor: pointer;
 }
 
 .inter-rect.level-2 {
@@ -4282,6 +4284,7 @@ menu1{
     display: flex;
     justify-content: space-around;
     margin-top: 10px;
+    cursor: pointer;
 }
 .title {
     font-size: 16px;
