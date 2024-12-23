@@ -1079,7 +1079,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Sister Agency Review</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -1096,7 +1096,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -1113,7 +1113,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -1121,10 +1121,10 @@ class DEQ extends HTMLElement{
                         The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br>
                         <br>
-                        These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). 
+                        <i>These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). </i>
                         <br>
                         <br>
-                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25, 11</a>.
+                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25.11</a>.
                     </div>
                 </div>
             </div>
@@ -1134,7 +1134,7 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
@@ -1142,7 +1142,7 @@ class DEQ extends HTMLElement{
                         The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br>
                         <br>
-                        These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). 
+                        <i>These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i> 
                         <br>
                         <br>
                         Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (Renewable Energy > 100MW). See <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section20/" target="blank_">20VAC5-302-20.12</a>.
