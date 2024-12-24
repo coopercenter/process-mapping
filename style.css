@@ -8,6 +8,9 @@
 .content {
     position: relative;
 }
+.col{
+    flex: 0.25 0 0%;
+}
 
 .container-description {
     padding-top: 3%;
@@ -16,12 +19,37 @@
 
 
 .flow-chart-container {
-   
     overflow: hidden; 
     overflow-x: scroll;
     overflow-y: scroll;
+    width: 115%;
+    height: 105%;
 }
 
+/* Scrollbar for WebKit browsers */
+.flow-chart-container::-webkit-scrollbar {
+    width: 5px; /* Initial thickness of the vertical scrollbar */
+    height: 5px; /* Initial thickness of the horizontal scrollbar */
+}
+
+.flow-chart-container::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Track color */
+}
+
+.flow-chart-container::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 10px; /* Roundness */
+    height: 20px; /* Minimum length of the vertical scrollbar thumb */
+    width: 20px; /* Minimum length of the horizontal scrollbar thumb */
+    transition: all 0.2s ease; /* Smooth transition effect */
+}
+
+.flow-chart-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb hover color */
+    height: 30px; /* Increase vertical scrollbar thumb length */
+    width: 30px; /* Increase horizontal scrollbar thumb length */
+    border-radius: 15px; /* Increased roundness for hover effect */
+}
 .decision {
     box-sizing: border-box;
     background: var(--green-color);
@@ -4033,6 +4061,7 @@ menu1{
     font-size: 14px; /* Example font size */
     text-align: center; /* Center align text */
     position: absolute; /* Position absolute to move freely on the page */
+    cursor: pointer;
 }
 .inter-decision {
     width: 105px; /* Adjust the size of the rhombus */
@@ -4047,6 +4076,7 @@ menu1{
     position: relative; /* Position relative for absolute positioning */
     background: var(--green-color);
     border: 1px solid var(--black-color);
+    cursor: pointer;
   }
   
   .inter-decision .rhombus-text {
@@ -4251,7 +4281,7 @@ menu1{
     height: 50px;
     top: 860px; 
     left: 1960px; 
-
+    background-color: #B2DBBF;
     line-height: 15px;
 }
 
@@ -4372,6 +4402,7 @@ menu1{
     height: 60px;
     top: 80px; 
     left: 960px; 
+    background-color: #B2DBBF;
 }
 
 .inter-rect.passed-utility {
@@ -4394,7 +4425,7 @@ menu1{
 
 .inter-rect.failed-utility-2 {
     width: 150px; 
-    height: 40px;
+    height: 50px;
     top: 395px; 
     left: 685px; 
     white-space: nowrap;
@@ -4406,7 +4437,7 @@ menu1{
 .inter-rect.work {
     width: 150px; 
     height: 40px;
-    top: 395px; 
+    top: 400px; 
     left: 955px; 
     line-height: 16px;
     background-color: #FFFBD7;
@@ -4449,7 +4480,7 @@ menu1{
 .arrow-container {
     width: 20px; /* Adjust width as needed */
     height: 20px; /* Adjust height as needed */
-    background-image: url("../images/right_arrow.png"); /* Image URL */
+    background-image: url("../images/right-arrow-test.png"); /* Image URL */
     background-size: contain; /* Ensure the image fits within the container */
     background-repeat: no-repeat; /* Prevent the image from repeating */
 } 
@@ -4688,24 +4719,24 @@ menu1{
 
 .line-inter.line3
 {
-    top: 113px;
-    left: -590px;
-    width:1600px;
+    top: 361px;
+    left: -40px;
+    width:498px;
     transform: rotate(90deg);
 }
 
 .line-inter.line4
 {
     top: 610px;
-    left: 200px;
+    left: 210px;
     width: 1900px;
 }
 
 .line-inter.line5
 {
     top: 790px;
-    left: 787px;
-    width:1240px;
+    left: 792px;
+    width:1235px;
 }
 
 
@@ -4839,7 +4870,7 @@ menu1{
 .line-inter.line20
 {
     top: 880px;
-    left: 1433px;
+    left: 1432px;
     width: 723px;
 
 }
@@ -4880,6 +4911,14 @@ menu1{
     top: 1175px;
     left: 1970.5px;
     width: 680px;
+    
+}
+.line-inter.line25
+{
+    top: 855px;
+    left: 1407px;
+    transform: rotate(90deg);
+    width: 50px;
     
 }
 .line-inter.lineOval-1
