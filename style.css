@@ -4074,7 +4074,7 @@ menu1{
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     position: relative; /* Position relative for absolute positioning */
-    background: var(--green-color);
+    background: #D0FFD6;
     border: 1px solid var(--black-color);
     cursor: pointer;
   }
@@ -4281,7 +4281,7 @@ menu1{
     height: 50px;
     top: 860px; 
     left: 1960px; 
-    background-color: #B2DBBF;
+    background-color: #D3C0D2;
     line-height: 15px;
 }
 
@@ -4402,7 +4402,7 @@ menu1{
     height: 60px;
     top: 80px; 
     left: 960px; 
-    background-color: #B2DBBF;
+    background-color: #D3C0D2;
 }
 
 .inter-rect.passed-utility {
