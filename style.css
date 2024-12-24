@@ -4174,30 +4174,43 @@ menu1{
 .inter-rect.level-1 {
     top: 73px; 
     left: 265px; 
+    height: 105px;
+    background: #F5EFFF;
 }
 
 .inter-rect.level-2 {
     top: 300px; 
     left: 265px; 
+    height: 105px;
+    background: #F5EFFF;
 }
 
 .inter-rect.level-3 {
     top: 570px; 
     left: 265px;
+    height: 105px;
+    background: #F5EFFF;
 }
 
 .inter-rect.level-4 {
     top: 570px; 
     left: 890px;
+    height: 105px;
+    background: #F5EFFF;
+
 }
 
 .inter-rect.level-5 {
     top: 750px; 
+    height: 105px;
     left: 850px;
+    background: #F5EFFF;
 }
 .inter-rect.level-6 {
     top: 750px; 
     left: 1580px;
+    height: 105px;
+    background: #F5EFFF;
 }
 
 .inter-rect.dp3 {
@@ -4300,12 +4313,14 @@ menu1{
     width: 100%; /* Take full width of the container */
     margin-top: 20px; /* Adjust spacing above squares */
     cursor: pointer;
+
 }
 
 .square {
     width: 65px; /* Adjust width of each square */
     height: 65px; /* Adjust height of each square */
     border: 1px solid #000000; /* Black border */
+    border-radius: 5px;
     font-size: 10.5px; /* Adjust the font size */
     text-align: center; /* Center align text horizontally */
     display: flex; /* Use flexbox for centering content */
@@ -4313,6 +4328,25 @@ menu1{
     align-items: center; /* Center content vertically */
     line-height: 1;
     white-space: nowrap;
+    padding: 5px;
+    margin: 15px 5px 10px 5px;
+    background: #CDC1FF;
+  }
+.square-four{
+    width: 100px; /* Adjust width of each square */
+    height: 65px; /* Adjust height of each square */
+    border: 1px solid #000000; /* Black border */
+    border-radius: 5px;
+    font-size: 10.5px; /* Adjust the font size */
+    text-align: center; /* Center align text horizontally */
+    display: flex; /* Use flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    line-height: 1;
+    white-space: nowrap;
+    padding: 5px;
+    margin: 15px 5px 10px 5px;
+    background: #CDC1FF;
   }
   
 
