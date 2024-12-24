@@ -1,30 +1,307 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title-></title->
 
-     <-- jQuery -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
- 
-     <!-- CSS -->
-     <link rel="stylesheet" href="style.css">
- 
-     <!-- JavaScript -->
-     <script src="main.js"></script>
- 
-     <!-- Option 1: Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-<nav-bar></nav-bar>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+
 <body>
-    <br>
-    <div class="container">
+    <nav-bar></nav-bar>
+
+    <modals>
+        <!-- start of inter rect level 1 -->
+            <div class="modal fade" id="general-process-1" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">SGIP Level 1 General Process</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section10/">20VAC5-314-10 A</a>, "A request to interconnect a certified small generating facility (SGF) no larger than 500 kilowatts (kW) shall be evaluated under the Level 1 process."
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="general-requirements-1" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Submit SGIP Level 1 General Requirements</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            The SGIP Level 1 general requirements, as laid out in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40//">20VAC5-314-40 B</a> 
+                            of the Virginia Administrative Code, are: "The IC shall submit (i) a complete Level 1 Interconnection Request Form (Schedule 5 of 20VAC5-314-170); (ii) site control 
+                            documentation pursuant to Schedule 5 of 20VAC5-314-170; and (iii) the required $100 processing fee to the utility. Alternatively, the utility may require use of a 
+                            commission-approved Interconnection Request Form similar to Schedule 5 of 20VAC5-314-170, which shall be made available to customers on the utility's website."
+
+                            <br>
+                            <br>
+                            The utility will date-stamp and time-stamp the Interconnection Request Form upon receipt. This time is used to indicate queue position.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="submittal-deficiencies" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Utility notifies whether there are  deficiencies in the submittal</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/ ">20VAC5-314-40 B</a>, of the Virginia Administrative Code: 
+                            "Within three business days of receiving the interconnection request, the utility shall notify the IC of receipt, which notification shall be made by 
+                            United States mail, email address, or fax number provided by the IC. As soon as practicable after receipt, but not later than 10 business days after the 
+                            date of receipt of the interconnection request, the utility shall notify the IC if there are any deficiencies in the IC's submittal. If there are deficiencies
+                            , such notice shall include a written list detailing all information that must be provided by the IC to complete the interconnection request."
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="if-needed" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">If needed: Submit requested incomplete information</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/">20VAC5-314-40 B</a>, of the Virginia Administrative Code: 
+                            "The IC shall have 10 business days after receipt of the notice of incomplete information to submit the listed information or to request an extension 
+                            of time to provide such information. The acceptance of such request for time extension shall be at the utility's discretion. If the IC does not provide 
+                            the listed information or a request for an extension of time within the deadline, the Interconnection Request Form will be deemed withdrawn."
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="window" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Enter queue window</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+                        <div class="modal-body">
+                            Regulations surrounding queue numbers are established in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/">20VAC5-314-38</a>, of the Virginia Administrative Code. 
+                            Interconnection requests are assigned a queue number "based upon the date-stamp and time-stamp of receipt of a completed Interconnection Request Form by the utility." An Interconnection Request 
+                            Form that is received earlier than another request shall be assigned a lower numerical queue number. Projects are studied in numerical order from low to high, except in the case of interdependent projects.
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="evaluated-utility" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Evaluated by the utility for interdependency</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/">20VAC5-314-40 C</a>, of the Virginia Administrative Code: 
+                            “Within 15 business days after the date the IC submits a complete Interconnection Request Form and requisite fee, the utility shall evaluate the request to determine whether the IC's project is interdependent with one or more earlier-queued projects. If it is determined that the IC's project does not create an interdependency, the utility shall designate the IC's project as Project A, and, if so, shall inform the IC what utility modifications are required to interconnect the SGF. If the utility determines that the IC's project is interdependent with one or more earlier-queued projects, the utility may delay study of the IC request until the interdependency is resolved and the IC becomes a Project A as further addressed in 20VAC5-314-38 B. If the utility delays study of the IC's project, the utility shall notify the IC in writing and identify the number of earlier-queued interdependent projects.”
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end of inter rect level 1  -->
+        
+        <!-- start of inter rect level 2 -->
+            <div class="modal fade" id="general-process-2" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">SGIP Level 2 General Process</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section10/">20VAC5-314-10 A</a>, "A request to interconnect a certified small generating facility (SGF) no larger than 500 kilowatts (kW) shall be evaluated under the Level 1 process."
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="general-requirements-2" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Submit SGIP Level 2 General Requirements</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            The SGIP Level 2 general requirements, as laid out in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50 A</a> of the Virginia Administrative Code, are: "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
+                            <br>
+                            <br>
+                            The utility will date- and time-stamp the Interconnection Request Form upon receipt. This time is used to indicate queue position. 
+                            <br>
+                            <br>
+                            For interconnection requests initially evaluated at the Level 1 but transferred to the Level 2 process, see section I of <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/">20VAC5-314-60</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- check if we can just use same as above rectangle -->
+             
+            <div class="modal fade" id="screen-review" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Utility performs initial screen review and provides results</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/">20VAC5-314-60 B</a>, of the Virginia Administrative Code:
+                            “Within 15 business days after the utility notifies the IC it has received a complete Interconnection Request Form, the utility shall perform an initial review using the screens set forth in subsection C or D of this section, as applicable and shall notify the IC of the results, including copies of the analysis and data underlying the utility's determinations under the screens.” Part C details screens for interconnections to radial circuits and Part D is on screens for interconnections involving networks.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end of inter rect level 2  -->
+        <!-- start of inter rect level 3 -->
+            <div class="modal fade" id="general-process-3" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">SGIP Level 3 General Process</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section10/">20VAC5-314-10 A</a>,  "A request to interconnect a small generating facility (SGF) not qualifying for the Level 1 process (the request is greater than 500 kw) or Level 2 process (the request is greater than 2 MW), shall be evaluated under the Level 3 process."
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="general-requirements-3" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Submit SGIP Level 3 General Requirements</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            The SGIP Level 3 general requirements, as laid out in<a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section50/">20VAC5-314-50 A</a>, Code, are: "The IC shall submit (i) a completed Levels 2 and 3 Interconnection Request Form (Schedule 6 of 20VAC5-314-170); (ii) site control documentation pursuant to Schedule 6 of 20VAC5-314-170, and (iii) the required $1,000 processing fee."
+                            <br>
+                            <br>
+                            The utility will date-stamp and time-stamp the Interconnection Request Form upon receipt. This time is used to indicate queue position.  
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- check if we can just use same as above rectangle -->
+
+            <div class="modal fade" id="scooping" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Scoping meeting</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section70/">20VAC5-314-70 B:</a> of the Virginia Administrative Code:
+                            <br>
+                            "1. The purpose of the scoping meeting is to discuss the interconnection request and the utility's preliminary interdependency determination. The parties shall discuss the studies potentially required to safely and reliably interconnect the IC to the utility's system, including the cost responsibilities for the studies.
+                            <br>
+                            2. A scoping meeting shall be held no later than 10 business days after the Interconnection Request Form is deemed complete or as otherwise mutually agreed to in writing by the parties. The utility and the IC shall bring to the meeting all resources as may be reasonably required to accomplish the purpose of the meeting, such as system engineers and other personnel.
+                            <br>
+                            3. The scoping meeting may be omitted by mutual, written agreement of the parties."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- end of inter rect level 3  -->
+
+        <!-- rhombus content start -->
+        <div class="modal fade" id="modifications-compliance" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">What level process does the utility require?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        NEED TO FILL IN
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modifications-performed" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Have the modifications been performed in compliance with 20VAC5-314-40 C.1?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        According to <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/">20VAC5-314-40 C</a> of the Virginia Administrative Code:
+                        “If the interconnection can be accomplished with minor modifications (e.g., changing meters, fuses, and relay settings) to the utility system, the IC and the utility 
+                        may informally agree upon a plan to effectuate the required installations and modifications. The utility shall perform all installations and modifications of the
+                        utility system and the IC shall reimburse the utility for the cost of such installations and modifications. The IC shall perform all required modifications to its SGF.”
+                        <br>
+                        <br>
+                        If instead either of the following situations occur, the interconnection request will be transferred to the Level 2 process or handled according to <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section100/">20VAC5-314-100</a> at the IC’s option:
+                        <br>
+                        <ol>
+                            <li><a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/">20VAC5-314-40 C.2:</a> “If the interconnection cannot be accomplished with minor modifications or the parties cannot come to an agreement regarding modifications to the utility system within 10 business days of study results being provided by the utility.”</li>
+                            <li><a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section40/">20VAC5-314-40 C.3:</a> “If the utility cannot reasonably determine that the modifications to the utility's system can be completed without additional study, the utility shall provide the IC, in writing, justification for that determination.”</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- rhombus content end -->
+    </modals>
+
+    <div class = "container">
         <div class="text-center txt-test mw-100-title-"> SCC Interconnection Procedures</div>
         <br>
         <div>
@@ -35,14 +312,12 @@
                 with the utility.
             </p>
         </div>
-        <div class="row">
-            <div class="col"></div>
-            <div class="col-10">
-                <div style="height: 50px;"></div> <!-- Placeholder -->
-                
-                <!-- <div class="container-scroll"> -->
-                   <div class="flow-chart-container">
-                
+
+        <div class = "row">
+            <div class = "col"></div>
+            <div class = "col-10">
+                <div style="height: 50px;"></div>
+                <div class="flow-chart-container">
                     <div class="container-inter">
                         <!-- Flowchart -->
                         <div class="flowchart">
@@ -71,28 +346,7 @@
                                      <div class="line-inter line19"></div>
                                      <div class="line-inter line20"></div>
                                      <div class="line-inter line21"></div>
-                                     <!-- <div class="line-inter line22"></div> -->
-                                     <!-- <div class="line-inter line23"></div> -->
-                                     <!-- <div class="line-inter line24"></div> -->
 
-                                     <!-- <div class="line-inter lineOval-1"></div>
-                                     <div class="line-inter lineOval-2"></div>
-                                     <div class="line-inter lineOval-3"></div>
-                                     <div class="line-inter lineOval-4"></div>
-                                     <div class="line-inter lineOval-5"></div>
-
-                                     <div class="line-inter lineOvalHoriz-1"></div>
-                                     <div class="line-inter lineOvalHoriz-2"></div>
-                                     <div class="line-inter lineOvalHoriz-3"></div>
-                                     <div class="line-inter lineOvalHoriz-4"></div> -->
-
-                                     <!-- <div class="box noInt-4"> NO </div> -->
-
-                                     <!-- <div class="oval-shape oval-1">New Service Request is withdrawn</div>
-                                     <div class="oval-shape oval-2">New Service Request is withdrawn</div>
-                                     <div class="oval-shape oval-3">New Service Request is withdrawn</div> -->
-
-                                     <!-- <div class="line-inter linelong"></div> -->
 
 
                                     <div class="circle-inter inter-1"></div>
@@ -140,11 +394,11 @@
                                         <div class="rhombus-text">Do the parties <br> agree that a <br>feasibility study <br>should be <br>performed?</div>
                                       </div>
                                       
-                                      <div class="inter-decision title-2">
+                                      <div data-bs-toggle ="modal" data-bs-target="#modifications-compliance" class="inter-decision title-2">
                                         <div class="rhombus-text">What level <br> process <br>does the utility <br> require?</div>
                                       </div>
                                       
-                                      <div class="inter-decision title-3">
+                                      <div data-bs-toggle ="modal" data-bs-target="#modifications-performed" class="inter-decision title-3">
                                         <div class="rhombus-text">Have the <br>modifications <br> been performed in <br>compliance with <br>20VAC5-314-40 <br>C.1?</div>
                                       </div>
                                       
@@ -160,33 +414,6 @@
                                         <div class="rhombus-text">Does the <br>system impact <br>study show that <br>facility modifications<br> are needed?</div>
                                       </div>
 
-                                      <!-- <div class="inter-decision title-7">
-                                        <div class="rhombus-text">Does the <br>New Service of <br>Request continue<br> with the Final<br>Agreement <br> Negotiation <br> Phase?</div>
-                                      </div>
-
-                                      <div class="inter-decision title-8">
-                                        <div class="rhombus-text">Does the <br>New Service<br> Request move <br>forward to <br>Phase I?</div>
-                                      </div>
-
-                                      <div class="inter-decision title-9">
-                                        <div class="rhombus-text">Does the <br>New Service <br> Request qualify <br>for acceleration?</div>
-                                      </div>
-
-                                      <div class="inter-decision title-10">
-                                        <div class="rhombus-text">Does the <br>New Service<br> Request move <br>forward to <br>Phase II?</div>
-                                      </div>
-
-                                      <div class="inter-decision title-11">
-                                        <div class="rhombus-text">Does the <br>New Service <br> Request qualify <br>for acceleration?</div>
-                                      </div>
-
-                                      <div class="inter-decision title-12">
-                                        <div class="rhombus-text">Does the <br>New Service<br> Request move <br>forward to <br>Phase III?</div>
-                                      </div>
-                                     -->
-                                   
-                                   
-
                                     <div class="inter-decision parallelogram">
                                         Receive Small <br> Generation <br> Interconnection <br>Agreement
                                       </div>
@@ -195,70 +422,43 @@
                                         Receive Small <br> Generation <br> Interconnection <br>Agreement
                                       </div>
                                       
-                                    <!-- <div class="inter-rect rect7">Application Phase</div>
-                                    <div class="inter-rect rect10">Phase III System Impact Study</div>
-                                    <div class="inter-rect rect-Full"> Fulfill requirements for acceleration </div>
-
-                                    <div class="inter-rect negotiation">
-                                        <div class="title">Final Agreement Negotiation Phase</div>
-                                        <div class="gia">
-                                            Pre-GIA Milestones
-                                        </div>
-                                    </div> -->
-
-
-                                   
-                               
-                                    
-                                    <!-- <div class="rect-container">
-                                        <div class="inter-rect rect8">
-                                            <div class="title">PHASE II</div>
-                                            <div class="inter-rect not_button">Phase I<br> System Impact <br> Study</div>
-                                            <button type="button" class="btn inter-rect d3" data-bs-toggle="modal" data-bs-target="#dp3Modal">Decision Point III</button>
-                                        </div>
-                                    </div>
-
-                                    <div class="rect-container">
-                                        <div class="inter-rect rect9">
-                                            <div class="title">PHASE II</div>
-                                            <div class="inter-rect not_button">Phase II<br> System Impact <br> Study</div>
-                                            <button type="button" class="btn inter-rect d3" data-bs-toggle="modal" data-bs-target="#dp3Modal">Decision Point III</button>
-                                        </div>
-                                    </div> -->
-
 
 
                                     <div class="rect-container">
                                         <div class="inter-rect level-1">
-                                            <div class="title">SGIP Level 1 General Process</div>
+                                            <div data-bs-toggle="modal" data-bs-target="#general-process-1" class="title">SGIP Level 1 General Process</div>
                                             <div class="squares-container">
-                                                <div data-bs-toggle = "modal" data-bs-target = "test-this" class="square">Submit SGIP <br>Level 1 <br>General<br> Requirements</div>
-                                                <div class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
-                                                <div class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
-                                                <div class="square">Enter <br> queue <br>window</div>
-                                                <div class="square">Evaluated<br> by the<br> utility for <br>inter-<br>dependency</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#general-requirements-1" class="square">Submit SGIP <br>Level 1 <br>General<br> Requirements</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#submittal-deficiencies" class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#if-needed" class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#window" class="square">Enter <br> queue <br>window</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#evaluated-utility" class="square">Evaluated<br> by the<br> utility for <br>inter-<br>dependency</div>
                                                 <!-- <div class="square">Perform<br> modifications<br> required to<br> interconnect -->                                                   
                                             </div>
                                         </div>
                                         <div class="inter-rect level-2">
-                                            <div class="title">SGIP Level 2 General Process</div>
+                                            <div data-bs-toggle="modal" data-bs-target="#general-process-2" class="title">SGIP Level 2 General Process</div>
                                             <div class="squares-container">
-                                                <div class="square"><Submit SGIP <br>Level 2 <br>General<br> Requirements</div>
-                                                <div class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
-                                                <div class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
-                                                <div class="square">Enter <br> queue <br>window</div>
-                                                <div class="square">Utility<br> performs <br> initial <br> screen review<br> and provides <br> results</div>
+                                                <div data-bs-toggle="modal" data-bs-target="#general-requirements-2" class="square"><Submit SGIP <br>Level 2 <br>General<br> Requirements</div>
+                                                <!-- check if same -->
+                                                <div data-bs-toggle = "modal" data-bs-target = "#submittal-deficiencies" class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#if-needed" class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#window" class="square">Enter <br> queue <br>window</div>
+                                                <!-- check if same -->
+                                                <div data-bs-toggle = "modal" data-bs-target = "#screen-review" class="square">Utility<br> performs <br> initial <br> screen review<br> and provides <br> results</div>
                                                 
                                             </div>
                                         </div>
                                         <div class="inter-rect level-3">
-                                            <div class="title">SGIP Level 3 General Process</div>
+                                            <div data-bs-toggle="modal" data-bs-target="#general-process-3" class = "title">SGIP Level 3 General Process</div>
                                             <div class="squares-container">
-                                                <div class="square"><Submit SGIP <br>Level 3 <br>General<br> Requirements</div>
-                                                    <div class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
-                                                    <div class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
-                                                    <div class="square">Enter <br> queue <br>window</div>
-                                                    <div class="square">Scooping<br> Meeting </div>
+                                                <div data-bs-toggle="modal" data-bs-target="#general-requirements-3" div class="square"><Submit SGIP <br>Level 3 <br>General<br> Requirements</div>
+                                                <!-- check if same -->
+                                                <div data-bs-toggle = "modal" data-bs-target = "#submittal-deficiencies" class="square">Utility notifies <br> whether <br> thereare <br>deficiencies <br>in the <br>submittal</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#if-needed" class="square dashed-border">If needed: <br> Submit  <br> requested  <br>incomplete <br> information</div>
+                                                <div data-bs-toggle = "modal" data-bs-target = "#window" class="square">Enter <br> queue <br>window</div>
+                                                <!-- check if same -->
+                                                <div data-bs-toggle = "modal" data-bs-target = "#scooping" class="square">Scooping<br> Meeting </div>
                                             </div>
                                         </div>
                                         <div class="inter-rect level-4">
@@ -288,96 +488,13 @@
                                                 <div class="square-four">Utility <br> transmits a <br>Facilities <br>study report</div>
                                             </div>
                                         </div>
-    
-                                    </div>
-                                    
-                                    <!-- <div data-bs-toggle="modal" data-bs-target="#dp3Modal" class="btn inter-rect dp3">Decision Point III</div>
-                                    
-                                    <div class="modal fade" id="dp3Modal" tabindex="-1" role="dialog">
-                                        <div class="modal-dialog modal-lg" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="title">Decision Point III Details</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    General Information
-                                                    Costs: Final Agreement Security</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    
-                                    <!-- <div data-bs-toggle="modal" data-bs-target="#rect7Modal" class="btn inter-rect rect7">Application Phase</div>
-                                    <div class="modal fade" id="rect7Modal" tabindex="-1" role="dialog" aria-labelledby="rect7ModalModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="rect7ModalModalLabel">Application Phases</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generalInfoModal">
-                                                        General Information
-                                                    </button>
-                                 
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#costModal">
-                                                        Costs
-                                                    </button>
-                                                                                   
-                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                </div>
 
 
-                                    <!-- <div class="modal fade" id="costModal" tabindex="-1" role="dialog" aria-labelledby="costModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="costModalLabel">Costs</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generalInfoModal">
-                                                        Readiness Deposit
-                                                    </button>
-                                 
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#costModal">
-                                                        Study Deposit
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-
-<!-- 
-                                    <div data-bs-toggle="modal" data-bs-target="#dp3Modal" class="btn inter-rect dp3">Decision Point III</div>
-
-                                    <div class="modal fade" id="dp3Modal" tabindex="-1" role="dialog" aria-labelledby="dp3ModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-lg" role="document">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                    <h5 class="modal-title" id="dp3ModalLabel">Decision Point III Details</h5>
-                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#generalInfoModal">
-                                                        General Information
-                                                    </button>
+                                   
+                               
                                     
-                                                   
-                                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#costsModal">
-                                                        Costs: Final Agreement Security
-                                                    </button>
-                                                                                        
-                                    
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
- 
+                                
                                     <div class="inter-rect rect11">Construction planning meeting</div>
 
                                     <div class="inter-rect satisfy">Satisfy the additional requirements of 20VAC5-314-40 D</div>
@@ -385,59 +502,14 @@
                                     <div class="inter-rect failed-utility-1 ">Failed: Utility provides SGIA</div>
                                     <div class="inter-rect failed-utility-2 ">Failed: Utility notifies<br> the IC of modification <br>requirements</div>
                                     <div class="inter-rect work ">Work with the utility to resolve issues</div>
-                                
-
-
                                 </div>
                             </utility-interconnection>
-
                         </div>
                     </div>
-                </div>
-                <!-- </div> -->
             </div>
-            <div class="col"></div>
         </div>
     </div>
-
-
-
     <br><br>
-
     <footer-></footer->
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modal Test</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <div class="square" data-bs-toggle="modal" data-bs-target="#test-this" style="cursor: pointer; padding: 10px; border: 1px solid black; display: inline-block;">
-        Submit SGIP <br>Level 1 <br>General<br> Requirements
-    </div>
-
-    <div class="modal fade" id="test-this" tabindex="-1" role="dialog">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="title">This is a Test</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    This is a test
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Bootstrap Bundle JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
