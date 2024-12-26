@@ -4451,7 +4451,7 @@ menu1{
     background-color: #bbb;
     border-color: var(--black-color);
     border-radius: 50%;
-
+    cursor: pointer;
     border: 0.1px ;
     border: solid;
 
