@@ -12,6 +12,7 @@
     flex: 0.25 0 0%;
 }
 
+
 .container-description {
     padding-top: 3%;
     padding-right: 10%;
@@ -24,6 +25,14 @@
     overflow-y: scroll;
     width: 115%;
     height: 105%;
+
+}
+.flow-chart-container-pjm {
+    overflow: hidden; 
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width: 110%;
+    height: 110%;
 }
 
 /* Scrollbar for WebKit browsers */
@@ -45,6 +54,29 @@
 }
 
 .flow-chart-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Thumb hover color */
+    height: 30px; /* Increase vertical scrollbar thumb length */
+    width: 30px; /* Increase horizontal scrollbar thumb length */
+    border-radius: 15px; /* Increased roundness for hover effect */
+}
+.flow-chart-container-pjm::-webkit-scrollbar {
+    width: 5px; /* Initial thickness of the vertical scrollbar */
+    height: 5px; /* Initial thickness of the horizontal scrollbar */
+}
+
+.flow-chart-container-pjm::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Track color */
+}
+
+.flow-chart-container-pjm::-webkit-scrollbar-thumb {
+    background: #888; /* Thumb color */
+    border-radius: 10px; /* Roundness */
+    height: 20px; /* Minimum length of the vertical scrollbar thumb */
+    width: 20px; /* Minimum length of the horizontal scrollbar thumb */
+    transition: all 0.2s ease; /* Smooth transition effect */
+}
+
+.flow-chart-container-pjm::-webkit-scrollbar-thumb:hover {
     background: #555; /* Thumb hover color */
     height: 30px; /* Increase vertical scrollbar thumb length */
     width: 30px; /* Increase horizontal scrollbar thumb length */
@@ -2665,6 +2697,16 @@ about-footer {
     display: flex;
     justify-content: center;
 }
+.container-inter-pjm {
+    width: 800px;
+    height: 300px;
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
 .container-swimlane-exempt {
     width: 1075px;
     height: 200px;
@@ -4135,7 +4177,7 @@ menu1{
 .inter-decision.title-7 {
     position: absolute;
     left: 2100px; 
-    top: 70px;
+    top: 270px;
 }
 
 .inter-decision.title-8 {
@@ -4244,7 +4286,7 @@ menu1{
 }
 
 .inter-rect.dp3 {
-    top: 100px; 
+    top: 300px; 
     left: 1880px;
     width: 100px;
     height: 50px;
@@ -4317,8 +4359,8 @@ menu1{
 }
 
 .inter-rect.negotiation {
-    top: 600px; 
-    left: 1840px;
+    top: 500px; 
+    left: 1880px;
 }
 
 .rect-container {
@@ -4763,9 +4805,9 @@ menu1{
 
 .line-inter.linelong
 {
-    top: 122px;
-    left: 1800px;
-    width: 1900px;
+    top: 322px;
+    left: 1830px;
+    width: 600px;
 
 }
 
@@ -4892,11 +4934,10 @@ menu1{
 
 .line-inter.line22
 {
-    top: 400px;
-    left: 1522px;
-    width: 558px;
+    top: 437px;
+    left: 1715px;
+    width: 230px;
     transform: rotate(90deg);
-    background: #FFD0D0;
 }
 
 .line-inter.line23

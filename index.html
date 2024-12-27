@@ -25,21 +25,136 @@
     <nav-bar></nav-bar>
 
   <modals>
-
-    <div class="modal fade" id="box1-shared-solar-projects" tabindex="-1" role="dialog">
+    <div class="modal fade" id="shared-solar-enrollment" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="title">Shared Solar Projects</h5>
+                  <h5 class="modal-title" id="title">Shared Solar Enrollment</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-
               </div>
-
-              <div class="modal-body">
+              <div class ="modal-body">
+                  In 2020, Virginia passed laws to create community solar programs, aimed at expanding access to
+                  clean energy options for residents of Virginia. Without needing to install solar options
+                  themselves, many community members now have the opportunity to access solar energy. The
+                  “shared solar” program has two parts – the Shared Solar Program and the Multi-Family Shared
+                  Solar Program. Per the <a href = "https://energy.virginia.gov/renewableenergy/SS_CS.html">Virginia Department of Energy</a>, “the Shared Solar Program [provides] customers of Dominion Energy
+                  Virginia the opportunity to participate in offsite, or front-of-meter (virtual) shared solar projects,
+                  while the Multi-Family Shared Solar Program provides eligible multi-family customers of
+                  Dominion Energy and Kentucky Utilities (Old Dominion Power) the opportunity to participate in
+                  onsite, or behind-the-meter solar projects.” Appalachian Power is in the process of joining the
+                  Shared Solar Program. Many electric cooperatives are also offering community solar programs,
+                  though structured and regulated apart from “shared solar.” 
               </div>
+              <div class = "solar-enrollment-extensions">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shared-solar-modal">
+                      Click for Shared Solar Information
+                  </button>
+
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#family-solar-modal">
+                      Click for Multi-Family Shared Solar Information
+                  </button>
+
+                  <div class="modal fade" id="shared-solar-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Shared Solar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                                The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
+                                Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
+                                pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
+                                receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
+                                attributable to that subscriber.
+        
+                                <br>
+                                <br>
+        
+                                Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
+                                Code of Virginia defines a “shared solar facility” as a facility that:
+                                “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
+                                that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
+                                at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
+                                less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
+                                Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
+                                system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
+                                the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
+                                
+                                <br>
+                                <br>
+        
+                                Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
+                                in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
+                                solar details with regards to Dominion Virginia (a Phase II utility).                    
+                                
+                                <br>
+                                <br>
+        
+                                Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
+                                legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
+                                Appalachian Power must provide tariff and agreement information and other related 
+                                requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
+                                <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
+                                <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
+                                with regards to Appalachian Power (a Phase I utility)                   
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="modal fade" id="family-solar-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Multi-Family Shared Solar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                            The Multi-Family Shared Solar Program allows eligible multi-family customers of Dominion
+                            Energy Virginia and Old Dominion Power (ODP) to purchase subscriptions in a shared solar
+                            facility. Such customers will receive a credit on their monthly electric bill proportional to the
+                            output of the shared solar facility attributable to that subscriber.
+        
+                            <br>
+                            <br>
+                            The Multi-Family Shared Solar Program is established in Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/">§ 56-585.1:12</a> of the Code of Virginia.
+                            Rules governing the program can be found in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter342/">Chapter 342 of the Virginia Administrative Code</a>. 
+        
+                            <br>
+                            <br>
+                            Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/"> Section § 56-585.1:12</a>  of the Code of Virginia defines a “shared solar facility” for the Multi-Family Shared Solar
+                            Program as a facility that:
+                            <br>
+                            “1. Generates electricity by means of a solar photovoltaic device with a nameplate capacity
+                            rating that does not exceed 3,000 kW alternating current at any single location or that does not
+                            exceed 5,000 kW alternating current at contiguous locations owned by the same entity or
+                            affiliated entities;
+                            <br>
+                            2. Is operated pursuant to a program whereby at least three subscribers receive a bill credit for
+                            the electricity generated from the facility in proportion to the size of their subscription;
+                            <br>
+                            3. Is located in the service territory of an investor-owned utility;
+                            <br>
+                            4. Is connected to the electric distribution grid serving the Commonwealth; and
+                            <br>
+                            5. Is located on a parcel of land on the premises of the multi-family utility customer or adjacent
+                            thereto.”
+                            <br>
+                            <br>
+                            See details of Dominion Virginia's program on <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/multi-family-sharedsolar">Dominion's website</a>. For Old Dominion Power Company, see <a href = "https://lge-ku.com/virginia-solar">ODP's website</a> for details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>                    
           </div>
       </div>
     </div>
+
     <div class="modal fade" id="box2-agricultural-generators" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -137,48 +252,31 @@
                       </div>
                   </div>
                 </div>
-
-
-                <!-- Small Agricultural Generators
-                Per <a href = "https://law.lis.virginia.gov/vacode/56-594.2/" target = "_blank">Code of Virginia § 56-594.2</a>,  a "Small agricultural generator" means a customer that: "1. Is not an eligible agricultural customer-generator pursuant to § 56-594; 2. Operates a small agricultural generating facility as part of (i) an agricultural business or (ii) any business granted a manufacturer license pursuant to subdivisions 1 through 6 of 
-                <a href = "https://law.lis.virginia.gov/vacode/title4.1/chapter2/section4.1-206.1/" target = "_blank">§ 4.1-206.1;</a>
-                3. May be served by multiple meters that are located at separate but contiguous sites; 4. May aggregate the electricity consumption measured by the meters, solely for purposes of calculating 150 percent of the customer's expected annual energy consumption, but not for billing or retail service purposes, provided that the same utility serves all of its meters; 5. Uses not more than 25 percent of contiguous land owned or controlled by the agricultural business for purposes of the renewable energy generating facility; and 6. Issues a certification under oath as to the amount of land being used for renewable generation." 
-                
-                <br>
-                <br>
-
-
-                Small agricultural generators electing to interconnect pusuant to this section must follow the following requirements: 
-                <br>
-                <br>
-
-                1. Enter into a power purchase agreement with its utility to sell all of the electricity generated from its small agricultural generating facility, which power purchase agreement obligates the utility to purchase all the electricity generated, at a rate agreed upon by the parties, but at a rate not less than the utility's Commission-approved avoided cost tariff for energy and capacity;
-                <br>
-
-                2. Have the rights described in subsection E of § 56-594 pertaining to an eligible agricultural customer-generator as to the renewable energy certificates or other environmental attributes generated by the renewable energy generating facility;
-                <br>
-
-                3. Abide by the appropriate small generator interconnection process as described in 20VAC5-314; and
-                <br>
-
-                4. Pay to its utility any necessary additional expenses as required by this section."
-
-                Eligible Agricultural Customer-Generators
-                <br>
-                <br>
-                Per <a href = 'https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/' target = "_blank"> Code of Virginia § 56-594</a> 
-                ,  "Eligible agricultural customer-generator" means a "customer that operates a renewable energy generating facility as part of an agricultural business, which generating facility (i) uses as its sole energy source solar power, wind power, or aerobic or anaerobic digester gas, (ii) does not have an aggregate generation capacity of more than 500 kilowatts, (iii) is located on land owned or controlled by the agricultural business, (iv) is connected to the customer's wiring on the customer's side of its interconnection with the distributor; (v) is interconnected and operated in parallel with an electric company's transmission and distribution facilities, and (vi) is used primarily to provide energy to metered accounts of the agricultural business."
-              </div>
-          </div> -->
       </div>
     </div>
-    <div class="modal fade" id="box3-brownfields" tabindex="-1" role="dialog">
+
+
+    <div class = "modal fade" id = "brownfield-box" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+              <h5 class="modal-title" id="title">Have the requirements of 20VAC15-314-60 Parts G.1 or H been met?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+              See Parts G.1 and H of <a href ="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/">20VAC5-314-60</a> of the Virginia Administrative Code.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="modal fade" id="box3-brownfields" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
                   <h5 class="modal-title" id="title">Brownfields</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-
               </div>
 
               <div class="modal-body">
@@ -209,7 +307,7 @@
               </div>
           </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="modal fade" id="start-here" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
@@ -224,7 +322,6 @@
               </div>
           </div>
       </div>
-    </div>
     </div>
 
     <div class="modal fade" id="nameplate-less-5-mw" tabindex="-1" role="dialog">
@@ -486,14 +583,7 @@
 
             <!-- added boxes -->
 
-            <!-- <div class = "box-header">
-              <div class = "box2-agricultural-generators">
-                <div data-bs-toggle="modal" data-bs-target="#agricultural-generators" class="btn btn-light project agricultural-generators"><b>For Agricultural Generators, click here.</b></div>
-              </div>
-              <div class = "box3-brownfields">
-                <div data-bs-toggle="modal" data-bs-target="#brownfields" class="btn btn-light project brownfields"><b>For projects on brownfields, click here.</b></div>
-              </div>
-            </div> -->
+
 
             <br>
             <div style="line-height: 75%"><br></div>
@@ -506,7 +596,7 @@
               <div class ="box-header">
                 <div data-bs-toggle="modal" data-bs-target="#shared-solar-enrollment" class="btn btn-light project shared-projects">For Shared Solar projects, click here</div>
                 <div data-bs-toggle="modal" data-bs-target="#box2-agricultural-generators" class="btn btn-light project agricultural-generators">For Agricultural Generators, click here</div>
-                <div data-bs-toggle="modal" data-bs-target="#box3-brownfields" class="btn btn-light project brownfields">For projects on Brownfields, click here</div>
+                <div data-bs-toggle="modal" data-bs-target="#brownfield-box" class="btn btn-light project brownfields">For projects on Brownfields, click here</div>
               </div>
 
               <div class="container-landing">
