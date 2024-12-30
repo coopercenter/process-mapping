@@ -27,13 +27,7 @@
     height: 105%;
 
 }
-.flow-chart-container-pjm {
-    overflow: hidden; 
-    overflow-x: scroll;
-    overflow-y: scroll;
-    width: 110%;
-    height: 110%;
-}
+
 
 /* Scrollbar for WebKit browsers */
 .flow-chart-container::-webkit-scrollbar {
@@ -2691,21 +2685,13 @@ about-footer {
 .container-inter {
     width: 1075px;
     height: 800px;
-
+    
     position: relative;
 
     display: flex;
     justify-content: center;
 }
-.container-inter-pjm {
-    width: 800px;
-    height: 300px;
 
-    position: relative;
-
-    display: flex;
-    justify-content: center;
-}
 
 .container-swimlane-exempt {
     width: 1075px;
@@ -4120,6 +4106,18 @@ menu1{
     border: 1px solid var(--black-color);
     cursor: pointer;
   }
+
+  .rhombus-text{
+    color: black; /* Color of the text */
+    font-size: 12px; /* Adjust the font size */
+    margin: 0;
+    position: absolute; /* Position absolute for precise placement */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform-origin: center center; /* Ensure proper rotation origin */
+    white-space: nowrap; 
+    text-align: center; 
+  }
   
   .inter-decision .rhombus-text {
     color: black; /* Color of the text */
@@ -4294,13 +4292,13 @@ menu1{
 
 .inter-rect.rect7 {
     top: 422px; 
-    left: 20px;
+    left: 300px;
     width: 100px;
     height: 50px;
 }
 .inter-rect.rect8 {
     top: 400px; 
-    left: 400px;
+    left: 500px;
     width: 140px;
     height: 75px;
 }
