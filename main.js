@@ -1414,10 +1414,13 @@ class Interconnections extends HTMLElement {
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">Shared Solar Enrollment</h5>
+                        <h5 class="modal-title" id="title">For Shared Solar Program Enrollment</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <div class ="modal-body">
+                        <i>An executed interconnection agreement is necessary to apply for participation in the Shared Solar program or Multi-Family Shared Solar program. Continue reading for further information on these programs.</i>
+                        <br>
+                        <br>
                         In 2020, Virginia passed laws to create community solar programs, aimed at expanding access to
                         clean energy options for residents of Virginia. Without needing to install solar options
                         themselves, many community members now have the opportunity to access solar energy. The
