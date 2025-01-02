@@ -79,11 +79,11 @@
                     <!-- line elements -->
 
                     <!-- rhombus elements -->
-                    <div class="inter-decision pjm-rhombus-1">
+                    <div data-bs-toggle="modal" data-bs-target="#jurisdictional" class="inter-decision pjm-rhombus-1">
                         <div class="rhombus-text-pjm">Is the project <br>interconnecting <br>to FERC <br> with the Final<br>jurisdictional <br> facilities?</div>
                     </div>
                     <div class="inter-decision pjm-rhombus-2">
-                        <div class="rhombus-text-pjm">Does the New <br>Service Request <br>move forward <br> to Phase I?</div>
+                        <div data-bs-toggle = "modal" data-bs-target="#forward-phase-1" class="rhombus-text-pjm">Does the New <br>Service Request <br>move forward <br> to Phase I?</div>
                     </div>
                     <div class="inter-decision pjm-rhombus-3">
                         <div class="rhombus-text-pjm">Does the New <br>Service Request <br>qualify <br> for acceleration?</div>
@@ -103,9 +103,9 @@
                     <!-- rhombus elements -->
 
                     <!-- box elements -->
-                    <div class="inter-rect pjm-rect1">Obtain non-FERC jurisdictional interconnection agreement</div>
-                    <div class="inter-rect pjm-rect2">Follow WMPA Process</div>
-                    <div class="inter-rect pjm-rect3">Application Phase</div>
+                    <div data-bs-toggle="modal" data-bs-target="#obtain-agreement" class ="inter-rect pjm-rect1">Obtain non-FERC jurisdictional interconnection agreement</div>
+                    <div data-bs-toggle="modal" data-bs-target="#follow-wmpa" class="inter-rect pjm-rect2">Follow WMPA Process</div>
+                    <div data-bs-toggle = "modal" data-bs-target="#application-phase" class ="inter-rect pjm-rect3">Application Phase</div>
                     <div class="inter-rect pjm-rect6">Phase III System Impact Study</div>
                     
                     <div class="rect-container">
@@ -189,10 +189,155 @@
                      <span class = "line7-yes">YES</span> 
                     <!-- line direction text -->
                 </div>
-
-
             </div>
         </div>
     </div>
 </body>
+    <!-- modal content -->
+    <modals>
+        <div class="modal fade" id="jurisdictional" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Is the project interconnecting to FERC-jurisdictional facilities?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        If the project is on FERC-jurisdictional facilities, follow the standard PJM process to receive a GIA. 
+                        If the project is not on FERC-jurisdictional facilities, proceed to the WMPA process pursuant to 
+                        <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.5</a>. 
+                        Project Developers interconnecting to non-FERC jurisdictional facilities who intend to participate in 
+                        the PJM wholesale market must follow the PJM process to receive a three party agreement known as a WMPA. 
+                        The WMPA is essentially a GIA without interconnection provisions, and facilitates the wholesale sale of MWs from such facilities.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="obtain-agreement" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Obtain non-FERC jurisdictional interconnection agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        In order to receive a WMPA, the developer must work independently with the 
+                        relevant non-FERC jurisdictional entity to receive a non-FERC jurisdictional interconnection agreement. This means that the developer must go through the SCC process to get their interconnection approval, while also following PJM requirements to receive the WMPA. By Decision Point III, this interconnection agreement must be executed.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="follow-wmpa" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Follow WMPA Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        The developer must continue through the PJM process below to receive a WMPA. PJM studies are performed concurrently with state reviews. 
+                        <i>Note: project developers and utilities find it difficult to apply for approval through the SCC and PJM processes at the same time because the structure, timelines, and requirements differ greatly.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="application-phase" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Application Phase</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-button" class ="general-info-button">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-button" class ="costs-button">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-button" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        New service customers with generation greater than 20 MW are to follow the process outlined in <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a>
+                        The steps in PJM Manual 14H are updated as of July 26, 2023. See <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 1.2</a> to determine which customer classification fits your proposed project. The two customer classifications for which the process will be outlined are the most common customer designations: Generation Project Developer and the Eligible Customer.
+                        <br><br>
+                        Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a> the Application Phase is the “Cycle period that includes both the submission and review of New Service Requests. The Project Developer or Eligible Customer submits an Application and PJM reviews and validates the submission and assigns a Project Identifier” (Page 28). Requirements of the Application phase can be found in Section 2 of PJM Manual 14H. Complete procedures are provided in Tariff, Part VII, Subpart C and Tariff, Part VIII, Subparts A and B.
+                        <br><br>
+                        Timeline: The Application Phase lasts approximately 90 days from the date of the Application Deadline. The time needed for the collection of required information and completion of the application occurs prior to Day 0 of this timeline.
+                        <br><br>
+                        NOTE: If instead the New Service Request meets one of the two criteria below per <a href = "https://www.pjm.com/~/media/documents/manuals/m14a.ashx">PJM Manual 14A</a> follow the process outlined in PJM Manual 14A and <a href = "https://agreements.pjm.com/oatt/4090">PJM Tariff Part IV, Subpart A, Section 36</a> <br>
+                        1. “Any New Service Request received prior to April 1, 2018.”
+                        <br>
+                        2. “Any New Service Request for which, as of the Transition Date (defined in Tariff, Part VII), the Interconnection Customer has received for execution an Interconnection Service Agreement or wholesale market participation agreement or has directed the PJM to file an Interconnection Service Agreement or wholesale market participation agreement unexecuted.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-button" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#readiness-deposit-1" class ="readiness-deposit-1">Readiness Deposit 1</button>
+                        <button data-bs-toggle="modal" data-bs-target="#study-deposit" class ="study-deposit">Study Deposit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="readiness-deposit-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Readiness Deposit 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.2</a> the Readiness Deposit No. 1 is due upon application submission. The amount will be $4,000 multiplied by the project size (in MW). This deposit must be provided through a wire transfer or a letter of credit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="study-deposit" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Study Deposit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.1</a> “a Study Deposit is a one-time deposit due at the beginning of the study process. The Study Deposit is non-binding, and actual study costs may exceed the Study deposit. 
+                        <br><br>
+                        A Project Developer or Eligible Customer (collectively, applicant) submitting a New Service Request must provide a Study Deposit prior to the Application Deadline. The Study Deposit will range from $75,000 to $400,000 depending on the MW size of the project, as shown in the table below. The applicant will be responsible for paying actual study costs.” This deposit must be made by wire transfer.
+                        <br><br>
+                        Up to 90% of this deposit is refundable. If any refundable deposit monies remain after all costs and outstanding monies owed, per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.1.2.2</a>, are covered, then the remaining amount will be refunded to the applicant. 
+                        <br><br>
+                        “Actual study costs may exceed the Study Deposit amount collected. In these cases, PJM will notify the applicant of the shortfall amount. The applicant will have 20 Business Days to provide the additional funds or withdraw. If applicant fails to satisfy either of these requirements, PJM shall terminate and withdraw the New Service Request.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="forward-phase-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request move forward to Phase I?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 2</a>, the withdrawal of a New Service Request before the start of Phase I may occur at the request of a Project Developer or Eligible Customer or by PJM due to a failure to meet the Application Phase requirements.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </modals>
+    <!-- modal content -->
 </html>
