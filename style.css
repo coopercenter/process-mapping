@@ -1224,7 +1224,7 @@
 
 .line.landline-35 {
     width: 200px;
-    left: 773px;
+    left: 775px;
     top: 680px;
     z-index: 0;
 }
@@ -5161,6 +5161,7 @@ menu1{
     z-index: 1; /* Adjust z-index as needed */
     border: 1px solid;
     background: #F1BF98;
+    cursor: pointer;
 }
 
 .oval-shape.oval-1
@@ -5764,7 +5765,7 @@ menu1{
     width: 100px;
 }
 .pjm-line-20{
-    top: 340px;
+    top: 335px;
     left: 1777px;
     width: 150px;
     transform: rotate(90deg);
@@ -6045,3 +6046,89 @@ menu1{
     font-size: 12px;
     background-color: white; /* Match the background color of your flowchart */
 }
+
+/* buttons */
+.readiness-deposit-1 {
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+.study-deposit {
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+.general-info-button {
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+.costs-button {
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  .general-info-withdrawn-1{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+
+  .costs-withdrawn-1{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  .general-info-point1{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+
+  .costs-readiness-point1{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  .costs-readiness-point2{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+

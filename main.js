@@ -23,8 +23,8 @@ class NavBar extends HTMLElement {
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
                     <ul class="dropdown-menu dropdown-menu-end">
                         <li><a href="inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
-                        <li><a href="inter-map.html" class="dropdown-item">SCC</a></li>
-                        <li><a href="inter-pjm-rewritten.html" class="dropdown-item">PJM</a></li>
+                        <li><a href="inter-scc-map.html" class="dropdown-item">SCC</a></li>
+                        <li><a href="inter-pjm-map.html" class="dropdown-item">PJM</a></li>
 
                     </ul>
                 </li>
@@ -136,8 +136,8 @@ class SwimLaneNavBar extends HTMLElement {
                         <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a href="../inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
-                            <li><a href="../inter-map.html" class="dropdown-item">SCC</a></li>
-                            <li><a href="../inter-pjm-rewritten.html" class="dropdown-item">PJM</a></li>
+                            <li><a href="../inter-scc-map.html" class="dropdown-item">SCC</a></li>
+                            <li><a href="../inter-pjm-map.html" class="dropdown-item">PJM</a></li>
         
                         </ul>
                     </li>

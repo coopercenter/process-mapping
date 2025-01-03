@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> <!-- Corrected closing tag -->
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript -->
+    <script src="../main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+
+<nav-bar></nav-bar>
+
+<body>
+    <!-- header start -->
+    <div class="container">
+        <br>
+        <div class="text-center txt-test mw-100-title-"> PJM Interconnection Procedures
+            <br> 
+            <sub style="font-size: 16px; font-weight: normal;">
+            <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target = "_blank">PJM Manual 14H</a></sub>
+        </div>
+        <br>
+        <p class = "pjm-intro">The following map represents the process by which a solar project may apply for interconnection 
+            through PJM. This process takes the form of a Cycle – the period of time between the start of an Application Phase and the 
+            conclusion of the corresponding Final Agreement Negotiation Phase. Each Cycle consists of the: Application Phase, Phase I,
+            Decision Point I, Phase II, Decision Point II, Phase III, Decision Point III, and the Final Agreement Negotiation Phase. 
+            Within each of these phases, interconnection studies are performed to ensure the project meets the requirements necessary to 
+            interconnect to PJM. However, depending on PJM requirements and developers’ choices, interconnection requests may be subject 
+            to differing processes. The points at which the interconnection request may be withdrawn from the interconnection process or
+            accelerated to the final agreement stage are displayed in this map. This map also represents the complexity of these studies, 
+            the costs associated, and relative timing. According to PJM, the entire process from the Application Deadline through the 
+            conclusion of the Final Agreement Negotiation Phase takes approximately 690 days. Note that applications must be created and 
+            models built prior to this Application Deadline, so in reality the process takes over 690 days.
+        </p>
+    </div>
+    <!-- header end -->
+
+    <!-- Map start -->
+    <div class = "row">
+        <div class = "col-pjm"></div>
+        <div class = "col-10">
+            <!-- <div style="height: 5px;"></div> -->
+            <div class="flow-chart-container-pjm">
+                <div class="container-inter">
+                    <!-- line elements -->
+                    <div class = "line-inter pjm-line-1"></div>
+                    <div class = "line-inter pjm-line-2"></div>
+                    <div class = "line-inter pjm-line-3"></div>
+                    <div class = "line-inter pjm-line-4"></div>
+                    <div class = "line-inter pjm-line-5"></div>
+                    <div class = "line-inter pjm-line-6"></div>
+                    <div class = "line-inter pjm-line-7"></div>
+                    <div class = "line-inter pjm-line-8"></div>
+                    <div class = "line-inter pjm-line-9"></div>
+                    <div class = "line-inter pjm-line-10"></div>
+                    <div class = "line-inter pjm-line-11"></div>
+                    <div class = "line-inter pjm-line-12"></div>
+                    <div class = "line-inter pjm-line-13"></div>
+                    <div class = "line-inter pjm-line-14"></div>
+                    <div class = "line-inter pjm-line-15"></div>
+                    <div class = "line-inter pjm-line-16"></div>
+                    <div class = "line-inter pjm-line-17"></div>
+                    <div class = "line-inter pjm-line-18"></div>
+                    <div class = "line-inter pjm-line-19"></div>
+                    <div class = "line-inter pjm-line-20"></div>
+                    <!-- line elements -->
+
+                    <!-- rhombus elements -->
+                    <div data-bs-toggle="modal" data-bs-target="#jurisdictional" class="inter-decision pjm-rhombus-1">
+                        <div class="rhombus-text-pjm">Is the project <br>interconnecting <br>to FERC <br> with the Final<br>jurisdictional <br> facilities?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-2">
+                        <div data-bs-toggle = "modal" data-bs-target="#forward-phase-1" class="rhombus-text-pjm">Does the New <br>Service Request <br>move forward <br> to Phase I?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-3">
+                        <div data-bs-toggle = "modal" data-bs-target="#qualify-acceleration-1" class="rhombus-text-pjm">Does the New <br>Service Request <br>qualify <br> for acceleration?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-4">
+                        <div data-bs-toggle = "modal" data-bs-target="#forward-phase-2" class="rhombus-text-pjm">Does the New <br>Service Request <br>move forward <br> to phase II?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-5">
+                        <div data-bs-toggle = "modal" data-bs-target="#qualify-acceleration-2" class="rhombus-text-pjm">Does the New <br>Service Request <br>qualify <br> for acceleration?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-6">
+                        <div data-bs-toggle = "modal" data-bs-target="#forward-phase-3" class="rhombus-text-pjm">Does the New <br>Service Request <br>move forward <br> to phase III?</div>
+                    </div>
+                    <div class="inter-decision pjm-rhombus-7">
+                        <div data-bs-toggle = "modal" data-bs-target="#final-agreement-negotiation" class="rhombus-text-pjm">Does the New <br>Service Request <br>continue with the <br> Final Agreement <br> Negotiation <br> Phase?</div>
+                    </div>
+                    <!-- rhombus elements -->
+
+                    <!-- box elements -->
+                    <div data-bs-toggle="modal" data-bs-target="#obtain-agreement" class ="inter-rect pjm-rect1">Obtain non-FERC jurisdictional interconnection agreement</div>
+                    <div data-bs-toggle="modal" data-bs-target="#follow-wmpa" class="inter-rect pjm-rect2">Follow WMPA Process</div>
+                    <div data-bs-toggle = "modal" data-bs-target="#application-phase" class ="inter-rect pjm-rect3">Application Phase</div>
+                    <div data-bs-toggle = "modal" data-bs-target="#phase3-system-impact" class="inter-rect pjm-rect6">Phase III System Impact Study</div>
+                    
+                    <div class="rect-container">
+                        <div class="inter-rect pjm-rect4">
+                            <div class="title">PHASE I</div>
+                            <div data-bs-toggle="modal" data-bs-target="#phase1-impact-study" class="inter-rect phaseI-Button1">Phase I<br> System Impact <br> Study</div>
+                            <div data-bs-toggle="modal" data-bs-target="#decision-point1" class="btn inter-rect phaseI-Button2">Decision Point I</button>
+                        </div>
+                    </div>
+                    <div class="rect-container">
+                        <div class="inter-rect pjm-rect5">
+                            <div class="title">PHASE II</div>
+                            <div data-bs-toggle="modal" data-bs-target="#phase2-impact-study" class="inter-rect phaseII-Button1">Phase II<br> System Impact <br> Study</div>
+                            <div data-bs-toggle="modal" data-bs-target="#decision-point2" class="btn inter-rect phaseII-Button2">Decision Point II</button>
+                            </div>
+                    </div>
+                    <div data-bs-toggle="modal" data-bs-target="#decision-point3" class="inter-rect pjm-rect7">Decision Point III</div>
+                    <div data-bs-toggle="modal" data-bs-target="#dispute-resolution" class="inter-rect pjm-rect8">Dispute Resolution</div>
+                    <div data-bs-toggle="modal" data-bs-target="#pjm-unexecuted" class="inter-rect pjm-rect9">PJM files the unexecuted agreement with FERC</div>
+                    
+                    <div class="inter-rect pjm-negotiation">
+                        <div data-bs-toggle="modal" data-bs-target="#final-negotiation-phase" class="title">Final Agreement Negotiation Phase</div>
+                        <div data-bs-toggle="modal" data-bs-target="#pre-gia" class="gia">
+                            Pre-GIA Milestones
+                        </div>
+                    </div>
+                    <!-- box elements -->
+
+
+                    <!-- oval elements -->
+                    <div data-bs-toggle="modal" data-bs-target="#redrawn-1" class ="oval-shape pjm-oval-1">New Service Request is withdrawn</div>
+                    <div data-bs-toggle="modal" data-bs-target="#redrawn-2" class="oval-shape pjm-oval-2">New Service Request is withdrawn</div>
+                    <div data-bs-toggle="modal" data-bs-target="#redrawn-3" class="oval-shape pjm-oval-3">New Service Request is withdrawn</div>
+                    <div data-bs-toggle="modal" data-bs-target="#redrawn-4" class="oval-shape pjm-oval-4">New Service Request is withdrawn</div>
+                    
+                    <div class="oval-shape pjm-oval-5">
+                        <div data-bs-toggle="modal" data-bs-target="#signed-generation" class="pjm-oval-title">Signed Generation <br> Interconnection Agreement</div>
+                        <div data-bs-toggle="modal" data-bs-target="#receive-gia" class="left-oval">Receive GIA</div>
+                        <div data-bs-toggle="modal" data-bs-target="#receive-wmpa" class="right-oval">Receive WMPA</div>
+                        <div class="and-or">and/or</div>
+                    </div>
+
+                    <!-- oval elements -->
+                    
+                    <!-- circle elements -->
+                    <div class="circle-inter pjm-circ-1"></div>
+                    <!-- circle elements -->
+
+                    <!-- arrow elements -->
+                    <!-- <div class="arrow-container pjm-Uarrow-1"></div>   -->
+                    <div class="arrow-container pjm-Rarrow-1"></div>  
+                    <div class="arrow-container pjm-Rarrow-2"></div>  
+                    <div class="arrow-container pjm-Rarrow-3"></div>  
+                    <div class="arrow-container pjm-Rarrow-4"></div>  
+                    <div class="arrow-container pjm-Rarrow-5"></div>  
+                    <div class="arrow-container pjm-Rarrow-6"></div>  
+                    <div class="arrow-container pjm-Rarrow-7"></div>  
+                    <div class="arrow-container pjm-Rarrow-8"></div>  
+                    <div class="arrow-container pjm-Rarrow-9"></div>  
+                    <div class="arrow-container pjm-Rarrow-10"></div>  
+                    <div class="arrow-container pjm-Rarrow-11"></div>  
+                    <div class="arrow-container pjm-Rarrow-12"></div>  
+                    <div class="arrow-container pjm-Uarrow-1"></div>  
+                    <div class="arrow-container pjm-Darrow-1"></div>  
+                    <!-- arrow elements -->
+                    <!-- line direction text -->
+                     <span class = "line1-no">NO</span> 
+                     <span class = "line2-no">NO</span> 
+                     <span class = "line3-no">NO</span> 
+                     <span class = "line4-no">NO</span> 
+                     <span class = "line5-no">NO</span> 
+                     <span class = "line6-no">NO</span> 
+                     <span class = "line7-no">NO</span> 
+                     <span class = "line1-yes">YES</span> 
+                     <span class = "line2-yes">YES</span> 
+                     <span class = "line3-yes">YES</span> 
+                     <span class = "line4-yes">YES</span> 
+                     <span class = "line5-yes">YES</span> 
+                     <span class = "line6-yes">YES</span> 
+                     <span class = "line7-yes">YES</span> 
+                    <!-- line direction text -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <!-- modal content -->
+    <modals>
+        <div class="modal fade" id="jurisdictional" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Is the project interconnecting to FERC-jurisdictional facilities?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        If the project is on FERC-jurisdictional facilities, follow the standard PJM process to receive a GIA. 
+                        If the project is not on FERC-jurisdictional facilities, proceed to the WMPA process pursuant to 
+                        <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.5</a>. 
+                        Project Developers interconnecting to non-FERC jurisdictional facilities who intend to participate in 
+                        the PJM wholesale market must follow the PJM process to receive a three party agreement known as a WMPA. 
+                        The WMPA is essentially a GIA without interconnection provisions, and facilitates the wholesale sale of MWs from such facilities.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="obtain-agreement" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Obtain non-FERC jurisdictional interconnection agreement</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        In order to receive a WMPA, the developer must work independently with the 
+                        relevant non-FERC jurisdictional entity to receive a non-FERC jurisdictional interconnection agreement. This means that the developer must go through the SCC process to get their interconnection approval, while also following PJM requirements to receive the WMPA. By Decision Point III, this interconnection agreement must be executed.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="follow-wmpa" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Follow WMPA Process</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        The developer must continue through the PJM process below to receive a WMPA. PJM studies are performed concurrently with state reviews. 
+                        <i>Note: project developers and utilities find it difficult to apply for approval through the SCC and PJM processes at the same time because the structure, timelines, and requirements differ greatly.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="application-phase" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Application Phase</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-button" class ="general-info-button">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-button" class ="costs-button">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-button" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        New service customers with generation greater than 20 MW are to follow the process outlined in <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a>
+                        The steps in PJM Manual 14H are updated as of July 26, 2023. See <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 1.2</a> to determine which customer classification fits your proposed project. The two customer classifications for which the process will be outlined are the most common customer designations: Generation Project Developer and the Eligible Customer.
+                        <br><br>
+                        Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a> the Application Phase is the “Cycle period that includes both the submission and review of New Service Requests. The Project Developer or Eligible Customer submits an Application and PJM reviews and validates the submission and assigns a Project Identifier” (Page 28). Requirements of the Application phase can be found in Section 2 of PJM Manual 14H. Complete procedures are provided in Tariff, Part VII, Subpart C and Tariff, Part VIII, Subparts A and B.
+                        <br><br>
+                        Timeline: The Application Phase lasts approximately 90 days from the date of the Application Deadline. The time needed for the collection of required information and completion of the application occurs prior to Day 0 of this timeline.
+                        <br><br>
+                        NOTE: If instead the New Service Request meets one of the two criteria below per <a href = "https://www.pjm.com/~/media/documents/manuals/m14a.ashx">PJM Manual 14A</a> follow the process outlined in PJM Manual 14A and <a href = "https://agreements.pjm.com/oatt/4090">PJM Tariff Part IV, Subpart A, Section 36</a> <br>
+                        1. “Any New Service Request received prior to April 1, 2018.”
+                        <br>
+                        2. “Any New Service Request for which, as of the Transition Date (defined in Tariff, Part VII), the Interconnection Customer has received for execution an Interconnection Service Agreement or wholesale market participation agreement or has directed the PJM to file an Interconnection Service Agreement or wholesale market participation agreement unexecuted.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-button" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#readiness-deposit-1" class ="readiness-deposit-1">Readiness Deposit 1</button>
+                        <button data-bs-toggle="modal" data-bs-target="#study-deposit" class ="study-deposit">Study Deposit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="readiness-deposit-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Readiness Deposit 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.2</a> the Readiness Deposit No. 1 is due upon application submission. The amount will be $4,000 multiplied by the project size (in MW). This deposit must be provided through a wire transfer or a letter of credit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="study-deposit" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Study Deposit</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.1</a> “a Study Deposit is a one-time deposit due at the beginning of the study process. The Study Deposit is non-binding, and actual study costs may exceed the Study deposit. 
+                        <br><br>
+                        A Project Developer or Eligible Customer (collectively, applicant) submitting a New Service Request must provide a Study Deposit prior to the Application Deadline. The Study Deposit will range from $75,000 to $400,000 depending on the MW size of the project, as shown in the table below. The applicant will be responsible for paying actual study costs.” This deposit must be made by wire transfer.
+                        <br><br>
+                        Up to 90% of this deposit is refundable. If any refundable deposit monies remain after all costs and outstanding monies owed, per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.1.2.2</a>, are covered, then the remaining amount will be refunded to the applicant. 
+                        <br><br>
+                        “Actual study costs may exceed the Study Deposit amount collected. In these cases, PJM will notify the applicant of the shortfall amount. The applicant will have 20 Business Days to provide the additional funds or withdraw. If applicant fails to satisfy either of these requirements, PJM shall terminate and withdraw the New Service Request.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="forward-phase-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request move forward to Phase I?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 2</a>, the withdrawal of a New Service Request before the start of Phase I may occur at the request of a Project Developer or Eligible Customer or by PJM due to a failure to meet the Application Phase requirements.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="redrawn-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-withdrawn-1" class ="general-info-withdrawn-1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-withdrawn-1" class ="costs-withdrawn-1">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-withdrawn-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 2.11</a>: "Prior to the start of Phase I, a Project Developer or Eligible Customer may request to withdraw its New Service Request or may be withdrawn from the Cycle by PJM for failure to meet the Application Phase requirements." If the New Service Request is withdrawn, the New Service Request is removed from the Cycle. See Section 2 for further details. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-withdrawn-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 2.11</a>, if the New Service Request is withdrawn prior to the start of Phase I, Readiness Deposit No. 1 is not at risk and will not be forfeited.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="phase1-impact-study" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Phase I System Impact Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.3</a> “Phase I shall start on the first Business Day immediately following the end of the Application Review phase, but no earlier than 30 days following the distribution of the Phase I Base Case Data.”
+                        <br><br>
+                        During Phase I, PJM conducts the Phase I System Impact Study. PJM performs load flow analysis, identifies Affected System Impacts, and creates the short circuit and stability base cases to be used in the Phase II System Impact Study. See Section 4.3 for further details.
+                        <br><br>
+                        Timeline: Phase I lasts approximately 120 days from the end of the Application Review Phase. “If PJM is unable to complete Phase I within 120 calendar days, PJM shall notify all impacted Project Developers and Eligible Customers simultaneously by posting on PJM’s website a revised estimated completion date along with an explanation of the reasons why additional time is required to complete Phase I” (page 47).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="decision-point1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-point1" class ="general-info-point1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-readiness-point1" class ="costs-readiness-point1">Costs: Readiness Deposit 2</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-point1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a>: 
+                        "Decision Point II is a period of time in which: “the Project Developer or Eligible Customer:
+                        <br> 
+                        1. Notifies PJM of decision to proceed to the next phase or withdraw 
+                        <br>
+                        2. Provides required data, evidence (such as permits, site control, etc.) and deposits as specified in the PJM Tariff
+                        <br> 
+                        3. Submits any modifications as permitted by the Tariff, and 
+                        <br>
+                        4. May accelerate to final agreement, if applicable. 
+                        PJM reviews information provided and validates customer submission and moves the customer to next phase” (Page 29). See Section 4.4 for further details.
+                        <br><br>
+                        Timeline: “Decision Point I commences on the first Business Day immediately following the end of Phase I and closes 30 calendar days later. However, if the 30th day does not fall on a Business Day then this period shall conclude on the next Business Day. New Service Requests that are studied in Phase I will enter Decision Point I” (page 49).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-readiness-point1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs: Readiness Deposit 2 </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.2</a>, Readiness Deposit No. 2 is due at Decision Point I. It will be calculated based on a project’s contribution to Network Upgrades determined in Phase I. This deposit must be provided through a wire transfer or a letter of credit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="qualify-acceleration-1" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request qualify for acceleration?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.4.3</a> "Only New Service Requests that have no cost allocation for Network Upgrades and do not require further studies are eligible for acceleration. Upon completion of the Phase I System Impact Study, PJM may accelerate treatment of such New Service Request. Refer Decision Point III section of this manual for final agreement requirements. Tariff Part VII, Subpart D, section 309(A)(2) and Tariff Part VIII Subpart C, section 406(A)(2) outline the Project Developer or Eligible Customer requirements for accelerated treatment of the New Service Request."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="forward-phase-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request move forward to Phase II?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.4.4</a>, “There are two conditions under which a project would be withdrawn at Decision Point I: 
+                        <br>
+                        1. A Project Developer or Eligible Customer decides to withdraw at Decision Point I. In this case, PJM must receive notification in writing prior to the close of the Decision Point I. 
+                        <br>
+                        2. PJM deems the New Service Request terminated and withdrawn for failing to meet any of the Decision Point I requirements”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="redrawn-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-withdrawn-2" class ="general-info-withdrawn-1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-withdrawn-2" class ="costs-withdrawn-1">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-withdrawn-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.4</a>: If the New Service Request is withdrawn, the New Service Request is removed from the Cycle. See Section 4.4 for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-withdrawn-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.4.4</a> New Service Requests that are withdrawn from the process may be refunded up to 100% of Readiness Deposit 1 and up to 90% of its Study Deposit, less actual costs.
+                        <br><br>
+                        Section 4.4.4 outlines the details of these refunds. "Readiness Deposits will be treated pursuant to Tariff Part VII, Subpart A, section 301(A) (3)(b)(iii) , Part VII, Subpart D, Section 309 (A)(4), Part VIII, Subpart A, section 401(D)(2) (c) and Part VIII, Subpart C, Section 406(A)(4).
+                        <br><br>
+                        a. Readiness Deposits for Project Developers in Transition Cycle No. 1 will be treated as follows:
+                        <br>
+                        <ul>
+                            <item>
+                                i PJM will initiate the process of refunding 100% of Readiness Deposit No. 1 at the close of the PJM Decision Point I deficiency review.
+                            </item>
+                            <br>
+                            <item>
+                                ii If payment has already been made, PJM will initiate the process of refunding 100% of Readiness Deposit No. 2 at the close of the PJM Decision Point I deficiency review.
+                            </item>
+                            <br>
+                        </ul>
+                    
+                        b. Readiness Deposits for Project Developers in Transition Cycle No. 2 and beyond will be treated as follows:
+                        <br>
+                        <ul>
+                            <item>
+                                i PJM will initiate the process of refunding 50% of Readiness Deposit No. 1 at the close of the PJM Decision Point I deficiency review.
+                            </item>
+                            <br>
+                            <item>
+                                ii If payment has already been made, PJM will initiate the process of refunding 100% of Readiness Deposit No. 2 at the close of the PJM Decision Point I deficiency review.
+                            </item>
+                            <br>
+                            <item>
+                                iii PJM will initiate the process of refunding up to 50% of the remaining Readiness Deposit No. 1 at the close of the Cycle.
+                            </item>
+                        </ul>
+                        At the conclusion of the deficiency review for Decision Point I, PJM will initiate the process to refund to the Project Developer or Eligible Customer up to 90 percent of its Study Deposit submitted with its New Service Request during the Application Phase, less any actual costs."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="phase2-impact-study" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Phase II System Impact Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.5</a> “Phase II System Impact Study will start on the first Business Day immediately following the end of the Decision Point I unless the Decision Point III of the immediately preceding Cycle is still open. In no event shall Phase II of a Cycle begin before the conclusion of the Decision Point III Phase of the immediately preceding Cycle.”
+                        During Phase II, PJM conducts the Phase II System Impact Study. PJM retools load flow analysis from Phase I System Impact Study, conducts any required voltage analyses, performs short circuit and stability analyses, and coordinates Affected System studies. See Section 4.5 for further details.
+                        Timeline: Phase II lasts approximately 180 days from the end of start. Date of Phase II. “If PJM is unable to complete Phase II within 180 days, PJM shall notify all impacted Project Developers simultaneously by posting on PJM’s website a revised estimated completion date along with an explanation of the reasons why additional time is required to complete Phase II” (page 53).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="decision-point2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Decision Point II</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-point1" class ="general-info-point1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-readiness-point2" class ="costs-readiness-point2">Costs: Readiness Deposit 3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="costs-readiness-point2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs: Readiness Deposit 3 </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 6.2</a>, Readiness Deposit No. 3 is due at Decision Point II. It will be calculated based on a project’s contribution to Network Upgrades determined in Phase II. This deposit must be provided through a wire transfer or a letter of credit.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="qualify-acceleration-2" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request qualify for acceleration?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.6.3</a>"Only New Service Requests that have no cost allocation for Network Upgrades and do not require further studies are eligible for acceleration. Upon completion of the Phase II System Impact Study, PJM may accelerate treatment of such New Service Request. Tariff Part VII, Subpart D, section 311 (A)(2)(d) and Tariff Part VIII Subpart C, section 408(A)(2)(d) outline the Project Developer or Eligible Customer requirements for accelerated treatment of the New Service Request."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="fulfill-requirements" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Fulfill requirements for acceleration</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.6</a> "A project that PJM qualifies to accelerate to a final interconnection related agreement must meet the acceleration provisions of the Tariff, Part VII, Subpart D, section 311(A)(2)(d) or Tariff, Part VIII, Subpart C, section 408(A)(2)(d).
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="forward-phase-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request move forward to Phase II?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = https://www.pjm.com/-/media/documents/manuals/m14h.ashx>PJM Manual 14H Section 4.6.4</a>, “There are two conditions under which a project would be withdrawn at Decision Point II: 
+                        <br>
+                        1. A Project Developer or Eligible Customer decides to withdraw at Decision Point II. In this case, PJM must receive notification in writing prior to the close of the Decision Point II. 
+                        <br>
+                        2. PJM deems the New Service Request terminated and withdrawn for failing to meet any of the Decision Point II requirements, as set forth in Tariff, Part VII, Subpart D, section 311 and Tariff, Part VIII, Subpart C, section 408.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="redrawn-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-withdrawn-3" class ="general-info-withdrawn-1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-withdrawn-3" class ="costs-withdrawn-1">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="general-info-withdrawn-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.6</a>: If the New Service Request is withdrawn, the New Service Request is removed from the Cycle. See Section 4.4 for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-withdrawn-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.6.4</a> New Service Requests that are withdrawn from the process may be refunded up to 100% of Readiness Deposit 1, up to 100% of Readiness Deposit 2, and up to 90% of its Study Deposit, less actual costs.
+                        <br><br>
+                        Section 4.6.4 outlines the details of these refunds. "Readiness Deposits will be treated pursuant to Tariff, Part VII, Subpart A, section 301(A) (3)(b)(iii), Part VII, Subpart D, Section 311 (B)(3), Part VIII, Subpart A, section 401(D)(2) (c) and Part VIII, Subpart B, Section 408(B)(3).
+                        <ul>
+                            <item>a. At the conclusion of the deficiency review for Decision Point II, PJM will initiate the process of refunding 100% of Readiness Deposit #2.</item>
+                            <br>
+                            <item>b. PJM will initiate the process of refunding up to 100% of Readiness Deposit 1 at the close of the Cycle.
+                            </item>
+                            <item>c. Adverse Study Impact: PJM will refund the Project Developer or Eligible Customer the cumulative Readiness Deposit amounts paid at the Application Phase and Decision Point I Phase if the Network Upgrade cost from Phase I to Phase II:
+                                <ul>
+                                    <item>
+                                        i Increases overall by 25% of more, and
+                                    </item>
+                                    <br>
+                                    <item>
+                                        ii Increases by more than $10,000 per MW.
+                                    </item>
+                                </ul>
+                            </item>
+                        </ul>
+                        Network Upgrade costs shall include costs identified in Affected System studies in their respective phases.
+                        <br><br>
+                        At the conclusion of the deficiency review for Decision Point II, PJM will initiate the process to refund to the Project Developer or Eligible Customer up to 90 percent of its Study Deposit submitted with its New Service Request during the Application Phase, less any actual costs."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="phase3-system-impact" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Phase III System Impact Study</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-point3" class ="general-info-point1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-3" class ="costs-readiness-point1">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-point3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.7</a>: 
+                        “Phase III System Impact Study will start on the first Business Day immediately following the end of the Decision Point II unless the Final Agreement Negotiation Phase of the immediately preceding Cycle is still open. In no event shall Phase III of a Cycle begin before the conclusion of the Final Agreement Negotiation Phase of the immediately preceding Cycle.”                    </div>
+                        <br><br>
+                        During Phase III, PJM conducts the Phase III System Impact Study. PJM retools load flow, short circuit, and stability results; coordinates studies required to determine the final impact of a New Service request on any Affected System; and tenders draft final agreements. See Section 4.7 for further details.
+                        <br><br>
+                        Timeline: Phase III lasts approximately 180 days from the end of start. Date of Phase II. “If PJM is unable to complete Phase III within 180 days, PJM shall notify all impacted Project Developers simultaneously by posting on PJM’s website a revised estimated completion date along with an explanation of the reasons why additional time is required to complete Phase III” (page 58).
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="costs-3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        If any refundable deposit monies remain after all costs and outstanding monies owed, per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx"> PJM Manual 14H Section 6.1.2.2</a> , are covered, then the remaining amount will be refunded to the applicant. 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="decision-point3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Decision Point II</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-decision3" class ="general-info-point1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-agreement-security" class ="costs-readiness-point1">Costs: Final Agreement Security</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-decision3" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H</a>, Decision Point III is a period of time in which: “the Project Developer or Eligible Customer: 
+                        <br>
+                        1. Notifies PJM of decision to proceed to the next phase or withdraw 
+                        <br>
+                        2. Provides required data, evidence (such as permits, site control, etc.) and deposits as specified in the PJM Tariff 
+                        <br>
+                        3. Submits any modifications as permitted by the Tariff, and 
+                        <br>
+                        4. May accelerate to final agreement, if applicable. 
+                        PJM reviews information provided and validates customer submission and moves the customer to next phase” (Page 29). See Section 4.8 for further details.
+                        <br><br>
+                        Timeline: “Decision Point III commences on the first Business Day following the end of Phase III and runs concurrently with the Final Agreement Negotiation Phase. New Service Requests studied in Phase III will enter Decision Point III” (page 58).
+                        <br><br>
+                        <i>For projects applying for a WMPA, the interconnection agreement must be executed by Decision Point III.For projects applying for a WMPA, the interconnection agreement must be executed by Decision Point III.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-agreement-security" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs: Final Agreement Security</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.6.1</a>,  a Security is required to be paid to PJM during Decision Point III. This amount is calculated as "the full costs of work allocated to the project in their respective final service agreement." The security may be adjusted after PJM tenders the final service agreement draft, as needed to incorporate the impacts of any projects that are withdrawn during Decision Point III, after the initial calculation of the Security.
+                        <br><br>
+                        Timeline: "Any required Security adjustments must be provided within 15 Business Days after receiving the applicable final service agreement."
+                        <br><br>
+                        Payment Method: "Security may be in the form of cash, letter of credit, or other form of Security acceptable to PJM that names PJM as the beneficiary for any work required and specified in the agreement." 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="final-agreement-negotiation" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Does the New Service Request continue with the Final Agreement Negotiation Phase?</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.8.2</a>,  
+                        “There are two conditions under which a project would be withdrawn at Decision Point III: 
+                        <br>
+                        1. A Project Developer or Eligible Customer decides to withdraw at Decision Point III. In this case, PJM must receive notification in writing prior to the close of the Decision Point III. 
+                        <br>
+                        2. PJM deems the New Service Request terminated and withdrawn for failing to meet any of the Decision Point III requirements, as set forth in Tariff, Part VII, Subpart D, section 313 and Tariff Part VIII, Subpart C, section 410.”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="redrawn-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">New Service Request is withdrawn</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <button data-bs-toggle="modal" data-bs-target="#general-info-withdrawn-4" class ="general-info-withdrawn-1">General Information</button>
+                        <button data-bs-toggle="modal" data-bs-target="#costs-withdrawn-4" class ="costs-withdrawn-1">Costs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="general-info-withdrawn-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">General Information</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.8</a>: If the New Service Request is withdrawn, the New Service Request is removed from the Cycle. See Section 4.4 for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="costs-withdrawn-4" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Costs</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 4.8.2</a>, New Service Requests that are withdrawn from the process may be refunded the cumulative Readiness Deposit Nos. 1, 2 and 3 if criteria are met, and up to 90% of its Study Deposit, less actual costs.
+                        <br><br>
+                        Section 4.8.2 outlines the details of these refunds. "Readiness Deposits will be treated pursuant to Tariff Part VII, Subpart A, section 301(A) (3)(b)(iii), Part VII, Subpart D, section 313(B), Part VIII, Subpart A, section 401(D)(2) and Part VIII, Subpart B, section 410(B).
+                        <br>
+                        a. Adverse Study Impact: PJM will refund the Project Developer or Eligible Customer the cumulative Readiness Deposit Nos. 1, 2 and 3 paid by the Project Developer or Eligible Customer if the Network Upgrade cost from Phase II to Phase III:
+                        <br>
+                        <ul>
+                            <item>
+                            i Increases overall by 35% of more: and
+                            </item>
+                            <br>
+                            <item>
+                            ii Increases by more than $25,000 per MW.
+                            </item>
+                        </ul>
+                        Network Upgrade costs shall include costs identified in Affected System studies in their respective phases.
+                        <br><br>
+                        At the conclusion of the deficiency review for Decision Point III, PJM will initiate the process to refund to the Project Developer or Eligible Customer up to 90 percent of its Study Deposit submitted with its New Service Request during the Application Phase, less any actual costs."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="final-negotiation-phase" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Final Agreement Negotiation Phase</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx"> PJM Manual 14H Section 5</a>: 
+                        "The purpose of the Final Agreement Negotiation Phase is to:
+                        <br>
+                        1. Negotiate, execute and enter into the applicable final interconnection related service agreement found in Tariff, Part IX;
+                        <br>
+                        2. Conduct any remaining analyses or updated analyses based on New Service Requests withdrawn during Decision Point III; and
+                        <br>
+                        3. Adjust the security obligation based on New Service Requests withdrawn during Decision Point III and/or during the Final Agreement Negotiation Phase."
+                        <br><br>
+                        Timeline: the Final Agreement Negotiation Phase runs concurrently with Decision Point III. The Final Agreement Negotiation Phase lasts approximately 60 days from the start of the phase on the first Business Day immediately following the end of Phase III. PJM may extend this phase beyond 60 days. 
+                        <br><br>
+                        This negotiation happens as follows. "Prior to the start of the Final Agreement and Negotiation Phase, PJM will provide an electronic draft interconnection related agreement from Tariff, Part IX (as applicable to the Project Developer’s or Eligible Customer’s New Service Request) to the parties to the interconnection related agreement. Upon receipt of the draft agreements, Project Developer or Eligible Customer, and Transmission Owner, as applicable, will have 20 Business Days to return written comments on the draft agreements. PJM will have then 10 Business Days to respond and provide revised drafts of the agreements in electronic form, if appropriate."
+                        <br><br>
+                        Further details on the Final Agreement Negotiation Phase procedures are outlined in <a href = "https://agreements.pjm.com/oatt/41079">PJM Tariff, Part VII, Subpart D section 314</a>, and <a href = "https://agreements.pjm.com/oatt/43186">Tariff, Part VIII, Subpart D, section 411.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pre-gia" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1.1</a>:
+                          </p>
+                          <blockquote>
+                            “In order to proceed with a GIA, within 30 days after receipt of the Phase III System Impact Study 
+                            (or, if no Phase III System Impact Study was required, then after the results of either the Phase I 
+                            or Phase II System Impact Study were provided on PJM’s website), the Project Developer must demonstrate the following:”
+                          </blockquote>
+                          <ul>
+                            <li>Fuel delivery agreement and water agreement</li>
+                            <li>Local, county, and state site permits agreement</li>
+                            <li>Memorandum of understanding</li>
+                            <li>Permits for Merchant D.C. Transmission Facilities or Merchant Controllable A.C. Transmission Facilities</li>
+                          </ul>
+                          <p>
+                            If the pre-GIA milestones have not been met at the time of the GIA execution, milestones may 
+                            be established within the GIA, as applicable.
+                          </p>                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="signed-generation" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 5</a>:
+                        </p>
+                        <p>
+                        The Final Agreement Negotiation Phase has the possibility to result in a Signed Interconnection Agreement. 
+                        The two applicable agreements outlined here are the Generation Interconnection Agreement (GIA) and the 
+                        Wholesale Market Participation Agreement (WMPA).
+                        See PJM Manual 14H Section 5; Tariff, Part VII, Subpart D, section 314; and Tariff, Part VIII, Subpart D, 
+                        section 411 for further details.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="receive-gia" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                        Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>:
+                        </p>
+                        <blockquote>
+                        “After the project’s required study work is completed, PJM will tender a Generation Interconnection Agreement (“GIA”) to be executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend.
+                        <br><br>
+                        For Transmission Project Developers, the GIA confers transmission injection and withdrawal rights (Merchant Direct Current and/or Fully Controllable Alternating Current transmission projects) and applicable incremental delivery rights and Incremental Auction Revenue Rights.
+                        <br><br>
+                        The GIA further identifies any changes in construction responsibility from the Standard Option for Transmission Owner Interconnection Facilities due to the Project Developer exercising the Negotiated Contract Option or Option to Build.”
+                        </blockquote>
+                        <p>
+                        GIAs typically include the following standard project milestones:
+                        </p>
+                        <ul>
+                        <li>Compliance with pre-GIA milestones</li>
+                        <li>Substantial site work</li>
+                        <li>Delivery of major electrical equipment</li>
+                        <li>Commercial operation</li>
+                        <li>As-Built documentation</li>
+                        </ul>
+                        <p>
+                        Additional milestones can be added to the GIA to accommodate the needs of all involved parties.
+                        </p>
+                        <p>
+                        The GIA specifies the rights granted to the Project Developer under the agreement. These rights may include capacity interconnection rights, interim capacity interconnection rights, and injection/withdrawal rights.
+                        </p>
+                        <p>
+                        The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following:
+                        </p>
+                        <ul>
+                        <li>Project scope</li>
+                        <li>Construction responsibilities of the parties</li>
+                        <li>Ownership of Transmission Owner and Project Developer Interconnection Facilities</li>
+                        <li>Schedule of major construction work</li>
+                        <li>Details on how the construction will be performed</li>
+                        </ul>
+                        <p>
+                        However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1.4</a>: 
+                        “In cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner.”
+                        </p>
+                        <p>
+                        This GIA is a prerequisite to the issuance of the permit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="receive-wmpa" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.5</a>:
+
+                            "Project Developers interconnecting to non-FERC jurisdictional facilities who intend to participate in the PJM wholesale market will receive a three party agreement known as a WMPA. The WMPA is essentially a GIA without interconnection provisions, and facilitates the wholesale sale of MWs from such facilities."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="dispute-resolution" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 5</a>, The Final Agreement Negotiation Phase has the possibility to result in a dispute resolution process. See PJM Manual 14H Section 5; Tariff, Part VII, Subpart D, section 314; and Tariff, Part VIII, Subpart D, section 411 for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="pjm-unexecuted" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Pre-GIA Milestones</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 5</a>, The Final Agreement Negotiation Phase has the possibility to result in PJM filing the unexecuted agreement with FERC. See PJM Manual 14H Section 5; Tariff, Part VII, Subpart D, section 314; and Tariff, Part VIII, Subpart D, section 411 for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </modals>
+    <!-- modal content -->
+</html>
