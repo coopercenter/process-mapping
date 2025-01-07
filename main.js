@@ -83,18 +83,6 @@ class NavBar extends HTMLElement {
                         </ul>
                     </li>
                 </ul>
-                <div class="off-screen-menu">
-                                        <div class="menu-header">
-                                            <h2>Menu</h2>
-                                        </div>
-                                        <div class="menu-content">
-                                            <a href="../about.html" class="btn btn-light">About</a>
-                                            <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
                         `;
 
                         // Toggle off-screen menu and navbar visibility
@@ -111,42 +99,54 @@ class NavBar extends HTMLElement {
         }
     }
             
+    class SwimLaneNavBar extends HTMLElement {
+        connectedCallback() {
+            this.innerHTML = `
+                <title>Solar Permit Map</title>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <!-- Logo Section -->
+                        <span class="navbar-logo">
+                            <h2>
+                                <a style="text-decoration: none; color: black;" href="../index.html">
+                                    The Virginia Solar Permit Map
+                                </a>
+                            </h2>
+                        </span>
+                        
+                        <!-- Toggler Button for Mobile View -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+    
+                        <!-- Navbar Links -->
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav h5 ms-auto">
+                                <li class="nav-item px-2">
+                                    <a href="../index.html" class="nav-link">Home</a>
+                                </li>
+    
+                                <!-- Interconnection Dropdown -->
+                                <li class="nav-item dropdown px-2">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Interconnection
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><a href="../inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
+                                        <li><a href="../inter-scc-map.html" class="dropdown-item">SCC</a></li>
+                                        <li><a href="../inter-pjm-map.html" class="dropdown-item">PJM</a></li>
+                                    </ul>
+                                </li>
+    
+                                <!-- Permit Maps Dropdown -->
+                                <li class="nav-item dropdown px-2">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Permit Maps
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
 
-
-class SwimLaneNavBar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-            <title>Solar Permit Map</title>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container">
-                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a>
-                    </h2> 
-                        <div class="collapse navbar-collapse">
-                            <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
-                        </div>
-                    </span
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav h5">
-                        <li class="nav-item px-2">
-                            <a href="../index.html" class="nav-link"> Home </a>
-                        </li>
-            
-                        <li class="nav-item dropdown px-2">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Interconnection</a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a href="../inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
-                            <li><a href="../inter-scc-map.html" class="dropdown-item">SCC</a></li>
-                            <li><a href="../inter-pjm-map.html" class="dropdown-item">PJM</a></li>
-        
-                        </ul>
-                    </li>
-            
-                        <li class="nav-item dropdown px-2">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
-                                <ul class="dropdown-menu dropdown-menu-end">
                                     <li>
-                                        <a href="exempt-130-permit.html" class="dropdown-item">
+                                        <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
                                             Exemption from DEQ Section 130 Permit
                                         </a>
                                     </li>
@@ -154,7 +154,7 @@ class SwimLaneNavBar extends HTMLElement {
                                     <li><hr class="dropdown-divider"></li>
             
                                     <li>
-                                        <a href="deq-130-permit.html" class="dropdown-item">
+                                        <a href="swim-lanes/deq-130-permit.html" class="dropdown-item">
                                             DEQ Section 130 Permit
                                         </a>
                                     </li>
@@ -162,7 +162,7 @@ class SwimLaneNavBar extends HTMLElement {
                                     <li><hr class="dropdown-divider"></li>
                         
                                     <li>
-                                        <a href="noi-500-kw.html" class="dropdown-item">
+                                        <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
                                             SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
                                         </a>
                                     </li>
@@ -170,7 +170,7 @@ class SwimLaneNavBar extends HTMLElement {
                                     <li><hr class="dropdown-divider"></li>
                         
                                     <li>
-                                        <a href="deq-pbr.html" class="dropdown-item">
+                                        <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
                                             DEQ Permit by Rule for Small Solar Energy Project 
                                         </a>
                                     </li>
@@ -178,7 +178,7 @@ class SwimLaneNavBar extends HTMLElement {
                                     <li><hr class="dropdown-divider"></li>
                         
                                     <li>
-                                        <a href="cpcn-5-mw.html" class="dropdown-item">
+                                        <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
                                             SCC CPCN for Facilities &gt;5 MW to &le;100 MW
                                         </a>
                                     </li>
@@ -186,44 +186,35 @@ class SwimLaneNavBar extends HTMLElement {
                                     <li><hr class="dropdown-divider"></li>
                         
                                     <li>
-                                        <a href="cpcn-100-mw.html" class="dropdown-item">
+                                        <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
                                             SCC CPCN for Facilities &gt100 MW 
                                         </a>
                                     </li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div class="off-screen-menu">
-                        <div class="menu-header">
-                            <h2>Menu</h2>
-                        </div>
-                        <div class="menu-content">
-                            <ul>
-                                <a href="../about.html" class="btn btn-light">About</a></li>
-                                <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button></li>
+
+                                    </ul>
+                                </li>
+    
+                                <!-- Menu Dropdown -->
+                                <li class="nav-item dropdown px-2">
+                                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Menu
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-end">
+                                        <li><a href="../about.html" class="dropdown-item">About</a></li>
+                                        <li>
+                                            <button class="btn btn-light dropdown-item" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
+                                        </li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                                <menu1-bar>
-                                    <div class="ham-menu">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </menu1-bar>
-                    </div>
-                </div>
-            </nav>
+                </nav>
             `;
-            const hamMenu = document.querySelector('.ham-menu');
-            const offScreenMenu = document.querySelector('.off-screen-menu');
-    
-            hamMenu.addEventListener('click', () => {
-                hamMenu.classList.toggle('active');
-                offScreenMenu.classList.toggle('active');
-            });
+        }
     }
-}
+    
+
 
 class Abbrev extends HTMLElement {
     connectedCallback() {
