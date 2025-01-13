@@ -5500,11 +5500,22 @@ footer-test {
 
 .inter-rect.pjm-negotiation{
     width: 500px;
-    height: 85px;
+    height: 55px;
     left: 2400px;
-    top: 280px;
+    top: 290px;
     background: #F1DBDD;
+    font-size: 16px;   
 }
+.title.negoPhase {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    position: absolute;
+    left: 0;
+    width: 500px;
+    text-align: center;
+}
+
 
 .gia {
     position: absolute;
@@ -6044,6 +6055,16 @@ footer-test {
     border-radius: 5px; /* Rounded corners */
     cursor: pointer; /* Pointer cursor on hover */
     font-size: 16px; /* Font size */
+  }
+  .button-preGIA{
+    background-color: #3373C4; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Adjust padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    margin-left: 35%;
   }
 
   .costs-readiness-point1{
