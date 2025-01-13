@@ -89,7 +89,7 @@
 }
 .decision {
     box-sizing: border-box;
-    background: var(--green-color);
+    background: #D0FFD6;
     border-radius: 0px;
 
     border: 1px solid var(--black-color);
@@ -104,7 +104,7 @@
 /* landing.html */
 .landing-best-describe {
     box-sizing: border-box;
-    background: var(--green-color);
+    background: #D0FFD6;
     border-radius: 0px;
     font-size: 16.5px;
     border-radius: 60%;
@@ -5407,7 +5407,7 @@ footer-test {
     width: 170px;
     height: 85px;
     font-size: 12px;
-    background: #DDDBF1;
+    background: #F5EFFF;
 }
 .pjm-rect5{
     top: 165px;
@@ -5415,7 +5415,7 @@ footer-test {
     width: 170px;
     height: 85px;
     font-size: 12px;
-    background: #DDDBF1;
+    background: #F5EFFF;
 }
 .pjm-rect6{
     top: 180px;
@@ -5460,11 +5460,11 @@ footer-test {
     left: 5px;
     top: 25px;
     font-size: 12px;
-    border: 1px solid;
     white-space: nowrap;
     line-height: 14px;
-    background: #F1DBDD;
-
+    background: #CDC1FF;
+    border-radius: 3px;
+    border: 1px solid;
 }
 .inter-rect.phaseII-Button1{
     width: 85px;
@@ -5472,11 +5472,11 @@ footer-test {
     left: 5px;
     top: 25px;
     font-size: 12px;
-    border: 1px solid;
     white-space: nowrap;
     line-height: 14px;
-    background: #F1DBDD;
-
+    background: rgb(205, 193, 255);
+    border-radius: 3px;
+    border: 1px solid;
 }
 
 .inter-rect.phaseI-Button2{
@@ -5485,8 +5485,9 @@ footer-test {
     height: 50px;
     left: 100px;
     top: 25px;
-    background: #F1DBDD;
-
+    background: rgb(205, 193, 255);
+    border-radius: 3px;
+    border: 1px solid;
 }
 .inter-rect.phaseII-Button2{
     font-size: 11px;
@@ -5494,8 +5495,9 @@ footer-test {
     height: 50px;
     left: 100px;
     top: 25px;
-    background: #F1DBDD;
-
+    background: rgb(205, 193, 255);
+    border-radius: 3px;
+    border: 1px solid;
 }
 
 .inter-rect.pjm-negotiation{
@@ -5503,7 +5505,7 @@ footer-test {
     height: 55px;
     left: 2400px;
     top: 290px;
-    background: #F1DBDD;
+    background-color: #FFFBD7;
     font-size: 16px;   
 }
 .title.negoPhase {
