@@ -15,6 +15,10 @@
     flex: 0.25 0 0%;
 }
 
+.col{
+    flex: .25 0 0%;
+}
+
 
 .container-description {
     padding-top: 3%;
@@ -2655,6 +2659,17 @@ about-footer {
     
     position: absolute;
 }
+.txt-test.txt-inter-wmpa-lower {
+    top: 175px;
+    left: 935px;
+    z-index: 1;
+
+
+    font-size: 10px;
+    font-weight: 400;
+    
+    position: absolute;
+}
 .txt-test.txt-deq-1-test {
     top: 370px;
     left: 211px;
@@ -3134,6 +3149,18 @@ footer-test {
    top: 170px; 
    border: 1px dashed #000000;
 }
+.line.test-29-lowerWMPA{
+   width: 50px;
+   left: 900px;
+   top: 190px; 
+   border: 1px dashed #000000;
+}
+.line.test-29{
+   width: 50px;
+   left: 900px;
+   top: 170px; 
+   border: 1px dashed #000000;
+}
 .line.test-30{
    width: 50px;
    left: 900px;
@@ -3344,7 +3371,7 @@ footer-test {
     font-size: 10.5px; 
 }
 .reviews-test.army-corps-test {
-    left: 210px;
+    left: 200px;
     top: 4px;
     height: 50px;
     width: 850px;
@@ -3352,7 +3379,6 @@ footer-test {
     font-weight: 500;
     padding-top: 3px;
     padding-bottom: 5px;
-    padding-left: 55px;
     text-align: left;
 }
 .reviews-test.fed-comp-test {
@@ -3368,7 +3394,7 @@ footer-test {
     text-align: center;
 }
 .reviews-test.fed-aviation-test {
-    left: 210px;
+    left: 200px;
     top: 60px;
     height: 24px;
     width: 850px;
@@ -3380,7 +3406,7 @@ footer-test {
     text-align: left;
 }
 .reviews-test.btn-1-test {
-    left: 234px;
+    left: 210px;
     top: 26px;
 
     padding-top: 2px;
@@ -3404,7 +3430,7 @@ footer-test {
     text-align: center;
 }
 .reviews-test.fish-wildlife-test {
-    left: 210px;
+    left: 200px;
     top: 90px;
     height: 44px;
     width: 850px;
@@ -3415,7 +3441,7 @@ footer-test {
     border-radius: 0px;
 }
 .reviews-test.btn-3-test {
-    left: 400px;
+    left: 385px;
     top: 110px;
 
     padding-top: 2px;
@@ -3427,7 +3453,7 @@ footer-test {
     text-align: center;
 }
 .reviews-test.btn-4-test {
-    left: 550px;
+    left: 535px;
     top: 110px;
 
     padding-top: 2px;
@@ -3439,7 +3465,7 @@ footer-test {
     text-align: center;
 }
 .reviews-test.btn-5-test {
-    left: 225px;
+    left: 210px;
     top: 110px;
 
     padding-top: 2px;
@@ -3481,6 +3507,15 @@ footer-test {
 .inter-test-doc-2 {
     left: 920px;
     top: 140px;
+    height: 60px;
+    width: 130px;
+    z-index: 1;
+    position: absolute;
+
+}
+.inter-test-doc-lowerWMPA {
+    left: 920px;
+    top: 160px;
     height: 60px;
     width: 130px;
     z-index: 1;
