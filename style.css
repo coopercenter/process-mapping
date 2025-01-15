@@ -121,6 +121,8 @@
     top: 350px;
 }
 
+
+
 .decision.landing-title-56-1 {
     left: 597px;
     top: 670px;
@@ -2663,6 +2665,35 @@ about-footer {
     
     position: absolute;
 }
+.txt-test.txt-deq-issuancePermit {
+    top: 370px;
+    left: 710px;
+    z-index: 1;
+
+    font-size: 11px;
+    font-weight: 400;
+    
+    position: absolute;
+}
+.txt-test.txt-deq-stormWater {
+    top: 362px;
+    left: 905px;
+    z-index: 1;
+
+    font-size: 11px;
+    font-weight: 400;
+    
+    position: absolute;
+}
+.txt-test.txt-deq-permitByRule {
+    top: 362px;
+    left: 743px;
+    z-index: 1;
+    font-size: 8px;
+    font-weight: 400;
+    
+    position: absolute;
+}
 .txt-test.txt-deq-2-test {
     top: 365px;
     left: 205px;
@@ -2864,7 +2895,7 @@ footer-test {
 }
 .line.test-4 {
     width: 600px;
-    left: 310px;
+    left: 320px;
     top: 390px;
     border: 1px solid black;
 }
@@ -3121,8 +3152,8 @@ footer-test {
     top: 290px;
 }
 .line.test-32{
-    width: 120px;
-    left: 310px;
+    width: 115px;
+    left: 290px;
     top: 286px;
     /* border: 1px; */
     transform: rotate(90deg);
@@ -3130,9 +3161,9 @@ footer-test {
 
 }
 .line.test-33{
-    width: 100px;
-    left: 270px;
-    top: 345px;
+    width: 78px;
+    left: 269px;
+    top: 343px;
     /* border: 1px; */
     border: 0.5px solid black;
 
@@ -3160,7 +3191,7 @@ footer-test {
 .line.test-37{
     width: 40px;
     left: 950px;
-    top: 340px;
+    top: 345px;
     transform: rotate(90deg);
     border: 0.5px solid black;
 }
@@ -3179,8 +3210,8 @@ footer-test {
     border: 0.5px solid black;
 }
 .line.test-40{
-    width: 700px;
-    left: 275px;
+    width: 600px;
+    left: 375px;
     top: 500px;
     border: 0.5px solid black;
 }
@@ -3272,16 +3303,31 @@ footer-test {
     border: 0.5px solid black;
 }
 .line.scc-line-10{
-    width: 55px;
+    width: 53px;
     top:345px;
-    left: 840px;
+    left: 842px;
     border: 0.5px solid black;
 }
 .line.scc-line-11{
-    width: 127px;
+    width: 130px;
     transform: rotate(90deg);
     top:280px;
     left: 778px;
+    border: 0.5px solid black;
+}
+
+/* SCC Notice to Construct */
+.line.test-connectDEQBoxes{
+    width: 50px;
+    top: 400px;
+    left: 870px;
+    border: 0.5px solid black;
+}
+.line.test-connectLocalitiesToSCC{
+    width: 170px;
+    top: 400px;
+    left: 265px;
+    transform: rotate(90deg);
     border: 0.5px solid black;
 }
 
@@ -3645,7 +3691,7 @@ footer-test {
     border: 1px dashed #000000;
     padding: 5px 10px;
 }
-.deq.deq-test-9 {
+/* .deq.deq-test-9 {
     width: 150px;
     height: 76px;
     left: 700px;
@@ -3656,7 +3702,7 @@ footer-test {
     font-size: 10.5px;
     border: 1px solid #000000;
     padding: 20px 10px;
-}
+} */
 .deq.deq-test-10 {
     width: 155px;
     height: 76px;
@@ -5123,6 +5169,34 @@ footer-test {
     z-index: 1;
     position: absolute;
 }
+.deq-test-doc-issuancePermit {
+    left: 700px;
+    top: 355px;
+    height: 85px;
+    width: 135px;
+
+    z-index: 1;
+    position: absolute;
+}
+.deq-test-doc-stormWater {
+    left: 902px;
+    top: 355px;
+    height: 85px;
+    width: 135px;
+
+    z-index: 1;
+    position: absolute;
+}
+.deq-test-doc-permitByRule {
+    left: 740px;
+    top: 355px;
+    height: 85px;
+    width: 135px;
+
+    z-index: 1;
+    position: absolute;
+}
+
 
 .scc-title-content{
     display: flex;
@@ -5227,7 +5301,7 @@ footer-test {
 .scc.scc-test-6 {
     width: 160px;
     height: 50px;
-    left: 390px;
+    left: 275px;
     top: 480px;
 
     border-radius: 0px;
