@@ -4726,6 +4726,7 @@ footer-test {
     top: 343px;
     left:50px;
     width:1600px;
+    height: .75px;
 }
 
 /* this one goes through level 1 */
@@ -4773,6 +4774,7 @@ footer-test {
     top: 420px;
     left: 640px;
     width: 900px;
+    height: .75px;
 }
 
 /* .line-inter.line8
@@ -4893,7 +4895,7 @@ footer-test {
     top: 880px;
     left: 1432px;
     width: 723px;
-
+    height: .75px;
 }
 .line-inter.line21
 {
