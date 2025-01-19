@@ -2949,9 +2949,9 @@ footer-test {
     top: 190.5px;
 }
 .line.test-7-100 {
-    width: 120px;
-    left: 830px;
-    top: 410px;
+    width: 125px;
+    left: 833px;
+    top: 409px;
     transform: rotate(90deg);
 }
 .line.test-8 {
@@ -2962,8 +2962,8 @@ footer-test {
 }
 .line.test-8-100 {
     width: 135px;
-    left: 830px;
-    top: 410px;
+    left: 840px;
+    top: 400px;
     transform: rotate(90deg);
 }
 .line.test-9 {
@@ -2974,14 +2974,14 @@ footer-test {
     transform: rotate(90deg);
 }
 .line.test-9-100 {
-    width: 220px;
+    width: 226px;
     left: 670px;
-    top: 350px;
+    top: 347px;
 }
 .line.test-10-100 {
     width: 40px;
     left: 650px;
-    top: 330px;
+    top: 327px;
     transform: rotate(90deg);
 }
 .line.test-10 {
@@ -2999,15 +2999,15 @@ footer-test {
     transform: rotate(90deg);
 }
 .line.test-11-100 {
-    width: 60px;
+    width: 70px;
     left: 838px;
-    top: 342px;
+    top: 333px;
 
 }
 .line.test-12-100 {
-    width: 125px;
-    left: 775px;
-    top: 280px;
+    width: 110px;
+    left: 783px;
+    top: 278px;
     transform: rotate(90deg);
 }
 .line.test-12 {
@@ -3044,15 +3044,22 @@ footer-test {
     top: 460px;
 }
 .line.test-16-100 {
-    width: 230px;
-    left: 310px;
-    top: 345px;
+    width: 210px;
+    left: 320px;
+    top: 355px;
     transform: rotate(90deg);
 }
 .line.test-17-100 {
-    width: 50px;
-    left: 376px;
-    top: 230px;
+    width: 85px;
+    left: 340px;
+    top: 250px;
+}
+.line.test-18-100 {
+    width: 25px;
+    left: 328px;
+    top: 238px;
+    transform: rotate(90deg);
+
 }
 .line.test-15 {
     width: 30px;
