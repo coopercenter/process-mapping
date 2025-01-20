@@ -2797,6 +2797,18 @@ footer-test {
     font-size: 16px;
     font-weight: 500;
     padding: 38px 30px;
+    cursor: pointer;
+}
+.lane-test.federal-test-pbr {
+    background: #FFD0D0;
+    z-index: 0;
+    left: 0px;
+    top: 0px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 55px 30px;
+    cursor: pointer;
 }
 .text-position {
     position: relative;
@@ -3509,7 +3521,7 @@ footer-test {
 
     padding-top: 2px;
     padding-bottom: 2px;
-
+    border: 1px dashed;
     z-index: 2;
     font-size: 9px;
     background: #FFD0D0;
