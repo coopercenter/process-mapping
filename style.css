@@ -2902,17 +2902,20 @@ footer-test {
     width: 700px;
     left: 200px;
     top: 189.5px;
+    transform: scaleY(0.3);
 }
 .line.test-3 {
     width: 560px;
     left: 440px;
     top: 290px;
+    transform: scaleY(0.3);
+
 }
 .line.test-4 {
     width: 600px;
-    left: 320px;
+    left: 315px;
     top: 390px;
-    border: 1px solid black;
+    transform: scaleY(0.3);
 }
 .line.test-4-cpcn {
     width: 220px;
@@ -2928,6 +2931,7 @@ footer-test {
     width: 700px;
     left: 280px;
     top: 490px;
+    transform: scaleY(0.3);
 }
 .line.test-6 {
     width: 222px;
@@ -3241,13 +3245,12 @@ footer-test {
     left: 875px;
     top: 400px;
     transform: rotate(90deg);
-    border: 0.5px solid black;
 }
 .line.test-40{
     width: 600px;
     left: 375px;
     top: 500px;
-    border: 0.5px solid black;
+    transform: scaleY(0.3);
 }
 .line.test-41{
     width: 30px;
@@ -3268,6 +3271,7 @@ footer-test {
     left: 670px;
     top: 400px;
     border: 0.5px solid black;
+    transform: scaleY(0.3);
 }
 .line.test-44{
     width: 50px;
@@ -3281,6 +3285,8 @@ footer-test {
     top:500px;
     left: 200px;
     border: 0.5px solid black;
+    transform: scaleY(0.3);
+
 }
 .line.scc-line-2{
     width: 200px;
@@ -3375,7 +3381,7 @@ footer-test {
     width: 50px;
     top: 400px;
     left: 870px;
-    border: 0.5px solid black;
+    transform: scaleY(0.3);
 }
 .line.test-connectLocalitiesToSCC{
     width: 170px;
@@ -4716,7 +4722,7 @@ footer-test {
     position: absolute;
     top: 50%; /* Position vertically in the middle */
     background-color: #000000; /* Color of the line */
-    height: 1px; /* Height of the line */
+    height: .75px; /* Height of the line */
 
 }
 
