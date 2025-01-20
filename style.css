@@ -3181,6 +3181,12 @@ footer-test {
 .line.test-31{
     width: 100px;
     left: 340px;
+    top: 290px;
+    border: 1px dashed #000000;
+}
+.line.test-31-pbr{
+    width: 100px;
+    left: 340px;
     top: 315px;
     border: 1px dashed #000000;
 }
@@ -3557,6 +3563,18 @@ footer-test {
 }
 
 .local.local-test-1 {
+    left: 300px;
+    top: 250px;
+    width: 100px;
+    height: 80px;
+
+    font-size: 8px;
+
+    border: 1px dashed #000000;
+    padding: 6px 10px;
+}
+
+.local.local-test-1-pbr {
     left: 200px;
     top: 250px;
     width: 180px;
@@ -3634,6 +3652,18 @@ footer-test {
 }
 .local.local-test-7 {
     left: 200px;
+    top: 250px;
+    width: 100px;
+    height: 80px;
+
+    font-size: 8px;
+
+    border: 1px solid #000000;
+    padding: 6px 10px;
+}
+
+.local.local-test-7-pbr {
+    left: 200px;
     top: 295px;
     width: 180px;
     height: 40px;
@@ -3651,7 +3681,7 @@ footer-test {
 
     font-size: 8px;
 
-    border: 1px dashed #000000;
+    border: 1px solid #000000;
     padding: 6px 10px;
 }
 
