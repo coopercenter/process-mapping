@@ -860,7 +860,7 @@ class DEQ extends HTMLElement{
                     <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit. Note that the DHR permit must be submitted no less than 30 days prior to the start date of the project.<br><br>
 
                     Timeline: The stormwater review process is most often initiated after the permit is issued.              
-                          
+
                     <br><br><i>Projects may be subject to either local or VA DEQ VSMP authority. Check to see which is the case at the project location. The VA DEQ VSMP permit is only for those directly regulated under the VA DEQ authority. If local governments have the permitting authority, regulations for local SWPPP may differ from VA DEQ SWPPP. If the project is within the Chesapeake Bay Preservation Areas (CBPs), localities are required to have local regulations to protect water quality for the Chesapeake Bay.</i>
                     </div>
                 </div>
@@ -959,7 +959,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Rule making is in progress. See the <a href="https://www.townhall.virginia.gov/L/ListBoards.cfm" target="_blank">Virginia Town Hall</a> for up-to-date information. Rules will be promulgated by the end of 2024.
+                        Rule making is in progress. See the <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources" target="_blank">DEQ HB206 Page</a> for up-to-date information.
                     </div>
                 </div>
             </div>
