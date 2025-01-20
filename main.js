@@ -277,6 +277,12 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> OEIR </th>
+                        <td> Office of Environmental Impact Review </td>
+                    </tr>
+
+
+                    <tr>
                         <th scope="row"> PBR </th>
                         <td> Permit By Rule </td>
                     </tr>
@@ -991,7 +997,7 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following coordinated reviews for the VA DEQ process are facilitated by the VA DEQ, coordinated with applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+                        The following courtesy reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
 
                         <i>These four coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
                     </div>
