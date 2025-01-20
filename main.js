@@ -1068,13 +1068,12 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title"> Department of Environmental Quality </h5>
+                        <h5 class="modal-title" id="title"> DEQ Office of Renewable Energy </h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">    
-                        NEED TO ADD
-                    
+                        The following courtesy reviews are facilitated by the DEQ Office of Environmental Impact Review, coordinated with the applicant, and conducted by four state agencies.                    
                     </div>
                 </div>
             </div>
