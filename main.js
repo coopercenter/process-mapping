@@ -408,7 +408,11 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Federal consistency is compliance with federal laws. After local and state permitting, the developer returns to USACE to initiate federal compliance and permitting. This involves obtaining the necessary permits to meet the reqirements of Section 401 of the Clean Water Act, Section 404 of the Clean Water Act, and the CZMA, among others.
+                            After local and state permitting, the developer returns to USACE to initiate federal compliance and permitting. This involves obtaining the necessary permits to meet the reqirements of Section 401 of the Clean Water Act, Section 404 of the Clean Water Act, and the CZMA, among others.
+                            <br><br>
+                            For the CZMA, compliance with federal laws is labeled "federal consistency." Under <a href = "https://coast.noaa.gov/czm/act/sections/#307">U.S.C. § 1456 (Section 307) of the CZMA</a>, federal agency acitvities 
+                            // that have coastal effects are required to be consistent to the maximum extent with the policies of the federally approved state coastal management 
+                            // program (CMP). Non-federal applicants for federal authorizations and funding must also follow federal consistency. DEQ coordinates Virginia's federally approved CMP and federal consistency reviews.
                         </div>
                     </div>
                 </div>
@@ -455,14 +459,18 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. *Note that as of May 2024, this process is undergoing changes. The new process will require USACE permit applications to be submitted through the <a href="https://rrs.usace.army.mil/rrs" target="_blank">Regulatory Request System</a>. This will route the application to necessary agencies and individuals with greater efficiency. <br><br>
-
+                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. 
+                            *Note that this process has undergone changes in 2024. The new process requires USACE permit applications to be submitted through the <a href = "https://rrs.usace.army.mil/rrs">Regulatory Request System (RRS)</a>. This will route the application to necessary agencies and individuals with greater efficiency. The RRS is currently in use under a beta version.
+                            
+                            <br><br>
                             The associated permit is issued under 22-SPGP-RCIR. Follow the <a href="https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf" target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal wetlands, and/or dune/beach resources – including, but not limited to, construction, dredging, filling, or excavation. Contact information can be found on the linked application materials. <br><br>
 
                             <div class="card" style="width: 760px;">
                                 <div class="card-body">
                                     <h6 class="card-title">Section 401</h6>
                                     <p class="card-text">
+                                        <a href = "https://www.epa.gov/cwa-401/overview-cwa-section-401-certification">Section 401 of the CWA</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. 
+                                        <br><br>
                                         In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/" target="_blank">§62.1-44.15:20</a> of the Code of Virginia). The Section 401 checklist is submitted on the JPA application via the DEQ. VWP then executes the 401, which is later delegated to the DEQ to review. The 401 is linked to the Coastal Zone Management Act (CZMA). In certain counties, the CZMA process will be triggered, otherwise CZMA reviews are included in the state 401 permit. Check with your locality to see whether your area falls under a CZMA review area. Note that there may be special conditions on the 401, dependent on project siting and other specifics. This varies project to project and will be stipulated by USACE during the review process.
                                     </p>
                                 </div>
