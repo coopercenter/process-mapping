@@ -202,6 +202,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> ESA </th>
+                        <td> Endangered Species Act of 1973 </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FAA </th>
                         <td> Federal Aviation Administration </td>
                     </tr>
@@ -427,7 +432,7 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA</a>,“The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77" target="_blank">CFR Title 14 Part 77.9</a>.” <br><br>
+                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA</a>, “The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77" target="_blank">CFR Title 14 Part 77.9</a>.” <br><br>
 
                             Use the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA Notice Criteria Tool</a> as a quick first step to determine whether your proposed project is required to file with the FAA. If filing with the FAA is required, it must be completed at least 45 days prior to construction.
                         </div>

@@ -3492,38 +3492,41 @@ footer-test {
     border-radius: 0px;
 }
 .reviews-test.btn-3-test {
-    left: 385px;
-    top: 110px;
-
+    left: 640px;
+    top: 97px;
+    width: 180px;
+    height: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
 
     z-index: 2;
-    font-size: 9px;
+    font-size:11px;
     background: #FFD0D0;
     text-align: center;
 }
 .reviews-test.btn-4-test {
-    left: 535px;
-    top: 110px;
-
+    left: 840px;
+    top: 97px;
+    width: 180px;
+    height: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
 
     z-index: 2;
-    font-size: 9px;
+    font-size: 11px;
     background: #FFD0D0;
     text-align: center;
 }
 .reviews-test.btn-5-test {
-    left: 210px;
-    top: 110px;
-
+    left: 440px;
+    top: 97px;
+    width: 180px;
+    height: 30px;
     padding-top: 2px;
     padding-bottom: 2px;
-    border: 1px dashed;
+    border: 1px solid;
     z-index: 2;
-    font-size: 9px;
+    font-size: 11px;
     background: #FFD0D0;
     text-align: center;
 }
