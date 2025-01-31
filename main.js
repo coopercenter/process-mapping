@@ -283,7 +283,7 @@ class Abbrev extends HTMLElement {
 
                     <tr>
                         <th scope="row"> OEIR </th>
-                        <td> Office of Environmental Impact Review </td>
+                        <td> DEQ's Office of Environmental Impact Review </td>
                     </tr>
 
 
@@ -1027,9 +1027,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following coordinated reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        The following coordinated reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br><br>
-                        <i>These four coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
                     </div>
                 </div>
             </div>
@@ -1044,9 +1044,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+                        The following courtesy reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
 
-                        <i>These four coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
                     </div>
                 </div>
             </div>
@@ -1061,14 +1061,14 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br>
                         <br>
-                        <i>These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). </i>
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). </i>
                         <br>
                         <br>
-                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25.11</a>.
-                    </div>
+                        Submit information required for environmental reviews per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).                    
+                        </div>
                 </div>
             </div>
         </div>
@@ -1082,13 +1082,13 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br>
                         <br>
-                        <i>These four courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i> 
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i> 
                         <br>
                         <br>
-                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (Renewable Energy > 100MW). See <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section20/" target="blank_">20VAC5-302-20.12</a>.
+                        Submit information required for environmental reviews per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).                    
                     </div>
                 </div>
             </div>
@@ -1126,7 +1126,9 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">    
-                        The following courtesy reviews are facilitated by the DEQ Office of Environmental Impact Review, coordinated with the applicant, and conducted by four state agencies.                    
+                        <p>DEQ's Office of Environmental Impact Review (OEIR) <a href="https://www.deq.virginia.gov/our-programs/environmental-impact-review" target="_blank">coordinates SCC environmental reports</a> for solar projects. Staff "distribute documents to state agencies, planning districts and localities for consideration and comment. State review of environmental planning documents identifies environmental impacts early in the project planning process and often identifies alternatives that may reduce or eliminate environmental impacts. Once all comments are taken into consideration, a single state response is created by DEQ."</p>
+        
+                        <p>Submit information required for environmental review per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).</p>
                     </div>
                 </div>
             </div>
