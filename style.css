@@ -4605,7 +4605,7 @@ footer-test {
 }
 
 .right-arrow-5 {
-    left: 890px;
+    left: 930px;
     top: 103px;
     height: 20px;
     width: 20px;
@@ -4655,7 +4655,7 @@ footer-test {
 }
 .right-arrow-10 {
     top: 780px; 
-    left: 1525px;
+    left: 1545px;
     height: 20px;
     width: 20px;
 
@@ -4763,6 +4763,16 @@ footer-test {
 .left-arrow-2 {
     top: 520px; 
     left: 905px;
+    height: 20px;
+    width: 20px;
+    transform: rotate(180deg);;
+
+    z-index: 1;
+    position: absolute;
+}
+.left-arrow-3 {
+    top: 705px; 
+    left: 1120px;
     height: 20px;
     width: 20px;
     transform: rotate(180deg);;
@@ -4999,6 +5009,29 @@ footer-test {
     left: 1407px;
     transform: rotate(90deg);
     width: 50px;
+    
+}
+.line-inter.line26
+{
+    top: 700px;
+    left: 1332px;
+    transform: rotate(90deg);
+    width: 30px;
+    
+}
+.line-inter.line27
+{
+    top: 715px;
+    left: 1032px;
+    width: 315px;
+    
+}
+.line-inter.line28
+{
+    top: 740px;
+    left: 1007px;
+    width: 50px;
+    transform: rotate(90deg);
     
 }
 .line-inter.lineOval-1
@@ -6284,3 +6317,75 @@ footer-test {
     font-size: 16px; /* Font size */
   }
 
+
+  /* scc yes/no */
+.line1-scc-no{
+    position: absolute;
+    top: 224px;
+    left: 750px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line1-scc-yes{
+    position: absolute;
+    top: 105px;
+    left: 900px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line2-scc-yes{
+    position: absolute;
+    top: 411px;
+    left: 1460px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line2-scc-no{
+    position: absolute;
+    top: 510px;
+    left: 1338px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line3-scc-no{
+    position: absolute;
+    top: 720px;
+    left: 783px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line3-scc-yes{
+    position: absolute;
+    top: 600px;
+    left: 865px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line4-scc-yes{
+    position: absolute;
+    top: 705px;
+    left: 1250px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line4-scc-no{
+    position: absolute;
+    top: 602px;
+    left: 1550px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line5-scc-yes{
+    position: absolute;
+    top: 781px;
+    left: 1510px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
+.line5-scc-no{
+    position: absolute;
+    top: 870px;
+    left: 1500px;
+    font-size: 12px;
+    background-color: white; /* Match the background color of your flowchart */
+}
