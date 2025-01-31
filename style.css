@@ -4287,6 +4287,7 @@ footer-test {
     top: 73px; 
     left: 265px; 
     height: 105px;
+    width: 435px;
     background: #F5EFFF;
 }
 
@@ -4420,6 +4421,14 @@ footer-test {
 }
 
 .squares-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Distribute squares evenly */
+    width: 100%; /* Take full width of the container */
+    margin-top: 20px; /* Adjust spacing above squares */
+    cursor: pointer;
+
+}
+.squares-container-sgip1 {
     display: flex; /* Use flexbox for layout */
     justify-content: space-around; /* Distribute squares evenly */
     width: 100%; /* Take full width of the container */
@@ -4586,7 +4595,7 @@ footer-test {
 }
 
 .right-arrow-4 {
-    left: 660px;
+    left: 710px;
     top: 103px;
     height: 20px;
     width: 20px;
