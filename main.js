@@ -522,7 +522,34 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. Fish and Wildlife Service (Service), with responsibility delegated to the VA DEQ.
+                            <p>The Service recommends that for projects that necessitate compliance with the Endangered Species Act of 1973 (ESA), applicants seeking to obtain a required permit should complete this online review process prior to contacting their office, with responsibility delegated to the VA DEQ.</p>
+    
+                            <p>This iterative six-step process will guide the applicant as to whether or not their proposed project needs to be submitted to the Service’s office for approval. Upon making appropriate ESA Section 7 determinations, projects fall into three categories:</p>
+                            
+                            <ol>
+                                <li>
+                                    If applicant reaches no effect determinations for all species and critical habitat, they must:
+                                    <ul>
+                                        <li>Print a <a href="https://www.fws.gov/media/online-project-review-certification-letter-virginiaversion-40" target="_blank">Self-Certification Letter</a> to keep for record.</li>
+                                        <li>The applicant does not need to submit to their office.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    If applicant reaches a not likely to adversely affect and/or no effect determination for all species and critical habitat, they must:
+                                    <ul>
+                                        <li>Submit a Self-Certification Letter AND project package to their office.</li>
+                                        <li>See necessary instructions on the <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">online review process page</a>.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    If applicant reaches a likely to adversely affect determination for any species or critical habitat:
+                                    <ul>
+                                        <li>See necessary instructions on the <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">online review process page</a>.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            
+                            <p>If this online process deems that the applicant is required to submit a project review package to the Service’s office, they should be submitted electronically to <a href="mailto:virginiafieldoffice@fws.gov">virginiafieldoffice@fws.gov</a>, with the subject line “Review Request Letter” or “Self-Certification Letter” followed by the project name.</p>
                         </div>
                     </div>
                 </div>
@@ -537,15 +564,15 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
-
+                            <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
+                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                            <br><br>
+                            When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
                             <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
                             
                             <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans' target="_blank">Service</a>:
                             "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
-                            
-                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
-                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                        
                         </div>
                     </div>
                 </div>
@@ -560,9 +587,12 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
-
-                            <br><br>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                            <p>An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section 10(a)(1)(B) <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">incidental take permit issuance criteria</a>, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.</p>
+                                
+                                <p>The offices of Virginia Ecological Services review preliminary information through an online project review process, <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">Virginia Field Office Online Review Process</a>, in which the Service will provide input on whether or not take of a listed species is reasonably certain to occur and offer recommendations for ways to avoid take.</p>
+                                
+                                <p>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -576,9 +606,13 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
-
-                            <br><br>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                            <p>The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants, and directs all federal agencies to participate in conserving these species. Per the Service, <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">Section 7(a)(1)</a> of the ESA charges federal agencies to aid in the conservation of listed species, and <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">Section 7(a)(2)</a> requires the agencies to ensure their activities will not negatively impact the continued existence of federally listed species or destroy critical habitats.</p>
+                            
+                            <p>Section 7 of the ESA requires that federal agencies consult with the Service when any proposed project or action they authorize, fund, or carry out may affect a listed species or designated critical habitat. The consultation process can vary depending on the complexity of the project. To see the necessary steps in this process, visit the <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">consultation page</a>.</p>
+                            
+                            <p>The Service has 45 days after completion of formal consultation to write a final biological opinion, which will state whether the federal agency has ensured that its action is not likely to jeopardize the continued existence of a listed species and/or result in the destruction or adverse modification of critical habitat.</p>
+                            
+                            <p>Federal agencies beginning the Section 7 consultation process should consult with their nearest Ecological Services office, which can be found through this <a href="https://www.fws.gov/our-facilities" target="_blank">link</a>.</p>
                         </div>
                     </div>
                 </div>
