@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title-></title->
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -16,12 +19,245 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
+  </head>
 
 <body>
-    <nav-bar></nav-bar>
-
+  <swim-bar></swim-bar>
+  <abbrev-list></abbrev-list>
   <modals>
+    <div class="modal fade" id="shared-solar-enrollment" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="title">For Shared Solar Program Enrollment</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class ="modal-body">
+                <i>An executed interconnection agreement is necessary to apply for participation in the Shared Solar program or Multi-Family Shared Solar program. Continue reading for further information on these programs.</i>
+                <br>
+                <br>
+                  In 2020, Virginia passed laws to create community solar programs, aimed at expanding access to
+                  clean energy options for residents of Virginia. Without needing to install solar options
+                  themselves, many community members now have the opportunity to access solar energy. The
+                  “shared solar” program has two parts – the Shared Solar Program and the Multi-Family Shared
+                  Solar Program. Per the <a href = "https://energy.virginia.gov/renewableenergy/SS_CS.html">Virginia Department of Energy</a>, “the Shared Solar Program [provides] customers of Dominion Energy
+                  Virginia the opportunity to participate in offsite, or front-of-meter (virtual) shared solar projects,
+                  while the Multi-Family Shared Solar Program provides eligible multi-family customers of
+                  Dominion Energy and Kentucky Utilities (Old Dominion Power) the opportunity to participate in
+                  onsite, or behind-the-meter solar projects.” Appalachian Power is in the process of joining the
+                  Shared Solar Program. Many electric cooperatives are also offering community solar programs,
+                  though structured and regulated apart from “shared solar.” 
+              </div>
+              <div class = "solar-enrollment-extensions">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shared-solar-modal">
+                      Click for Shared Solar Information
+                  </button>
+
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#family-solar-modal">
+                      Click for Multi-Family Shared Solar Information
+                  </button>
+
+                  <div class="modal fade" id="shared-solar-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Shared Solar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                                The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
+                                Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
+                                pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
+                                receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
+                                attributable to that subscriber.
+        
+                                <br>
+                                <br>
+        
+                                Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
+                                Code of Virginia defines a “shared solar facility” as a facility that:
+                                “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
+                                that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
+                                at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
+                                less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
+                                Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
+                                system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
+                                the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
+                                
+                                <br>
+                                <br>
+        
+                                Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
+                                in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
+                                solar details with regards to Dominion Virginia (a Phase II utility).                    
+                                
+                                <br>
+                                <br>
+        
+                                Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
+                                legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
+                                Appalachian Power must provide tariff and agreement information and other related 
+                                requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
+                                <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
+                                <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
+                                with regards to Appalachian Power (a Phase I utility)                   
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="modal fade" id="family-solar-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Multi-Family Shared Solar</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+        
+                            <div class="modal-body">
+                            The Multi-Family Shared Solar Program allows eligible multi-family customers of Dominion
+                            Energy Virginia and Old Dominion Power (ODP) to purchase subscriptions in a shared solar
+                            facility. Such customers will receive a credit on their monthly electric bill proportional to the
+                            output of the shared solar facility attributable to that subscriber.
+        
+                            <br>
+                            <br>
+                            The Multi-Family Shared Solar Program is established in Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/">§ 56-585.1:12</a> of the Code of Virginia.
+                            Rules governing the program can be found in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter342/">Chapter 342 of the Virginia Administrative Code</a>. 
+        
+                            <br>
+                            <br>
+                            Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/"> Section § 56-585.1:12</a>  of the Code of Virginia defines a “shared solar facility” for the Multi-Family Shared Solar
+                            Program as a facility that:
+                            <br>
+                            “1. Generates electricity by means of a solar photovoltaic device with a nameplate capacity
+                            rating that does not exceed 3,000 kW alternating current at any single location or that does not
+                            exceed 5,000 kW alternating current at contiguous locations owned by the same entity or
+                            affiliated entities;
+                            <br>
+                            2. Is operated pursuant to a program whereby at least three subscribers receive a bill credit for
+                            the electricity generated from the facility in proportion to the size of their subscription;
+                            <br>
+                            3. Is located in the service territory of an investor-owned utility;
+                            <br>
+                            4. Is connected to the electric distribution grid serving the Commonwealth; and
+                            <br>
+                            5. Is located on a parcel of land on the premises of the multi-family utility customer or adjacent
+                            thereto.”
+                            <br>
+                            <br>
+                            See details of Dominion Virginia's program on <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/multi-family-sharedsolar">Dominion's website</a>. For Old Dominion Power Company, see <a href = "https://lge-ku.com/virginia-solar">ODP's website</a> for details.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>                    
+          </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="box2-agricultural-generators" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="title">Agricultural Generators</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+              </div>
+
+              <div class="modal-body">
+                Agricultural generators fall into two categories: 
+                <a href = "https://law.lis.virginia.gov/vacode/56-594.2/" target = '__blank'>small agricultural generators</a> and 
+                <a href = 'https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/' target = '__blank'>eligible agricultural customer-generators</a> 
+                to determine if your projecet qualifies as either, consult the Code of Virginia. 
+                
+                <br>
+                <br>
+
+                Small agricultural generators are customers who operate a small agricultural generating facility that generates renewable energy designed to remain on the utility's distribution system. These facilities must have a capacity of no more than 1.5 MW. Small agricultural generators are subject to the same local, state, and federal permitting process as other projects. For interconnection requests, small agricultural generators must follow the State interconnection process and register as a 
+                <a href = "https://www.ferc.gov/qf" target = "_blank">qualifying small power production facility</a>
+                pursuant to PURPA. If the project is less than 1 MW, the customer may self-certify to be a qualifying facility instead of going through PURPA. Small agricultural generators may interconnect to electric cooperatives.
+                
+                <br>
+                <br>
+
+                Eligible agricultural customer-generators generate energy primarily to provide energy to metered accounts of the agricultural business. Such customer-generators may not have an aggregate generation capacity of more than 500 kW. Eligible agricultural customer-generators are subject to the same local, state, and federal permitting process as other projects. For interconnection requests, eligible agricultural customer-generators must be “interconnected and operated in parallel with an electric company’s transmission and distribution facilities.” Eligible agricultural customer-generators are not permitted to interconnect to electric cooperatives.
+                
+                <br>
+                <br>
+
+
+                For more information, see the below information and consult the respective Code of Virginia sections.
+                
+                <br>
+                <br>
+                
+                <div class = "agricultural-generators-extensions">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#small-generators">
+                    Click for Small Agricultural Generators
+                  </button>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#eligible-generators">
+                    Click for Eligible Agricultural Customer-Generators
+                  </button>
+                </div>
+
+
+
+                <div class="modal fade" id="small-generators" tabindex="-1" aria-labelledby="smallGeneratorsLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="smallGeneratorsLabel">Small Agricultural Generators</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Per <a href = "https://law.lis.virginia.gov/vacode/56-594.2/" target = "_blank">Code of Virginia § 56-594.2</a>,  a "Small agricultural generator" means a customer that: "1. Is not an eligible agricultural customer-generator pursuant to § 56-594; 2. Operates a small agricultural generating facility as part of (i) an agricultural business or (ii) any business granted a manufacturer license pursuant to subdivisions 1 through 6 of 
+                            <a href = "https://law.lis.virginia.gov/vacode/title4.1/chapter2/section4.1-206.1/" target = "_blank">§ 4.1-206.1;</a>
+                            3. May be served by multiple meters that are located at separate but contiguous sites; 4. May aggregate the electricity consumption measured by the meters, solely for purposes of calculating 150 percent of the customer's expected annual energy consumption, but not for billing or retail service purposes, provided that the same utility serves all of its meters; 5. Uses not more than 25 percent of contiguous land owned or controlled by the agricultural business for purposes of the renewable energy generating facility; and 6. Issues a certification under oath as to the amount of land being used for renewable generation." 
+                            
+                            <br>
+                            <br>
+            
+            
+                            Small agricultural generators electing to interconnect pusuant to this section must follow the following requirements: 
+                            <br>
+                            <br>
+            
+                            1. Enter into a power purchase agreement with its utility to sell all of the electricity generated from its small agricultural generating facility, which power purchase agreement obligates the utility to purchase all the electricity generated, at a rate agreed upon by the parties, but at a rate not less than the utility's Commission-approved avoided cost tariff for energy and capacity;
+                            <br>
+            
+                            2. Have the rights described in subsection E of § 56-594 pertaining to an eligible agricultural customer-generator as to the renewable energy certificates or other environmental attributes generated by the renewable energy generating facility;
+                            <br>
+            
+                            3. Abide by the appropriate small generator interconnection process as described in 20VAC5-314; and
+                            <br>
+            
+                            4. Pay to its utility any necessary additional expenses as required by this section."
+            
+                          </div>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="modal fade" id="eligible-generators" tabindex="-1" aria-labelledby="smallGeneratorsLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="smallGeneratorsLabel">Eligible Agricultural Customer-Generators</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            Per <a href = 'https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594/' target = "_blank"> Code of Virginia § 56-594</a> 
+                            ,  "Eligible agricultural customer-generator" means a "customer that operates a renewable energy generating facility as part of an agricultural business, which generating facility (i) uses as its sole energy source solar power, wind power, or aerobic or anaerobic digester gas, (ii) does not have an aggregate generation capacity of more than 500 kilowatts, (iii) is located on land owned or controlled by the agricultural business, (iv) is connected to the customer's wiring on the customer's side of its interconnection with the distributor; (v) is interconnected and operated in parallel with an electric company's transmission and distribution facilities, and (vi) is used primarily to provide energy to metered accounts of the agricultural business."
+                          </div>
+                      </div>
+                  </div>
+                </div>
+      </div>
+    </div>
+
     <div class="modal fade" id="start-here" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -31,77 +267,17 @@
               </div>
 
               <div class="modal-body">
-                The tool is intended to help someone understand and navigate which pathway is required, or best suited, for a solar project. The permit pathway required or chosen can depend on multiple factors, including maximum generation capacity (MW), disturbance area (acerage), and owner-operator of a public utility.
+                Start here to determine the state permitting pathway(s) for which your project is eligible. To begin, choose the nameplate capacity range that matches your project.
               </div>
           </div>
       </div>
     </div>
-    </div>
 
-    <div class="modal fade" id="nameplate-less-5-mw" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="title">Nameplate Capacity: &le; 5 MW</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
 
-              <div class="modal-body">
-                If the project is no larger than 5 MW, follow this pathway. The traditional permit application process is governed by the State Corporation Commission (SCC). As an option, you may choose to apply through the alternative process regulated by DEQ.
-              </div>
-          </div>
-      </div>
-    </div>
-    </div>
 
-    <div class="modal fade" id="nameplate-less-5-mw" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="title">Nameplate Capacity: &le; 5 MW</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
 
-              <div class="modal-body">
-                If the project is no larger than 5 MW, follow this pathway. The traditional permit application process is that governed by the State Corporation Comission (SCC). You may choose to instead apply through the alternative process of the Virginia Department of Environmental Quality (DEQ).
-              </div>
-          </div>
-      </div>
-    </div>
-    </div>
 
-    <div class="modal fade" id="alternative-4" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="title">Alternative Process: Department of Environmental Quality</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
 
-              <div class="modal-body">
-                If applying through the , follow this pathway to determine which DEQ permit process is required.
-              </div>
-          </div>
-      </div>
-    </div>
-    </div>
-
-    <div class="modal fade" id="disturbance-2" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="title">Project is &lt; 500 kW and the Disturbance Zone is &gt; 2 acres but &le; 10 acres</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
-
-              <div class="modal-body">
-                If the project falls under this category, the project is exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit). Under <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/ " target="_blank">VAC15-60-130A</a>, "The owner or operator of a small solar energy project is not required to submit any notification or certification to the department."
-                <br><br><i><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section10/" target="_blank">9VAC15-60-10</a> defines "disturbance zone" as: "The area within the site directly impacted by construction and operation of the solar energy project and within 100 feet of the boundary of the directly impacted area."</i>
-              </div>
-          </div>
-      </div>
-      </div>
-    </div>
 
     <div class="modal fade" id="disturbance-3" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
@@ -162,6 +338,7 @@
       </div>
     </div>
 
+
     <div class="modal fade" id="nameplate-greater-5-mw" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -175,45 +352,35 @@
               </div>
           </div>
       </div>
-      </div>
     </div>
 
     <div class="modal fade" id="title-56" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="title">Is This A Utility Regulated Pursuant To Title 56?</h5>
+                  <h5 class="modal-title" id="title">Is the project associated with a public service company?</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
               </div>
 
               <div class="modal-body">
                 From <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/ " target="_blank">§ 10.1-1197.6-H</a> of the Code of Virginia: <br><br>
-                "Any small energy project shall be eligible for permit by rule under this section if the project is proposed, developed, constructed, or purchased by a person that is not a utility regulated pursuant to <a href="https://law.lis.virginia.gov/vacode/title56/" target="_blank">Title 56</a>." </div>
+                "Any small energy project shall be eligible for permit by rule under this section if the project is proposed, developed, constructed, or purchased by a person that is not a utility regulated pursuant to <a href="https://law.lis.virginia.gov/vacode/title56/" target="_blank">Title 56</a>." 
+                <br>
+                <br>
+                Entities regulated under Title 56 include public utilities, public service corporations, and public service companies. See <a href = "https://law.lis.virginia.gov/vacode/title56/" target = "_blank">Title 56</a>for definitions and scope.
+                <br>
+                <br>
+                Per <a href = "https://law.lis.virginia.gov/vacode/10.1-1197.6/" target = "_blank">§ 10.1-1197.6-I</a> of the Code of Virginia, utility aggregation cooperatives formed under Article 2 (§ 56-231.38 et seq.) of Chapter 9.1 of Title 56 are eligible to choose the DEQ pathway. </div>
           </div>
-      </div>
       </div>
     </div>
 
-    <div class="modal fade" id="alternative-3" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title" id="title">Alternative Process: DEQ</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-              </div>
-
-              <div class="modal-body">
-                If the project is not a utility regulated to Title 56 or a utility regulated to Title 56 but meets the criteria laid out in § 10.1-1197.6 I.1 or I.2 of the Code of Virginia, the project is exempt from the SCC application requirement and is instead permitted to apply for the DEQ's Permit by Rule for Small Solar Energy Project.
-          </div>
-      </div>
-      </div>
-    </div>
 
     <div class="modal fade" id="landing-criteria" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="title">Does It Meet The Criteria Laid Out In § 10.1-1197.6 I.1 Or I.2?</h5>
+                  <h5 class="modal-title" id="title">Is the project seeking cost recovery?</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
               </div>
 
@@ -227,21 +394,20 @@
       </div>
     </div>
 
-    <div class="modal fade" id="alternative-2" tabindex="-1" role="dialog">
+
+    <div class="modal fade" id="nameplate-less-5-mw-test" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
               <div class="modal-header">
-                  <h5 class="modal-title" id="title">Alternative Process: DEQ</h5>
+                  <h5 class="modal-title" id="title">Nameplate Capacity: &lt; 5 MW</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
               </div>
 
               <div class="modal-body">
-                If the project met the criteria to arrive at the alternative process, the project is exempt from the SCC application requirement, and may instead apply for the DEQ's Permit by Rule for Small Solar Energy Project. 
-          </div>
-      </div>
+                If the project is no larger than 5 MW, follow this pathway. The traditional permit application process is governed by the State Corporation Commission (SCC). As an option, you may choose to apply through the alternative process regulated by DEQ.             </div>
+              </div>
       </div>
     </div>
-
     <div class="modal fade" id="nameplate-greater-100-mw" tabindex="-1" role="dialog">
       <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
@@ -272,6 +438,129 @@
       </div>
       </div>
     </div>
+    <div class="modal fade" id="zone1" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="title">&le; 500 kW and disturbance zone is &le; 10 acres</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+              If the project falls under this category, the project is exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit). Under <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/ " target="_blank">VAC15-60-130A</a>, "The owner or operator of a small solar energy project is not required to submit any notification or certification to the department."
+              <br><br><i><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section10/" target="_blank">9VAC15-60-10</a> defines "disturbance zone" as: "The area within the site directly impacted by construction and operation of the solar energy project and within 100 feet of the boundary of the directly impacted area."</i>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="modal fade" id="zone2" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="title">Project is &gt; 500 kW but &le; 5 MW and the Disturbance Zone is &le; 2 acres</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+
+          <div class="modal-body">
+            If the project falls under this category, the project is exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit). Under <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/ " target="_blank">VAC15-60-130A</a>, "The owner or operator of a small solar energy project is not required to submit any notification or certification to the department."
+            <br><br><i><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section10/" target="_blank">9VAC15-60-10</a> defines "disturbance zone" as: "The area within the site directly impacted by construction and operation of the solar energy project and within 100 feet of the boundary of the directly impacted area."</i>              
+          </div>
+          </div>
+      </div>
+    </div>
+    <div class="modal fade" id="zone3" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="title">Project is &gt; 500 kW but &le; 5 MW and Disturbance Zone is &gt; 2 acres</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+          <div class="modal-body">
+            If the project falls under this category, check the exemption criteria to determine whether the project is exempt from the Small Solar PV Facility Notice of Intent (Section 130 Permit).
+            <br><br><i><a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section10/" target="_blank">9VAC15-60-10</a> defines "disturbance zone" as: "The area within the site directly impacted by construction and operation of the solar energy project and within 100 feet of the boundary of the directly impacted area."</i>              
+          </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- <div class="modal fade" id="box3-brownfields" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="title">Brownfields</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <div class="modal-body">
+                Projects proposed on previously disturbed land or brownfields can be permitted under Section 130 of the Solar PBR if impacts to previously undisturbed areas do not exceed 10 acres and rated capacity does not exceed 150 MW.
+
+                Per
+                <a href = "https://energy.virginia.gov/public/documents/Public%20Meetings/HB%201925%20Handbook_FINAL%20w%20Comments.pdf">Virignia Energy</a>:
+                <br>
+                "To initiate the determination of Section 130 permitting applicability for a previously disturbed area or a brownfield site, the applicant should:
+                <br>
+                1. Ensure the small solar energy project site meets the definition of a brownfield found in the Code of Virginia 
+                <a href = "https://law.lis.virginia.gov/vacodefull/title10.1/chapter12.1/">§ 10.1-1230</a>:
+                "Brownfield" means real property; the expansion, redevelopment, or reuse of which may be complicated by the presence or potential presence of a hazardous substance, pollutant, or contaminant.
+              
+                <br>
+                2. Submit a letter to the DEQ Land/Brownfields Program documenting why the site meets the criteria as a previously disturbed area; i.e., historically used as a heavy industrial site, RCRA Corrective Action site, etc." DEQ strongly recommends that the developer conducts a Phase I ESA on the brownfield site as part of their due diligence process and incorporates the findings into the letter. Upon receipt of the letter, the DEQ Land/Brownfields Program staff will review the documentation and send a letter to the applicant indicating whether or not the site meets the criteria.
+                
+                <br>
+                <br>
+                Once the applicant obtains a Brownfield determination letter, they will need to submit the letter to DEQ along with a NOI providing project details and a local governing body certification form certifying that the project complies with all applicable land use ordinances.
+                
+                <br>
+                <br>
+
+                See the 
+                <a href = "https://www.deq.virginia.gov/our-programs/land-waste/land-remediation/brownfields">DEQ Brownfields website</a>
+                for further resources.
+              </div>
+          </div>
+      </div>
+    </div> -->
+    <div class="modal fade" id="brownfield-box" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="title">Brownfields</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              </div>
+
+              <div class="modal-body">
+                Projects proposed on previously disturbed land or brownfields can be permitted under Section 130 of the Solar PBR if impacts to previously undisturbed areas do not exceed 10 acres and rated capacity does not exceed 150 MW.
+
+                Per
+                <a href = "https://energy.virginia.gov/public/documents/Public%20Meetings/HB%201925%20Handbook_FINAL%20w%20Comments.pdf">Virignia Energy</a>:
+                <br>
+                "To initiate the determination of Section 130 permitting applicability for a previously disturbed area or a brownfield site, the applicant should:
+                <br>
+                1. Ensure the small solar energy project site meets the definition of a brownfield found in the Code of Virginia 
+                <a href = "https://law.lis.virginia.gov/vacodefull/title10.1/chapter12.1/">§ 10.1-1230</a>:
+                "Brownfield" means real property; the expansion, redevelopment, or reuse of which may be complicated by the presence or potential presence of a hazardous substance, pollutant, or contaminant.
+              
+                <br>
+                2. Submit a letter to the DEQ Land/Brownfields Program documenting why the site meets the criteria as a previously disturbed area; i.e., historically used as a heavy industrial site, RCRA Corrective Action site, etc." DEQ strongly recommends that the developer conducts a Phase I ESA on the brownfield site as part of their due diligence process and incorporates the findings into the letter. Upon receipt of the letter, the DEQ Land/Brownfields Program staff will review the documentation and send a letter to the applicant indicating whether or not the site meets the criteria.
+                
+                <br>
+                <br>
+                Once the applicant obtains a Brownfield determination letter, they will need to submit the letter to DEQ along with a NOI providing project details and a local governing body certification form certifying that the project complies with all applicable land use ordinances.
+                
+                <br>
+                <br>
+
+                See the 
+                <a href = "https://www.deq.virginia.gov/our-programs/land-waste/land-remediation/brownfields">DEQ Brownfields website</a>
+                for further resources.
+              </div>
+        </div>
+      </div>
+    </div>
+
+    
+
   </modals>
 
     <div class="container">
@@ -285,81 +574,92 @@
               <div class="card-body">
                 <h5 class="card-title">Navigating the Virginia Solar Permit Map</h5>
                 <p class="card-text">
-                  The Virginia Permit Map is a central source of information for the solar permitting process in Virginia. The website is organized with a landing page to help the user determine which state permits are available for their project and detailed pages for each respective solar permit process and the interconnection process. 
-                  <b>For details on any step of any process, click on the respective box for further information.</b> Upon determining which state permit options are available, the user should click on the permit name to find the associated permit page. Permit-specific pages provide details of the entire permit process: Federal, 
-                  state, local requirements, and the interconnection map. 
+                  The Virginia Solar Permit Map is a central source of information for the solar permitting process in Virginia. The website is organized with a landing page to help the user determine which state permits are available for their project and detailed pages for each respective solar permit process and the interconnection process. 
+                  <b>For details on any step of any process, click on the respective box for further information.</b> Upon determining which state permit options are available, the user should click on the permit name to be taken to the associated permit page. Permit-specific pages provide details of the entire permit process: Federal, 
+                  state, and local requirements, and the interconnection map. 
                 </p>
                 <br>
                 <h6 class="card-subtitle mb-2 text-muted">Notes:</h6>
                   <ul>
-                    <li>Content on each page begins at the left and follows the applicable pathway towards the right</li>
-                    <li>For some permitting pathways, the user can choose the default SCC pathway or the alternative DEQ pathway</li>
-                    <li>From any page, the permit pages can be found under the <i>Process Maps</i> dropdown menu</li>
-                    <li>The interconnection map is linked from the <i>Interconnection</i> swimlane of each permit page and is accessible from the <i>Interconnections</i> tab</li>
-                    <li>A glossary of abbreviations is in the upper-left corner of each page</li>
+                    <li>Content begins on the left side of each page and proceeds towards the right, following the applicable pathway.</li>
+                    <li>For some permitting pathways, the user can choose the default SCC pathway or the alternative DEQ pathway.</li>
+                    <li>A glossary of abbreviations is accessible from the Menu.</li>
                   </ul>
               </div>
             </div>
 
+            <!-- added boxes -->
+
+
+
             <br>
             <div style="line-height: 75%"><br></div>
-            <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button>
+            <!-- <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button> -->
+            
+
+            
             <div class="container-scroll">
+
+              <div class ="box-header">
+                <div data-bs-toggle="modal" data-bs-target="#shared-solar-enrollment" class="btn btn-light project shared-projects">For Shared Solar projects, click here</div>
+                <div data-bs-toggle="modal" data-bs-target="#box2-agricultural-generators" class="btn btn-light project agricultural-generators">For Agricultural Generators, click here</div>
+                <div data-bs-toggle="modal" data-bs-target="#brownfield-box" class="btn btn-light project brownfields">For projects on Brownfields, click here</div>
+              </div>
+
               <div class="container-landing">
                 <div data-bs-toggle="modal" data-bs-target="#start-here" class="btn btn-light landing-best-describe">START</div>
 
-                <div data-bs-toggle="modal" data-bs-target="#nameplate-less-5-mw" class="btn btn-light project landing-5-mw"><b>Nameplate Capacity</b>:<br> &le; 5 MW</div>
+                <div data-bs-toggle="modal" data-bs-target="#nameplate-less-5-mw-test" class="btn btn-light project landing-5-mw"><b>Nameplate Capacity</b>:<br> &leq; 5 MW</div>
                 <div data-bs-toggle="modal" data-bs-target="#nameplate-greater-5-mw" class="btn btn-light project landing-5-100-mw"><b>Nameplate Capacity</b>:<br> &gt; 5 MW but &le; 100 MW</div>
                 <div data-bs-toggle="modal" data-bs-target="#nameplate-greater-100-mw" class="btn btn-light project landing-100-mw"><b>Nameplate Capacity</b>:<br> &gt; 100 MW</div>
 
-                <div data-bs-toggle="modal" data-bs-target="#alternative-2" class="btn btn-light process alternative-1"><b>Alternative Process</b>: DEQ</div>
+                <!-- <div data-bs-toggle="modal" data-bs-target="#alternative-2" class="btn btn-light process alternative-1"><b>Alternative Process</b>: DEQ</div>
                 <div data-bs-toggle="modal" data-bs-target="#alternative-3" class="btn btn-light process alternative-2"><b>Alternative Process</b>: DEQ</div>
-                <div data-bs-toggle="modal" data-bs-target="#alternative-3" class="btn btn-light process alternative-3"><b>Alternative Process</b>: DEQ</div>
-                <div data-bs-toggle="modal" data-bs-target="#alternative-4" class="btn btn-light process alternative-4"><b>Alternative Process</b>: DEQ</div>
+                <div data-bs-toggle="modal" data-bs-target="#alternative-3" class="btn btn-light process alternative-3"><b>Alternative Process</b>: DEQ</div> -->
+                <!-- <div data-bs-toggle="modal" data-bs-target="#alternative-4" class="btn btn-light process alternative-4"><b>Alternative Process</b>: DEQ</div> -->
 
                 <permit>
                   <img src="images/OffPage.png" class="landing-permit permit-1"></img>
-                  <a href="swim-lanes/noi-500-kw.html" class="txt landing-noi-500-kw">NOI to Construct an Electric <br>Generating Facility with <br>Rated Capacity of &#8804 5 MW</a>
+                  <a href="swim-lanes/noi-500-kw.html" class="txt landing-noi-500-kw">SCC NOI to Construct <br>an EGF with<br>Rated Capacity of &#8804 5 MW</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-2"></img>
-                  <a href="swim-lanes/exempt-130-permit.html" class="txt landing-exemption">Exemption from <br>Section 130 Permit</a>
+                  <a href="swim-lanes/exempt-130-permit.html" class="txt landing-exemption">Exemption from <br>DEQ Section 130 Permit</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-3"></img>
                   <a href="swim-lanes/deq-130-permit.html" class="txt landing-130-permit">DEQ Section 130 Permit</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-4"></img>
-                  <a href="swim-lanes/cpcn-5-mw.html" class="txt landing-5-100-mw-1">CPCN for Facilities <br>&gt; 5 MW but &le; 100 MW</a>
+                  <a href="swim-lanes/cpcn-5-mw.html" class="txt landing-5-100-mw-1">SCC CPCN for Facilities<br>&gt; 5 MW but &le; 100 MW</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-5"></img>
                   <a href="swim-lanes/deq-pbr.html" class="txt landing-pbr-1">DEQ Permit by Rule for <br>Small Solar Energy Projects</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-6"></img>
-                  <a href="swim-lanes/cpcn-5-mw.html" class="txt landing-5-100-mw-2">CPCN for Facilities <br>&gt; 5 MW but &le; 100 MW</a>
-    
-                  <img src="images/OffPage.png" class="landing-permit permit-7"></img>
-                  <a href="swim-lanes/deq-pbr.html" class="txt landing-pbr-2">DEQ Permit by Rule for <br>Small Solar Energy Projects</a>
+                  <a href="swim-lanes/cpcn-5-mw.html" class="txt landing-5-100-mw-2">SCC CPCN for Facilities<br>&gt; 5 MW but &le; 100 MW</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-8"></img>
-                  <a href="swim-lanes/cpcn-100-mw.html" class="txt landing-100-mw-1">CPCN for &gt 100 MW Facilities</a>
+                  <a href="swim-lanes/cpcn-100-mw.html" class="txt landing-100-mw-1">SCC CPCN for &gt 100 MW Facilities</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-9"></img>
                   <a href="swim-lanes/deq-pbr.html" class="txt landing-pbr-3">DEQ Permit by Rule for <br>Small Solar Energy Projects</a>
     
                   <img src="images/OffPage.png" class="landing-permit permit-10"></img>
-                  <a href="swim-lanes/cpcn-100-mw.html" class="txt landing-100-mw-2">CPCN for &gt 100 MW Facilities</a>
+                  <a href="swim-lanes/cpcn-100-mw.html" class="txt landing-100-mw-2">SCC CPCN for &gt 100 MW Facilities</a>
                 </permit>
 
                 <line>
                   <div class="line landline-1"></div>
                   <div class="line landline-2"></div>  
                   <div class="line landline-3"></div>  
-                  <div class="line landline-4"></div>  
+                  <div class="line landline-4"></div> 
                   <div class="line landline-5"></div>  
+                  
                   <div class="line landline-6"></div>
                   <div class="line landline-7"></div>
                   <div class="line landline-8"></div>
                   <div class="line landline-9"></div>
                   <div class="line landline-10"></div>
+
                   <div class="line landline-11"></div>
                   <div class="line landline-12"></div>
                   <div class="line landline-13"></div>
@@ -367,18 +667,31 @@
                   <div class="line landline-15"></div>
                   <div class="line landline-16"></div>
                   <div class="line landline-19"></div>
+                  
                   <div class="line landline-20"></div>
                   <div class="line landline-21"></div>
                   <div class="line landline-22"></div>
                   <div class="line landline-23"></div>
                   <div class="line landline-24"></div>
                   <div class="line landline-25"></div>
-                  <div class="line landline-26"></div>
+                  
+                  <div class="line landline-26"></div> 
                   <div class="line landline-27"></div>
-                  <div class="line landline-29"></div>
+
+                  <div class="line landline-29"></div> 
                   <div class="line landline-30"></div>
+
                   <div class="line landline-33"></div>
+                  <div class="line landline-33-2"></div>
+
                   <div class="line landline-34"></div>
+                  <div class="line landline-34-2"></div>
+                  <div class="line landline-34-3"></div>
+                  <div class="line landline-35"></div>
+                  <div class="line landline-36"></div>
+                  <div class="line landline-37"></div>
+
+
                 </line>
 
                 <div class="circle circle-1"></div>
@@ -387,10 +700,12 @@
                 <div class="circle circle-5"></div>
                 <div class="circle circle-6"></div>
                 <div class="circle circle-7"></div>
+                <div class="circle circle-8"></div>
+                <div class="circle circle-9"></div>
 
-                <div data-bs-toggle="modal" data-bs-target="#disturbance-2" class="btn btn-light project landing-2">&le; 500 kW and disturbance zone is &le; 10 acres</div>
-                <div data-bs-toggle="modal" data-bs-target="#disturbance-3" class="btn btn-light project landing-3">&gt; 500 kW but &le; 5 MW and disturbance zone is &le; 2 acres</div>
-                <div data-bs-toggle="modal" data-bs-target="#disturbance-4" class="btn btn-light project landing-4">&gt; 500 kW but &le; 5 MW and disturbance zone is &gt; 2 acres</div>
+                <div data-bs-toggle="modal" data-bs-target="#zone1" class="btn btn-light project landing-2">&le; 500 kW and disturbance zone is &le; 10 acres</div>
+                <div data-bs-toggle="modal" data-bs-target="#zone2" class="btn btn-light project landing-3">&gt; 500 kW but &le; 5 MW and disturbance zone is &le; 2 acres</div>
+                <div data-bs-toggle="modal" data-bs-target="#zone3" class="btn btn-light project landing-4">&gt; 500 kW but &le; 5 MW and disturbance zone is &gt; 2 acres</div>
 
                 <div data-bs-toggle="modal" data-bs-target="#title-56" class="btn txt landing-title-56-2">Is the project <br> associated with a <br> public service <br>company?</div>
                 <div class="decision landing-title-56-2"></div>
@@ -398,10 +713,10 @@
                 <div class="decision landing-150-mw"></div>
                 <div data-bs-toggle="modal" data-bs-target="#greater-150-mw" class="btn txt landing-150-mw">Is the project <br> &#8804 150 MW?</div>
 
-                <div data-bs-toggle="modal" data-bs-target="#title-56" class="btn txt landing-title-56">Is the utility<br> regulated pursuant<br> to Title 56?</div>
+                <div data-bs-toggle="modal" data-bs-target="#title-56" class="btn txt landing-title-56">Is the project <br> associated with a <br> public service <br>company?</div>
                 <div class="decision landing-title-56-1"></div>
 
-                <div data-bs-toggle="modal" data-bs-target="#landing-criteria" class="btn txt landing-criteria-1">Does it meet the <br>criteria in §10.1-1197.6 <br>I.1 or I.2 of the Code <br>of Virginia?</div>
+                <div data-bs-toggle="modal" data-bs-target="#landing-criteria" class="btn txt landing-criteria-1">Is the project <br>seeking cost<br>recovery?</div>
                 <div class="decision landing-criteria-1"></div>
                 
                 <div data-bs-toggle="modal" data-bs-target="#landing-criteria" class="btn txt landing-criteria-2">Is the project <br> seeking cost <br> recovery?</div>
@@ -426,7 +741,7 @@
               </div>
             </div>
 
-            <abbrev-list></abbrev-list>
+            <!-- <abbrev-list></abbrev-list> -->
           </div>
         
           <div class="col"></div>
@@ -436,7 +751,11 @@
     <br><br>
 
     <footer-></footer->
-
+    <script>
+      function hideBox() {
+        document.getElementById("box2-agricultural-generators").style.display = "none";
+      }
+    </script>
 </body>
 </html>
 

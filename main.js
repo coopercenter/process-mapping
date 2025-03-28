@@ -1,164 +1,107 @@
-class NavBar extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
-        <title>Solar Permit Map</title>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" href="../index.html">The Virginia Solar Permit Map</a></h2> 
-                <div class="collapse navbar-collapse">
-                    <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
-                </div>
-            </span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav h5">
-                <li class="nav-item px-2">
-                    <a href="index.html" class="nav-link"> Home </a>
-                </li>
-    
-                <li class="nav-item px-2">
-                    <a href="about.html" class="nav-link"> About </a>
-                </li>
-    
-                <li class="nav-item px-2">
-                    <a href="inter-map.html" class="nav-link"> Interconnections</a>
-                </li>
-    
-                <li class="nav-item dropdown px-2">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                                <a href="swim-lanes/exempt-130-permit.html" class="dropdown-item">
-                                    Exemption from DEQ Section 130 Permit
-                                </a>
-                            </li>
-    
-                            <li><hr class="dropdown-divider"></li>
-    
-                            <li>
-                                <a href="swim-lanes/deq-130-permit.html" class="dropdown-item">
-                                    DEQ Section 130 Permit
-                                </a>
-                            </li>
-    
-                            <li><hr class="dropdown-divider"></li>
-                
-                            <li>
-                                <a href="swim-lanes/noi-500-kw.html" class="dropdown-item">
-                                    SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
-                                </a>
-                            </li>
-    
-                            <li><hr class="dropdown-divider"></li>
-                
-                            <li>
-                                <a href="swim-lanes/deq-pbr.html" class="dropdown-item">
-                                    DEQ Permit by Rule for Small Solar Energy Project 
-                                </a>
-                            </li>
-    
-                            <li><hr class="dropdown-divider"></li>
-                
-                            <li>
-                                <a href="swim-lanes/cpcn-5-mw.html" class="dropdown-item">
-                                    SCC CPCN for Facilities &gt;5 MW to &le;100 MW
-                                </a>
-                            </li>
-    
-                            <li><hr class="dropdown-divider"></li>
-                
-                            <li>
-                                <a href="swim-lanes/cpcn-100-mw.html" class="dropdown-item">
-                                    SCC CPCN for Facilities &gt100 MW 
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-            `;
-    }
-}
-
 class SwimLaneNavBar extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
             <title>Solar Permit Map</title>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <span class="navbar-logo"> <h2> <a style="text-decoration: none; color: black;" ="../index.html">The Virginia Solar Permit Map</a></h2> 
-                        <div class="collapse navbar-collapse">
-                            <span class="d-md-block">An Interactive Map Detailing Permits Required for Solar Permits in Virginia</span>
-                        </div>
+                    <!-- Logo Section -->
+                    <span class="navbar-logo">
+                        <h2>
+                            <a style="text-decoration: none; color: black;" href="../index.html">
+                                The Virginia Solar Permit Map
+                            </a>
+                        </h2>
                     </span>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav h5">
-                        <li class="nav-item px-2">
-                            <a href="../index.html" class="nav-link"> Home </a>
-                        </li>
-            
-                        <li class="nav-item px-2">
-                            <a href="../about.html" class="nav-link"> About </a>
-                        </li>
-            
-                        <li class="nav-item px-2">
-                            <a href="../inter-map.html" class="nav-link"> Interconnections</a>
-                        </li>
-            
-                        <li class="nav-item dropdown px-2">
-                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"> Permit Maps </a>
+                    
+                    <!-- Toggler Button for Mobile View -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar Links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav h5 ms-auto">
+                            <li class="nav-item px-2">
+                                <a href="../index.html" class="nav-link">Home</a>
+                            </li>
+
+                            <!-- Interconnection Dropdown -->
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Interconnection
+                                </a>
                                 <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a href="../inter-landing.html" class="dropdown-item">Interconnections Home</a></li>
+                                    <li><a href="../inter-scc-map.html" class="dropdown-item">SCC</a></li>
+                                    <li><a href="../inter-pjm-map.html" class="dropdown-item">PJM</a></li>
+                                </ul>
+                            </li>
+
+                            <!-- Permit Maps Dropdown -->
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Permit Maps
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+
+                                <li>
+                                    <a href="/swim-lanes/exempt-130-permit.html" class="dropdown-item">
+                                        Exemption from DEQ Section 130 Permit
+                                    </a>
+                                </li>
+        
+                                <li><hr class="dropdown-divider"></li>
+        
+                                <li>
+                                    <a href="/swim-lanes/deq-130-permit.html" class="dropdown-item">
+                                        DEQ Section 130 Permit
+                                    </a>
+                                </li>
+        
+                                <li><hr class="dropdown-divider"></li>
+                    
+                                <li>
+                                    <a href="/swim-lanes/noi-500-kw.html" class="dropdown-item">
+                                        SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
+                                    </a>
+                                </li>
+        
+                                <li><hr class="dropdown-divider"></li>
+                    
+                                <li>
+                                    <a href="/swim-lanes/deq-pbr.html" class="dropdown-item">
+                                        DEQ Permit by Rule for Small Solar Energy Project 
+                                    </a>
+                                </li>
+        
+                                <li><hr class="dropdown-divider"></li>
+                    
+                                <li>
+                                    <a href="/swim-lanes/cpcn-5-mw.html" class="dropdown-item">
+                                        SCC CPCN for Facilities &gt;5 MW to &le;100 MW
+                                    </a>
+                                </li>
+        
+                                <li><hr class="dropdown-divider"></li>
+                    
+                                <li>
+                                    <a href="/swim-lanes/cpcn-100-mw.html" class="dropdown-item">
+                                        SCC CPCN for Facilities &gt100 MW 
+                                    </a>
+                                </li>
+
+                                </ul>
+                            </li>
+
+                            <!-- Menu Dropdown -->
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                    <li><a href="../about.html" class="dropdown-item">About</a></li>
                                     <li>
-                                        <a href="exempt-130-permit.html" class="dropdown-item">
-                                            Exemption from DEQ Section 130 Permit
-                                        </a>
-                                    </li>
-            
-                                    <li><hr class="dropdown-divider"></li>
-            
-                                    <li>
-                                        <a href="deq-130-permit.html" class="dropdown-item">
-                                            DEQ Section 130 Permit
-                                        </a>
-                                    </li>
-            
-                                    <li><hr class="dropdown-divider"></li>
-                        
-                                    <li>
-                                        <a href="noi-500-kw.html" class="dropdown-item">
-                                            SCC NOI to Construct an EGF with Rated Capacity of &le;5 MW
-                                        </a>
-                                    </li>
-            
-                                    <li><hr class="dropdown-divider"></li>
-                        
-                                    <li>
-                                        <a href="deq-pbr.html" class="dropdown-item">
-                                            DEQ Permit by Rule for Small Solar Energy Project 
-                                        </a>
-                                    </li>
-            
-                                    <li><hr class="dropdown-divider"></li>
-                        
-                                    <li>
-                                        <a href="cpcn-5-mw.html" class="dropdown-item">
-                                            SCC CPCN for Facilities &gt;5 MW to &le;100 MW
-                                        </a>
-                                    </li>
-            
-                                    <li><hr class="dropdown-divider"></li>
-                        
-                                    <li>
-                                        <a href="cpcn-100-mw.html" class="dropdown-item">
-                                            SCC CPCN for Facilities &gt100 MW 
-                                        </a>
+                                        <button class="btn btn-light dropdown-item" data-bs-toggle="modal" data-bs-target="#abbrev-modal">Abbreviations</button>
                                     </li>
                                 </ul>
                             </li>
@@ -166,9 +109,11 @@ class SwimLaneNavBar extends HTMLElement {
                     </div>
                 </div>
             </nav>
-            `;
+        `;
     }
 }
+    
+
 
 class Abbrev extends HTMLElement {
     connectedCallback() {
@@ -199,6 +144,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> CWA </th>
                         <td> Clean Water Act </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> CMP </th>
+                        <td> Coastal Management Program </td>
                     </tr>
 
                     <tr>
@@ -252,6 +202,11 @@ class Abbrev extends HTMLElement {
                     </tr>
 
                     <tr>
+                        <th scope="row"> ESA </th>
+                        <td> Endangered Species Act of 1973 </td>
+                    </tr>
+
+                    <tr>
                         <th scope="row"> FAA </th>
                         <td> Federal Aviation Administration </td>
                     </tr>
@@ -264,6 +219,11 @@ class Abbrev extends HTMLElement {
                     <tr>
                         <th scope="row"> FWS </th>
                         <td> United States Fish and Wildlife Service </td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row"> HCP </th>
+                        <td> Habitat Conservation Plan </td>
                     </tr>
 
                     <tr>
@@ -320,6 +280,12 @@ class Abbrev extends HTMLElement {
                         <th scope="row"> NERC </th>
                         <td> North American Electric Reliability Commission </td>
                     </tr>
+
+                    <tr>
+                        <th scope="row"> OEIR </th>
+                        <td> DEQ's Office of Environmental Impact Review </td>
+                    </tr>
+
 
                     <tr>
                         <th scope="row"> PBR </th>
@@ -398,7 +364,7 @@ class Abbrev extends HTMLElement {
 
                     <tr>
                         <th scope="row"> VWP </th>
-                        <td> Virginia Water Protection </td>
+                        <td> Virginia Water Protection Program</td>
                     </tr>
 
                     <tr>
@@ -447,7 +413,11 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Federal consistency is compliance with federal laws. After local and state permitting, the developer returns to USACE to initiate federal compliance and permitting. This involves obtaining the necessary permits to meet the reqirements of Section 401 of the Clean Water Act, Section 404 of the Clean Water Act, and the CZMA, among others.
+                            After local and state permitting, the developer returns to USACE to initiate federal compliance and permitting. This involves obtaining the necessary permits to meet the reqirements of Section 401 of the Clean Water Act, Section 404 of the Clean Water Act, and the CZMA, among others.
+                            <br><br>
+                            For the CZMA, compliance with federal laws is labeled "federal consistency." Under <a href = "https://coast.noaa.gov/czm/act/sections/#307">U.S.C. § 1456 (Section 307) of the CZMA</a>, federal agency acitvities 
+                            // that have coastal effects are required to be consistent to the maximum extent with the policies of the federally approved state coastal management 
+                            // program (CMP). Non-federal applicants for federal authorizations and funding must also follow federal consistency. DEQ coordinates Virginia's federally approved CMP and federal consistency reviews.
                         </div>
                     </div>
                 </div>
@@ -462,7 +432,7 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA</a>,“The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77" target="_blank">CFR Title 14 Part 77.9</a>.” <br><br>
+                            Per the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA</a>, “The requirements for filing with the Federal Aviation Administration for proposed structures vary based on a number of factors: height, proximity to an airport, location, and frequencies emitted from the structure, etc. For more details, please reference <a href="https://www.ecfr.gov/current/title-14/chapter-I/subchapter-E/part-77" target="_blank">CFR Title 14 Part 77.9</a>.” <br><br>
 
                             Use the <a href="https://oeaaa.faa.gov/oeaaa/external/gisTools/gisAction.jsp?action=showNoNoticeRequiredToolForm" target="_blank">FAA Notice Criteria Tool</a> as a quick first step to determine whether your proposed project is required to file with the FAA. If filing with the FAA is required, it must be completed at least 45 days prior to construction.
                         </div>
@@ -494,14 +464,18 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. *Note that as of May 2024, this process is undergoing changes. The new process will require USACE permit applications to be submitted through the <a href="https://rrs.usace.army.mil/rrs" target="_blank">Regulatory Request System</a>. This will route the application to necessary agencies and individuals with greater efficiency. <br><br>
-
+                            The JPA allows developers to simultaneously submit requirements for Sections 401 and 404 of the Clean Water Act. Submit the Joint Permit Application (JPA) to fulfill requirements for federal consistency. VMRC receives and registers the submission, and routes it to USACE. 
+                            *Note that this process has undergone changes in 2024. The new process requires USACE permit applications to be submitted through the <a href = "https://rrs.usace.army.mil/rrs">Regulatory Request System (RRS)</a>. This will route the application to necessary agencies and individuals with greater efficiency. The RRS is currently in use under a beta version.
+                            
+                            <br><br>
                             The associated permit is issued under 22-SPGP-RCIR. Follow the <a href="https://ris.dls.virginia.gov/uploads/9VAC25/forms/33ffb005797~5t.pdf" target="_blank">Joint Permit Application (JPA) Process</a>. The JPA is a single form used to apply for separate permits from the USACE, the VA DEQ, the Virginia Marine Resources Commission (VA MRC), and/or Local Wetlands Boards. Permitting purposes involve tidal and/or non-tidal water, tidal and/or non-tidal wetlands, and/or dune/beach resources – including, but not limited to, construction, dredging, filling, or excavation. Contact information can be found on the linked application materials. <br><br>
 
                             <div class="card" style="width: 760px;">
                                 <div class="card-body">
                                     <h6 class="card-title">Section 401</h6>
                                     <p class="card-text">
+                                        <a href = "https://www.epa.gov/cwa-401/overview-cwa-section-401-certification">Section 401 of the CWA</a> provides states and authorized tribes with an important tool to help protect the water quality of federally regulated waters within their borders, in collaboration with federal agencies. Section 401 requires that, for any federally licensed or permitted project that may result in a discharge into waters of the United States, a water quality certification be issued to ensure that the discharge complies with the applicable water quality requirements. 
+                                        <br><br>
                                         In Virginia, local jursidction falls under VWP permit regulations (As laid out in <a href="https://law.lis.virginia.gov/vacode/62.1-44.15:20/" target="_blank">§62.1-44.15:20</a> of the Code of Virginia). The Section 401 checklist is submitted on the JPA application via the DEQ. VWP then executes the 401, which is later delegated to the DEQ to review. The 401 is linked to the Coastal Zone Management Act (CZMA). In certain counties, the CZMA process will be triggered, otherwise CZMA reviews are included in the state 401 permit. Check with your locality to see whether your area falls under a CZMA review area. Note that there may be special conditions on the 401, dependent on project siting and other specifics. This varies project to project and will be stipulated by USACE during the review process.
                                     </p>
                                 </div>
@@ -548,7 +522,34 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            If the project is subject to any of the following requirements, the associated permit(s) must be obtained from the U.S. Fish and Wildlife Service (Service), with responsibility delegated to the VA DEQ.
+                            <p>The Service recommends that for projects that necessitate compliance with the Endangered Species Act of 1973 (ESA), applicants seeking to obtain a required permit should complete this online review process prior to contacting their office, with responsibility delegated to the VA DEQ.</p>
+    
+                            <p>This iterative six-step process will guide the applicant as to whether or not their proposed project needs to be submitted to the Service’s office for approval. Upon making appropriate ESA Section 7 determinations, projects fall into three categories:</p>
+                            
+                            <ol>
+                                <li>
+                                    If applicant reaches no effect determinations for all species and critical habitat, they must:
+                                    <ul>
+                                        <li>Print a <a href="https://www.fws.gov/media/online-project-review-certification-letter-virginiaversion-40" target="_blank">Self-Certification Letter</a> to keep for record.</li>
+                                        <li>The applicant does not need to submit to their office.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    If applicant reaches a not likely to adversely affect and/or no effect determination for all species and critical habitat, they must:
+                                    <ul>
+                                        <li>Submit a Self-Certification Letter AND project package to their office.</li>
+                                        <li>See necessary instructions on the <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">online review process page</a>.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    If applicant reaches a likely to adversely affect determination for any species or critical habitat:
+                                    <ul>
+                                        <li>See necessary instructions on the <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">online review process page</a>.</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            
+                            <p>If this online process deems that the applicant is required to submit a project review package to the Service’s office, they should be submitted electronically to <a href="mailto:virginiafieldoffice@fws.gov">virginiafieldoffice@fws.gov</a>, with the subject line “Review Request Letter” or “Self-Certification Letter” followed by the project name.</p>
                         </div>
                     </div>
                 </div>
@@ -563,15 +564,15 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants. When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
-
+                            <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
+                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                            <br><br>
+                            When non-Federal parties plan to interact with ecosystems containing such species, it is required by <a href='https://www.fws.gov/laws/endangered-species-act/section-10' target="_blank">Section 10(a)(2)(A)</a> of the Act to develop a Habitat Conservation Plan (HCP). HCPs must meet the permit issuance criteria of section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(2)(B)</a> of the Endangered Species Act. HCPs can also include conservation measures for vulnerable plant and animal species that are not listed federally as endangered or threatened.
                             <br><br> The habitat conservation plan associated with the permit ensures that the effects of the authorized incidental take are adequately minimized and mitigated.
                             
                             <br><br>According to the <a href='https://www.fws.gov/service/habitat-conservation-plans' target="_blank">Service</a>:
                             "A Habitat Conservation Plan (HCP) is a planning document designed to accommodate economic development to the extent possible by authorizing the limited and unintentional take of listed species when it occurs incidental to otherwise lawful activities. The plan is designed not only to help landowners and communities but also to provide long-term benefits to species and their habitats. HCPs describe the anticipated effects of the proposed taking, how those impacts will be minimized or mitigated, and how the conservation measures included in the plan will be funded."
-                            
-                            <br><br> <i>Before drafting the HCP, it is strongly recommended to consult with the local field office of the Service to determine whether the HCP meets the respective policy and incidental take permit issuance criteria. Find your local field office <a href='https://www.fws.gov/our-facilities?state_name=%5B%22Virginia%22%5D' target="_blank">here<a>. 
-                            Check for existing HCPs that individual landowners can join – programmatic HCPs – before drafting your own. Programmatic HCPs are often county- or even region-wide.</i>
+                        
                         </div>
                     </div>
                 </div>
@@ -586,9 +587,32 @@ class FederalReview extends HTMLElement {
                         </div>
 
                         <div class="modal-body">
-                            An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">10(a)(1)(B)</a> incidental take permit issuance criteria, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.
+                            <p>An incidental take permit is required if otherwise lawful activities may unintentionally result in any "take" of endangered or threatened animal species. A completed Habitat Conservation Plan (HCP) must accompany any application for an incidental take permit. If the Service finds that an HCP meets the Endangered Species Act section 10(a)(1)(B) <a href="https://www.fws.gov/laws/endangered-species-act/section-10" target="_blank">incidental take permit issuance criteria</a>, they will unlock the incidental take permit application. The applicant must then submit the completed incidental take permit (with the associated HCP) to the Service.</p>
+                                
+                                <p>The offices of Virginia Ecological Services review preliminary information through an online project review process, <a href="https://www.fws.gov/office/virginia-ecological-services/virginia-field-office-online-review-process" target="_blank">Virginia Field Office Online Review Process</a>, in which the Service will provide input on whether or not take of a listed species is reasonably certain to occur and offer recommendations for ways to avoid take.</p>
+                                
+                                <p>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="esa-section-7" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"> ESA Section 7 (Federal Agencies)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
 
-                            <br><br>See <a href="https://www.fws.gov/service/habitat-conservation-plans" target="_blank">here</a> for further information on HCPs and associated incidental take permits.
+                        <div class="modal-body">
+                            <p>The Endangered Species Act provides for the protection of endangered and threatened species of wildlife and plants, and directs all federal agencies to participate in conserving these species. Per the Service, <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">Section 7(a)(1)</a> of the ESA charges federal agencies to aid in the conservation of listed species, and <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">Section 7(a)(2)</a> requires the agencies to ensure their activities will not negatively impact the continued existence of federally listed species or destroy critical habitats.</p>
+                            
+                            <p>Section 7 of the ESA requires that federal agencies consult with the Service when any proposed project or action they authorize, fund, or carry out may affect a listed species or designated critical habitat. The consultation process can vary depending on the complexity of the project. To see the necessary steps in this process, visit the <a href="https://www.fws.gov/service/esa-section-7-consultation" target="_blank">consultation page</a>.</p>
+                            
+                            <p>The Service has 45 days after completion of formal consultation to write a final biological opinion, which will state whether the federal agency has ensured that its action is not likely to jeopardize the continued existence of a listed species and/or result in the destruction or adverse modification of critical habitat.</p>
+                            
+                            <p>Federal agencies beginning the Section 7 consultation process should consult with their nearest Ecological Services office, which can be found through this <a href="https://www.fws.gov/our-facilities" target="_blank">link</a>.</p>
                         </div>
                     </div>
                 </div>
@@ -825,6 +849,7 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
+
         <div class="modal fade" id="deq-plans" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -887,8 +912,8 @@ class DEQ extends HTMLElement{
 
                     <br><br>Courtesy reviews by DWR, DCR, and DHR are necessary prior to applying for this permit. Note that the DHR permit must be submitted no less than 30 days prior to the start date of the project.<br><br>
 
-                    Timeline: The stormwater review process is most often initiated after the PBR is issued. The PBR includes a list of all other required permits, to which the developer must sign that they will receive them. 
-                    
+                    Timeline: The stormwater review process is most often initiated after the permit is issued.              
+
                     <br><br><i>Projects may be subject to either local or VA DEQ VSMP authority. Check to see which is the case at the project location. The VA DEQ VSMP permit is only for those directly regulated under the VA DEQ authority. If local governments have the permitting authority, regulations for local SWPPP may differ from VA DEQ SWPPP. If the project is within the Chesapeake Bay Preservation Areas (CBPs), localities are required to have local regulations to protect water quality for the Chesapeake Bay.</i>
                     </div>
                 </div>
@@ -909,6 +934,7 @@ class DEQ extends HTMLElement{
                 </div>
             </div>
         </div>
+
 
         <div class="modal fade" id="application-pbr" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
@@ -986,24 +1012,24 @@ class DEQ extends HTMLElement{
                     </div>
 
                     <div class="modal-body">
-                        Rule making is in progress. See the <a href="https://www.townhall.virginia.gov/L/ListBoards.cfm" target="_blank">Virginia Town Hall</a> for up-to-date information. Rules will be promulgated by the end of 2024.
+                        Rule making is in progress. See the <a href="https://www.deq.virginia.gov/our-programs/air/renewable-energy/hb-206-renewable-energy-natural-resources" target="_blank">DEQ HB206 Page</a> for up-to-date information.
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-130-permit" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        The following coordinated reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
                         <br><br>
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>                    
                     </div>
                 </div>
             </div>
@@ -1013,52 +1039,56 @@ class DEQ extends HTMLElement{
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews for the VA DEQ PBR process are facilitated by the VA DEQ, coordinated with applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
+                        The following courtesy reviews are facilitated by the DEQ Office of Renewable Energy, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans. Application Certification of completion of these courtesy reviews is a necessary component of the PBR application. According to <a href="https://law.lis.virginia.gov/vacode/10.1-1197.6/" target="_blank">§ 10.1-1197.6-12B</a>, a component of the PBR application is a certification by the applicant that they have applied for or obtained these permits. <br><br>
 
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
+                        <i>These three coordinated reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister-cpcn" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-5-100" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.<br><br>
-
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i><br><br>
-                    
-                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW). See <a href="https://law.lis.virginia.gov/admincodefull/title20/agency5/chapter302/" target="blank_">20VAC5-302-25, 11</a>.
-                    </div>
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        <br>
+                        <br>
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES). </i>
+                        <br>
+                        <br>
+                        Submit information required for environmental reviews per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).                    
+                        </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade" id="deq-sister-100" tabindex="-1" role="dialog">
+        <div class="modal fade" id="deq-sister-greater-100" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="title">DEQ Office of Environmental Impact and Courtesy Sister Agency Review Process</h5>
+                        <h5 class="modal-title" id="title">DEQ Office of Renewable Energy and Coordinated Review Process</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
 
                     <div class="modal-body">
-                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by four state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.<br><br>
-
-                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i><br><br>
-                    
-                        Submit simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (Renewable Energy > 100MW). See <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section20/" target="blank_">20VAC5-302-20.12</a>.
+                        The following courtesy reviews are facilitated by the VA DEQ, coordinated with the applicant, and conducted by three state agencies. These reviews identify impacts to natural resources of state importance, likely significant adverse impacts, and mitigation plans.
+                        <br>
+                        <br>
+                        <i>These three courtesy reviews are required to be completed prior to submitting the application for the General Construction Stormwater Permit (VPDES).</i> 
+                        <br>
+                        <br>
+                        Submit information required for environmental reviews per <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).                    
                     </div>
                 </div>
             </div>
@@ -1087,6 +1117,22 @@ class DEQ extends HTMLElement{
             </div>
         </div>
 
+        <div class="modal fade" id="deq-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"> DEQ Office of Renewable Energy </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">    
+                        <p>DEQ's Office of Environmental Impact Review (OEIR) <a href="https://www.deq.virginia.gov/our-programs/environmental-impact-review" target="_blank">coordinates SCC environmental reports</a> for solar projects. Staff "distribute documents to state agencies, planning districts and localities for consideration and comment. State review of environmental planning documents identifies environmental impacts early in the project planning process and often identifies alternatives that may reduce or eliminate environmental impacts. Once all comments are taken into consideration, a single state response is created by DEQ."</p>
+        
+                        <p>Submit information required for environmental review per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25.11</a> to the DEQ OEIR simultaneously with the SCC Authority to Construct and Operate an Electric Generating Facility (5MW-100MW).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="dhr-modal" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -1249,7 +1295,7 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the Generation Interconnection Agreement. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
+                    Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval. Per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1</a>, the GIA must be "executed by the Project Developer, the Transmission Owner, and PJM. The GIA defines the obligations of the Project Developer regarding cost responsibility for any required system upgrades. The GIA also confers the rights associated with the interconnection of a Generating Facility as a Capacity Resource and any operational restrictions or other limitations on which those rights depend. <br><br>
 
                     For Transmission Project Developers, the GIA confers transmission injection and withdrawal rights (Merchant Direct Current and/or Fully Controllable Alternating Current transmission projects) and applicable incremental delivery rights and Incremental Auction Revenue Rights.<br><br>
                     
@@ -1258,6 +1304,225 @@ class Interconnections extends HTMLElement {
                     The standard terms and conditions of construction are included in the GIA. The terms and conditions address the following: Project scope; construction responsibilities of the parties; ownership of Transmission Owner and Project Developer Interconnection Facilities; schedule of major construction work; and etails on how the construction will be performed. However, per <a href="https://www.pjm.com/-/media/documents/manuals/m14h.ashx" target="_blank">PJM Manual 14H Section 8.5.1.4</a>, "in cases in which there are multiple affected Transmission Owners, a separate stand-alone Construction Service Agreement (CSA) located in Tariff Part IX, Subpart J, will be executed with each such Transmission Owner."<br><br>
                     
                     This GIA is a prerequisite to the issuance of the permit. 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="applicable-inter-short" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive Applicable Interconnection Approval</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="applicable-inter-pbr" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive Applicable Interconnection Approval</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        Upon completion of the applicable interconnection pathway, the utility provides the IC with the appropriate interconnection approval.
+                        <br>
+                        <br>
+                        <i>Application for the final interconnection approval is a prerequisite for the PBR.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="wmpa" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Receive WMPA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Per <a href ="https://www.pjm.com/-/media/documents/manuals/m14h.ashx">PJM Manual 14H Section 8.5.5</a>, "Project Developers interconnecting to non-FERC jurisdictional 
+                        facilities who intend to participate in the PJM wholesale market will receive a three party agreement known as a WMPA. The WMPA is essentially a GIA without 
+                        interconnection provisions, and facilitates the wholesale sale of MWs from such facilities."
+                    </div>
+                </div>
+            </div>l
+        </div>
+        <div class="modal fade" id="shared-solar-enrollment" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">For Shared Solar Program Enrollment</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class ="modal-body">
+                        <i>An executed interconnection agreement is necessary to apply for participation in the Shared Solar program or Multi-Family Shared Solar program. Continue reading for further information on these programs.</i>
+                        <br>
+                        <br>
+                        In 2020, Virginia passed laws to create community solar programs, aimed at expanding access to
+                        clean energy options for residents of Virginia. Without needing to install solar options
+                        themselves, many community members now have the opportunity to access solar energy. The
+                        “shared solar” program has two parts – the Shared Solar Program and the Multi-Family Shared
+                        Solar Program. Per the <a href = "https://energy.virginia.gov/renewableenergy/SS_CS.html">Virginia Department of Energy</a>, “the Shared Solar Program [provides] customers of Dominion Energy
+                        Virginia the opportunity to participate in offsite, or front-of-meter (virtual) shared solar projects,
+                        while the Multi-Family Shared Solar Program provides eligible multi-family customers of
+                        Dominion Energy and Kentucky Utilities (Old Dominion Power) the opportunity to participate in
+                        onsite, or behind-the-meter solar projects.” Appalachian Power is in the process of joining the
+                        Shared Solar Program. Many electric cooperatives are also offering community solar programs,
+                        though structured and regulated apart from “shared solar.” 
+                    </div>
+                    <div class = "solar-enrollment-extensions">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#shared-solar-modal">
+                            Click for Shared Solar Information
+                        </button>
+
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#family-solar-modal">
+                            Click for Multi-Family Shared Solar Information
+                        </button>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="shared-solar-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Shared Solar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        The Shared Solar Program allows customers of Dominion Energy Virginia and Appalachian 
+                        Power to purchase electric power through a subscription in a shared solar facility. Subscribers 
+                        pay a minimum bill to cover the costs of the infrastructure and distribution services, and then 
+                        receive a credit on their monthly electric bill proportional to the output of the shared solar facility 
+                        attributable to that subscriber.
+
+                        <br>
+                        <br>
+
+                        Section <a href =  "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3">§ 56-594.3</a>  of the 
+                        Code of Virginia defines a “shared solar facility” as a facility that:
+                        “Generates electricity by means of a solar photovoltaic device with a nameplate capacity rating 
+                        that does not exceed 5,000 kilowatts of alternating current; … has at least three subscribers; has 
+                        at least 40 percent of its capacity subscribed by customers with subscriptions of 25 kilowatts or 
+                        less; and is located on a single parcel of land.” If following a Phase II utility program (Dominion 
+                        Virginia), the shared solar facility must be interconnected with a Phase II Utility’s distribution 
+                        system within the Commonwealth. If following a Phase I utility program (Appalachian Power), 
+                        the shared solar facility must be “interconnected with the distribution system of an investor owned electric utility within the Commonwealth” ( <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/">§ 56-594.4</a>).
+                        
+                        <br>
+                        <br>
+
+                        Dominion Energy Virginia has participated in the Shared Solar Program since its establishment
+                        in 2020. Information on Dominion’s shared solar projects can be found <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/shared-solar-program">here</a>. See <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.3/">§ 56-594.3 </a> for shared
+                        solar details with regards to Dominion Virginia (a Phase II utility).                    
+                        
+                        <br>
+                        <br>
+
+                        Per <a href = "https://legacylis.virginia.gov/cgi-bin/legp604.exe?241+sum+HB108">HB 108</a> of the 2024
+                        legislative session, Appalachian Power will join Dominion Virginia in the Shared Solar Program.
+                        Appalachian Power must provide tariff and agreement information and other related 
+                        requirements by July 1, 2025. It is unclear when customers will be able to subscribe. Check 
+                        <a href = "https://www.appalachianpower.com">Appalachian Power</a> for updates. See
+                        <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-594.4/"> § 56-594.4</a> for shared solar details
+                        with regards to Appalachian Power (a Phase I utility)                   
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="family-solar-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Multi-Family Shared Solar</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    The Multi-Family Shared Solar Program allows eligible multi-family customers of Dominion
+                    Energy Virginia and Old Dominion Power (ODP) to purchase subscriptions in a shared solar
+                    facility. Such customers will receive a credit on their monthly electric bill proportional to the
+                    output of the shared solar facility attributable to that subscriber.
+
+                    <br>
+                    <br>
+                    The Multi-Family Shared Solar Program is established in Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/">§ 56-585.1:12</a> of the Code of Virginia.
+                    Rules governing the program can be found in <a href = "https://law.lis.virginia.gov/admincode/title20/agency5/chapter342/">Chapter 342 of the Virginia Administrative Code</a>. 
+
+                    <br>
+                    <br>
+                    Section <a href = "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1:12/"> Section § 56-585.1:12</a>  of the Code of Virginia defines a “shared solar facility” for the Multi-Family Shared Solar
+                    Program as a facility that:
+                    <br>
+                    “1. Generates electricity by means of a solar photovoltaic device with a nameplate capacity
+                    rating that does not exceed 3,000 kW alternating current at any single location or that does not
+                    exceed 5,000 kW alternating current at contiguous locations owned by the same entity or
+                    affiliated entities;
+                    <br>
+                    2. Is operated pursuant to a program whereby at least three subscribers receive a bill credit for
+                    the electricity generated from the facility in proportion to the size of their subscription;
+                    <br>
+                    3. Is located in the service territory of an investor-owned utility;
+                    <br>
+                    4. Is connected to the electric distribution grid serving the Commonwealth; and
+                    <br>
+                    5. Is located on a parcel of land on the premises of the multi-family utility customer or adjacent
+                    thereto.”
+                    <br>
+                    <br>
+                    See details of Dominion Virginia's program on <a href = "https://www.dominionenergy.com/virginia/renewable-energy-programs/multi-family-sharedsolar">Dominion's website</a>. For Old Dominion Power Company, see <a href = "https://lge-ku.com/virginia-solar">ODP's website</a> for details.
+
+
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="small-generators" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Queue Window</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Regulations surrounding queue numbers are established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a>.
+                        <br><br>
+                        Interconnection requests are assigned a queue number "based upon the date-stamp and time-stamp of receipt of a completed Interconnection Request Form by the utility." An Interconnection Request Form that is received earlier than another request shall be assigned a lower numerical queue number. Projects are studied in numerical order from low to high, except in the case of interdependent projects.
+                        <br><br>
+                        If the utility makes a preliminary determination that the SGF does not create an interdependency, follow straight to the Level 2 study process in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/" target="_blank">20VAC5-314-60</a>. If a dependency is determined, see <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a> for further details.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="eligible-generators" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Queue Window</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        Regulations surrounding queue numbers are established in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a>.
+                        <br><br>
+                        Interconnection requests are assigned a queue number "based upon the date-stamp and time-stamp of receipt of a completed Interconnection Request Form by the utility." An Interconnection Request Form that is received earlier than another request shall be assigned a lower numerical queue number. Projects are studied in numerical order from low to high, except in the case of interdependent projects.
+                        <br><br>
+                        If the utility makes a preliminary determination that the SGF does not create an interdependency, follow straight to the Level 2 study process in <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section60/" target="_blank">20VAC5-314-60</a>. If a dependency is determined, see <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter314/section38/" target="_blank">20VAC5-314-38</a> for further details.
                     </div>
                 </div>
             </div>
@@ -1307,7 +1572,25 @@ class Interconnections extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                        For projects seeking to interconnect with the utility, it is a best practice for the utility to host an introductory call with the developer before beginning the interconnection permitting process. This call will help to identify which permitting pathway the utility will require for the proposed project, in addition to other notifications.
+                        For projects seeking to interconnect with the utility, it is a best practice for the utility to host an introductory call with the developer before beginning the interconnection process. This call will help to identify which permitting pathway the utility will require for the proposed project, in addition to other notifications.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="trip-determination-modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title"><i>Best Practice</i>: Send application to transmission owner for transfer trip determination</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        As soon as possible, send the transmission owner a copy of the interconnection application to request a determination on whether transfer trip is needed. Costs are not provided until the Facilities Study. This is the only thing that the transmission owner, as an Affected System, will do until they receive the results of the Impact Study. If applying through a cooperative, the cooperative will contact the transmission owner as soon as they receive the aplication.
+                        <br>
+                        <br>
+                        Note on the costs of transfer trip: Transfer trip is a possible requirement for which attention should be called to as it can be a costly component of the interconnection application process, so much so that it is driving many small projects out of existence. Transfer trip requires the use of fiber lines to send a trip signal to halt substation activity in the case of a disruption. Most often the requirement is for dark fiber, or fiber that is not simultaneously being used for anything else. In many cases, new fiber lines must be installed to meet transfer trip. It is especially difficult to get fiber from the deliver point (substation) to the solar site. If transfer trip is required, the utility must provide a way to make this happen. However, this process is generally very costly, in turn driving small projects out of business or forcing them to relocate the project closer to the substation.
                     </div>
                 </div>
             </div>
@@ -1669,6 +1952,46 @@ class Localities extends HTMLElement {
                         </div>
                     </div>
             </div>
+            <div class="modal fade" id="local-meetings" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Pre-Application Meetings, Community Meetings and Public Engagement</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                                <div class="modal-body">
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Pre-Application Meetings</h6>
+                                    <p class="card-text"> Pre-application meetings are coordinated with the locality before submitting the permit application. Requirements differ depending on the locality.</p>
+                                </div>
+                                </div>
+        
+                                <br>
+        
+                                <div class="card" style="width: 760px;">
+                                <div class="card-body">
+                                    <h6 class="card-title">Community Meetings and Public Engagement</h6>
+                                    <p class="card-text">The applicant hosts community meetings and public engagements as requested or required by the locality. Such engagements with the community can take place before, during, and/or after the application is submitted.</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="modal fade" id="scc-notify" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="title">Best practice: developer notifies the locality before or at the same time as submitting Letter to the SCC</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                                <div class="modal-body">
+                                    It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before or at the same time as submitting the Letter to the Director of the Divsion of Energy Regulation. The purpose of this practice is to ensure the locality is aware of the proposal at the same time as the state.
+                            </div>
+                        </div>
+                    </div>
+            </div>
 
             <div class="modal fade" id="same-time-notify" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
@@ -1684,6 +2007,35 @@ class Localities extends HTMLElement {
                     </div>
                 </div>
             </div>
+            <div class="modal fade" id="same-time-notify-130" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title"><i>Best Practice</i>: Developer notifies the locality before or at the same time as submitting the NOI to the DEQ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            It is encouraged that the developer apply for local certification (begin the process of completing local certification requirements) before or at the same time as submitting the NOI to the DEQ. <i>The purpose of this practice is to ensure the localilty is aware of the proposal at the same time as the state.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="developer-issues-noi" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Developer issues NOI to locality to initiate siting agreement negotiation pursuant to Code of Virginia 15.2-2316.7</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            Per <a href = https://law.lis.virginia.gov/vacodefull/title15.2/chapter22/article7.3/>Code of Virginia 15.2-2316.7</a>, any solar project applicant must notify the locality of the intent to locate in the locality and request a meeting.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
             <div class="modal fade" id="same-time" tabindex="-1" role="dialog">
                 <div class="modal-dialog modal-lg" role="document">
@@ -1728,6 +2080,28 @@ class Localities extends HTMLElement {
                         </div>
                         <div class="modal-body">
                         This is the first of the two permit requirements, as laid out in <a href="https://law.lis.virginia.gov/admincode/title9/agency15/chapter60/section130/" target="_blank">9VAC15-60-130</a>. Once the project has been deemed to meet the local certification criteria, submit local certification that the project complies with local land use ordinances. No statutory review time limits or public hearings required.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="location-certification" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="title">Local Certification Process (Zoning, 2232, Review, Siting Agreement)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            Possible components of the local certifications process include, but are not limited to: 
+                            <br>
+                            <ol type = "1">
+                                <li> <a href = "https://law.lis.virginia.gov/vacode/title15.2/chapter22/section15.2-2232/">15.2-2232</a> Comprehensive Plan review or Siting Agreement</li>
+                                <li>Municipal/County Zoning Review</li>
+                            </ol>
+
+                            If applicable, local certification will be granted at the conclusion of steps 1 and 2.
+
                         </div>
                     </div>
                 </div>
@@ -1885,7 +2259,21 @@ class SCC extends HTMLElement {
                     </div>
 
                     <div class="modal-body">
-                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity > 5 MW but ≤ 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    Per <a href="https://law.lis.virginia.gov/admincode/title20/agency5/chapter302/section25/" target="_blank">20VAC5-302-25, 11</a>, an analysis of the environmental impact of the project is one of the required components of a complete application for the authority to construct and operate an EGF with rated capacity < 100 MW. "The information required by this subdivision shall be submitted to the Department of Environmental Quality, simultaneously with its filing with the commission, for coordination and review by state agencies responsible for environmental and natural resource protection."
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="scc-issuance-cpcn" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">Issuance of CPCN for Facilities >5 MW but ≤ 100 MW</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                    Upon completion of all application requirements and required modifications, the applicant will be issued a permit by the SCC granting them the authority to contruct and operate an electric generating facility with rated capacity greater than 5MW but no larger than 100MW.
                     </div>
                 </div>
             </div>
@@ -1973,6 +2361,45 @@ class SCC extends HTMLElement {
             </div>
         </div>
 
+        <div class="modal fade" id="generalInfoModal" tabindex="-1" role="dialog" aria-labelledby="generalInfoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="generalInfoModalLabel">General Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Content for General Information -->
+                    Insert your general information content here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="modal fade" id="costsModal" tabindex="-1" role="dialog" aria-labelledby="costsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="costsModalLabel">Costs: Final Agreement Security</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Content for Costs: Final Agreement Security -->
+                    Insert your costs content here.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
         <div class="modal fade" id="scc-cpcn" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
@@ -2008,11 +2435,25 @@ class SCC extends HTMLElement {
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="test-this" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="title">This is a Test</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        This is a test
+                    </div>
+                </div>
+            </div>
+        </div>
         `;
     }
 }
 
-customElements.define('nav-bar', NavBar);
 customElements.define('swim-bar', SwimLaneNavBar);
 customElements.define('abbrev-list', Abbrev);
 customElements.define('footer-swim', SwimFooter);

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interconnection Overview</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- JavaScript -->
+    <script src="../main.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        .img-container {
+            width: 100%;
+            height: 300px; /* Set to the height you want for both images */
+            overflow: hidden;
+        }
+        .img-container img {
+            height: 100%;
+            width: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <swim-bar></swim-bar>
+    <abbrev-list></abbrev-list>
+
+    <div class="container">
+        <br>
+        <div class="text-center txt-test mw-100-title-">Interconnection</div>
+        <br>
+    
+        <div class="text-left content-text">
+            <p class="card-text"> 
+                This tool is intended to provide clarity on which interconnection pathway is required for a
+                particular solar project.                
+                <br><br>
+                Interconnection in Virginia is governed by the North American Electric Reliability Corporation (NERC) and Federal Energy Regulatory Commission (FERC) interconnection procedures. Under these regulations, the interconnection application process must follow one of two paths: the PJM or SCC interconnection rules. In some instances, both processes are required. The required pathway varies on a case-by-case basis, depending on several factors and regulatory requirements.  
+                <br><br>
+                The three main determinants are:
+            </p>
+            <ul class="card-text">
+                <li>The ownership of the facility to which the project wishes to interconnect</li>
+                <li>The proposed project’s voltage</li>
+                <li>Participation in the PJM wholesale market</li>
+            </ul>
+            <p><b>SCC Process</b></p>
+            <p>If the facility to which the project wishes to connect is owned by a utility and the utility maintains control of the interconnection process at the elected voltage, the project should apply for interconnection through the SCC process. This also applies to cooperatives. <i>If a customer qualifies as a small agricultural generator, 
+                then the project must apply to interconnect through the SCC process. </i></p>
+            
+            <p><b>PJM Process</b></p>
+            <p>If the transmission facility to which the project wishes to interconnect is owned by PJM or required to be operated by PJM, then the developer must go through the PJM process. At a certain voltage, utilities are unable to handle transmission and sub-transmission power and must turn the interconnection process over to PJM. PJM only operates transmission and sub- transmission lines that a member facility or utility has turned over to the PJM process. Through this handover, PJM takes over control of the interconnection process; developers must receive interconnection approval through the PJM process. Utility thresholds for turning the process over to PJM differ based on the utility, with 69kV often used as a basis. According to the Virginia Department of Energy 
+                <a href = "https://energy.virginia.gov/public/documents/Public%20Meetings/HB%201925%20Handbook_FINAL%20w%20Comments.pdf" target="_blank">Virginia Department of Energy</a>, “if the line is owned by AEP (Appalachian Power), First Energy (Potomac), or VEPCO (Dominion) and it is 69kV or above, it will likely go through the PJM process. If the line is owned by a municipality or an electric cooperative, regardless of voltage, the interconnection will likely be studied through the SCC process.” However, distribution cooperatives can generally own facilities up to 138kV and maintain ownership. Project developers should inquire with the utility in their region about the threshold used.</p>
+            
+            <p><b>Concurrent SCC and PJM Processes</b></p>
+            <P>Projects that plan to obtain an interconnection agreement through the SCC and sell the power generated from their proposed solar facility on the wholesale market must also follow the PJM process to receive a Wholesale Market Participation Agreement (WMPA). Per <a href = "https://www.pjm.com/-/media/documents/manuals/m14h.ashx">Manual 14H Section 8.5.5</a>, “Project Developers interconnecting to non-FERC jurisdictional facilities who intend to participate in the PJM wholesale market will receive a three party agreement known as a WMPA. The WMPA is essentially a GIA without interconnection provisions, and facilitates the wholesale sale of MWs from such facilities.” For projects of this nature, PJM studies are performed concurrently with state reviews. Project developers and utilities find it difficult to apply for approval through the SCC and PJM processes at the same time because the structure, timelines, and requirements differ greatly. </P>
+                <p><b>Notes</b></p>
+            <ul>
+                <li>The timing of each interconnection study in the overall permit application process varies between projects. Generally, developers look to have completed at least one interconnection study, or even have finished all interconnection studies, before beginning local/state permitting. This is due to the large cost and uncertainty of the interconnection process.</li>
+                <li>In March 2024, NERC proposed a ruling in which projects that “have or contribute to an aggregate nameplate capacity of greater than or equal to 20 MVA” and are connected to at least 60 kV will need to register with NERC and be subject to forthcoming restrictions. Check NERC resources for updates to this proposal.</li>
+            </ul>
+        </div>
+        <br><br>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="img-container">
+                    <a href="../inter-scc-map.html">
+                        <img src="../images/scc.png" alt="SCC Interconnection Page Screenshot" class="img-fluid">
+                    </a> <!-- SCC Screenshot Link -->
+                </div>
+                <br><br>
+                <a href="../inter-scc-map.html" class="btn btn-primary">Click Here for SCC Interconnection Map</a> <!-- SCC Map Link -->
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="img-container">
+                    <a href="../inter-pjm-map.html">
+                        <img src="../images/pjm.png" alt="PJM Interconnection Page Screenshot" class="img-fluid">
+                    </a> <!-- PJM Screenshot Link -->
+                </div>
+                <br><br>
+                <a href="../inter-pjm-map.html" class="btn btn-primary">Click Here for PJM Interconnection Map</a> <!-- PJM Map Link -->
+            </div>
+        </div>
+        
+
+    <br><br>
+
+    <footer-swim></footer-swim>
+</body>
+</html>

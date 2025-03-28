@@ -36,13 +36,13 @@
           <div class="col"></div>
           <div class="content col-10">
               <div style="line-height: 75%"><br></div>
-              <button class="btn btn-light" style="font-weight: 500;" data-bs-toggle="modal" data-bs-target="#abbrev-modal"> Abbreviations </button>
               <abbrev-list></abbrev-list>
+
               <div style="line-height: 115%"><br></div>
 
               <div class="container-scroll">
                 <div class="container-swimlane">
-                    <swimlanes>
+                  <swimlanes>
                     <modals>
                         <div class="modal fade" id="federal-modal" tabindex="-1" role="dialog">
                             <div class="modal-dialog modal-lg" role="document">
@@ -53,69 +53,88 @@
                                     </div>
             
                                     <div class="modal-body">
-                                        Depending on project characteristics, federal reviews may be required from any number of federal agencies, including the U.S. Bureau of Land Management, U.S. Forest Service, U.S. Bureau of Indian Affairs, Federal Aviation Administration, and the U.S. Department of Defense. Two of the more common federal reviews required are from U.S. Army Corps of Engineers and U.S. Fish and Wildlife Service, outlined here.
+                                        Depending on project characteristics, federal reviews may be required from any number of federal agencies, including the U.S. Bureau of Land Management, U.S. Forest Service, U.S. Bureau of Indian Affairs, Federal Aviation Administration, and the U.S. Department of Defense. Two of the more common federal reviews required are from U.S. Army Corps of Engineers and U.S. Fish and Wildlife Service, outlined here. It's also recommended to complete the Federal Aviation Administration's notice tool to determine whether FAA permitting is necessary.  
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </modals>
-                    <div data-bs-toggle="modal" data-bs-target="#federal-modal" class="lane-test federal-test"> Federal Reviews </div>
+                    <div data-bs-toggle="modal" data-bs-target="#federal-modal" class="lane-test federal-test"> 
+                        <span class="text-position">Federal Reviews</span>
+                    </div>
                     <div class="lane-test interconnections-test"> Interconnection </div>
                     <div class="lane-test localities-test"> Localities</div>
-                    <div class="lane-test deq-test"> DEQ </div>  
-                    <div class="lane-test scc-test"> SCC </div>
-
+                    <div class="lane-test deq-test-expand">
+                      <span class="deq-text-position">DEQ</span> 
+                    </div>  
+                    <div class="lane-test scc-test"> 
+                      <span class="scc-text-position">SCC</span> 
+                    </div>  
                     <div class="line test-1"></div>
-                    </swimlanes>
+                </swimlanes>
 
-                    <federal-reviews>
-                        <div data-bs-toggle="modal" data-bs-target="#army-corps-modal" class="reviews-test army-corps-test btn">United States Army Corps of Engineers</div>
-                        <div data-bs-toggle="modal" data-bs-target="#fed-comp-modal" class="reviews-test fed-comp-test btn">Federal Compliance/Permitting</div>
-                        <div data-bs-toggle="modal" data-bs-target="#fed-aviation-modal" class="reviews-test fed-aviation-test btn">Federal Aviation Administration</div>
-                        <button data-bs-toggle="modal" data-bs-target="#juris-delin-modal" class="reviews-test btn btn-1-test">Jurisdictional Delineation</button>
-                        <button data-bs-toggle="modal" data-bs-target="#submit-jpa-modal" class="reviews-test btn btn-2-test">Submit JPA for Compliance with Section 401/404</button>
-                        <div data-bs-toggle="modal" data-bs-target="#fish-wildlife-modal" class="reviews-test fish-wildlife-test btn">United States Fish and Wildlife Service</div>
-                        <button data-bs-toggle="modal" data-bs-target="#habitat-conservation-modal" class="reviews-test btn btn-3-test">Habitat Conservation Plan</button>
-                        <button data-bs-toggle="modal" data-bs-target="#new-incidental-modal" class="reviews-test btn btn-4-test">New Incidental Take Permit</button>
-                    </federal-reviews>
+                <federal-reviews>
+                  <div data-bs-toggle="modal" data-bs-target="#army-corps-modal" class="reviews-test army-corps-test btn">United States Army Corps of Engineers</div>
+                  <div data-bs-toggle="modal" data-bs-target="#fed-comp-modal" class="reviews-test fed-comp-test btn">Federal Compliance/Permitting</div>
+                  <div data-bs-toggle="modal" data-bs-target="#fed-aviation-modal" class="reviews-test fed-aviation-test btn">Federal Aviation Administration</div>
+                  <button data-bs-toggle="modal" data-bs-target="#juris-delin-modal" class="reviews-test btn btn-1-test">Jurisdictional Delineation</button>
+                  <button data-bs-toggle="modal" data-bs-target="#submit-jpa-modal" class="reviews-test btn btn-2-test">Submit JPA for Compliance with Section 401/404</button>
+                  <div data-bs-toggle="modal" data-bs-target="#fish-wildlife-modal" class="reviews-test fish-wildlife-test btn">United States Fish and Wildlife Service</div>
+                  <button data-bs-toggle="modal" data-bs-target="#habitat-conservation-modal" class="reviews-test btn btn-3-test">Habitat Conservation Plan</button>
+                  <button data-bs-toggle="modal" data-bs-target="#new-incidental-modal" class="reviews-test btn btn-4-test">New Incidental Take Permit</button>
+                  <button data-bs-toggle="modal" data-bs-target="#esa-section-7" class="reviews-test btn btn-5-test">ESA Section 7 (Federal Agencies)</button>
+                </federal-reviews>
 
-                    <inter->
-                      <div data-bs-toggle="modal" data-bs-target="#utility-intro" class="btn inter inter-practice"><i>Best Practice</i> <br> Utility hosts <br>introductory call <br>with developer</div>
-                      <button class="btn">
-                        <a href="../inter-map.html">
-                          <img class="inter-test btn" src="../images/OffPage.png">
-                        </a>
-                      </button>
-                      <img src="../images/InterDocument.png" class="inter-test-doc-1 btn"><img>
-                      <img src="../images/InterDocument.png" class="inter-test-doc-2 btn"><img>
+                <inter->
+                    <div data-bs-toggle="modal" data-bs-target="#utility-intro" class="btn inter inter-practice-1"><i>Best Practice</i> <br> Utility hosts <br>introductory call <br>with developer</div>
+                    <!-- new box -->
+                    <div data-bs-toggle="modal" data-bs-target="#trip-determination-modal" class="btn inter inter-practice-2"><i>Best Practice</i> <br> Send application to transmission owner for transfer trip determination</div>
+                    <!-- new box -->
+                    <button class="btn">
+                      <a href="../inter-scc-map.html">
+                        <img class="inter-test btn" src="../images/OffPage.png">
+                      </a>
+                    </button>
+                    <img src="../images/InterDocument.png" class="inter-test-doc-1 btn"><img>
+                    <img src="../images/InterDocument.png" class="inter-test-doc-2 btn"><img>
 
-                      <div class="txt-test txt-inter-1-test text-center">Interconnection <br> Permit Process Map</div>
-                      <div data-bs-toggle="modal" data-bs-target="#applicable-inter" class="btn txt-test txt-inter-2-test text-center">Receive Applicable<br> Inter. Approval</div>
-                      <div class="btn txt-test txt-inter-3-test text-center">Receive WMPA</div>
+                    <div class="txt-test txt-inter-1-test text-center">Interconnection Process Map</div>
+                    <div data-bs-toggle="modal" data-bs-target="#applicable-inter-short" class="btn txt-test txt-inter-2-test text-center">Receive Applicable<br> Interconnection <br> Approval</div>
+                    <div data-bs-toggle= "modal" data-bs-target="#wmpa" class="btn txt-test txt-inter-3-test text-center">Receive WMPA</div>
+                    <div data-bs-toggle="modal" data-bs-target="#shared-solar-enrollment" class="btn inter inter-practice-3"><i>For shared</i> <br> solar program <br>enrollment</div>
+                    <div class="line test-2"></div>
+                    <div class="line test-29"></div>
+                    <div class="line test-30"></div>
+                </inter->
+                  <localities->
+                    <div data-bs-toggle="modal" data-bs-target="#scc-notify" class="btn local local-test-1"><i>Best Practice</i><br>Developer notifies the locality before or at the same time as submitting Letter to the SCC</div>
+                    <div data-bs-toggle="modal" data-bs-target="#local-meetings" class="btn local local-test-2">1. Pre-Application Meetings <br> 2. Community Meetings <br> 3. Public Engagements</div>
+                    <img src="../images/LocalitiesDocument.png" class="local-test-doc-1 btn"><img>
+                    <div data-bs-toggle="modal" data-bs-target="#location-certification" class="location-ceritification-text">Location Certification <br> Process</div>
+                    <div data-bs-toggle="modal" data-bs-target="#permits-inspections" class="btn local local-test-4">Construction Permits and Inspections (Electrical, Land Disturbance, Traffic Planning)</div>
 
-                      <div class="line test-2"></div>
-                    </inter->
-
-                    <localities->
-                      <div data-bs-toggle="modal" data-bs-target="#local-meetings" class="btn local local-test-6">1. Pre-Application Meetings <br> 2. Community Meetings <br> 3. Public Engagements</div>
-                      <div data-bs-toggle="modal" data-bs-target="#local-certification" class="btn local local-test-3">Location Certification Process (Zoning, 2232 Review, Siting Agreement)</div>
-                      <div data-bs-toggle="modal" data-bs-target="#permits-inspections" class="btn local local-test-4">Construction Permits and Inspections (Electrical, Land Disturbance, Traffic Planning)</div>
-
-                      <div class="line test-14"></div>
-                    </localities->
+                    <div class="line test-3"></div>
+                    <div class="line test-31"></div>
+                </localities->
 
                     <deq->
                       <div data-bs-toggle="modal" data-bs-target="#stormwater-permit" class="btn deq deq-test-13">Apply for General Construction Stormwater Permit (VPDES, SWPPP, E&S)</div>
-                      <div data-bs-toggle="modal" data-bs-target="#stormwater-issuance" class="btn deq deq-test-7">Issuance of <br>General Construction <br>Stormwater Permit</div>
-
-                      <div class="line test-15"></div>
+                      
+                      <img src="../images/DEQDocument.png" class="deq-test-doc-stormWater btn"><img>
+                      <div data-bs-toggle="modal" data-bs-target="#stormwater-issuance" class="btn txt-test txt-deq-stormWater text-center">Issuance of <br>General Construction <br>Stormwater Permit</div>                        
+                      <div class="line test-connectDEQBoxes"></div>
+                      <div class="line test-connectLocalitiesToSCC"></div>
                     </deq->
 
                     <scc->
                       <div data-bs-toggle="modal" data-bs-target="#director-letter" class="btn scc scc-test-6">Letter to the Director of the Division of Energy Regulation</div>
-                      <div data-bs-toggle="modal" data-bs-target="#scc-issuance" class="btn scc scc-test-11">Issuance of Permit</div>
+                      <div data-bs-toggle="modal" data-bs-target="#scc-issuance" class="btn scc scc-test-11">Issuance of Permit for Facilities ≤5 MW</div>
 
                       <div class="line test-16"></div>
+                      <div class="line test-38"></div>
+                      <div class="line test-39"></div>
+                      <div class="line test-40"></div>
+
                     </scc->
                 </div>
               </div>
