@@ -34,3 +34,18 @@ __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accesse
     __Live Server Extension__: [https://ritwickdey.github.io/vscode-live-server/](https://ritwickdey.github.io/vscode-live-server/#:~:text=Open%20a%20HTML%20file%20and,editor%20and%20choose%20the%20options.&text=Press%20F1%20or%20ctrl%2Bshift,Server%20to%20stop%20a%20server.)
 
  3. Once the changes are as intended, commit and push the changes to the master branch to be automatically deployed to Azure.    
+
+## Future Considerations
+The Solar Permit Map requires extensive and tedious CSS modifications for every design change, significantly slowing down the development process. Although Bootstrap containers are helpful, an alternative method is possible for the Solar Permit Map and similar projects, using SVGs. SVGs are a more efficient approach as it allows for easier modifications and customization. Instead of requiring extensive CSS changes, the process will more so become drag-and-drop with minor adjustments to add interactivity and in translating the design to the web application. This will allow the changes to the Solar Permit Map to be more sustainable over the long-term. Here is the proposed method that could streamline the design process:
+
+1. Create/Change the process map and customize as needed in Inkscape. Inkscape is an open-source and free illustrator tool. 
+
+        __Inkscape__: [https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1](https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1)
+
+2. Export the process map as an `.svg` file.
+3. Paste the `.svg` file into the web application.
+
+        __HTML SVG Graphics__: [https://www.w3schools.com/html/html5_svg.asp](https://www.w3schools.com/html/html5_svg.asp)
+        __HTML SVG Tag & Inkscape Tutorial__: [https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u](https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u)
+
+4. Using the local server, add changes in the `.css` file and add interactive features. 
