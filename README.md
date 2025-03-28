@@ -40,12 +40,12 @@ The Solar Permit Map requires extensive and tedious CSS modifications for every 
 
 1. Create/Change the process map and customize as needed in Inkscape. Inkscape is an open-source and free illustrator tool. 
 
-        __Inkscape__: [https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1](https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1)
+    __Inkscape__: [https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1](https://inkscape.org/release/inkscape-1.4/windows/64-bit/msi/?redirected=1)
 
 2. Export the process map as an `.svg` file.
 3. Paste the `.svg` file into the web application.
 
-        __HTML SVG Graphics__: [https://www.w3schools.com/html/html5_svg.asp](https://www.w3schools.com/html/html5_svg.asp)
-        __HTML SVG Tag & Inkscape Tutorial__: [https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u](https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u)
+    __HTML SVG Graphics__: [https://www.w3schools.com/html/html5_svg.asp](https://www.w3schools.com/html/html5_svg.asp)
+    __HTML SVG Tag & Inkscape Tutorial__: [https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u](https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u)
 
-4. Using the local server, add changes in the `.css` file and add interactive features. 
+4. Using the local server, add changes in the `.css` file and interactive features. 
