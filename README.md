@@ -48,7 +48,7 @@ This will allow the changes to the Solar Permit Map to be more sustainable over 
 
     __HTML SVG Graphics__: [https://www.w3schools.com/html/html5_svg.asp](https://www.w3schools.com/html/html5_svg.asp)
 
-    __HTML SVG Tag & Inkscape Tutorial__: [https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u](https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u)
+    __HTML SVG Tag and Inkscape Tutorial__: [https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u](https://www.youtube.com/watch?v=qDL54I-ceQM&ab_channel=tutor4u)
 
 3. Paste the `.svg` file into the web application.
 4. Using the local server, add changes in the `.css` file and interactive features. 
