@@ -19,11 +19,11 @@ __staticwebapp.config.json__ - Overrides default 404.html page to instead use 40
 __404.html__ - Error page <br>
 __about.html__ - Explains program and provides credentials of authors <br>
 __index.html__ - Full website homepage, displaying map of all permit pages and all possible permit types <br>
-__swim-lanes__ - The folder contains the various Solar Permit Map pages (Accessed from navigation bar dropdown) <br>
 __inter-landing.html__ - Interconnection home page, describing and providing links to the different permit maps <br>
 __inter-pjm-map.html__ - PJM interconnection map <br>
 __inter-scc-map.html__ - SCC interconnection map <br>
 
+__swim-lanes__ - The folder contains the various Solar Permit Map pages (Accessed from navigation bar dropdown) <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__exempt-130-permit.html__ - Exempt from DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__deq-130-permit.html__ - DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__noi-500-kw.html__ - SCC Notice to Construct <br>
