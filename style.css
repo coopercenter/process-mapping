@@ -2748,6 +2748,15 @@ about-footer {
     display: flex;
     justify-content: center;
 }
+.container-inter-pjm {
+    width: 1075px;
+    height: 500px;
+    
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
 
 
 .container-swimlane-exempt {
