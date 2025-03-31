@@ -16,10 +16,14 @@ __images__ - The folder contains the images used in the Solar Permit Map <br>
 __main.js__ - Contains JavaScript functions used to create HTML elements (Modals, navigation bar etc.) that are shared <br>
 __style.css__ - Contains styling/positioning for all elements <br>
 __staticwebapp.config.json__ - Overrides default 404.html page to instead use 404.html from the repository <br>
-__404.html__ - Error page
-__about.html__ - Explains program and provides credentials of authors
-__index.html__ - Full website homepage, displaying map of all permit pages and all possible permit types
+__404.html__ - Error page <br>
+__about.html__ - Explains program and provides credentials of authors <br>
+__index.html__ - Full website homepage, displaying map of all permit pages and all possible permit types <br>
 __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accessed from navigation bar dropdown) <br>
+__inter-landing.html__ - Interconnection home page, describing and providing links to the different permit maps <br>
+__inter-pjm-map.html__ - PJM interconnection map <br>
+__inter-scc-map.html__ - SCC interconnection map <br>
+
 &nbsp;&nbsp;&nbsp;&nbsp;__exempt-130-permit.html__ - Exempt from DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__deq-130-permit.html__ - DEQ Section 130 Permit <br>
 &nbsp;&nbsp;&nbsp;&nbsp;__noi-500-kw.html__ - SCC Notice to Construct <br>
@@ -27,10 +31,6 @@ __swim-lanes__ - The folder contains the various Solar Permit Map pages (Accesse
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-100-mw.html__ - SCC CPCN for Facilities >100 MW<br>
 &nbsp;&nbsp;&nbsp;&nbsp;__cpcn-5-mw.html__ - SCC CPCN for Facilities >5 MW but ≤100 MW <br>
 <br>
-__inter-landing.html__ - Interconnection home page, describing and providing links to the different permit maps
-__inter-pjm-map.html__ - PJM interconnection map
-__inter-scc-map.html__ - SCC interconnection map
-
 
 ## Development
 1. Clone the Solar Permit repository and create a new branch for development
